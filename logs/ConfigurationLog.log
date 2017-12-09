@@ -1,0 +1,9 @@
+2017-11-07 00:01:02.674+0100 [L: INFO] [O: Import] [I: BEGIN_BLOCK_CHANGE] [U: Administrator] [S: ] [T: http-nio-80-exec-4] action = BEGIN_BLOCK_CHANGE 
+2017-11-07 00:01:02.700+0100 [L: INFO] [O: Mashup] [I: Statisctic] [U: Administrator] [S: ] [T: http-nio-80-exec-4] action = CREATE, reason = header : name : updated, projectName : updated, tags : updated_documentation : updated_ 
+2017-11-07 00:01:02.701+0100 [L: INFO] [O: Import] [I: END_BLOCK_CHANGE] [U: Administrator] [S: ] [T: http-nio-80-exec-4] action = END_BLOCK_CHANGE 
+2017-11-07 00:07:15.766+0100 [L: INFO] [O: Import] [I: BEGIN_BLOCK_CHANGE] [U: Administrator] [S: ] [T: http-nio-80-exec-10] action = BEGIN_BLOCK_CHANGE 
+2017-11-07 00:07:15.773+0100 [L: INFO] [O: Mashup] [I: Pare flower] [U: Administrator] [S: ] [T: http-nio-80-exec-10] action = CREATE, reason = header : name : updated, projectName : updated, tags : updated_documentation : updated_ 
+2017-11-07 00:07:15.773+0100 [L: INFO] [O: Import] [I: END_BLOCK_CHANGE] [U: Administrator] [S: ] [T: http-nio-80-exec-10] action = END_BLOCK_CHANGE 
+2017-11-07 00:11:21.286+0100 [L: INFO] [O: Import] [I: BEGIN_BLOCK_CHANGE] [U: Administrator] [S: ] [T: http-nio-80-exec-6] action = BEGIN_BLOCK_CHANGE 
+2017-11-07 00:11:21.286+0100 [L: INFO] [O: Mashup] [I: Manager Flowers] [U: Administrator] [S: ] [T: http-nio-80-exec-6] action = CREATE, reason = header : name : updated, projectName : updated, tags : updated_documentation : updated_ 
+2017-11-07 00:11:21.287+0100 [L: INFO] [O: Import] [I: END_BLOCK_CHANGE] [U: Administrator] [S: ] [T: http-nio-80-exec-6] action = END_BLOCK_CHANGE 

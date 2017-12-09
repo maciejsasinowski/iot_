@@ -1,0 +1,446 @@
+2017-11-07 00:00:46.191+0100 [L: WARN] [O: c.t.s.s.p.PlatformSubsystem] [I: ] [U: SuperUser] [S: ] [T: pool-10-thread-1]  Thingworx System Metrics_----------------------------------------------------------------------------_AlertProcessingSubsystem#,         maximumQueueSize= 50000.0, queueSize= 0.0, totalAlertsQueued= 0.0, _EventProcessingSubsystem#,         corePoolSize= 16.0, maxPoolSize= 500.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _FederationSubsystem#,              clientCount= 0.0, publishedCount= 0.0, updateInterval= 100.0, _FileTransferSubsystem#,            corePoolSize= 10.0, maxPoolSize= 10.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _IntegrationSubsystem#,             numberOfConnectors= 0.0, requestCount= 0.0, _LicensingSubsystem#,               twx_composer= 1.0, twx_mashup_builder= 1.0, twx_named_user= 0.0, twx_things= 13.0, twx_utilities= 0.0, twx_utilities_scm= 0.0, twx_utilities_workflows= 0.0, DaysRemaining= 81.0, _MessageStoreSubsystem#,            corePoolSize= 10.0, maxPoolSize= 100.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _PlatformSubsystem#,                eventQueueSize= 0.0, streamQueueSize-ThingworxPersistenceProvider= 0.0, valueStreamQueueSize-ThingworxPersistenceProvider= 0.0, memoryInUse= 4.90138224E8, totalMemoryAllocated= 1.60432128E9, thingCount= 27.0, _StreamProcessingSubsystem#,        maximumWaitTime= 10000.0, sizeThreshold= 1000.0, maximumBlockSize= 2500.0, scanRate= 5.0, maximumQueueSize= 250000.0, queueSize= 0.0, totalWritesQueued= 0.0, totalWritesPerformed= 0.0, numberOfProcessingThreads= 5.0, _TunnelSubsystem#,                  activeTunnelCount= 0.0, totalTunnelCount= 0.0, _UserManagementSubsystem#,          userCount= 2.0, _ValueStreamProcessingSubsystem#,   maximumWaitTime= 10000.0, sizeThreshold= 1000.0, maximumBlockSize= 2500.0, scanRate= 5.0, maximumQueueSize= 500000.0, queueSize= 0.0, totalWritesQueued= 0.0, totalWritesPerformed= 0.0, numberOfProcessingThreads= 5.0, _WSCommunicationsSubsystem#,        activeWebsockets= 0.0, _WSExecutionProcessingSubsystem#,   corePoolSize= 1000.0, maxPoolSize= 10000.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _ThingworxServer#,                  systemRuntime= 2 hours,  memoryInUse = 0,49 GB,  totalMemoryAllocated= 1,604 GB,  activeUsers= 1, BoundConnectedThings= 0, UnBoundConnectedThings= 0_----------------------------------------------------------------------------_
+2017-11-07 00:16:26.676+0100 [L: WARN] [O: c.t.c.ExportAll] [I: ] [U: SuperUser] [S: ] [T: Thread-39] Export Database Started at 2017-11-07 00:16:26
+2017-11-07 00:16:28.468+0100 [L: WARN] [O: c.t.c.ExportAll] [I: ] [U: SuperUser] [S: ] [T: Thread-39] Export Database Completed at 2017-11-07 00:16:28
+2017-11-07 00:21:19.802+0100 [L: WARN] [O: c.t.p.c.LicenseMonitor] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Stopping [LicenseMonitor].
+2017-11-07 00:21:19.832+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] WebApp stopping: 
+2017-11-07 00:21:19.832+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] ========================================
+2017-11-07 00:21:20.841+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Thingworx Server Application...OFF
+2017-11-07 00:21:20.842+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Thingworx Server Application...Cleaned up
+2017-11-07 00:21:20.843+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] WebApp OFF [server = Apache Tomcat/8.0.46]
+2017-11-07 00:21:21.108+0100 [L: WARN] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Driver org.h2.Driver@263819a5 deregistered
+2017-11-07 08:34:03.847+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 08:34:03.850+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ThingWorx Version Information
+2017-11-07 08:34:03.850+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 08:34:03.874+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] majorVersion = 8
+2017-11-07 08:34:03.874+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] minorVersion = 0
+2017-11-07 08:34:03.874+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] revision = 0
+2017-11-07 08:34:03.874+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] build = b11
+2017-11-07 08:34:03.879+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] schemaVersion = 1000
+2017-11-07 08:34:03.880+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 08:34:03.880+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 08:34:03.880+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ThingWorx System Environment Settings
+2017-11-07 08:34:03.880+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 08:34:03.880+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] OS: Windows 10
+2017-11-07 08:34:03.880+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] OS arch: amd64
+2017-11-07 08:34:03.881+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] OS version: 10.0
+2017-11-07 08:34:03.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Total Processors: 4
+2017-11-07 08:34:03.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Default encoding: UTF-8
+2017-11-07 08:34:03.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] JAVA vendor: Oracle Corporation
+2017-11-07 08:34:03.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] JAVA version: 1.8.0_144
+2017-11-07 08:34:03.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] JAVA install location: C:\Program Files\Java\jre1.8.0_144
+2017-11-07 08:34:03.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] JVM Max Memory: 2024 (MB)
+2017-11-07 08:34:03.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 08:34:03.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] WebApp starting...
+2017-11-07 08:34:04.860+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] HA mode not enabled. Initializing and starting in standalone mode.
+2017-11-07 08:34:04.860+0100 [L: INFO] [O: c.t.s.ThingWorxPersistenceHandler] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Default Persistence Provider Name = ThingworxPersistenceProvider
+2017-11-07 08:34:04.860+0100 [L: INFO] [O: c.t.s.ThingWorxPersistenceHandler] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Default Persistence Provider Package Name = H2PersistenceProviderPackage
+2017-11-07 08:34:06.081+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Managers...INITIALIZED
+2017-11-07 08:34:06.083+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Database initialization started...
+2017-11-07 08:34:06.172+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] System ownership locking started...
+2017-11-07 08:34:06.173+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] System ownership locking complete
+2017-11-07 08:34:06.281+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Database initialization complete
+2017-11-07 08:34:06.305+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subscriptions Store initialized.
+2017-11-07 08:34:06.306+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Collections...
+2017-11-07 08:34:07.716+0100 [L: WARN] [O: c.t.p.Project] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-22-worker-9] The project name of a project cannot be changed. It must be set to itself
+2017-11-07 08:34:08.678+0100 [L: INFO] [O: c.t.s.s.s.SCIMSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-31-worker-9] Non-SSO, SCIMSubsystem can be started.
+2017-11-07 08:34:08.679+0100 [L: INFO] [O: c.t.s.s.s.SCIMSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-31-worker-9] Non-SSO, SCIMSubsystem can be started.
+2017-11-07 08:34:08.874+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Scheduler Engine...
+2017-11-07 08:34:08.877+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Entities...
+2017-11-07 08:34:08.878+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ModelTags...
+2017-11-07 08:34:08.899+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing DataTags...
+2017-11-07 08:34:08.899+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Groups...
+2017-11-07 08:34:08.913+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Users...
+2017-11-07 08:34:08.936+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Organizations...
+2017-11-07 08:34:08.948+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Logs...
+2017-11-07 08:34:08.957+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing DataShapes...
+2017-11-07 08:34:08.973+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ThingShapes...
+2017-11-07 08:34:09.074+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ThingPackages...
+2017-11-07 08:34:09.683+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ThingTemplates...
+2017-11-07 08:34:09.710+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing DataAnalysisDefinitions...
+2017-11-07 08:34:09.711+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ApplicationKeys...
+2017-11-07 08:34:09.711+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Dashboards...
+2017-11-07 08:34:09.711+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing LocalizationTables...
+2017-11-07 08:34:09.712+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing StateDefinitions...
+2017-11-07 08:34:09.720+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing StyleDefinitions...
+2017-11-07 08:34:09.729+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Widgets...
+2017-11-07 08:34:09.729+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Mashups...
+2017-11-07 08:34:09.738+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Menus...
+2017-11-07 08:34:09.746+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing MediaEntities...
+2017-11-07 08:34:09.753+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Projects...
+2017-11-07 08:34:09.760+0100 [L: WARN] [O: c.t.e.RootEntity] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-1] Entity [Smart Flowers] changed its project name from [Smart Flowers] to [Smart Flowers]
+2017-11-07 08:34:09.760+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Networks...
+2017-11-07 08:34:09.760+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ExtensionPackages...
+2017-11-07 08:34:09.761+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Authenticators...
+2017-11-07 08:34:09.777+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing PersistenceProviderPackages...
+2017-11-07 08:34:09.777+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing PersistenceProviders...
+2017-11-07 08:34:09.884+0100 [L: INFO] [O: c.t.p.p.PersistenceProvider] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] Connection ThingworxPersistenceProvider, type H2PersistenceProviderPackage started
+2017-11-07 08:34:09.890+0100 [L: INFO] [O: c.t.p.p.PersistenceProvider] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] PersistenceProvider - ThingworxPersistenceProvider - Data Processing (ValueStreamEntry) is starting
+2017-11-07 08:34:09.892+0100 [L: INFO] [O: c.t.p.p.PersistenceProvider] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] PersistenceProvider - ThingworxPersistenceProvider - Data Processing (ValueStreamEntry) is started
+2017-11-07 08:34:09.895+0100 [L: INFO] [O: c.t.p.p.PersistenceProvider] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] PersistenceProvider - ThingworxPersistenceProvider - Data Processing (StreamEntry) is starting
+2017-11-07 08:34:09.896+0100 [L: INFO] [O: c.t.p.p.PersistenceProvider] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] PersistenceProvider - ThingworxPersistenceProvider - Data Processing (StreamEntry) is started
+2017-11-07 08:34:09.903+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing DirectoryServices...
+2017-11-07 08:34:09.904+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Resources...
+2017-11-07 08:34:10.012+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ScriptFunctionLibraries...
+2017-11-07 08:34:10.019+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Subsystems...
+2017-11-07 08:34:10.033+0100 [L: INFO] [O: c.t.s.s.u.UserManagementSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-0] Initializing User Management Subsystem...
+2017-11-07 08:34:10.039+0100 [L: INFO] [O: c.t.s.s.a.AlertProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-2] Initializing Alert Subsystem...
+2017-11-07 08:34:10.054+0100 [L: INFO] [O: c.t.s.s.t.e.TunnelTracker] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-0] Creating new Tunnel Tracker
+2017-11-07 08:34:10.060+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] Message Store Async task created [pool size: 10, thread idle timeout: 600000]
+2017-11-07 08:34:10.126+0100 [L: INFO] [O: c.t.c.Scheduler] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] Scheduler, job "Export", starting with 3 threads
+2017-11-07 08:34:10.126+0100 [L: INFO] [O: c.t.c.Scheduler] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] Scheduler, job "Import", starting with 3 threads
+2017-11-07 08:34:10.127+0100 [L: INFO] [O: c.t.c.Scheduler] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] Scheduler, job "Import", starting with 2 threads
+2017-11-07 08:34:10.127+0100 [L: INFO] [O: c.t.c.Scheduler] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] Scheduler, job "Export", starting with 2 threads
+2017-11-07 08:34:10.130+0100 [L: INFO] [O: c.t.s.s.s.SCIMSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-0] Initializing SCIM Identity Management Subsystem...
+2017-11-07 08:34:10.170+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Things...
+2017-11-07 08:34:10.183+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing NotificationContents...
+2017-11-07 08:34:10.183+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing NotificationDefinitions...
+2017-11-07 08:34:10.184+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Cleaning up legacy entities...
+2017-11-07 08:34:10.184+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Checking default permissions...
+2017-11-07 08:34:10.207+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Thing Shapes...
+2017-11-07 08:34:10.239+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Thing Packages...
+2017-11-07 08:34:10.439+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Thing Templates...
+2017-11-07 08:34:10.720+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing caching...
+2017-11-07 08:34:10.750+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Things...
+2017-11-07 08:34:10.808+0100 [L: INFO] [O: c.t.s.s.i.SubscriptionStoreInMemoryThreadSafe] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-1] Subscription was added to the store
+2017-11-07 08:34:10.822+0100 [L: INFO] [O: c.t.s.s.i.SubscriptionStoreInMemoryThreadSafe] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-1] Subscription was added to the store
+2017-11-07 08:34:10.823+0100 [L: INFO] [O: c.t.s.s.i.SubscriptionStoreInMemoryThreadSafe] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-1] Subscription was added to the store
+2017-11-07 08:34:10.823+0100 [L: INFO] [O: c.t.s.s.i.SubscriptionStoreInMemoryThreadSafe] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-2] Subscription was added to the store
+2017-11-07 08:34:10.866+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Clearing caching...
+2017-11-07 08:34:10.870+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Reference Caches...
+2017-11-07 08:34:10.899+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Scheduler Engine...
+2017-11-07 08:34:10.996+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 08:34:10.997+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Platform Subsystems
+2017-11-07 08:34:10.997+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 08:34:10.997+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem ValueStreamProcessingSubsystem is starting
+2017-11-07 08:34:10.997+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [ValueStreamProcessingSubsystem]
+2017-11-07 08:34:10.997+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem ValueStreamProcessingSubsystem is started
+2017-11-07 08:34:10.997+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem WSCommunicationsSubsystem is starting
+2017-11-07 08:34:10.998+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [WSCommunicationsSubsystem]
+2017-11-07 08:34:10.998+0100 [L: INFO] [O: c.t.c.p.m.DispatchingServerCommunicationModule] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Registering as EndpointBinding Registry Observer
+2017-11-07 08:34:10.999+0100 [L: INFO] [O: c.t.c.c.m.CommunicationModuleBase] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Started DispatchingServerCommunicationModule [Running: true]
+2017-11-07 08:34:11.008+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem WSCommunicationsSubsystem is started
+2017-11-07 08:34:11.008+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem UserManagementSubsystem is starting
+2017-11-07 08:34:11.008+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [UserManagementSubsystem]
+2017-11-07 08:34:11.008+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem UserManagementSubsystem is started
+2017-11-07 08:34:11.008+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem TunnelSubsystem is starting
+2017-11-07 08:34:11.008+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [TunnelSubsystem]
+2017-11-07 08:34:11.009+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem TunnelSubsystem is started
+2017-11-07 08:34:11.009+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem MessageStoreSubsystem is starting
+2017-11-07 08:34:11.009+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [MessageStoreSubsystem]
+2017-11-07 08:34:11.009+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem MessageStoreSubsystem is started
+2017-11-07 08:34:11.009+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem LicensingSubsystem is starting
+2017-11-07 08:34:11.009+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [LicensingSubsystem]
+2017-11-07 08:34:12.441+0100 [L: INFO] [O: c.t.s.s.l.TrialLicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Trial has already been loaded and will expire on 01/27/2018 11:59:00 PM
+2017-11-07 08:34:12.481+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_composer, version 8.0, count 2147483647
+2017-11-07 08:34:12.497+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_mashup_builder, version 8.0, count 2147483647
+2017-11-07 08:34:12.516+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_named_user, version 8.0, count 5
+2017-11-07 08:34:12.541+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_things, version 8.0, count 150
+2017-11-07 08:34:12.559+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_utilities, version 8.0, count 2147483647
+2017-11-07 08:34:12.577+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_utilities_scm, version 8.0, count 10
+2017-11-07 08:34:12.597+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_utilities_workflows, version 8.0, count 10
+2017-11-07 08:34:12.678+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem LicensingSubsystem is started
+2017-11-07 08:34:12.678+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem FederationSubsystem is starting
+2017-11-07 08:34:12.678+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [FederationSubsystem]
+2017-11-07 08:34:12.679+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem FederationSubsystem is started
+2017-11-07 08:34:12.680+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem LoggingSubsystem is starting
+2017-11-07 08:34:12.680+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [LoggingSubsystem]
+2017-11-07 08:34:12.680+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem LoggingSubsystem is started
+2017-11-07 08:34:12.680+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem AlertProcessingSubsystem is starting
+2017-11-07 08:34:12.680+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [AlertProcessingSubsystem]
+2017-11-07 08:34:12.680+0100 [L: INFO] [O: c.t.s.s.a.AlertProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Alert Processor...
+2017-11-07 08:34:12.680+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem AlertProcessingSubsystem is started
+2017-11-07 08:34:12.680+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem ExportImportSubsystem is starting
+2017-11-07 08:34:12.696+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [ExportImportSubsystem]
+2017-11-07 08:34:12.696+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem ExportImportSubsystem is started
+2017-11-07 08:34:12.696+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem IntegrationSubsystem is starting
+2017-11-07 08:34:12.696+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [IntegrationSubsystem]
+2017-11-07 08:34:12.696+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem IntegrationSubsystem is started
+2017-11-07 08:34:12.696+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem PlatformSubsystem is starting
+2017-11-07 08:34:12.696+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [PlatformSubsystem]
+2017-11-07 08:34:12.700+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem PlatformSubsystem is started
+2017-11-07 08:34:12.700+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem EventProcessingSubsystem is starting
+2017-11-07 08:34:12.700+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [EventProcessingSubsystem]
+2017-11-07 08:34:12.700+0100 [L: INFO] [O: c.t.s.s.e.EventProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Event Router...
+2017-11-07 08:34:12.703+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem EventProcessingSubsystem is started
+2017-11-07 08:34:12.704+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem StreamProcessingSubsystem is starting
+2017-11-07 08:34:12.704+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [StreamProcessingSubsystem]
+2017-11-07 08:34:12.704+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem StreamProcessingSubsystem is started
+2017-11-07 08:34:12.704+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem WSExecutionProcessingSubsystem is starting
+2017-11-07 08:34:12.715+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [WSExecutionProcessingSubsystem]
+2017-11-07 08:34:12.720+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem WSExecutionProcessingSubsystem is started
+2017-11-07 08:34:12.720+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem FileTransferSubsystem is starting
+2017-11-07 08:34:12.721+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [FileTransferSubsystem]
+2017-11-07 08:34:12.727+0100 [L: INFO] [O: c.t.s.s.f.e.TransferTracker] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Creating new Transfer Tracker
+2017-11-07 08:34:12.746+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem FileTransferSubsystem is started
+2017-11-07 08:34:12.746+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem SCIMSubsystem autostart is off
+2017-11-07 08:34:12.746+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 08:34:12.747+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] MessageStore Subsystem Settings
+2017-11-07 08:34:12.747+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 08:34:12.747+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Minimum Size = 10
+2017-11-07 08:34:12.749+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Maximum Size = 100
+2017-11-07 08:34:12.749+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Queue Size = 100
+2017-11-07 08:34:12.749+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Thread Life = 600000
+2017-11-07 08:34:12.749+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Message Count = 1000
+2017-11-07 08:34:12.749+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 08:34:12.768+0100 [L: INFO] [O: c.t.s.s.l.LicenseUsageData] [I: ] [U: SuperUser] [S: ] [T: pool-7-thread-1] Added license usage data with UsageID: 22 to table successfully!
+2017-11-07 08:34:12.772+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] WSExecutionProcessing Subsystem Settings
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Minimum Size = 1000
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Maximum Size = 10000
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Queue Size = 100000
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Thread Life = 600000
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] FileTransfer Subsystem Settings
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Minimum Size = 10
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Maximum Size = 10
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Queue Size = 100
+2017-11-07 08:34:12.773+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Thread Life = 600000
+2017-11-07 08:34:12.774+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] File Transfer Idle Timeout = 30000
+2017-11-07 08:34:12.774+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max File Transfer Size = 100000000
+2017-11-07 08:34:12.780+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max File Transfers Allowed in Offline Queue = 50000
+2017-11-07 08:34:12.780+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max File Transfers Allowed Per Thing in Offline Queue = 10
+2017-11-07 08:34:12.780+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Time To Live (sec) of File Transfer in Offline Queue = 86400
+2017-11-07 08:34:12.780+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] FileTransfer Idle Timeout for Edge Controlled Transfers = 600000
+2017-11-07 08:34:12.780+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Concurrent Edge Controlled File Transfers Allowed = 500
+2017-11-07 08:34:12.780+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Concurrent Edge Controlled File Transfers Allowed Per Thing = 2
+2017-11-07 08:34:12.781+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 08:34:12.781+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting All Things...
+2017-11-07 08:34:12.822+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Activating Property Bindings...
+2017-11-07 08:34:12.823+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Property Binding relationships...
+2017-11-07 08:34:12.824+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Sending Post Start Notifications...
+2017-11-07 08:34:12.833+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thingworx Server Application...ON
+2017-11-07 08:34:13.012+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Datastore database...INITIALIZED
+2017-11-07 08:34:17.119+0100 [L: ERROR] [O: c.t.p.h.H2ModelExceptionTranslator] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-10] [message: [1 013] Data store invalid session error: [Error occurred while accessing the model provider.]]
+2017-11-07 08:34:17.124+0100 [L: ERROR] [O: c.t.w.BaseService] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-10] [context: com.thingworx.webservices.context.HttpExecutionContext@612a0e7c][message: Unable to Invoke Service GetAllStyleDefinitions on PlatformSubsystem : [1 013] Data store invalid session error: [Error occurred while accessing the model provider.]]
+2017-11-07 08:34:17.131+0100 [L: WARN] [O: c.m.v.c.i.NewPooledConnection] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-10] [c3p0] A PooledConnection that has already signalled a Connection error is still in use!
+2017-11-07 08:34:17.137+0100 [L: WARN] [O: c.m.v.c.i.NewPooledConnection] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-10] [c3p0] Another error has occurred [ org.h2.jdbc.JdbcSQLException: Baza danych jest już zamknięta (aby zablokować samoczynne zamykanie podczas zamknięcia VM dodaj ";DB_CLOSE_ON_EXIT=FALSE" do URL bazy danych)_Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192] ] which will not be reported to listeners!
+2017-11-07 08:34:17.138+0100 [L: ERROR] [O: c.t.p.ThingworxDefaultTransaction] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-10] Could not commit the transaction.
+2017-11-07 08:34:17.187+0100 [L: ERROR] [O: c.t.p.h.H2ModelExceptionTranslator] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-4] [message: [1 013] Data store invalid session error: [Error occurred while accessing the model provider.]]
+2017-11-07 08:34:17.193+0100 [L: ERROR] [O: c.t.w.BaseService] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-4] [context: com.thingworx.webservices.context.HttpExecutionContext@b7dfa58][message: Unable to Invoke Service GetAllStateDefinitions on PlatformSubsystem : [1 013] Data store invalid session error: [Error occurred while accessing the model provider.]]
+2017-11-07 08:34:17.261+0100 [L: WARN] [O: c.m.v.c.i.NewPooledConnection] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-4] [c3p0] A PooledConnection that has already signalled a Connection error is still in use!
+2017-11-07 08:34:17.262+0100 [L: WARN] [O: c.m.v.c.i.NewPooledConnection] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-4] [c3p0] Another error has occurred [ org.h2.jdbc.JdbcSQLException: Baza danych jest już zamknięta (aby zablokować samoczynne zamykanie podczas zamknięcia VM dodaj ";DB_CLOSE_ON_EXIT=FALSE" do URL bazy danych)_Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192] ] which will not be reported to listeners!
+2017-11-07 08:34:17.264+0100 [L: ERROR] [O: c.t.p.ThingworxDefaultTransaction] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-4] Could not commit the transaction.
+2017-11-07 08:35:12.746+0100 [L: WARN] [O: c.t.s.s.p.PlatformSubsystem] [I: ] [U: SuperUser] [S: ] [T: pool-10-thread-1]  Thingworx System Metrics_----------------------------------------------------------------------------_AlertProcessingSubsystem#,         maximumQueueSize= 50000.0, queueSize= 0.0, totalAlertsQueued= 0.0, _EventProcessingSubsystem#,         corePoolSize= 16.0, maxPoolSize= 500.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _FederationSubsystem#,              clientCount= 0.0, publishedCount= 0.0, updateInterval= 100.0, _FileTransferSubsystem#,            corePoolSize= 10.0, maxPoolSize= 10.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _IntegrationSubsystem#,             numberOfConnectors= 0.0, requestCount= 0.0, _LicensingSubsystem#,               twx_composer= 1.0, twx_mashup_builder= 4.0, twx_named_user= 0.0, twx_things= 13.0, twx_utilities= 0.0, twx_utilities_scm= 0.0, twx_utilities_workflows= 0.0, DaysRemaining= 81.0, _MessageStoreSubsystem#,            corePoolSize= 10.0, maxPoolSize= 100.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _PlatformSubsystem#,                eventQueueSize= 0.0, streamQueueSize-ThingworxPersistenceProvider= 0.0, valueStreamQueueSize-ThingworxPersistenceProvider= 0.0, memoryInUse= 5.79737904E8, totalMemoryAllocated= 1.474297856E9, thingCount= 27.0, _StreamProcessingSubsystem#,        maximumWaitTime= 10000.0, sizeThreshold= 1000.0, maximumBlockSize= 2500.0, scanRate= 5.0, maximumQueueSize= 250000.0, queueSize= 0.0, totalWritesQueued= 0.0, totalWritesPerformed= 0.0, numberOfProcessingThreads= 5.0, _TunnelSubsystem#,                  activeTunnelCount= 0.0, totalTunnelCount= 0.0, _UserManagementSubsystem#,          userCount= 2.0, _ValueStreamProcessingSubsystem#,   maximumWaitTime= 10000.0, sizeThreshold= 1000.0, maximumBlockSize= 2500.0, scanRate= 5.0, maximumQueueSize= 500000.0, queueSize= 0.0, totalWritesQueued= 0.0, totalWritesPerformed= 0.0, numberOfProcessingThreads= 5.0, _WSCommunicationsSubsystem#,        activeWebsockets= 0.0, _WSExecutionProcessingSubsystem#,   corePoolSize= 1000.0, maxPoolSize= 10000.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _ThingworxServer#,                  systemRuntime= 0 hours,  memoryInUse = 0,58 GB,  totalMemoryAllocated= 1,474 GB,  activeUsers= 1, BoundConnectedThings= 0, UnBoundConnectedThings= 0_----------------------------------------------------------------------------_
+2017-11-07 08:40:35.816+0100 [L: WARN] [O: c.t.p.c.LicenseMonitor] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Stopping [LicenseMonitor].
+2017-11-07 08:40:35.837+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] WebApp stopping: 
+2017-11-07 08:40:35.837+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] ========================================
+2017-11-07 08:40:36.847+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Thingworx Server Application...OFF
+2017-11-07 08:40:36.849+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Thingworx Server Application...Cleaned up
+2017-11-07 08:40:36.850+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] WebApp OFF [server = Apache Tomcat/8.0.46]
+2017-11-07 08:40:36.914+0100 [L: WARN] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Driver org.h2.Driver@198e0cbd deregistered
+2017-11-07 09:15:18.872+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 09:15:18.875+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ThingWorx Version Information
+2017-11-07 09:15:18.875+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 09:15:18.884+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] majorVersion = 8
+2017-11-07 09:15:18.884+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] minorVersion = 0
+2017-11-07 09:15:18.884+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] revision = 0
+2017-11-07 09:15:18.884+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] build = b11
+2017-11-07 09:15:18.890+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] schemaVersion = 1000
+2017-11-07 09:15:18.890+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 09:15:18.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 09:15:18.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ThingWorx System Environment Settings
+2017-11-07 09:15:18.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 09:15:18.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] OS: Windows 10
+2017-11-07 09:15:18.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] OS arch: amd64
+2017-11-07 09:15:18.891+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] OS version: 10.0
+2017-11-07 09:15:18.896+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Total Processors: 4
+2017-11-07 09:15:18.897+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Default encoding: UTF-8
+2017-11-07 09:15:18.897+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] JAVA vendor: Oracle Corporation
+2017-11-07 09:15:18.897+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] JAVA version: 1.8.0_144
+2017-11-07 09:15:18.897+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] JAVA install location: C:\Program Files\Java\jre1.8.0_144
+2017-11-07 09:15:18.897+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] JVM Max Memory: 2024 (MB)
+2017-11-07 09:15:18.897+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 09:15:18.897+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] WebApp starting...
+2017-11-07 09:15:19.777+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] HA mode not enabled. Initializing and starting in standalone mode.
+2017-11-07 09:15:19.778+0100 [L: INFO] [O: c.t.s.ThingWorxPersistenceHandler] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Default Persistence Provider Name = ThingworxPersistenceProvider
+2017-11-07 09:15:19.778+0100 [L: INFO] [O: c.t.s.ThingWorxPersistenceHandler] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Default Persistence Provider Package Name = H2PersistenceProviderPackage
+2017-11-07 09:15:20.823+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Managers...INITIALIZED
+2017-11-07 09:15:20.825+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Database initialization started...
+2017-11-07 09:15:20.919+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] System ownership locking started...
+2017-11-07 09:15:20.921+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] System ownership locking complete
+2017-11-07 09:15:21.047+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Database initialization complete
+2017-11-07 09:15:21.086+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subscriptions Store initialized.
+2017-11-07 09:15:21.086+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Collections...
+2017-11-07 09:15:22.374+0100 [L: WARN] [O: c.t.p.Project] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-22-worker-9] The project name of a project cannot be changed. It must be set to itself
+2017-11-07 09:15:23.412+0100 [L: INFO] [O: c.t.s.s.s.SCIMSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-31-worker-9] Non-SSO, SCIMSubsystem can be started.
+2017-11-07 09:15:23.414+0100 [L: INFO] [O: c.t.s.s.s.SCIMSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-31-worker-9] Non-SSO, SCIMSubsystem can be started.
+2017-11-07 09:15:23.638+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Scheduler Engine...
+2017-11-07 09:15:23.642+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Entities...
+2017-11-07 09:15:23.643+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ModelTags...
+2017-11-07 09:15:23.665+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing DataTags...
+2017-11-07 09:15:23.666+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Groups...
+2017-11-07 09:15:23.678+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Users...
+2017-11-07 09:15:23.706+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Organizations...
+2017-11-07 09:15:23.720+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Logs...
+2017-11-07 09:15:23.730+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing DataShapes...
+2017-11-07 09:15:23.753+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ThingShapes...
+2017-11-07 09:15:23.863+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ThingPackages...
+2017-11-07 09:15:24.580+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ThingTemplates...
+2017-11-07 09:15:24.628+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing DataAnalysisDefinitions...
+2017-11-07 09:15:24.628+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ApplicationKeys...
+2017-11-07 09:15:24.628+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Dashboards...
+2017-11-07 09:15:24.629+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing LocalizationTables...
+2017-11-07 09:15:24.630+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing StateDefinitions...
+2017-11-07 09:15:24.640+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing StyleDefinitions...
+2017-11-07 09:15:24.655+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Widgets...
+2017-11-07 09:15:24.656+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Mashups...
+2017-11-07 09:15:24.666+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Menus...
+2017-11-07 09:15:24.675+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing MediaEntities...
+2017-11-07 09:15:24.681+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Projects...
+2017-11-07 09:15:24.687+0100 [L: WARN] [O: c.t.e.RootEntity] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-0] Entity [Smart Flowers] changed its project name from [Smart Flowers] to [Smart Flowers]
+2017-11-07 09:15:24.687+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Networks...
+2017-11-07 09:15:24.688+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ExtensionPackages...
+2017-11-07 09:15:24.688+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Authenticators...
+2017-11-07 09:15:24.763+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing PersistenceProviderPackages...
+2017-11-07 09:15:24.763+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing PersistenceProviders...
+2017-11-07 09:15:24.936+0100 [L: INFO] [O: c.t.p.p.PersistenceProvider] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-0] Connection ThingworxPersistenceProvider, type H2PersistenceProviderPackage started
+2017-11-07 09:15:24.952+0100 [L: INFO] [O: c.t.p.p.PersistenceProvider] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-0] PersistenceProvider - ThingworxPersistenceProvider - Data Processing (ValueStreamEntry) is starting
+2017-11-07 09:15:24.959+0100 [L: INFO] [O: c.t.p.p.PersistenceProvider] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-0] PersistenceProvider - ThingworxPersistenceProvider - Data Processing (ValueStreamEntry) is started
+2017-11-07 09:15:24.962+0100 [L: INFO] [O: c.t.p.p.PersistenceProvider] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-0] PersistenceProvider - ThingworxPersistenceProvider - Data Processing (StreamEntry) is starting
+2017-11-07 09:15:24.963+0100 [L: INFO] [O: c.t.p.p.PersistenceProvider] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-0] PersistenceProvider - ThingworxPersistenceProvider - Data Processing (StreamEntry) is started
+2017-11-07 09:15:24.963+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing DirectoryServices...
+2017-11-07 09:15:24.963+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Resources...
+2017-11-07 09:15:25.048+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing ScriptFunctionLibraries...
+2017-11-07 09:15:25.054+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Subsystems...
+2017-11-07 09:15:25.065+0100 [L: INFO] [O: c.t.s.s.a.AlertProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-2] Initializing Alert Subsystem...
+2017-11-07 09:15:25.080+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-0] Message Store Async task created [pool size: 10, thread idle timeout: 600000]
+2017-11-07 09:15:25.138+0100 [L: INFO] [O: c.t.s.s.u.UserManagementSubsystem] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-3] Initializing User Management Subsystem...
+2017-11-07 09:15:25.264+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Things...
+2017-11-07 09:15:25.277+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing NotificationContents...
+2017-11-07 09:15:25.277+0100 [L: INFO] [O: c.t.s.m.BaseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing NotificationDefinitions...
+2017-11-07 09:15:25.278+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Cleaning up legacy entities...
+2017-11-07 09:15:25.278+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Checking default permissions...
+2017-11-07 09:15:25.302+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Thing Shapes...
+2017-11-07 09:15:25.345+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Thing Packages...
+2017-11-07 09:15:25.514+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Thing Templates...
+2017-11-07 09:15:25.883+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing caching...
+2017-11-07 09:15:25.903+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Things...
+2017-11-07 09:15:25.983+0100 [L: INFO] [O: c.t.s.s.i.SubscriptionStoreInMemoryThreadSafe] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-1] Subscription was added to the store
+2017-11-07 09:15:25.986+0100 [L: INFO] [O: c.t.s.s.i.SubscriptionStoreInMemoryThreadSafe] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-1] Subscription was added to the store
+2017-11-07 09:15:25.987+0100 [L: INFO] [O: c.t.s.s.i.SubscriptionStoreInMemoryThreadSafe] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-1] Subscription was added to the store
+2017-11-07 09:15:25.991+0100 [L: INFO] [O: c.t.s.s.i.SubscriptionStoreInMemoryThreadSafe] [I: ] [U: SuperUser] [S: ] [T: ForkJoinPool-1-worker-2] Subscription was added to the store
+2017-11-07 09:15:26.042+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Clearing caching...
+2017-11-07 09:15:26.057+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Reference Caches...
+2017-11-07 09:15:26.088+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Scheduler Engine...
+2017-11-07 09:15:26.197+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 09:15:26.197+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Platform Subsystems
+2017-11-07 09:15:26.197+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 09:15:26.198+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem ValueStreamProcessingSubsystem is starting
+2017-11-07 09:15:26.198+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [ValueStreamProcessingSubsystem]
+2017-11-07 09:15:26.198+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem ValueStreamProcessingSubsystem is started
+2017-11-07 09:15:26.198+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem WSCommunicationsSubsystem is starting
+2017-11-07 09:15:26.198+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [WSCommunicationsSubsystem]
+2017-11-07 09:15:26.198+0100 [L: INFO] [O: c.t.c.p.m.DispatchingServerCommunicationModule] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Registering as EndpointBinding Registry Observer
+2017-11-07 09:15:26.200+0100 [L: INFO] [O: c.t.c.c.m.CommunicationModuleBase] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Started DispatchingServerCommunicationModule [Running: true]
+2017-11-07 09:15:26.202+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem WSCommunicationsSubsystem is started
+2017-11-07 09:15:26.202+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem UserManagementSubsystem is starting
+2017-11-07 09:15:26.203+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [UserManagementSubsystem]
+2017-11-07 09:15:26.203+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem UserManagementSubsystem is started
+2017-11-07 09:15:26.211+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem TunnelSubsystem is starting
+2017-11-07 09:15:26.211+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [TunnelSubsystem]
+2017-11-07 09:15:26.212+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem TunnelSubsystem is started
+2017-11-07 09:15:26.212+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem MessageStoreSubsystem is starting
+2017-11-07 09:15:26.212+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [MessageStoreSubsystem]
+2017-11-07 09:15:26.212+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem MessageStoreSubsystem is started
+2017-11-07 09:15:26.212+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem LicensingSubsystem is starting
+2017-11-07 09:15:26.212+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [LicensingSubsystem]
+2017-11-07 09:15:27.387+0100 [L: INFO] [O: c.t.s.s.l.TrialLicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Trial has already been loaded and will expire on 01/27/2018 11:59:00 PM
+2017-11-07 09:15:27.428+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_composer, version 8.0, count 2147483647
+2017-11-07 09:15:27.445+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_mashup_builder, version 8.0, count 2147483647
+2017-11-07 09:15:27.463+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_named_user, version 8.0, count 5
+2017-11-07 09:15:27.480+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_things, version 8.0, count 150
+2017-11-07 09:15:27.499+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_utilities, version 8.0, count 2147483647
+2017-11-07 09:15:27.517+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_utilities_scm, version 8.0, count 10
+2017-11-07 09:15:27.536+0100 [L: INFO] [O: c.t.s.s.l.LicenseManager] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Successfully acquired feature twx_utilities_workflows, version 8.0, count 10
+2017-11-07 09:15:27.647+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem LicensingSubsystem is started
+2017-11-07 09:15:27.648+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem FederationSubsystem is starting
+2017-11-07 09:15:27.648+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [FederationSubsystem]
+2017-11-07 09:15:27.649+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem FederationSubsystem is started
+2017-11-07 09:15:27.649+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem LoggingSubsystem is starting
+2017-11-07 09:15:27.649+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [LoggingSubsystem]
+2017-11-07 09:15:27.649+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem LoggingSubsystem is started
+2017-11-07 09:15:27.649+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem AlertProcessingSubsystem is starting
+2017-11-07 09:15:27.649+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [AlertProcessingSubsystem]
+2017-11-07 09:15:27.649+0100 [L: INFO] [O: c.t.s.s.a.AlertProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Alert Processor...
+2017-11-07 09:15:27.650+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem AlertProcessingSubsystem is started
+2017-11-07 09:15:27.650+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem ExportImportSubsystem is starting
+2017-11-07 09:15:27.650+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [ExportImportSubsystem]
+2017-11-07 09:15:27.650+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem ExportImportSubsystem is started
+2017-11-07 09:15:27.650+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem IntegrationSubsystem is starting
+2017-11-07 09:15:27.650+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [IntegrationSubsystem]
+2017-11-07 09:15:27.665+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem IntegrationSubsystem is started
+2017-11-07 09:15:27.665+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem PlatformSubsystem is starting
+2017-11-07 09:15:27.665+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [PlatformSubsystem]
+2017-11-07 09:15:27.668+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem PlatformSubsystem is started
+2017-11-07 09:15:27.668+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem EventProcessingSubsystem is starting
+2017-11-07 09:15:27.668+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [EventProcessingSubsystem]
+2017-11-07 09:15:27.669+0100 [L: INFO] [O: c.t.s.s.e.EventProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Event Router...
+2017-11-07 09:15:27.670+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem EventProcessingSubsystem is started
+2017-11-07 09:15:27.670+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem StreamProcessingSubsystem is starting
+2017-11-07 09:15:27.670+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [StreamProcessingSubsystem]
+2017-11-07 09:15:27.670+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem StreamProcessingSubsystem is started
+2017-11-07 09:15:27.670+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem WSExecutionProcessingSubsystem is starting
+2017-11-07 09:15:27.670+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [WSExecutionProcessingSubsystem]
+2017-11-07 09:15:27.673+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem WSExecutionProcessingSubsystem is started
+2017-11-07 09:15:27.674+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem FileTransferSubsystem is starting
+2017-11-07 09:15:27.674+0100 [L: INFO] [O: c.t.s.s.Subsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting Subsystem [FileTransferSubsystem]
+2017-11-07 09:15:27.703+0100 [L: INFO] [O: c.t.s.s.f.e.TransferTracker] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Creating new Transfer Tracker
+2017-11-07 09:15:27.713+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem FileTransferSubsystem is started
+2017-11-07 09:15:27.714+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Subsystem SCIMSubsystem autostart is off
+2017-11-07 09:15:27.714+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ========================================
+2017-11-07 09:15:27.714+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] MessageStore Subsystem Settings
+2017-11-07 09:15:27.714+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 09:15:27.714+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Minimum Size = 10
+2017-11-07 09:15:27.715+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Maximum Size = 100
+2017-11-07 09:15:27.715+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Queue Size = 100
+2017-11-07 09:15:27.715+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Thread Life = 600000
+2017-11-07 09:15:27.715+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Message Count = 1000
+2017-11-07 09:15:27.715+0100 [L: INFO] [O: c.t.s.s.m.MessageStoreSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 09:15:27.715+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] WSExecutionProcessing Subsystem Settings
+2017-11-07 09:15:27.715+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 09:15:27.715+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Minimum Size = 1000
+2017-11-07 09:15:27.715+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Maximum Size = 10000
+2017-11-07 09:15:27.723+0100 [L: INFO] [O: c.t.s.s.l.LicenseUsageData] [I: ] [U: SuperUser] [S: ] [T: pool-7-thread-1] Added license usage data with UsageID: 23 to table successfully!
+2017-11-07 09:15:27.728+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Queue Size = 100000
+2017-11-07 09:15:27.728+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Thread Life = 600000
+2017-11-07 09:15:27.728+0100 [L: INFO] [O: c.t.s.s.w.WSExecutionProcessingSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 09:15:27.728+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] FileTransfer Subsystem Settings
+2017-11-07 09:15:27.728+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 09:15:27.728+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Minimum Size = 10
+2017-11-07 09:15:27.729+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thread Pool Maximum Size = 10
+2017-11-07 09:15:27.729+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Queue Size = 100
+2017-11-07 09:15:27.729+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Thread Life = 600000
+2017-11-07 09:15:27.729+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] File Transfer Idle Timeout = 30000
+2017-11-07 09:15:27.729+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max File Transfer Size = 100000000
+2017-11-07 09:15:27.729+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max File Transfers Allowed in Offline Queue = 50000
+2017-11-07 09:15:27.729+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max File Transfers Allowed Per Thing in Offline Queue = 10
+2017-11-07 09:15:27.729+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Time To Live (sec) of File Transfer in Offline Queue = 86400
+2017-11-07 09:15:27.729+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] FileTransfer Idle Timeout for Edge Controlled Transfers = 600000
+2017-11-07 09:15:27.737+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Concurrent Edge Controlled File Transfers Allowed = 500
+2017-11-07 09:15:27.737+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Max Concurrent Edge Controlled File Transfers Allowed Per Thing = 2
+2017-11-07 09:15:27.737+0100 [L: INFO] [O: c.t.s.s.f.FileTransferSubsystem] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] ----------------------------------------
+2017-11-07 09:15:27.737+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Starting All Things...
+2017-11-07 09:15:27.772+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Activating Property Bindings...
+2017-11-07 09:15:27.773+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Initializing Property Binding relationships...
+2017-11-07 09:15:27.774+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Sending Post Start Notifications...
+2017-11-07 09:15:27.781+0100 [L: INFO] [O: c.t.s.ThingWorxServer] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Thingworx Server Application...ON
+2017-11-07 09:15:27.978+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-1] Datastore database...INITIALIZED
+2017-11-07 09:15:32.857+0100 [L: ERROR] [O: c.t.p.h.H2ModelExceptionTranslator] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-10] [message: [1 013] Data store invalid session error: [Error occurred while accessing the model provider.]]
+2017-11-07 09:15:32.862+0100 [L: ERROR] [O: c.t.w.BaseService] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-10] [context: com.thingworx.webservices.context.HttpExecutionContext@58059ded][message: Unable to Invoke Service GetAllStyleDefinitions on PlatformSubsystem : [1 013] Data store invalid session error: [Error occurred while accessing the model provider.]]
+2017-11-07 09:15:32.869+0100 [L: WARN] [O: c.m.v.c.i.NewPooledConnection] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-10] [c3p0] A PooledConnection that has already signalled a Connection error is still in use!
+2017-11-07 09:15:32.870+0100 [L: WARN] [O: c.m.v.c.i.NewPooledConnection] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-10] [c3p0] Another error has occurred [ org.h2.jdbc.JdbcSQLException: Baza danych jest już zamknięta (aby zablokować samoczynne zamykanie podczas zamknięcia VM dodaj ";DB_CLOSE_ON_EXIT=FALSE" do URL bazy danych)_Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192] ] which will not be reported to listeners!
+2017-11-07 09:15:32.870+0100 [L: ERROR] [O: c.t.p.ThingworxDefaultTransaction] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-10] Could not commit the transaction.
+2017-11-07 09:15:32.931+0100 [L: ERROR] [O: c.t.p.h.H2ModelExceptionTranslator] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-1] [message: [1 013] Data store invalid session error: [Error occurred while accessing the model provider.]]
+2017-11-07 09:15:32.938+0100 [L: ERROR] [O: c.t.w.BaseService] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-1] [context: com.thingworx.webservices.context.HttpExecutionContext@26130378][message: Unable to Invoke Service GetAllStateDefinitions on PlatformSubsystem : [1 013] Data store invalid session error: [Error occurred while accessing the model provider.]]
+2017-11-07 09:15:32.994+0100 [L: WARN] [O: c.m.v.c.i.NewPooledConnection] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-1] [c3p0] A PooledConnection that has already signalled a Connection error is still in use!
+2017-11-07 09:15:32.995+0100 [L: WARN] [O: c.m.v.c.i.NewPooledConnection] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-1] [c3p0] Another error has occurred [ org.h2.jdbc.JdbcSQLException: Baza danych jest już zamknięta (aby zablokować samoczynne zamykanie podczas zamknięcia VM dodaj ";DB_CLOSE_ON_EXIT=FALSE" do URL bazy danych)_Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192] ] which will not be reported to listeners!
+2017-11-07 09:15:32.996+0100 [L: ERROR] [O: c.t.p.ThingworxDefaultTransaction] [I: ] [U: Administrator] [S: ] [T: http-nio-80-exec-1] Could not commit the transaction.
+2017-11-07 09:16:27.704+0100 [L: WARN] [O: c.t.s.s.p.PlatformSubsystem] [I: ] [U: SuperUser] [S: ] [T: pool-10-thread-1]  Thingworx System Metrics_----------------------------------------------------------------------------_AlertProcessingSubsystem#,         maximumQueueSize= 50000.0, queueSize= 0.0, totalAlertsQueued= 0.0, _EventProcessingSubsystem#,         corePoolSize= 16.0, maxPoolSize= 500.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _FederationSubsystem#,              clientCount= 0.0, publishedCount= 0.0, updateInterval= 100.0, _FileTransferSubsystem#,            corePoolSize= 10.0, maxPoolSize= 10.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _IntegrationSubsystem#,             numberOfConnectors= 0.0, requestCount= 0.0, _LicensingSubsystem#,               twx_composer= 1.0, twx_mashup_builder= 4.0, twx_named_user= 0.0, twx_things= 13.0, twx_utilities= 0.0, twx_utilities_scm= 0.0, twx_utilities_workflows= 0.0, DaysRemaining= 81.0, _MessageStoreSubsystem#,            corePoolSize= 10.0, maxPoolSize= 100.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _PlatformSubsystem#,                eventQueueSize= 0.0, streamQueueSize-ThingworxPersistenceProvider= 0.0, valueStreamQueueSize-ThingworxPersistenceProvider= 0.0, memoryInUse= 3.70944632E8, totalMemoryAllocated= 1.60432128E9, thingCount= 27.0, _StreamProcessingSubsystem#,        maximumWaitTime= 10000.0, sizeThreshold= 1000.0, maximumBlockSize= 2500.0, scanRate= 5.0, maximumQueueSize= 250000.0, queueSize= 0.0, totalWritesQueued= 0.0, totalWritesPerformed= 0.0, numberOfProcessingThreads= 5.0, _TunnelSubsystem#,                  activeTunnelCount= 0.0, totalTunnelCount= 0.0, _UserManagementSubsystem#,          userCount= 2.0, _ValueStreamProcessingSubsystem#,   maximumWaitTime= 10000.0, sizeThreshold= 1000.0, maximumBlockSize= 2500.0, scanRate= 5.0, maximumQueueSize= 500000.0, queueSize= 0.0, totalWritesQueued= 0.0, totalWritesPerformed= 0.0, numberOfProcessingThreads= 5.0, _WSCommunicationsSubsystem#,        activeWebsockets= 0.0, _WSExecutionProcessingSubsystem#,   corePoolSize= 1000.0, maxPoolSize= 10000.0, curentPoolSize= 0.0, activeThreads= 0.0, queueSize= 0.0, largestPoolSize= 0.0, submitedTaskCount= 0.0, completedTaskCount= 0.0, _ThingworxServer#,                  systemRuntime= 0 hours,  memoryInUse = 0,371 GB,  totalMemoryAllocated= 1,604 GB,  activeUsers= 1, BoundConnectedThings= 0, UnBoundConnectedThings= 0_----------------------------------------------------------------------------_
+2017-11-07 09:20:02.309+0100 [L: WARN] [O: c.t.p.c.LicenseMonitor] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Stopping [LicenseMonitor].
+2017-11-07 09:20:02.341+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] WebApp stopping: 
+2017-11-07 09:20:02.341+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] ========================================
+2017-11-07 09:20:03.341+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Thingworx Server Application...OFF
+2017-11-07 09:20:03.341+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Thingworx Server Application...Cleaned up
+2017-11-07 09:20:03.341+0100 [L: INFO] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] WebApp OFF [server = Apache Tomcat/8.0.46]
+2017-11-07 09:20:03.387+0100 [L: WARN] [O: c.t.s.ThingWorxBootstrapper] [I: ] [U: SuperUser] [S: ] [T: localhost-startStop-2] Driver org.h2.Driver@17b2a823 deregistered
