@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Things>
+        <Thing description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2018-01-04T23:35:22.860+01:00" name="wind" projectName="Smart Flowers" published="false" tags="flowers:flowers;smart:smart;smartflowers:smartflowers;flower:flower" thingTemplate="GenericThing" valueStream="wind_stream">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ThingShape>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="value_direction" ordinal="2"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="value_wind" ordinal="1"/>
+                </PropertyDefinitions>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations>
+                <AlertDefinitions name="value_direction"/>
+                <AlertDefinitions name="value_wind"/>
+            </AlertConfigurations>
+            <ImplementedShapes/>
+            <ThingProperties>
+                <value_wind>
+                    <Value/>
+                    <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+                    <Quality>UNKNOWN</Quality>
+                </value_wind>
+                <value_direction>
+                    <Value/>
+                    <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+                    <Quality>UNKNOWN</Quality>
+                </value_direction>
+            </ThingProperties>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, projectName : updated, tags : updated, thingTemplate : updated&#10;" timestamp="2018-01-04T23:33:56.772+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : value_wind : Added, value_direction : Added&#10;" timestamp="2018-01-04T23:34:33.504+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="header : valueStream : updated&#10;" timestamp="2018-01-04T23:35:22.860+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Thing>
+    </Things>
+</Entities>
