@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Time index bucket" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.608+02:00" name="TimeIndexBucket" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="NUMBER" description="Bucket count" name="bucketCount" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Depth" name="depth" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Entry count" name="entryCount" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Bucket id" name="id" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Parent bucket id" name="parentBucketId" ordinal="0"/>
+                <FieldDefinition baseType="DATETIME" description="Timestamp" name="timestamp" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.608+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

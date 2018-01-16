@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="User Provisioning Default Settings" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.025+02:00" name="UserProvisioningDefaultSettings" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="User Provisioning Default Description" name="userDefaultDescription" ordinal="0"/>
+                <FieldDefinition baseType="MASHUPNAME" description="User Provisioning Default Home Mashup" name="userDefaultHomeMashupName" ordinal="0"/>
+                <FieldDefinition baseType="MASHUPNAME" description="User Provisioning Default Mobile Mashup" name="userDefaultMobileMashupName" ordinal="0"/>
+                <FieldDefinition baseType="PROJECTNAME" description="User Provisioning Default Project Name" name="userDefaultProjectName" ordinal="0"/>
+                <FieldDefinition baseType="TAGS" description="User Provisioning Default Tags" name="userDefaultTags" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.024+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

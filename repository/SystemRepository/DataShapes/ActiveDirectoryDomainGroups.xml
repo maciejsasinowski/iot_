@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="A list of active directory groups for a given domain" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.595+02:00" name="ActiveDirectoryDomainGroups" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Active Directory Group Name" name="activeDirectoryGroupName" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.595+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Anomaly Alert Training Statistics" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.630+02:00" name="AnomalyAlertTrainingStatistics" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Alert Name" name="alert" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Number of training cycles" name="numberOfTrainingCycles" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Number of validation cycles" name="numberOfValidationCycles" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Pearsons correlation" name="pearsonsCorrelation" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Property Name" name="property" ordinal="0"/>
+                <FieldDefinition baseType="DATETIME" description="Training Data Collection start time" name="trainingDataCollectionStartTime" ordinal="0"/>
+                <FieldDefinition baseType="DATETIME" description="Training Data Collection stop time" name="trainingDataCollectionStopTime" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Status of Thingwatcher" name="watcherStatus" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.630+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

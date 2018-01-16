@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Subsystems>
+        <Subsystem aspect.isCreatable="false" aspect.isEditableSystemObject="true" autoStart="true" className="com.thingworx.system.subsystems.alerts.AlertProcessingSubsystem" dependsOn="" description="Handles Alert Summary and History" documentationContent="" enabled="true" friendlyName="Alert Processing" homeMashup="MonitoringSubsystemDefaultHomeMashup" lastModifiedDate="2017-09-30T23:45:38.807+02:00" name="AlertProcessingSubsystem" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Alert Settings" isMultiRow="false" name="AlertProcessorSettings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="AnomalyMonitor ModelService URI" baseType="STRING" description="URI to the anomaly monitor model server for importing/loading pmml models" name="anomalyMonitorModelServiceURI" ordinal="4"/>
+                            <FieldDefinition aspect.defaultValue="ThingworxPersistenceProvider" aspect.friendlyName="Data Persistence Provider" baseType="PERSISTENCEPROVIDERNAME" description="The Persistence Provider that contains the active data provider." name="dataPersistenceProvider" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Apply Visibility Checks On Alert Queries" baseType="BOOLEAN" description="Apply visibility checks on queries" name="isFiltered" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="50000.0" aspect.friendlyName="Max Queue Size" baseType="NUMBER" description="Maximum number of alert summary entries to queue (will be rejected after that)" name="maximumQueueSize" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="ThingWatcher Training URI" baseType="STRING" description="URI to the training server for ThingWatcher Analytics" name="thingWatcherTrainingURI" ordinal="3"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <anomalyMonitorModelServiceURI/>
+                            <dataPersistenceProvider><![CDATA[ThingworxPersistenceProvider]]></dataPersistenceProvider>
+                            <maximumQueueSize>50000.0</maximumQueueSize>
+                            <thingWatcherTrainingURI/>
+                            <isFiltered>true</isFiltered>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.807+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Subsystem>
+    </Subsystems>
+</Entities>

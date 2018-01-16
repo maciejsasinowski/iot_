@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Subsystems>
+        <Subsystem aspect.isCreatable="false" aspect.isEditableSystemObject="true" autoStart="true" className="com.thingworx.system.subsystems.platform.PlatformSubsystem" dependsOn="" description="Overall platform monitoring and configuration" documentationContent="" enabled="true" friendlyName="Platform Subsystem" homeMashup="PlatformSubsystemHomeMashup" lastModifiedDate="2018-01-15T18:55:19.976+01:00" name="PlatformSubsystem" projectName="" tags="">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="ThingWorx Metrics Reporting Services Configuration" isMultiRow="false" name="MetricsReporting" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Application key used to authorize this instance" baseType="STRING" description="Application key used to authorize this instance" name="applicationKey" ordinal="4"/>
+                            <FieldDefinition aspect.friendlyName="Customer name" baseType="STRING" description="Customer name" name="customerName" ordinal="3"/>
+                            <FieldDefinition aspect.friendlyName="Unique Instance ID" baseType="GUID" description="Unique Instance Identifier" name="instanceId" ordinal="5"/>
+                            <FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Opt in to metrics reporting" baseType="BOOLEAN" description="Opt in to metrics reporting" name="optIn" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="Remote Instance Binding Identifier" baseType="STRING" description="Remote Instance Binding Identifer" name="remoteBindId" ordinal="6"/>
+                            <FieldDefinition aspect.friendlyName="Metrics Reporting Server" baseType="HYPERLINK" description="Metrics server URL" name="remoteUrl" ordinal="7"/>
+                            <FieldDefinition aspect.friendlyName="Customer Number" baseType="INTEGER" description="Customer number" name="scn" ordinal="2"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <instanceId><![CDATA[222c8636-c59f-4bea-be0c-4ac851152b8c]]></instanceId>
+                            <optIn>false</optIn>
+                            <applicationKey/>
+                            <remoteUrl/>
+                            <customerName/>
+                            <remoteBindId/>
+                            <scn>0</scn>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Platform Subsystem Settings" isMultiRow="false" name="PlatformInformation" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Allow Applicaiton key as URL Parameter" baseType="BOOLEAN" description="Allow Application Key as URL Parameter (false is not allowed)" name="allowAppKeyAsURLParam" ordinal="11"/>
+                            <FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Allow method switching" baseType="BOOLEAN" description="Allow method switching with request parameters (true is insecure)." name="allowMethodSwitch" ordinal="2"/>
+                            <FieldDefinition aspect.friendlyName="Data Connect application Id" baseType="STRING" description="Data Connect application Id." name="dataConnectApplicationId" ordinal="8"/>
+                            <FieldDefinition aspect.friendlyName="Data Connect application key" baseType="PASSWORD" description="Data Connect application key." name="dataConnectApplicationKey" ordinal="9"/>
+                            <FieldDefinition aspect.friendlyName="Data Connect URL path" baseType="STRING" description="Data Connect URL path." name="dataConnectUrl" ordinal="7"/>
+                            <FieldDefinition aspect.defaultValue="ThingworxPersistenceProvider" aspect.friendlyName="Data Persistence Provider" baseType="PERSISTENCEPROVIDERNAME" description="The Persistence Provider that contains the active data provider." name="dataPersistenceProvider" ordinal="1"/>
+                            <FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Enable Documentation Help Center" baseType="BOOLEAN" description="Enable support for the Documentation Help Center" name="documentationEnabled" ordinal="10"/>
+                            <FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Filter content type" baseType="BOOLEAN" description="Filter content type on requests (false is insecure)" name="filterContentType" ordinal="3"/>
+                            <FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Enable Learning Connector" baseType="BOOLEAN" description="Enable support for the Learning Connector" name="learningConnectorEnabled" ordinal="4"/>
+                            <FieldDefinition aspect.defaultValue="https://precisionlms.ptc.com/ulc/ulc.html" aspect.friendlyName="Learning Connector location" baseType="HYPERLINK" description="The location of the Universal Learning Connector" name="learningConnectorSystem" ordinal="5"/>
+                            <FieldDefinition aspect.defaultValue="ThingworxPersistenceProvider" aspect.friendlyName="Property Persistence Provider" baseType="PERSISTENCEPROVIDERNAME" description="The Persistence Provider that contains the active property provider." name="propertyPersistenceProvider" ordinal="6"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <dataPersistenceProvider><![CDATA[ThingworxPersistenceProvider]]></dataPersistenceProvider>
+                            <dataConnectApplicationId/>
+                            <dataConnectApplicationKey/>
+                            <documentationEnabled>true</documentationEnabled>
+                            <allowAppKeyAsURLParam>false</allowAppKeyAsURLParam>
+                            <allowMethodSwitch>true</allowMethodSwitch>
+                            <learningConnectorSystem><![CDATA[https://precisionlms.ptc.com/ulc/ulc.html]]></learningConnectorSystem>
+                            <learningConnectorEnabled>true</learningConnectorEnabled>
+                            <propertyPersistenceProvider><![CDATA[ThingworxPersistenceProvider]]></propertyPersistenceProvider>
+                            <dataConnectUrl/>
+                            <filterContentType>true</filterContentType>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.878+02:00" user="SuperUser"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="configuration : allowMethodSwitch : updated&#10;" timestamp="2018-01-15T18:55:18.729+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T18:55:19.818+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T18:55:19.976+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Subsystem>
+    </Subsystems>
+</Entities>

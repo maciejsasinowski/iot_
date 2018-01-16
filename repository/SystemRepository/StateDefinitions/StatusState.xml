@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StateDefinitions>
+        <StateDefinition aspect.isEditableSystemObject="true" aspect.isSystemObject="true" description="Status state" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.183+02:00" name="StatusState" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"stateType":"string","stateDefinitions":[{"displayString":"AVAILABLE","defaultStyleDefinition":"StatusAvailable","defaultValue":"AVAILABLE","name":"AVAILABLE","description":""},{"displayString":"OFFLINE","defaultStyleDefinition":"StatusOffline","defaultValue":"OFFLINE","name":"OFFLINE","description":""},{"displayString":"BUSY","defaultStyleDefinition":"StatusBusy","defaultValue":"BUSY","name":"BUSY","description":""},{"displayString":"ERROR","defaultStyleDefinition":"StatusError","defaultValue":"ERROR","name":"ERROR","description":""},{"displayString":"UNKNOWN","defaultStyleDefinition":"StatusUnknown","name":"UNKNOWN","description":""}]}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.183+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>

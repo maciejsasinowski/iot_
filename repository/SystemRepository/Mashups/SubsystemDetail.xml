@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.isSystemObject="true" aspect.mashupType="mashup" columns="0.0" description="Detail mashup for use in Subsystem Mashup Repeater" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.957+02:00" name="SubsystemDetail" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions>
+                <FieldDefinition aspect.ordinal="0" baseType="BOOLEAN" description="" name="autoStart" ordinal="0"/>
+                <FieldDefinition aspect.ordinal="2" baseType="BOOLEAN" description="" name="enabled" ordinal="0"/>
+                <FieldDefinition aspect.ordinal="3" baseType="BOOLEAN" description="" name="isRunning" ordinal="0"/>
+                <FieldDefinition aspect.ordinal="1" baseType="STRING" description="" name="ssdescription" ordinal="0"/>
+                <FieldDefinition aspect.ordinal="4" baseType="STRING" description="" name="ssname" ordinal="0"/>
+            </ParameterDefinitions>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ ],
+        "Properties" : {
+          "TextIfNoValue" : "",
+          "Left" : 50,
+          "__supportsLabel" : true,
+          "ResponsiveLayout" : false,
+          "Label" : "",
+          "ValueDisplayLabelStyle" : "DefaultWidgetLabelStyle",
+          "Z-index" : 10,
+          "__TypeDisplayName" : "Value Display",
+          "Area" : "UI",
+          "Type" : "valuedisplay",
+          "Alignment" : "left",
+          "TextIfNoValueStyle" : "DefaultValueDisplayNoTextStyle",
+          "Top" : 25,
+          "Visible" : true,
+          "DisplayName" : "ValueDisplay-3",
+          "Height" : 22,
+          "Id" : "ValueDisplay-3",
+          "Width" : 100,
+          "TextWrap" : true,
+          "ValueDisplayStyle" : "DefaultValueDisplayStyle"
+        }
+      }, {
+        "Widgets" : [ ],
+        "Properties" : {
+          "TextIfNoValue" : "",
+          "Left" : 50,
+          "__supportsLabel" : true,
+          "ResponsiveLayout" : false,
+          "Label" : "Description:",
+          "ValueDisplayLabelStyle" : "DefaultWidgetLabelStyle",
+          "Z-index" : 10,
+          "__TypeDisplayName" : "Value Display",
+          "Area" : "UI",
+          "Type" : "valuedisplay",
+          "Alignment" : "left",
+          "TextIfNoValueStyle" : "DefaultValueDisplayNoTextStyle",
+          "Top" : 75,
+          "Visible" : true,
+          "DisplayName" : "ValueDisplay-4",
+          "Height" : 22,
+          "Id" : "ValueDisplay-4",
+          "Width" : 335,
+          "TextWrap" : true,
+          "ValueDisplayStyle" : "DefaultValueDisplayStyle"
+        }
+      }, {
+        "Widgets" : [ ],
+        "Properties" : {
+          "TextIfNoValue" : "",
+          "Left" : 250,
+          "__supportsLabel" : true,
+          "ResponsiveLayout" : false,
+          "Label" : "Is Running:",
+          "ValueDisplayLabelStyle" : "DefaultWidgetLabelStyle",
+          "Z-index" : 10,
+          "__TypeDisplayName" : "Value Display",
+          "Area" : "UI",
+          "Type" : "valuedisplay",
+          "Alignment" : "left",
+          "TextIfNoValueStyle" : "DefaultValueDisplayNoTextStyle",
+          "Top" : 25,
+          "Visible" : true,
+          "DisplayName" : "ValueDisplay-5",
+          "Height" : 22,
+          "Id" : "ValueDisplay-5",
+          "Width" : 100,
+          "TextWrap" : true,
+          "ValueDisplayStyle" : "DefaultValueDisplayStyle"
+        }
+      }, {
+        "Widgets" : [ ],
+        "Properties" : {
+          "TextIfNoValue" : "",
+          "Left" : 420,
+          "__supportsLabel" : true,
+          "ResponsiveLayout" : false,
+          "Label" : "Auto-start:",
+          "ValueDisplayLabelStyle" : "DefaultWidgetLabelStyle",
+          "Z-index" : 10,
+          "__TypeDisplayName" : "Value Display",
+          "Area" : "UI",
+          "Type" : "valuedisplay",
+          "Alignment" : "left",
+          "TextIfNoValueStyle" : "DefaultValueDisplayNoTextStyle",
+          "Top" : 30,
+          "Visible" : true,
+          "DisplayName" : "ValueDisplay-6",
+          "Height" : 22,
+          "Id" : "ValueDisplay-6",
+          "Width" : 100,
+          "TextWrap" : true,
+          "ValueDisplayStyle" : "DefaultValueDisplayStyle"
+        }
+      }, {
+        "Widgets" : [ ],
+        "Properties" : {
+          "TextIfNoValue" : "",
+          "Left" : 590,
+          "__supportsLabel" : true,
+          "ResponsiveLayout" : false,
+          "Label" : "Enabled:",
+          "ValueDisplayLabelStyle" : "DefaultWidgetLabelStyle",
+          "Z-index" : 10,
+          "__TypeDisplayName" : "Value Display",
+          "Area" : "UI",
+          "Type" : "valuedisplay",
+          "Alignment" : "left",
+          "TextIfNoValueStyle" : "DefaultValueDisplayNoTextStyle",
+          "Top" : 30,
+          "Visible" : true,
+          "DisplayName" : "ValueDisplay-7",
+          "Height" : 22,
+          "Id" : "ValueDisplay-7",
+          "Width" : 100,
+          "TextWrap" : true,
+          "ValueDisplayStyle" : "DefaultValueDisplayStyle"
+        }
+      } ],
+      "Properties" : {
+        "Left" : 95,
+        "ResponsiveLayout" : true,
+        "Z-index" : 10,
+        "VerticalAnchor" : "top",
+        "__TypeDisplayName" : "Panel",
+        "HorizontalAnchor" : "left",
+        "Area" : "UI",
+        "Type" : "panel",
+        "Top" : 65,
+        "Visible" : true,
+        "DisplayName" : "Panel-1",
+        "Style" : "DefaultPanelStyle",
+        "Height" : 200,
+        "Id" : "Panel-1",
+        "Width" : 300
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "ResponsiveLayout" : true,
+      "Z-index" : 10,
+      "id_index" : 7,
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "Area" : "Mashup",
+      "Type" : "mashup",
+      "supportsAutoResize" : true,
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : "DefaultMashupStyle",
+      "Height" : 618,
+      "Id" : "mashup-root",
+      "_currentParameterDefs" : [ {
+        "Description" : "",
+        "BaseType" : "BOOLEAN",
+        "ParameterName" : "autoStart"
+      }, {
+        "Description" : "",
+        "BaseType" : "STRING",
+        "ParameterName" : "ssdescription"
+      }, {
+        "Description" : "",
+        "BaseType" : "BOOLEAN",
+        "ParameterName" : "enabled"
+      }, {
+        "Description" : "",
+        "BaseType" : "BOOLEAN",
+        "ParameterName" : "isRunning"
+      }, {
+        "Description" : "",
+        "BaseType" : "STRING",
+        "ParameterName" : "ssname"
+      } ],
+      "Width" : 1024,
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "Events" : [ ],
+  "mashupType" : "mashup",
+  "DataBindings" : [ {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "e55e844a-ffbf-43ba-8e1e-270f64c625af",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "BOOLEAN",
+      "TargetPropertyBaseType" : "ANYSCALAR",
+      "SourceProperty" : "autoStart"
+    } ],
+    "TargetId" : "ValueDisplay-6"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "c813a792-4b33-4667-99c4-f245d959918e",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "ANYSCALAR",
+      "SourceProperty" : "ssdescription"
+    } ],
+    "TargetId" : "ValueDisplay-4"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "57eb3d33-5ac7-4f85-8614-93a8a8482406",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "BOOLEAN",
+      "TargetPropertyBaseType" : "ANYSCALAR",
+      "SourceProperty" : "enabled"
+    } ],
+    "TargetId" : "ValueDisplay-7"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "d93a653e-1b73-4b73-a1a0-d8bf778e5bd1",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "BOOLEAN",
+      "TargetPropertyBaseType" : "ANYSCALAR",
+      "SourceProperty" : "isRunning"
+    } ],
+    "TargetId" : "ValueDisplay-5"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "b334ee89-5114-4bd0-8d03-cc8db2672d27",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "ANYSCALAR",
+      "SourceProperty" : "ssname"
+    } ],
+    "TargetId" : "ValueDisplay-3"
+  } ],
+  "Data" : {
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.957+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

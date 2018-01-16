@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingPackages>
+        <ThingPackage aspect.isSystemObject="true" className="com.thingworx.things.ConfiguredThing" description="User Defined Thing" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:36.795+02:00" name="ConfiguredThing" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <HandlerDefinitions>
+                <HandlerDefinition className="com.thingworx.handlers.ReflectionServiceHandler" description="Reflection handler" isUserDefinable="false" name="Reflection"/>
+                <HandlerDefinition className="com.thingworx.dsl.DSLServiceHandler" description="Script handler" isUserDefinable="true" name="Script"/>
+            </HandlerDefinitions>
+            <ImplementedShapes/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:36.795+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingPackage>
+    </ThingPackages>
+</Entities>

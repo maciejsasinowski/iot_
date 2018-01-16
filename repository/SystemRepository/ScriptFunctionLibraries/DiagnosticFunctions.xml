@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ScriptFunctionLibraries>
+        <ScriptFunctionLibrary aspect.isSystemObject="true" className="com.thingworx.dsl.functions.DiagnosticFunctions" description="Diagnostic function library" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:38.663+02:00" name="DiagnosticFunctions" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FunctionDefinitions>
+                <FunctionDefinition description="Disable verbose diagnostic tracing of script execution" name="disableDiagnosticTrace">
+                    <ResultType baseType="BOOLEAN" description="Previous trace state" name="state" ordinal="0"/>
+                    <ParameterDefinitions/>
+                </FunctionDefinition>
+                <FunctionDefinition description="Enable verbose diagnostic tracing of script execution" name="enableDiagnosticTrace">
+                    <ResultType baseType="BOOLEAN" description="Previous trace state" name="state" ordinal="0"/>
+                    <ParameterDefinitions/>
+                </FunctionDefinition>
+            </FunctionDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.663+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ScriptFunctionLibrary>
+    </ScriptFunctionLibraries>
+</Entities>

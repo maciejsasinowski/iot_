@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="People facets" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.632+02:00" name="PeopleFacets" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="INTEGER" description="Count" name="count" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="FieldDefinition" baseType="INFOTABLE" description="Extension facets" name="extensionFacets" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="MultilevelFacets" baseType="INFOTABLE" description="Model tag facets" name="modelTagFacets" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.632+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

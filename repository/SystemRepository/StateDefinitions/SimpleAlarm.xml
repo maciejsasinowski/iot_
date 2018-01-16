@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StateDefinitions>
+        <StateDefinition aspect.isEditableSystemObject="true" description="Three state alarm" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.168+02:00" name="SimpleAlarm" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"stateType":"numeric","stateDefinitions":[{"comparator":"<","displayString":"Lo","defaultStyleDefinition":"LoAlarmMarker","defaultValue":10,"name":"Lo","description":""},{"comparator":"<","displayString":"Normal","defaultStyleDefinition":"NormalAlarmMarker","defaultValue":90,"name":"Normal","description":""},{"displayString":"Hi","defaultStyleDefinition":"HiAlarmMarker","name":"Hi","description":""}]}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.168+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>

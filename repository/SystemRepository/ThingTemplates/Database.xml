@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="GenericThing" description="Direct database connection via JDBC" documentationContent="" effectiveThingPackage="DatabaseThing" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.004+02:00" name="Database" projectName="" tags="" thingPackage="DatabaseThing" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[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]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Field/Column Name Aliases" isMultiRow="true" name="ColumnAliases" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Database Column Name" baseType="STRING" description="Database column name" name="columnName" ordinal="0"/>
+                            <FieldDefinition aspect.friendlyName="Thingworx Field Name" baseType="STRING" description="Thingworx field name" name="fieldName" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+                <ConfigurationTable description="JDBC Settings" isMultiRow="false" name="ConnectionInfo" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="SELECT NOW()" baseType="STRING" description="Connection test string/query" name="connectionValidationString" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="jdbc:mydb:/server:port/database?param=value" aspect.friendlyName="JDBC Connection String" baseType="STRING" description="JDBC Connection URL" name="jDBCConnectionURL" ordinal="1"/>
+                            <FieldDefinition aspect.defaultValue="com.yourdatabase.yourDriver" aspect.friendlyName="JDBC Driver Class Name" baseType="STRING" description="JDBC Driver Class Name" name="jDBCDriverClass" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="5.0" aspect.friendlyName="Maxium Number of Connections" baseType="NUMBER" description="Maximum number of connections in the pool" name="maxConnections" ordinal="3"/>
+                            <FieldDefinition aspect.friendlyName="Database Password" baseType="PASSWORD" description="Database password" name="password" ordinal="5"/>
+                            <FieldDefinition aspect.friendlyName="Database User Name" baseType="STRING" description="Database user name" name="userName" ordinal="4"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <connectionValidationString><![CDATA[SELECT NOW()]]></connectionValidationString>
+                            <password/>
+                            <jDBCConnectionURL><![CDATA[jdbc:mydb:/server:port/database?param=value]]></jDBCConnectionURL>
+                            <userName/>
+                            <jDBCDriverClass><![CDATA[com.yourdatabase.yourDriver]]></jDBCDriverClass>
+                            <maxConnections>5.0</maxConnections>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Connection Monitoring Settings" isMultiRow="false" name="ConnectionMonitoring" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="30000.0" aspect.friendlyName="Monitor Rate (seconds)" baseType="NUMBER" description="Monitor rate in milliseconds" name="connectionMonitorRate" ordinal="1"/>
+                            <FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Enable Monitoring" baseType="BOOLEAN" description="Enable connection monitoring" name="enableMonitor" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="1.0" aspect.friendlyName="Number of Retries" baseType="NUMBER" description="Number of retries" name="numberOfRetries" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="2000.0" aspect.friendlyName="Retry Delay (milliseconds)" baseType="NUMBER" description="Retry delay in milliseconds" name="retryDelay" ordinal="3"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <retryDelay>2000.0</retryDelay>
+                            <connectionMonitorRate>30000.0</connectionMonitorRate>
+                            <numberOfRetries>1.0</numberOfRetries>
+                            <enableMonitor>false</enableMonitor>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.003+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

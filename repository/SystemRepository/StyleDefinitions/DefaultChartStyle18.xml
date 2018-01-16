@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StyleDefinitions>
+        <StyleDefinition aspect.isEditableSystemObject="true" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.700+02:00" name="DefaultChartStyle18" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"image":"","backgroundColor":"#916529","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"Series 18","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"#c58937","foregroundColor":"#eda543","fontEmphasisBold":false,"secondaryBackgroundColor":"#c58937"}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.700+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StyleDefinition>
+    </StyleDefinitions>
+</Entities>

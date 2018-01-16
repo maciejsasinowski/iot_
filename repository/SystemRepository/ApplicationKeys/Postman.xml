@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ApplicationKeys>
+        <ApplicationKey clientName="" description="For rest API" documentationContent="" expirationDate="2117-12-22T19:08:09.857+01:00" homeMashup="" ipWhitelist="" keyId="" lastModifiedDate="2018-01-15T19:08:09.861+01:00" name="Postman" projectName="Smart Flowers" tags="" userNameReference="Administrator">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, userNameReference : updated, projectName : updated, description : updated&#10;" timestamp="2018-01-15T19:08:09.861+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </ApplicationKey>
+    </ApplicationKeys>
+</Entities>

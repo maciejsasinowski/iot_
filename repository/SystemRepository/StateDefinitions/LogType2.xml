@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StateDefinitions>
+        <StateDefinition aspect.isEditableSystemObject="true" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.180+02:00" name="LogType2" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"stateType":"string","stateDefinitions":[{"displayString":"Communication Log","defaultStyleDefinition":{"image":"LogCommunicationIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","displayString":"","fontEmphasisUnderline":false,"fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"CommunicationLog","name":"Communication Log","description":""},{"displayString":"Application Log","defaultStyleDefinition":{"image":"LogApplicationIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","displayString":"","fontEmphasisUnderline":false,"fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"ApplicationLog","name":"Application Log","description":""},{"displayString":"Configuration Log","defaultStyleDefinition":{"image":"LogConfigurationIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","displayString":"","fontEmphasisUnderline":false,"fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"ConfigurationLog","name":"Configuration Log","description":""},{"displayString":"Script Log","defaultStyleDefinition":{"image":"LogScriptIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","displayString":"","fontEmphasisUnderline":false,"fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"ScriptLog","name":"Script Log","description":""},{"displayString":"Security Log","defaultStyleDefinition":{"image":"LogSecurityIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","displayString":"","fontEmphasisUnderline":false,"fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"SecurityLog","name":"Security Log","description":""},{"displayString":"","defaultStyleDefinition":"","name":"","description":""}]}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.180+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>

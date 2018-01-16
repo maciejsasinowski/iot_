@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Options used during user Provisioning" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.597+02:00" name="UserProvisioningUserDefaults" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="" name="userDefaultDescription" ordinal="0"/>
+                <FieldDefinition baseType="MASHUPNAME" description="Home Mashup" name="userDefaultHomeMashupName" ordinal="1"/>
+                <FieldDefinition baseType="MASHUPNAME" description="Mobile Mashup" name="userDefaultMobileMashupName" ordinal="2"/>
+                <FieldDefinition aspect.tagType="ModelTags" baseType="TAGS" description="" name="userDefaultTags" ordinal="3"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.597+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Application Key listing" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.909+02:00" name="ApplicationKey" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Client name" name="clientName" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Usage description" name="description" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Application Key ID" name="id" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="IP White List" name="ipWhitelist" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Key ID" name="name" ordinal="0"/>
+                <FieldDefinition aspect.tagType="ModelTags" baseType="TAGS" description="Tags" name="tags" ordinal="0"/>
+                <FieldDefinition baseType="USERNAME" description="User name linked to this application key" name="userNameReference" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.909+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

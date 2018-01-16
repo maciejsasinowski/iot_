@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="DataShape used to populate licensed user group usage data" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.315+02:00" name="LicenseGroupUsageDataShape" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="" name="GroupName" ordinal="1"/>
+                <FieldDefinition baseType="STRING" description="" name="NumberGroupLicenses" ordinal="3"/>
+                <FieldDefinition baseType="STRING" description="" name="NumberGroupLicensesAllocated" ordinal="4"/>
+                <FieldDefinition baseType="STRING" description="" name="NumberGroupLicensesUnique" ordinal="5"/>
+                <FieldDefinition baseType="STRING" description="" name="ProductName" ordinal="2"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.315+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

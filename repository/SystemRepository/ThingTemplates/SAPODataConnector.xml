@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="ODataConnector" description="Template for a thing that connects to SAP Netweaver using SAP OData Services" documentationContent="" effectiveThingPackage="SAPODataConnector" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.050+02:00" name="SAPODataConnector" projectName="" tags="" thingPackage="SAPODataConnector" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAz0lEQVR42u2WgQnDIBBFM0JG6AgZ
+IROIo2SEbNIROkJH6AgdISOkCipWVMQI1vIefITzYvx4lzhNAAAAAADdEEKsRktpjh69WGvNRqn5
+W7i50+iZMfCVo0cv1lp2o7mct5Ic2YCVrDUQltDm5dwLyuQV2bBfQmtiPan08E+iykCiR2zOXtB3
+7gRr1lOxwz3/TwZ0Y+wJ/YQBE0+WUIl6GMhpG9XA4d4zQA+EX7Xl8o+sdxNjAAMYuHidjszPyetu
+PN/dpVqsBwAAAAAAAD34AChgojKMNIV1AAAAAElFTkSuQmCC]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="List of authorization server scopes" isMultiRow="true" name="AuthorizationServerScopesSettings" ordinal="2">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Scope" baseType="STRING" description="A single scope for the authorization server." name="Scope" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+                <ConfigurationTable description="Generic Connector Connection Settings" isMultiRow="false" name="GenericConnectorConnectionSettings" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="None" aspect.friendlyName="AuthenticationType" aspect.selectOptions="None:None|Fixed:Fixed|SSO:SSO" baseType="STRING" description="Authentication type for the connection" name="AuthenticationType" ordinal="2"/>
+                            <FieldDefinition aspect.friendlyName="AuthorizationServerID" baseType="STRING" description="Connection Authorization Server ID" name="AuthorizationServerID" ordinal="3"/>
+                            <FieldDefinition aspect.defaultValue="60" aspect.friendlyName="RefreshIntervalInMinutes" baseType="LONG" description="Defines the interval for refreshing the endpoint cache. Value must be non-negative." name="RefreshIntervalInMinutes" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <AuthorizationServerID/>
+                            <RefreshIntervalInMinutes>60</RefreshIntervalInMinutes>
+                            <AuthenticationType><![CDATA[None]]></AuthenticationType>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="HTTP Connector Connection Settings" isMultiRow="false" name="HTTPConnectorConnectionSettings" ordinal="3">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="AuthPassword" baseType="PASSWORD" description="Password to authenticate against the connected system" name="AuthPassword" ordinal="2"/>
+                            <FieldDefinition aspect.friendlyName="AuthUsername" baseType="STRING" description="Username to authenticate against connected system" name="AuthUsername" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="BaseURL" baseType="STRING" description="Base URL of the connected system" name="BaseURL" ordinal="3"/>
+                            <FieldDefinition aspect.friendlyName="ConnectionUrl" baseType="STRING" description="Connection Validation URL to the connected system" name="ConnectionUrl" ordinal="5"/>
+                            <FieldDefinition aspect.friendlyName="RelativeUrl" baseType="STRING" description="Relative URL to the location of connected system" name="RelativeUrl" ordinal="4"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <AuthUsername/>
+                            <ConnectionUrl><![CDATA[/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection]]></ConnectionUrl>
+                            <AuthPassword/>
+                            <RelativeUrl><![CDATA[/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection]]></RelativeUrl>
+                            <BaseURL/>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="OData Connector Connection Settings" isMultiRow="true" name="ODataConnectorConnectionSettings" ordinal="3">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="ServiceRootRelativeURL" baseType="STRING" description="Relative URL OData service root" name="ServiceRootRelativeURL" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.050+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

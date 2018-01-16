@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Subsystems>
+        <Subsystem aspect.isCreatable="false" aspect.isEditableSystemObject="true" autoStart="true" className="com.thingworx.system.subsystems.contentmanagement.ExportImportSubsystem" dependsOn="" description="Export and Import Processing Settings" documentationContent="" enabled="true" friendlyName="Export and Import Processing Settings" homeMashup="" lastModifiedDate="2017-09-30T23:45:38.840+02:00" name="ExportImportSubsystem" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Export and Import Processing Settings" isMultiRow="false" name="ExportImportSettings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="100" aspect.friendlyName="Data export file size MB" baseType="INTEGER" description="Data export file size in megabytes" name="dataExportFileSizeMb" ordinal="1"/>
+                            <FieldDefinition aspect.defaultValue="5" aspect.friendlyName="Max threads allocated to data export processing pool" baseType="INTEGER" description="Maximum number of threads allocated to data export processing thread pool" name="maxDataExportThreadPoolSize" ordinal="3"/>
+                            <FieldDefinition aspect.defaultValue="5" aspect.friendlyName="Max threads allocated to data import processing pool" baseType="INTEGER" description="Maximum number of threads allocated to data import processing thread pool" name="maxDataImportThreadPoolSize" ordinal="5"/>
+                            <FieldDefinition aspect.defaultValue="3" aspect.friendlyName="Min threads allocated to data export processing pool" baseType="INTEGER" description="Minimum number of threads allocated to data export processing thread pool" name="minDataExportThreadPoolSize" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="3" aspect.friendlyName="Min threads allocated to data import processing pool" baseType="INTEGER" description="Minimum number of threads allocated to data import processing thread pool" name="minDataImportThreadPoolSize" ordinal="4"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <maxDataImportThreadPoolSize>5</maxDataImportThreadPoolSize>
+                            <minDataExportThreadPoolSize>3</minDataExportThreadPoolSize>
+                            <minDataImportThreadPoolSize>3</minDataImportThreadPoolSize>
+                            <dataExportFileSizeMb>100</dataExportFileSizeMb>
+                            <maxDataExportThreadPoolSize>5</maxDataExportThreadPoolSize>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.840+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Subsystem>
+    </Subsystems>
+</Entities>

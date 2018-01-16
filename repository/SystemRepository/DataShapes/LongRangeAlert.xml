@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Long range alert" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.442+02:00" name="LongRangeAlert" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.friendlyName="Maximum" aspect.isRequired="true" baseType="LONG" description="Maximum value" name="maximum" ordinal="2"/>
+                <FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Include Maximum?" aspect.isRequired="false" baseType="BOOLEAN" description="Range includes maximum" name="maximumInclusive" ordinal="3"/>
+                <FieldDefinition aspect.friendlyName="Minimum" aspect.isRequired="true" baseType="LONG" description="Minimum value" name="minimum" ordinal="0"/>
+                <FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Include Minimum?" aspect.isRequired="false" baseType="BOOLEAN" description="Range includes minimum" name="minimumInclusive" ordinal="1"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.442+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

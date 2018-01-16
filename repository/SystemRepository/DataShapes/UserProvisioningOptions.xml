@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Options used during user Provisioning" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.999+02:00" name="UserProvisioningOptions" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.defaultValue="false" baseType="BOOLEAN" description="" name="requireAllCredentialsAttributesAreProvisioned" ordinal="2"/>
+                <FieldDefinition aspect.defaultValue="false" baseType="BOOLEAN" description="" name="terminateUserSessionsOnAuthenticatorChange" ordinal="3"/>
+                <FieldDefinition aspect.defaultValue="true" baseType="BOOLEAN" description="" name="userCreationEnabled" ordinal="0"/>
+                <FieldDefinition aspect.defaultValue="true" baseType="BOOLEAN" description="" name="userModificationEnabled" ordinal="1"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.999+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-11-07T00:07:15.754+01:00" name="Pare flower" projectName="Smart Flowers" rows="0.0" tags="smartflowers:smartflowers;flower:flower;flowers:flowers;smart:smart">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions/>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ {
+          "Widgets" : [ ],
+          "Properties" : {
+            "SubMenuHeight" : 25,
+            "MenuBackgroundStyle" : "DefaultMenuBackgroundStyle",
+            "Left" : 30,
+            "AllButTopRememberLastChoice" : true,
+            "MenuSelectedStyle" : "DefaultMenuSelectedStyle",
+            "ShowDataLoading" : true,
+            "MenuItemDisplay" : "iconleftoftext",
+            "Alignment" : "left",
+            "Visible" : true,
+            "DisplayName" : "menu-4",
+            "Height" : 30,
+            "EvenlySpacedMenuItems" : false,
+            "Width" : 250,
+            "DrivePageMashupOrBindToMashup" : "pagemashup",
+            "MenuLevelSelectedStyle" : "DefaultMenuLevelSelectedStyle",
+            "ResponsiveLayout" : true,
+            "Z-index" : 10,
+            "IconMaxWidth" : 22,
+            "View" : "horiz",
+            "MenuLevelStyle" : "DefaultMenuLevelStyle",
+            "MenuLevelHoverStyle" : "DefaultMenuLevelHoverStyle",
+            "__TypeDisplayName" : "Menu",
+            "Area" : "UI",
+            "Type" : "menu",
+            "MenuHoverStyle" : "DefaultMenuHoverStyle",
+            "ConfiguredOrDataDriven" : "configured",
+            "Top" : 125,
+            "SubmenuWidthMatchParent" : false,
+            "Levels" : "all",
+            "MenuStyle" : "DefaultMenuStyle",
+            "Id" : "menu-4"
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Visible" : true,
+          "DisplayName" : "Left Sidebar",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "TabOffset" : 0,
+          "MinWidth" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-2"
+        }
+      }, {
+        "Widgets" : [ {
+          "Widgets" : [ {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 626.9792175292969,
+              "CancelConfirmationButton" : "button2",
+              "ShowDataLoading" : true,
+              "Label" : "Szukaj kwiatka",
+              "FocusStyle" : "DefaultButtonFocusStyle",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "IconAlignment" : "left",
+              "Visible" : true,
+              "DisplayName" : "button-8",
+              "Style" : "DefaultButtonStyle",
+              "Height" : 30,
+              "DisabledStyle" : "DefaultButtonDisabledStyle",
+              "ConfirmationTitle" : "Confirm Action",
+              "Disabled" : false,
+              "Width" : 211,
+              "ResponsiveLayout" : false,
+              "ConfirmationPrompt" : "Do Action?",
+              "Z-index" : 10,
+              "ConfirmationButton1Label" : "Yes",
+              "RoundedCorners" : true,
+              "__TypeDisplayName" : "Button",
+              "HoverStyle" : "DefaultButtonHoverStyle",
+              "Area" : "UI",
+              "Type" : "button",
+              "Top" : 206.9791717529297,
+              "DefaultConfirmationButton" : "button1",
+              "ContextId" : "",
+              "ConfirmationRequired" : false,
+              "Id" : "button-8",
+              "ConfirmationButton2Label" : "No",
+              "ActiveStyle" : "DefaultButtonActiveStyle"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 266.9792175292969,
+              "ShowDataLoading" : true,
+              "ResponsiveLayout" : false,
+              "Z-index" : 10,
+              "Text" : "Znaleziony kwiatek:",
+              "__TypeDisplayName" : "Label",
+              "ToolTipField" : "",
+              "Area" : "UI",
+              "Type" : "label",
+              "Alignment" : "left",
+              "Top" : 211.9791717529297,
+              "Visible" : true,
+              "DisplayName" : "label-10",
+              "Style" : "DefaultLabelStyle",
+              "Height" : 22,
+              "Id" : "label-10",
+              "Width" : 211
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 390.9895935058594,
+              "TextboxLabelStyle" : "DefaultWidgetLabelStyle",
+              "ShowDataLoading" : true,
+              "Label" : "",
+              "PlaceholderText" : "",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "TextAlign" : "left",
+              "Visible" : true,
+              "DisplayName" : "textbox-11",
+              "Style" : "DefaultTextBoxStyle",
+              "Height" : 24,
+              "Width" : 200,
+              "ReadOnly" : false,
+              "__supportsLabel" : true,
+              "InnerShadow" : true,
+              "ResponsiveLayout" : false,
+              "LabelAlignment" : "left",
+              "Z-index" : 10,
+              "Text" : "Flowers_find",
+              "__TypeDisplayName" : "TextBox",
+              "Area" : "UI",
+              "Type" : "textbox",
+              "DefaultTextboxFocusStyle" : "DefaultFocusStyle",
+              "MaskInputCharacters" : false,
+              "Top" : 210.98960876464844,
+              "CursorPosition" : 0,
+              "Id" : "textbox-11"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 391.9792175292969,
+              "CancelConfirmationButton" : "button2",
+              "ShowDataLoading" : true,
+              "Label" : "Paruj",
+              "FocusStyle" : "DefaultButtonFocusStyle",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "IconAlignment" : "left",
+              "Visible" : true,
+              "DisplayName" : "button-12",
+              "Style" : "DefaultButtonStyle",
+              "Height" : 30,
+              "DisabledStyle" : "DefaultButtonDisabledStyle",
+              "ConfirmationTitle" : "Confirm Action",
+              "Disabled" : false,
+              "Width" : 176,
+              "ResponsiveLayout" : false,
+              "ConfirmationPrompt" : "Do Action?",
+              "Z-index" : 10,
+              "ConfirmationButton1Label" : "Yes",
+              "RoundedCorners" : true,
+              "__TypeDisplayName" : "Button",
+              "HoverStyle" : "DefaultButtonHoverStyle",
+              "Area" : "UI",
+              "Type" : "button",
+              "Top" : 271.9791717529297,
+              "DefaultConfirmationButton" : "button1",
+              "ContextId" : "",
+              "ConfirmationRequired" : false,
+              "Id" : "button-12",
+              "ConfirmationButton2Label" : "No",
+              "ActiveStyle" : "DefaultButtonActiveStyle"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 395.9895935058594,
+              "ShowDataLoading" : true,
+              "ResponsiveLayout" : false,
+              "Z-index" : 10,
+              "Text" : "Status: Sparowano",
+              "__TypeDisplayName" : "Label",
+              "ToolTipField" : "",
+              "Area" : "UI",
+              "Type" : "label",
+              "Alignment" : "left",
+              "Top" : 310.98960876464844,
+              "Visible" : true,
+              "DisplayName" : "label-14",
+              "Style" : "DefaultLabelStyle",
+              "Height" : 22,
+              "Id" : "label-14",
+              "Width" : 156
+            }
+          } ],
+          "Properties" : {
+            "Left" : 310,
+            "HideScrollbars" : false,
+            "ResponsiveLayout" : true,
+            "ShowDataLoading" : true,
+            "Z-index" : 10,
+            "VerticalAnchor" : "top",
+            "__TypeDisplayName" : "Panel",
+            "HorizontalAnchor" : "left",
+            "Area" : "UI",
+            "Type" : "panel",
+            "Top" : 175,
+            "Visible" : true,
+            "DisplayName" : "panel-5",
+            "Style" : "DefaultPanelStyle",
+            "Height" : 200,
+            "Id" : "panel-5",
+            "Width" : 300
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Visible" : true,
+          "DisplayName" : "Column 1",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "TabOffset" : 0,
+          "MinWidth" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-3"
+        }
+      } ],
+      "Properties" : {
+        "Left" : 325,
+        "IncludeSpacingInFixedAreas" : false,
+        "ShowDataLoading" : true,
+        "HeaderHeight" : 0,
+        "PctRow4" : 0,
+        "PctRow3" : 0,
+        "PctRow2" : 50,
+        "FooterHeight" : 0,
+        "PctRow1" : 50,
+        "PctRow8" : 0,
+        "PctRow7" : 0,
+        "PctRow6" : 0,
+        "PctRow5" : 0,
+        "LeftSidebar" : true,
+        "RightSidebar" : false,
+        "PctColumn5" : 1,
+        "Visible" : true,
+        "DisplayName" : "layout-1",
+        "PctColumn6" : 1,
+        "PctColumn3" : 1,
+        "PrintWidth" : 650,
+        "PctColumn4" : 1,
+        "PctColumn1" : 100,
+        "PctColumn2" : 0,
+        "PrintMarginTopBottom" : 0.5,
+        "Rows" : 0,
+        "RightSidebarWidth" : 0,
+        "PrintMarginLeftRight" : 0.5,
+        "PctColumn7" : 1,
+        "PctColumn8" : 1,
+        "ResponsiveLayout" : true,
+        "Columns" : 1,
+        "Z-index" : 10,
+        "Spacing" : 2,
+        "Orientation" : "horizontal",
+        "__TypeDisplayName" : "Layout",
+        "Area" : "UI",
+        "Type" : "layout",
+        "LeftSidebarWidth" : 100,
+        "Header" : false,
+        "Top" : 155,
+        "IsPrintLayout" : false,
+        "Footer" : false,
+        "Id" : "layout-1"
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "BGImageRepeat" : "no-repeat",
+      "ShowDataLoading" : true,
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "id_index" : 14,
+      "supportsAutoResize" : true,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : "DefaultMashupStyle",
+      "BGImageSize" : "auto",
+      "Height" : 618,
+      "Width" : 1024,
+      "TitleBar" : false,
+      "Rows" : 0,
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "ResponsiveLayout" : true,
+      "Title" : "",
+      "Columns" : 0,
+      "Z-index" : 10,
+      "TitleBarText" : "Gadget Title Here",
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "EnableParameterEditing" : false,
+      "Area" : "Mashup",
+      "Type" : "mashup",
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "MashupToEditGadget" : "DefaultMashupToEditGadget",
+      "Id" : "mashup-root",
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "Events" : [ ],
+  "mashupType" : "mashup",
+  "DataBindings" : [ ],
+  "Data" : {
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, projectName : updated, tags : updated&#10;documentation : updated&#10;" timestamp="2017-11-07T00:07:15.754+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

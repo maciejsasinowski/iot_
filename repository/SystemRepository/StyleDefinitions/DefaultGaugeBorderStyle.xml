@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StyleDefinitions>
+        <StyleDefinition aspect.isEditableSystemObject="true" aspect.isThemeObject="true" description="Default gauge border style" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.770+02:00" name="DefaultGaugeBorderStyle" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"image":"","backgroundColor":"#e6e6e6","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"#b3b3b3","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":"#ffffff"}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.770+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StyleDefinition>
+    </StyleDefinitions>
+</Entities>

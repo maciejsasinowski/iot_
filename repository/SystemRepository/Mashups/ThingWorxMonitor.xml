@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.isSystemObject="true" aspect.mashupType="target" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.873+02:00" name="ThingWorxMonitor" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions/>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ {
+          "Widgets" : [ {
+            "Widgets" : [ {
+              "Widgets" : [ {
+                "Widgets" : [ ],
+                "Properties" : {
+                  "SourceURL" : "ThingWorxSystemTargetLogo",
+                  "Left" : 10,
+                  "BorderStyle" : "DefaultImageBorderStyle",
+                  "ResponsiveLayout" : false,
+                  "Z-index" : 10,
+                  "__TypeDisplayName" : "Image",
+                  "Type" : "image",
+                  "Area" : "UI",
+                  "Top" : 2,
+                  "AlternateText" : "",
+                  "Visible" : true,
+                  "DisplayName" : "Image-13",
+                  "Height" : 36,
+                  "PreventCaching" : false,
+                  "Id" : "Image-13",
+                  "Width" : 172
+                }
+              }, {
+                "Widgets" : [ ],
+                "Properties" : {
+                  "SubMenuHeight" : 25,
+                  "MenuBackgroundStyle" : "MonitoringHeaderStyle",
+                  "Left" : 200,
+                  "AllButTopRememberLastChoice" : true,
+                  "MenuSelectedStyle" : {
+                    "image" : "",
+                    "backgroundColor" : "#111111",
+                    "textSize" : "normal",
+                    "lineStyle" : "solid",
+                    "fontEmphasisUnderline" : false,
+                    "displayString" : "",
+                    "fontEmphasisItalic" : false,
+                    "lineThickness" : 1,
+                    "lineColor" : "",
+                    "foregroundColor" : "#ffffff",
+                    "fontEmphasisBold" : true,
+                    "secondaryBackgroundColor" : "#333333"
+                  },
+                  "MenuItemDisplay" : "iconleftoftext",
+                  "Alignment" : "left",
+                  "Visible" : true,
+                  "DisplayName" : "Menu-19",
+                  "Height" : 40,
+                  "Menu" : "ThingworxMonitoringMenu",
+                  "EvenlySpacedMenuItems" : false,
+                  "Width" : 750,
+                  "DrivePageMashupOrBindToMashup" : "pagemashup",
+                  "MenuLevelSelectedStyle" : "DefaultMenuLevelSelectedStyle",
+                  "ResponsiveLayout" : false,
+                  "Z-index" : 10,
+                  "IconMaxWidth" : 22,
+                  "View" : "horiz",
+                  "MenuLevelStyle" : {
+                    "image" : "",
+                    "backgroundColor" : "#ffffff",
+                    "textSize" : "normal",
+                    "lineStyle" : "solid",
+                    "fontEmphasisUnderline" : false,
+                    "displayString" : "",
+                    "fontEmphasisItalic" : false,
+                    "lineThickness" : 0,
+                    "lineColor" : "",
+                    "foregroundColor" : "#333333",
+                    "fontEmphasisBold" : false,
+                    "secondaryBackgroundColor" : ""
+                  },
+                  "MenuLevelHoverStyle" : {
+                    "image" : "",
+                    "backgroundColor" : "#eeeeee",
+                    "textSize" : "normal",
+                    "lineStyle" : "solid",
+                    "fontEmphasisUnderline" : false,
+                    "displayString" : "",
+                    "fontEmphasisItalic" : false,
+                    "lineThickness" : 1,
+                    "lineColor" : "",
+                    "foregroundColor" : "#333333",
+                    "fontEmphasisBold" : false,
+                    "secondaryBackgroundColor" : ""
+                  },
+                  "__TypeDisplayName" : "Menu",
+                  "Type" : "menu",
+                  "Area" : "UI",
+                  "MenuHoverStyle" : {
+                    "image" : "",
+                    "backgroundColor" : "#333333",
+                    "textSize" : "normal",
+                    "lineStyle" : "solid",
+                    "fontEmphasisUnderline" : false,
+                    "displayString" : "",
+                    "fontEmphasisItalic" : false,
+                    "lineThickness" : 1,
+                    "lineColor" : "",
+                    "foregroundColor" : "",
+                    "fontEmphasisBold" : false,
+                    "secondaryBackgroundColor" : "#000000"
+                  },
+                  "ConfiguredOrDataDriven" : "configured",
+                  "Top" : 0,
+                  "Levels" : "all",
+                  "MenuStyle" : {
+                    "image" : "",
+                    "backgroundColor" : "",
+                    "textSize" : "xlarge",
+                    "lineStyle" : "solid",
+                    "fontEmphasisUnderline" : false,
+                    "displayString" : "",
+                    "fontEmphasisItalic" : false,
+                    "lineThickness" : 1,
+                    "lineColor" : "#333333",
+                    "foregroundColor" : "#eeeeee",
+                    "fontEmphasisBold" : false,
+                    "secondaryBackgroundColor" : ""
+                  },
+                  "Id" : "Menu-19"
+                }
+              } ],
+              "Properties" : {
+                "Left" : 165,
+                "ResponsiveLayout" : true,
+                "Z-index" : 10,
+                "VerticalAnchor" : "top",
+                "__TypeDisplayName" : "Panel",
+                "HorizontalAnchor" : "left",
+                "Type" : "panel",
+                "Area" : "UI",
+                "Top" : 10,
+                "Visible" : true,
+                "DisplayName" : "Panel-17",
+                "Style" : "MonitoringHeaderStyle",
+                "Height" : 200,
+                "Id" : "Panel-17",
+                "Width" : 300
+              }
+            } ],
+            "Properties" : {
+              "MinHeight" : 0,
+              "TabWidth" : 50,
+              "ResponsiveLayout" : true,
+              "BGImageRepeat" : "no-repeat",
+              "Z-index" : 10,
+              "ShowExpandCollapseTab" : false,
+              "MinWidth" : 0,
+              "TabOffset" : 0,
+              "__TypeDisplayName" : "Container",
+              "TabLocation" : "center",
+              "Type" : "container",
+              "Area" : "UI",
+              "Visible" : true,
+              "AnimateExpandCollapse" : true,
+              "DisplayName" : "Column 1",
+              "TabCollapsedStyle" : "DefaultTabCollapsedStyle",
+              "Style" : {
+                "image" : "",
+                "backgroundColor" : "",
+                "textSize" : "normal",
+                "lineStyle" : "solid",
+                "fontEmphasisUnderline" : false,
+                "displayString" : "",
+                "fontEmphasisItalic" : false,
+                "lineThickness" : 0,
+                "lineColor" : "",
+                "foregroundColor" : "",
+                "fontEmphasisBold" : false,
+                "secondaryBackgroundColor" : ""
+              },
+              "BGImageSize" : "auto",
+              "TabHeight" : 50,
+              "Id" : "container-15",
+              "Overlay" : false,
+              "TabExpandedStyle" : "DefaultTabExpandedStyle",
+              "Expanded" : true
+            }
+          } ],
+          "Properties" : {
+            "Left" : 240,
+            "IncludeSpacingInFixedAreas" : false,
+            "HeaderHeight" : 0,
+            "PctRow4" : 0,
+            "PctRow3" : 0,
+            "PctRow2" : 50,
+            "PctRow1" : 50,
+            "FooterHeight" : 0,
+            "PctRow8" : 0,
+            "PctRow7" : 0,
+            "PctRow6" : 0,
+            "PctRow5" : 0,
+            "Visible" : true,
+            "PctColumn5" : 1,
+            "RightSidebar" : false,
+            "DisplayName" : "Layout-14",
+            "LeftSidebar" : false,
+            "PctColumn6" : 1,
+            "PrintWidth" : 650,
+            "PctColumn3" : 1,
+            "PctColumn4" : 1,
+            "PctColumn1" : 100,
+            "PctColumn2" : 0,
+            "Rows" : 0,
+            "RightSidebarWidth" : 0,
+            "PctColumn7" : 1,
+            "ResponsiveLayout" : true,
+            "PctColumn8" : 1,
+            "Columns" : 1,
+            "Z-index" : 10,
+            "Spacing" : 0,
+            "Orientation" : "horizontal",
+            "__TypeDisplayName" : "Layout",
+            "Type" : "layout",
+            "Area" : "UI",
+            "LeftSidebarWidth" : 0,
+            "Header" : false,
+            "Top" : 15,
+            "IsPrintLayout" : false,
+            "Footer" : false,
+            "Id" : "Layout-14"
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 50,
+          "ResponsiveLayout" : true,
+          "BGImageRepeat" : "no-repeat",
+          "Z-index" : 10,
+          "ShowExpandCollapseTab" : false,
+          "MinWidth" : 0,
+          "TabOffset" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Type" : "container",
+          "Area" : "UI",
+          "Visible" : true,
+          "AnimateExpandCollapse" : true,
+          "DisplayName" : "Header",
+          "TabCollapsedStyle" : "DefaultTabCollapsedStyle",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "TabHeight" : 50,
+          "Id" : "container-2",
+          "Overlay" : false,
+          "TabExpandedStyle" : "DefaultTabExpandedStyle",
+          "Expanded" : true
+        }
+      }, {
+        "Widgets" : [ {
+          "Widgets" : [ {
+            "Widgets" : [ {
+              "Widgets" : [ ],
+              "Properties" : {
+                "Left" : 0,
+                "ResponsiveLayout" : true,
+                "Z-index" : 10,
+                "Name" : "",
+                "__TypeDisplayName" : "Page Mashup Container",
+                "Type" : "pagemashupcontainer",
+                "Area" : "UI",
+                "Top" : 0,
+                "Visible" : true,
+                "DisplayName" : "Page Mashup",
+                "Height" : 300,
+                "Id" : "pagemashupcontainer-8",
+                "Width" : 400
+              }
+            } ],
+            "Properties" : {
+              "MinHeight" : 0,
+              "TabWidth" : 50,
+              "ResponsiveLayout" : true,
+              "BGImageRepeat" : "no-repeat",
+              "Z-index" : 10,
+              "ShowExpandCollapseTab" : false,
+              "MinWidth" : 0,
+              "TabOffset" : 0,
+              "__TypeDisplayName" : "Container",
+              "TabLocation" : "center",
+              "Type" : "container",
+              "Area" : "UI",
+              "Visible" : true,
+              "AnimateExpandCollapse" : true,
+              "DisplayName" : "Page Mashup Container",
+              "TabCollapsedStyle" : "DefaultTabCollapsedStyle",
+              "Style" : "DefaultContainerStyle",
+              "BGImageSize" : "auto",
+              "TabHeight" : 50,
+              "Id" : "container-7",
+              "Overlay" : false,
+              "TabExpandedStyle" : "DefaultTabExpandedStyle",
+              "Expanded" : true
+            }
+          } ],
+          "Properties" : {
+            "IncludeSpacingInFixedAreas" : false,
+            "HeaderHeight" : 0,
+            "PctRow4" : 0,
+            "PctRow3" : 0,
+            "PctRow2" : 50,
+            "PctRow1" : 50,
+            "FooterHeight" : 0,
+            "PctRow8" : 0,
+            "PctRow7" : 0,
+            "PctRow6" : 0,
+            "PctRow5" : 0,
+            "Visible" : true,
+            "PctColumn5" : 1,
+            "RightSidebar" : false,
+            "DisplayName" : "Content Layout",
+            "LeftSidebar" : false,
+            "PctColumn6" : 1,
+            "PrintWidth" : 650,
+            "PctColumn3" : 1,
+            "PctColumn4" : 1,
+            "PctColumn1" : 100,
+            "PctColumn2" : 50,
+            "Rows" : 0,
+            "RightSidebarWidth" : 0,
+            "PctColumn7" : 1,
+            "ResponsiveLayout" : true,
+            "PctColumn8" : 1,
+            "Columns" : 1,
+            "Z-index" : 10,
+            "Spacing" : 2,
+            "Orientation" : "horizontal",
+            "__TypeDisplayName" : "Layout",
+            "Type" : "layout",
+            "Area" : "UI",
+            "LeftSidebarWidth" : 0,
+            "Header" : false,
+            "IsPrintLayout" : false,
+            "Footer" : false,
+            "Id" : "layout-5"
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 50,
+          "ResponsiveLayout" : true,
+          "BGImageRepeat" : "no-repeat",
+          "Z-index" : 10,
+          "ShowExpandCollapseTab" : false,
+          "MinWidth" : 0,
+          "TabOffset" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Type" : "container",
+          "Area" : "UI",
+          "Visible" : true,
+          "AnimateExpandCollapse" : true,
+          "DisplayName" : "Content",
+          "TabCollapsedStyle" : "DefaultTabCollapsedStyle",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "TabHeight" : 50,
+          "Id" : "container-3",
+          "Overlay" : false,
+          "TabExpandedStyle" : "DefaultTabExpandedStyle",
+          "Expanded" : true
+        }
+      } ],
+      "Properties" : {
+        "IncludeSpacingInFixedAreas" : false,
+        "HeaderHeight" : 42,
+        "PctRow4" : 0,
+        "PctRow3" : 0,
+        "PctRow2" : 50,
+        "PctRow1" : 100,
+        "FooterHeight" : 0,
+        "PctRow8" : 0,
+        "PctRow7" : 0,
+        "PctRow6" : 0,
+        "PctRow5" : 0,
+        "Visible" : true,
+        "PctColumn5" : 1,
+        "RightSidebar" : false,
+        "DisplayName" : "Master Layout",
+        "LeftSidebar" : false,
+        "PctColumn6" : 1,
+        "PrintWidth" : 650,
+        "PctColumn3" : 1,
+        "PctColumn4" : 1,
+        "PctColumn1" : 50,
+        "PctColumn2" : 50,
+        "Rows" : 1,
+        "RightSidebarWidth" : 0,
+        "PctColumn7" : 1,
+        "ResponsiveLayout" : true,
+        "PctColumn8" : 1,
+        "Columns" : 0,
+        "Z-index" : 10,
+        "Spacing" : 2,
+        "Orientation" : "vertical",
+        "__TypeDisplayName" : "Layout",
+        "Type" : "layout",
+        "Area" : "UI",
+        "LeftSidebarWidth" : 0,
+        "Header" : true,
+        "IsPrintLayout" : false,
+        "Footer" : false,
+        "Id" : "layout-1"
+      }
+    } ],
+    "Properties" : {
+      "WindowStyle" : "DefaultMasterWindowStyle",
+      "MinHeight" : 0,
+      "Left" : 0,
+      "DefaultPageMashup" : "LogViewer",
+      "ResponsiveLayout" : true,
+      "BGImageRepeat" : "no-repeat",
+      "Z-index" : 10,
+      "id_index" : 22,
+      "MinWidth" : 0,
+      "DropShadow" : false,
+      "Font" : "Arial, Helvetica",
+      "__TypeDisplayName" : "Master Mashup",
+      "Type" : "targetmashup",
+      "Area" : "Mashup",
+      "supportsAutoResize" : true,
+      "Top" : 0,
+      "MaxWidth" : 0,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : {
+        "image" : "",
+        "backgroundColor" : "",
+        "textSize" : "normal",
+        "lineStyle" : "solid",
+        "fontEmphasisUnderline" : false,
+        "displayString" : "",
+        "fontEmphasisItalic" : false,
+        "lineThickness" : 0,
+        "lineColor" : "",
+        "foregroundColor" : "",
+        "fontEmphasisBold" : false,
+        "secondaryBackgroundColor" : ""
+      },
+      "BGImageSize" : "auto",
+      "Height" : 768,
+      "Id" : "mashup-root",
+      "Width" : 1024
+    }
+  },
+  "mashupType" : "targetmashup",
+  "Events" : [ ],
+  "DataBindings" : [ ],
+  "Data" : {
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.873+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

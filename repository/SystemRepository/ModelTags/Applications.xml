@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ModelTags>
+        <ModelTagVocabulary description="Applications vocabulary for tagging application entities" documentationContent="" homeMashup="" isDynamic="true" lastModifiedDate="2017-09-30T23:45:34.161+02:00" name="Applications" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <VocabularyTerm description="" name="BusinessRuleEngine"/>
+            <VocabularyTerm description="" name="DataModelGuide"/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.161+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ModelTagVocabulary>
+    </ModelTags>
+</Entities>

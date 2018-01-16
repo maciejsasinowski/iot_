@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Extension info data shape" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.637+02:00" name="ExtensionInfoDataShape" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="INTEGER" description="Extension major version number" name="extensionMajor" ordinal="2"/>
+                <FieldDefinition baseType="INTEGER" description="Extension minor version number" name="extensionMinor" ordinal="3"/>
+                <FieldDefinition baseType="STRING" description="Extension name" name="extensionName" ordinal="1"/>
+                <FieldDefinition baseType="INTEGER" description="Extension patch version number" name="extensionPatch" ordinal="4"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.637+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

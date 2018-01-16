@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="GenericThing" description="Timer" documentationContent="" effectiveThingPackage="TimerThing" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.059+02:00" name="Timer" projectName="" tags="" thingPackage="TimerThing" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[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
++hfdX25spY8zMwAAAABJRU5ErkJggg==]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="General Settings" isMultiRow="false" name="Settings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="true" baseType="BOOLEAN" description="Automatically enable timer on startup" name="enabled" ordinal="0"/>
+                            <FieldDefinition baseType="USERNAME" description="User context in which to run event handlers" name="runAsUser" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="60000.0" baseType="NUMBER" description="Update rate" name="updateRate" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <runAsUser/>
+                            <updateRate>60000.0</updateRate>
+                            <enabled>true</enabled>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.059+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.isSystemObject="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.884+02:00" name="MonitoringTunnelSubsystem" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions/>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ {
+          "Widgets" : [ {
+            "Widgets" : [ {
+              "Widgets" : [ ],
+              "Properties" : {
+                "RowSelectedStyle" : "DefaultRowSelectedStyle",
+                "IsEditable" : false,
+                "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+                "Left" : 395,
+                "ShowDataLoading" : true,
+                "GridHeaderStyle" : "DefaultGridHeaderStyle",
+                "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+                "FocusStyle" : "DefaultFocusStyle",
+                "RowFormat_StateParameters" : [ ],
+                "TabSequence" : 0,
+                "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+                "CellTextWrapping" : false,
+                "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+                "Visible" : true,
+                "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+                "DisplayName" : "Grid-55",
+                "Height" : 200,
+                "Width" : 400,
+                "MultiSelect" : false,
+                "CurrentScrollTop" : 0,
+                "ResponsiveLayout" : true,
+                "Z-index" : 10,
+                "ShowAllColumns" : false,
+                "AlignHeader" : false,
+                "__TypeDisplayName" : "Grid",
+                "ScrollTop" : 0,
+                "RowHeight" : 30,
+                "ColumnFormat" : {
+                  "formatInfo" : [ {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[description]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "STRING",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "full"
+                    },
+                    "FieldName" : "description",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "right",
+                    "AllowEdit" : false,
+                    "Title" : "[[value]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "NUMBER",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "000,000,000"
+                    },
+                    "FieldName" : "value",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[name]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "STRING",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "full"
+                    },
+                    "FieldName" : "name",
+                    "Width" : "auto"
+                  } ]
+                },
+                "Type" : "dhxgrid",
+                "Area" : "UI",
+                "Top" : 330,
+                "IsPrintLayout" : false,
+                "Id" : "Grid-55",
+                "RowHoverStyle" : "DefaultRowHoverStyle",
+                "AutoSelectFirstRow" : false,
+                "GridHeaderTextCase" : "none"
+              }
+            } ],
+            "Properties" : {
+              "MinHeight" : 0,
+              "TabWidth" : 36,
+              "BGImageRepeat" : "no-repeat",
+              "ShowDataLoading" : true,
+              "ShowExpandCollapseTab" : false,
+              "ExpandCollapseTabLocation" : "outside",
+              "Visible" : true,
+              "DisplayName" : "Container-54",
+              "TabExpandStyle" : "DefaultTabExpandStyle",
+              "Style" : "DefaultContainerStyle",
+              "BGImageSize" : "auto",
+              "OnTop" : false,
+              "Overlay" : false,
+              "Expanded" : true,
+              "TabCollapseStyle" : "DefaultTabCollapseStyle",
+              "OverlayIsTransparent" : false,
+              "ResponsiveLayout" : true,
+              "Z-index" : 10,
+              "MinWidth" : 0,
+              "TabOffset" : 0,
+              "__TypeDisplayName" : "Container",
+              "TabLocation" : "center",
+              "Type" : "container",
+              "Area" : "UI",
+              "AnimateExpandCollapse" : true,
+              "TabHeight" : 36,
+              "Id" : "Container-54"
+            }
+          } ],
+          "Properties" : {
+            "Left" : 200,
+            "IncludeSpacingInFixedAreas" : false,
+            "ShowDataLoading" : true,
+            "HeaderHeight" : 0,
+            "PctRow4" : 0,
+            "PctRow3" : 0,
+            "PctRow2" : 0,
+            "PctRow1" : 100,
+            "FooterHeight" : 0,
+            "PctRow8" : 0,
+            "PctRow7" : 0,
+            "PctRow6" : 0,
+            "PctRow5" : 0,
+            "Visible" : true,
+            "PctColumn5" : 1,
+            "RightSidebar" : false,
+            "DisplayName" : "Layout-49",
+            "LeftSidebar" : false,
+            "PctColumn6" : 1,
+            "PrintWidth" : 650,
+            "PctColumn3" : 1,
+            "PctColumn4" : 1,
+            "PctColumn1" : 50,
+            "PctColumn2" : 50,
+            "PrintMarginTopBottom" : 0.5,
+            "Rows" : 1,
+            "RightSidebarWidth" : 0,
+            "PrintMarginLeftRight" : 0.5,
+            "PctColumn7" : 1,
+            "ResponsiveLayout" : true,
+            "PctColumn8" : 1,
+            "Columns" : 0,
+            "Z-index" : 10,
+            "Spacing" : 2,
+            "Orientation" : "vertical",
+            "__TypeDisplayName" : "Layout",
+            "Type" : "layout",
+            "Area" : "UI",
+            "LeftSidebarWidth" : 0,
+            "Header" : false,
+            "Top" : 110,
+            "IsPrintLayout" : false,
+            "Footer" : false,
+            "Id" : "Layout-49"
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "Visible" : true,
+          "DisplayName" : "Header",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "OnTop" : false,
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "MinWidth" : 0,
+          "TabOffset" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Type" : "container",
+          "Area" : "UI",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-47"
+        }
+      }, {
+        "Widgets" : [ {
+          "Widgets" : [ {
+            "Widgets" : [ {
+              "Widgets" : [ ],
+              "Properties" : {
+                "RowSelectedStyle" : "DefaultRowSelectedStyle",
+                "IsEditable" : false,
+                "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+                "Left" : 190,
+                "ShowDataLoading" : true,
+                "GridHeaderStyle" : "DefaultGridHeaderStyle",
+                "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+                "FocusStyle" : "DefaultFocusStyle",
+                "RowFormat_StateParameters" : [ ],
+                "TabSequence" : 0,
+                "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+                "CellTextWrapping" : false,
+                "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+                "Visible" : true,
+                "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+                "DisplayName" : "Grid-38",
+                "Height" : 200,
+                "Width" : 400,
+                "MultiSelect" : false,
+                "CurrentScrollTop" : 0,
+                "ResponsiveLayout" : true,
+                "Z-index" : 10,
+                "ShowAllColumns" : false,
+                "AlignHeader" : false,
+                "__TypeDisplayName" : "Grid",
+                "ScrollTop" : 0,
+                "RowHeight" : 30,
+                "ColumnFormat" : {
+                  "formatInfo" : [ {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[blockSize]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "DEFAULT",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : ""
+                    },
+                    "FieldName" : "blockSize",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[bytesTransferred]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "NUMBER",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "0.00"
+                    },
+                    "FieldName" : "bytesTransferred",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[code]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "DEFAULT",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : ""
+                    },
+                    "FieldName" : "code",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[duration]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "DEFAULT",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : ""
+                    },
+                    "FieldName" : "duration",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[endTime]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "DATETIME",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "[[dateTimeFormat_Default]]"
+                    },
+                    "FieldName" : "endTime",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[host]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "STRING",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "full"
+                    },
+                    "FieldName" : "host",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[isComplete]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "BOOLEAN",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "checkbox"
+                    },
+                    "FieldName" : "isComplete",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[message]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "STRING",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "full"
+                    },
+                    "FieldName" : "message",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[numConnects]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "DEFAULT",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : ""
+                    },
+                    "FieldName" : "numConnects",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[port]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "DEFAULT",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : ""
+                    },
+                    "FieldName" : "port",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[proto]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "STRING",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "full"
+                    },
+                    "FieldName" : "proto",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[readTimeout]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "DEFAULT",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : ""
+                    },
+                    "FieldName" : "readTimeout",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[startTime]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "DATETIME",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "[[dateTimeFormat_Default]]"
+                    },
+                    "FieldName" : "startTime",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[state]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "STRING",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "full"
+                    },
+                    "FieldName" : "state",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[targetThing]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "STRING",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "full"
+                    },
+                    "FieldName" : "targetThing",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[tunnelId]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "STRING",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "full"
+                    },
+                    "FieldName" : "tunnelId",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[tunnelName]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "STRING",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "full"
+                    },
+                    "FieldName" : "tunnelName",
+                    "Width" : "auto"
+                  }, {
+                    "ValidationMessage" : "",
+                    "Align" : "left",
+                    "AllowEdit" : false,
+                    "Title" : "[[user]]",
+                    "ValidationExpression" : "",
+                    "FormatOptions" : {
+                      "renderer" : "STRING",
+                      "formatInfo" : {
+                        "StateFormats" : [ {
+                          "stateName" : "fixed",
+                          "state" : ""
+                        } ],
+                        "StateDefinition" : "",
+                        "StateDefinitionType" : "fixed",
+                        "FieldName" : ""
+                      },
+                      "formatText" : "View",
+                      "FormatString" : "full"
+                    },
+                    "FieldName" : "user",
+                    "Width" : "auto"
+                  } ]
+                },
+                "Type" : "dhxgrid",
+                "Area" : "UI",
+                "Top" : 90,
+                "IsPrintLayout" : false,
+                "Id" : "Grid-38",
+                "RowHoverStyle" : "DefaultRowHoverStyle",
+                "AutoSelectFirstRow" : false,
+                "GridHeaderTextCase" : "none"
+              }
+            } ],
+            "Properties" : {
+              "MinHeight" : 0,
+              "TabWidth" : 36,
+              "BGImageRepeat" : "no-repeat",
+              "ShowDataLoading" : true,
+              "ShowExpandCollapseTab" : false,
+              "ExpandCollapseTabLocation" : "outside",
+              "Visible" : true,
+              "DisplayName" : "Tab #1",
+              "TabExpandStyle" : "DefaultTabExpandStyle",
+              "Style" : "DefaultContainerStyle",
+              "BGImageSize" : "auto",
+              "OnTop" : false,
+              "Overlay" : false,
+              "Expanded" : true,
+              "TabCollapseStyle" : "DefaultTabCollapseStyle",
+              "OverlayIsTransparent" : false,
+              "ResponsiveLayout" : true,
+              "Z-index" : 10,
+              "MinWidth" : 0,
+              "TabOffset" : 0,
+              "__TypeDisplayName" : "Container",
+              "TabLocation" : "center",
+              "Type" : "container",
+              "Area" : "UI",
+              "AnimateExpandCollapse" : true,
+              "TabHeight" : 36,
+              "Id" : "container-36"
+            }
+          }, {
+            "Widgets" : [ {
+              "Widgets" : [ {
+                "Widgets" : [ {
+                  "Widgets" : [ {
+                    "Widgets" : [ ],
+                    "Properties" : {
+                      "Left" : 10,
+                      "TextboxLabelStyle" : "DefaultWidgetLabelStyle",
+                      "ShowDataLoading" : true,
+                      "Label" : "",
+                      "TabSequence" : 0,
+                      "PlaceholderText" : "[[enterId]]",
+                      "ToolTipField" : "",
+                      "TextAlign" : "left",
+                      "Visible" : true,
+                      "DisplayName" : "Textbox-43",
+                      "Style" : "DefaultTextBoxStyle",
+                      "Height" : 24,
+                      "Width" : 200,
+                      "ReadOnly" : false,
+                      "__supportsLabel" : true,
+                      "InnerShadow" : false,
+                      "ResponsiveLayout" : false,
+                      "Z-index" : 10,
+                      "LabelAlignment" : "left",
+                      "Text" : "",
+                      "__TypeDisplayName" : "Textbox",
+                      "Type" : "textbox",
+                      "Area" : "UI",
+                      "DefaultTextboxFocusStyle" : "DefaultFocusStyle",
+                      "Top" : 10,
+                      "MaskInputCharacters" : false,
+                      "CursorPosition" : 0,
+                      "Id" : "Textbox-43"
+                    }
+                  }, {
+                    "Widgets" : [ ],
+                    "Properties" : {
+                      "Left" : 215,
+                      "CancelConfirmationButton" : "button2",
+                      "ShowDataLoading" : true,
+                      "Label" : "[[search]]",
+                      "FocusStyle" : "DefaultButtonFocusStyle",
+                      "TabSequence" : 0,
+                      "ToolTipField" : "",
+                      "IconAlignment" : "left",
+                      "Visible" : true,
+                      "DisplayName" : "Button-45",
+                      "Style" : {
+                        "image" : "LogViewerIcon",
+                        "backgroundColor" : "#349fd6",
+                        "textSize" : "normal",
+                        "lineStyle" : "solid",
+                        "fontEmphasisUnderline" : false,
+                        "displayString" : "",
+                        "fontEmphasisItalic" : false,
+                        "lineThickness" : 1,
+                        "lineColor" : "#01529a",
+                        "foregroundColor" : "#ffffff",
+                        "fontEmphasisBold" : true,
+                        "secondaryBackgroundColor" : "#124ab5"
+                      },
+                      "Height" : 26,
+                      "DisabledStyle" : "DefaultButtonDisabledStyle",
+                      "ConfirmationTitle" : "[[confirmAction]]",
+                      "Disabled" : false,
+                      "Width" : 200,
+                      "ResponsiveLayout" : false,
+                      "ConfirmationPrompt" : "[[doAction]]",
+                      "Z-index" : 10,
+                      "ConfirmationButton1Label" : "[[confirmationOptionYes]]",
+                      "RoundedCorners" : true,
+                      "__TypeDisplayName" : "Button",
+                      "HoverStyle" : "DefaultButtonHoverStyle",
+                      "Type" : "button",
+                      "Area" : "UI",
+                      "Top" : 9,
+                      "DefaultConfirmationButton" : "button1",
+                      "ContextId" : "",
+                      "ConfirmationRequired" : false,
+                      "Id" : "Button-45",
+                      "ConfirmationButton2Label" : "[[confirmationOptionNo]]",
+                      "ActiveStyle" : "DefaultButtonActiveStyle"
+                    }
+                  } ],
+                  "Properties" : {
+                    "Left" : 385,
+                    "HideScrollbars" : false,
+                    "ResponsiveLayout" : true,
+                    "ShowDataLoading" : true,
+                    "Z-index" : 10,
+                    "VerticalAnchor" : "top",
+                    "__TypeDisplayName" : "Panel",
+                    "HorizontalAnchor" : "left",
+                    "Type" : "panel",
+                    "Area" : "UI",
+                    "Top" : 50,
+                    "Visible" : true,
+                    "DisplayName" : "Panel-42",
+                    "Style" : {
+                      "image" : "",
+                      "backgroundColor" : "#ffffff",
+                      "textSize" : "normal",
+                      "lineStyle" : "solid",
+                      "fontEmphasisUnderline" : false,
+                      "displayString" : "",
+                      "fontEmphasisItalic" : false,
+                      "lineThickness" : 1,
+                      "lineColor" : "",
+                      "foregroundColor" : "",
+                      "fontEmphasisBold" : false,
+                      "secondaryBackgroundColor" : "#f2f2f2"
+                    },
+                    "Height" : 200,
+                    "Id" : "Panel-42",
+                    "Width" : 300
+                  }
+                } ],
+                "Properties" : {
+                  "MinHeight" : 0,
+                  "TabWidth" : 36,
+                  "BGImageRepeat" : "no-repeat",
+                  "ShowDataLoading" : true,
+                  "ShowExpandCollapseTab" : false,
+                  "ExpandCollapseTabLocation" : "outside",
+                  "Visible" : true,
+                  "DisplayName" : "Header",
+                  "TabExpandStyle" : "DefaultTabExpandStyle",
+                  "Style" : "DefaultContainerStyle",
+                  "BGImageSize" : "auto",
+                  "OnTop" : false,
+                  "Overlay" : false,
+                  "Expanded" : true,
+                  "TabCollapseStyle" : "DefaultTabCollapseStyle",
+                  "OverlayIsTransparent" : false,
+                  "ResponsiveLayout" : true,
+                  "Z-index" : 10,
+                  "MinWidth" : 0,
+                  "TabOffset" : 0,
+                  "__TypeDisplayName" : "Container",
+                  "TabLocation" : "center",
+                  "Type" : "container",
+                  "Area" : "UI",
+                  "AnimateExpandCollapse" : true,
+                  "TabHeight" : 36,
+                  "Id" : "container-40"
+                }
+              }, {
+                "Widgets" : [ {
+                  "Widgets" : [ ],
+                  "Properties" : {
+                    "RowSelectedStyle" : "DefaultRowSelectedStyle",
+                    "IsEditable" : false,
+                    "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+                    "Left" : 290,
+                    "ShowDataLoading" : true,
+                    "GridHeaderStyle" : "DefaultGridHeaderStyle",
+                    "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+                    "FocusStyle" : "DefaultFocusStyle",
+                    "RowFormat_StateParameters" : [ ],
+                    "TabSequence" : 0,
+                    "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+                    "CellTextWrapping" : false,
+                    "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+                    "Visible" : true,
+                    "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+                    "DisplayName" : "Grid-44",
+                    "Height" : 200,
+                    "Width" : 400,
+                    "MultiSelect" : false,
+                    "CurrentScrollTop" : 0,
+                    "ResponsiveLayout" : true,
+                    "Z-index" : 10,
+                    "ShowAllColumns" : false,
+                    "AlignHeader" : false,
+                    "__TypeDisplayName" : "Grid",
+                    "ScrollTop" : 0,
+                    "RowHeight" : 30,
+                    "ColumnFormat" : {
+                      "formatInfo" : [ {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[tunnelId]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "STRING",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "full"
+                        },
+                        "FieldName" : "tunnelId",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[blockSize]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "DEFAULT",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : ""
+                        },
+                        "FieldName" : "blockSize",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[bytesTransferred]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "NUMBER",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "0.00"
+                        },
+                        "FieldName" : "bytesTransferred",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[code]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "DEFAULT",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : ""
+                        },
+                        "FieldName" : "code",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[duration]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "DEFAULT",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : ""
+                        },
+                        "FieldName" : "duration",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[endTime]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "DATETIME",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "[[dateTimeFormat_Default]]"
+                        },
+                        "FieldName" : "endTime",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[host]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "STRING",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "full"
+                        },
+                        "FieldName" : "host",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[isComplete]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "BOOLEAN",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "checkbox"
+                        },
+                        "FieldName" : "isComplete",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[message]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "STRING",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "full"
+                        },
+                        "FieldName" : "message",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[numConnects]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "DEFAULT",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : ""
+                        },
+                        "FieldName" : "numConnects",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[port]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "DEFAULT",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : ""
+                        },
+                        "FieldName" : "port",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[proto]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "STRING",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "full"
+                        },
+                        "FieldName" : "proto",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[readTimeout]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "DEFAULT",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : ""
+                        },
+                        "FieldName" : "readTimeout",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[startTime]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "DATETIME",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "[[dateTimeFormat_Default]]"
+                        },
+                        "FieldName" : "startTime",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[state]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "STRING",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "full"
+                        },
+                        "FieldName" : "state",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[targetThing]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "STRING",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "full"
+                        },
+                        "FieldName" : "targetThing",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[tunnelName]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "STRING",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "full"
+                        },
+                        "FieldName" : "tunnelName",
+                        "Width" : "auto"
+                      }, {
+                        "ValidationMessage" : "",
+                        "Align" : "left",
+                        "AllowEdit" : false,
+                        "Title" : "[[user]]",
+                        "ValidationExpression" : "",
+                        "FormatOptions" : {
+                          "renderer" : "STRING",
+                          "formatInfo" : {
+                            "StateFormats" : [ {
+                              "stateName" : "fixed",
+                              "state" : ""
+                            } ],
+                            "StateDefinition" : "",
+                            "StateDefinitionType" : "fixed",
+                            "FieldName" : ""
+                          },
+                          "formatText" : "View",
+                          "FormatString" : "full"
+                        },
+                        "FieldName" : "user",
+                        "Width" : "auto"
+                      } ]
+                    },
+                    "Type" : "dhxgrid",
+                    "Area" : "UI",
+                    "Top" : 115,
+                    "IsPrintLayout" : false,
+                    "Id" : "Grid-44",
+                    "RowHoverStyle" : "DefaultRowHoverStyle",
+                    "AutoSelectFirstRow" : false,
+                    "GridHeaderTextCase" : "none"
+                  }
+                } ],
+                "Properties" : {
+                  "MinHeight" : 0,
+                  "TabWidth" : 36,
+                  "BGImageRepeat" : "no-repeat",
+                  "ShowDataLoading" : true,
+                  "ShowExpandCollapseTab" : false,
+                  "ExpandCollapseTabLocation" : "outside",
+                  "Visible" : true,
+                  "DisplayName" : "Row 1",
+                  "TabExpandStyle" : "DefaultTabExpandStyle",
+                  "Style" : "DefaultContainerStyle",
+                  "BGImageSize" : "auto",
+                  "OnTop" : false,
+                  "Overlay" : false,
+                  "Expanded" : true,
+                  "TabCollapseStyle" : "DefaultTabCollapseStyle",
+                  "OverlayIsTransparent" : false,
+                  "ResponsiveLayout" : true,
+                  "Z-index" : 10,
+                  "MinWidth" : 0,
+                  "TabOffset" : 0,
+                  "__TypeDisplayName" : "Container",
+                  "TabLocation" : "center",
+                  "Type" : "container",
+                  "Area" : "UI",
+                  "AnimateExpandCollapse" : true,
+                  "TabHeight" : 36,
+                  "Id" : "container-41"
+                }
+              } ],
+              "Properties" : {
+                "Left" : 405,
+                "IncludeSpacingInFixedAreas" : false,
+                "ShowDataLoading" : true,
+                "HeaderHeight" : 56,
+                "PctRow4" : 0,
+                "PctRow3" : 0,
+                "PctRow2" : 0,
+                "PctRow1" : 100,
+                "FooterHeight" : 0,
+                "PctRow8" : 0,
+                "PctRow7" : 0,
+                "PctRow6" : 0,
+                "PctRow5" : 0,
+                "Visible" : true,
+                "PctColumn5" : 1,
+                "RightSidebar" : false,
+                "DisplayName" : "Layout-39",
+                "LeftSidebar" : false,
+                "PctColumn6" : 1,
+                "PrintWidth" : 650,
+                "PctColumn3" : 1,
+                "PctColumn4" : 1,
+                "PctColumn1" : 50,
+                "PctColumn2" : 50,
+                "PrintMarginTopBottom" : 0.5,
+                "Rows" : 1,
+                "RightSidebarWidth" : 0,
+                "PrintMarginLeftRight" : 0.5,
+                "PctColumn7" : 1,
+                "ResponsiveLayout" : true,
+                "PctColumn8" : 1,
+                "Columns" : 0,
+                "Z-index" : 10,
+                "Spacing" : 2,
+                "Orientation" : "vertical",
+                "__TypeDisplayName" : "Layout",
+                "Type" : "layout",
+                "Area" : "UI",
+                "LeftSidebarWidth" : 0,
+                "Header" : true,
+                "Top" : 185,
+                "IsPrintLayout" : false,
+                "Footer" : false,
+                "Id" : "Layout-39"
+              }
+            } ],
+            "Properties" : {
+              "MinHeight" : 0,
+              "TabWidth" : 36,
+              "BGImageRepeat" : "no-repeat",
+              "ShowDataLoading" : true,
+              "ShowExpandCollapseTab" : false,
+              "ExpandCollapseTabLocation" : "outside",
+              "Visible" : true,
+              "DisplayName" : "Tab #2",
+              "TabExpandStyle" : "DefaultTabExpandStyle",
+              "Style" : "DefaultContainerStyle",
+              "BGImageSize" : "auto",
+              "OnTop" : false,
+              "Overlay" : false,
+              "Expanded" : true,
+              "TabCollapseStyle" : "DefaultTabCollapseStyle",
+              "OverlayIsTransparent" : false,
+              "ResponsiveLayout" : true,
+              "Z-index" : 10,
+              "MinWidth" : 0,
+              "TabOffset" : 0,
+              "__TypeDisplayName" : "Container",
+              "TabLocation" : "center",
+              "Type" : "container",
+              "Area" : "UI",
+              "AnimateExpandCollapse" : true,
+              "TabHeight" : 36,
+              "Id" : "container-37"
+            }
+          } ],
+          "Properties" : {
+            "Left" : 300,
+            "Tab1Value" : "Tab1Value",
+            "ShowDataLoading" : true,
+            "Tab15Visible" : true,
+            "Tab14Value" : "Tab14Value",
+            "Tab8Image" : "",
+            "Tab16Visible" : true,
+            "Tab14Visible" : true,
+            "Tab10Image" : "",
+            "Tab4Disabled" : false,
+            "Tab11Visible" : true,
+            "Tab12Visible" : true,
+            "Tab15Name" : "Tab15Name",
+            "Tab13Visible" : true,
+            "Tab10Visible" : true,
+            "Tab8Name" : "Tab8Name",
+            "Tab14Disabled" : false,
+            "Tab11Image" : "",
+            "Z-index" : 10,
+            "TabContentStyle" : {
+              "image" : "",
+              "backgroundColor" : "",
+              "textSize" : "normal",
+              "lineStyle" : "solid",
+              "fontEmphasisUnderline" : false,
+              "displayString" : "",
+              "fontEmphasisItalic" : false,
+              "lineThickness" : 0,
+              "lineColor" : "",
+              "foregroundColor" : "",
+              "fontEmphasisBold" : false,
+              "secondaryBackgroundColor" : ""
+            },
+            "__TypeDisplayName" : "Tabs - Responsive",
+            "Tab2Value" : "Tab2Value",
+            "Tab9Image" : "",
+            "Top" : 310,
+            "Tab1Name" : "[[allTunnels]]",
+            "Id" : "TabsResponsive-35",
+            "Tab6Image" : "",
+            "Tab12Value" : "Tab12Value",
+            "Tab7Disabled" : false,
+            "Tab15Value" : "Tab15Value",
+            "Tab2Visible" : true,
+            "Tab1Visible" : true,
+            "Tab3Name" : "Tab3Name",
+            "Tab3Disabled" : false,
+            "Tab6Visible" : true,
+            "Tab5Image" : "",
+            "Tab5Visible" : true,
+            "Tab9Disabled" : false,
+            "Tab10Disabled" : false,
+            "Tab9Visible" : true,
+            "Visible" : true,
+            "Width" : 300,
+            "Tab10Value" : "Tab10Value",
+            "Tab5Name" : "Tab5Name",
+            "Tab13Value" : "Tab13Value",
+            "ResponsiveLayout" : true,
+            "Tab6Value" : "Tab6Value",
+            "Tab3Value" : "Tab3Value",
+            "RoundedCorners" : false,
+            "Tab16Value" : "Tab16Value",
+            "Tab12Name" : "Tab12Name",
+            "Tab12Image" : "",
+            "Type" : "tabsv2",
+            "Tab15Image" : "",
+            "Tab13Disabled" : false,
+            "TabHeight" : 27,
+            "Tab9Value" : "Tab9Value",
+            "Tab7Value" : "Tab7Value",
+            "Tab6Disabled" : false,
+            "Tab16Image" : "",
+            "Tab7Name" : "Tab7Name",
+            "Tab14Name" : "Tab14Name",
+            "Tab2Image" : "IDIcon",
+            "TabSpacing" : 2,
+            "Tab2Disabled" : false,
+            "CurrentTab" : 2,
+            "Tab16Name" : "Tab16Name",
+            "Tab8Value" : "Tab8Value",
+            "Tab9Name" : "Tab9Name",
+            "Tab16Disabled" : false,
+            "Tab10Name" : "Tab10Name",
+            "NumberOfTabs" : 2,
+            "Area" : "UI",
+            "Tab5Value" : "Tab5Value",
+            "TabDisabledStyle" : "DefaultTabDisabledStyle",
+            "Tab12Disabled" : false,
+            "Tab2Name" : "[[tunnelByID]]",
+            "Tab3Image" : "",
+            "Tab3Visible" : true,
+            "Tab5Disabled" : false,
+            "TabUnselectedStyle" : {
+              "image" : "",
+              "backgroundColor" : "#dddddd",
+              "textSize" : "large",
+              "lineStyle" : "solid",
+              "fontEmphasisUnderline" : false,
+              "displayString" : "",
+              "fontEmphasisItalic" : false,
+              "lineThickness" : 1,
+              "lineColor" : "",
+              "foregroundColor" : "#333333",
+              "fontEmphasisBold" : false,
+              "secondaryBackgroundColor" : ""
+            },
+            "Tab4Visible" : true,
+            "Tab7Visible" : true,
+            "DefaultTabAtRuntime" : 1,
+            "Tab13Image" : "",
+            "Tab11Value" : "Tab11Value",
+            "TabSelectedStyle" : {
+              "image" : "",
+              "backgroundColor" : "#e6e6e6",
+              "textSize" : "large",
+              "lineStyle" : "solid",
+              "fontEmphasisUnderline" : false,
+              "displayString" : "",
+              "fontEmphasisItalic" : false,
+              "lineThickness" : 1,
+              "lineColor" : "",
+              "foregroundColor" : "#333333",
+              "fontEmphasisBold" : false,
+              "secondaryBackgroundColor" : "#ffffff"
+            },
+            "Tab4Name" : "Tab4Name",
+            "Tab1Disabled" : false,
+            "Tab8Visible" : true,
+            "DisplayName" : "TabsResponsive-35",
+            "Height" : 300,
+            "Tab4Value" : "Tab4Value",
+            "Tab14Image" : "",
+            "Tab11Name" : "Tab11Name",
+            "Tab4Image" : "",
+            "Tab1Image" : "TunnelIcon",
+            "Tab15Disabled" : false,
+            "Tab7Image" : "",
+            "Tab11Disabled" : false,
+            "Tab8Disabled" : false,
+            "Tab13Name" : "Tab13Name",
+            "Tab6Name" : "Tab6Name"
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "Visible" : true,
+          "DisplayName" : "Row 1",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "OnTop" : false,
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "MinWidth" : 0,
+          "TabOffset" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Type" : "container",
+          "Area" : "UI",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-48"
+        }
+      } ],
+      "Properties" : {
+        "Left" : 200,
+        "IncludeSpacingInFixedAreas" : false,
+        "ShowDataLoading" : true,
+        "HeaderHeight" : 250,
+        "PctRow4" : 0,
+        "PctRow3" : 0,
+        "PctRow2" : 100,
+        "PctRow1" : 100,
+        "FooterHeight" : 0,
+        "PctRow8" : 0,
+        "PctRow7" : 0,
+        "PctRow6" : 0,
+        "PctRow5" : 0,
+        "Visible" : true,
+        "PctColumn5" : 1,
+        "RightSidebar" : false,
+        "DisplayName" : "Layout-46",
+        "LeftSidebar" : false,
+        "PctColumn6" : 1,
+        "PrintWidth" : 650,
+        "PctColumn3" : 1,
+        "PctColumn4" : 1,
+        "PctColumn1" : 50,
+        "PctColumn2" : 50,
+        "PrintMarginTopBottom" : 0.5,
+        "Rows" : 1,
+        "RightSidebarWidth" : 0,
+        "PrintMarginLeftRight" : 0.5,
+        "PctColumn7" : 1,
+        "ResponsiveLayout" : true,
+        "PctColumn8" : 1,
+        "Columns" : 0,
+        "Z-index" : 10,
+        "Spacing" : 2,
+        "Orientation" : "vertical",
+        "__TypeDisplayName" : "Layout",
+        "Type" : "layout",
+        "Area" : "UI",
+        "LeftSidebarWidth" : 0,
+        "Header" : true,
+        "Top" : 215,
+        "IsPrintLayout" : false,
+        "Footer" : false,
+        "Id" : "Layout-46"
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "BGImageRepeat" : "no-repeat",
+      "ShowDataLoading" : true,
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "id_index" : 66,
+      "supportsAutoResize" : true,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : {
+        "image" : "",
+        "backgroundColor" : "",
+        "textSize" : "normal",
+        "lineStyle" : "solid",
+        "fontEmphasisUnderline" : false,
+        "displayString" : "",
+        "fontEmphasisItalic" : false,
+        "lineThickness" : 1,
+        "lineColor" : "",
+        "foregroundColor" : "",
+        "fontEmphasisBold" : false,
+        "secondaryBackgroundColor" : ""
+      },
+      "BGImageSize" : "auto",
+      "Height" : 618,
+      "Width" : 1024,
+      "TitleBar" : false,
+      "Rows" : 0,
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "ResponsiveLayout" : true,
+      "Z-index" : 10,
+      "Title" : "",
+      "Columns" : 0,
+      "TitleBarText" : "Gadget Title Here",
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "EnableParameterEditing" : false,
+      "Type" : "mashup",
+      "Area" : "Mashup",
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "Id" : "mashup-root",
+      "MashupToEditGadget" : "DefaultMashupToEditGadget",
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "mashupType" : "mashup",
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetActiveTunnels",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "a06b2e00-924b-44e9-979b-165ee79b6435",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "GetActiveTunnel",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "636468a7-1c07-4644-96b3-5e60b7d6cdec",
+    "EventTriggerId" : "Button-45",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetPerformanceMetrics",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "af397dd5-8a81-466b-a176-71211bdfadc4",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Data",
+    "EventHandlerService" : "GetPerformanceMetrics",
+    "EventTriggerSection" : "Subsystems_TunnelSubsystem",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "ServiceInvokeCompleted",
+    "Id" : "08dce968-bbd8-420c-9e62-c74d0abf0a55",
+    "EventTriggerId" : "ResetPerformanceMetrics",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "ResetPerformanceMetrics",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "745f0dd0-fa33-44eb-855a-e1fe1eb47d3d",
+    "EventTriggerId" : "Button-64",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "GetActiveTunnel",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "Refresh",
+    "Id" : "81ce3133-5b18-42d2-8dcf-6392e4ca6c26",
+    "EventTriggerId" : "AutoRefresh-66",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "GetActiveTunnels",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "Refresh",
+    "Id" : "bdc9b0e2-7d73-45af-815d-4e49b4f89234",
+    "EventTriggerId" : "AutoRefresh-66",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "GetPerformanceMetrics",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "Refresh",
+    "Id" : "4c5c101c-7e31-48f2-80c7-c4e71cac2a8c",
+    "EventTriggerId" : "AutoRefresh-66",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetActiveTunnel",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "RefreshRequested",
+    "Id" : "0bc2847b-e051-46b8-8795-0fbc2b8ba1b1",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetActiveTunnels",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "RefreshRequested",
+    "Id" : "f097aae8-3a1e-4bb9-8bdf-5389d8bceb5a",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetPerformanceMetrics",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Subsystems_TunnelSubsystem",
+    "EventTriggerEvent" : "RefreshRequested",
+    "Id" : "cd821f73-c573-4526-961b-783bdff7a229",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  } ],
+  "DataBindings" : [ {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetActiveTunnels",
+    "SourceSection" : "Subsystems_TunnelSubsystem",
+    "Id" : "2f4fdc2c-9a66-42ef-8fd0-f6db6f361fce",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "SourceDetails" : "AllData",
+    "TargetId" : "Grid-38"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetActiveTunnel",
+    "SourceSection" : "Subsystems_TunnelSubsystem",
+    "Id" : "dcaee58a-e339-40ab-9f53-6c2fd57dcfea",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "SourceDetails" : "AllData",
+    "TargetId" : "Grid-44"
+  }, {
+    "SourceArea" : "UI",
+    "TargetArea" : "Data",
+    "TargetSection" : "Subsystems_TunnelSubsystem",
+    "SourceId" : "Textbox-43",
+    "SourceSection" : "",
+    "Id" : "899a2184-30d1-4cf2-81c1-3f4a67674978",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "tid",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "Text"
+    } ],
+    "TargetId" : "GetActiveTunnel"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetPerformanceMetrics",
+    "SourceSection" : "Subsystems_TunnelSubsystem",
+    "Id" : "681b8be8-8c90-4d34-a437-2646982285ba",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "SourceDetails" : "AllData",
+    "TargetId" : "Grid-55"
+  } ],
+  "Data" : {
+    "Subsystems_TunnelSubsystem" : {
+      "EntityType" : "Subsystems",
+      "Services" : [ {
+        "Target" : "GetActiveTunnel",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "2e3f9373-5d71-408b-8c46-2b46581b4a0f",
+        "Name" : "GetActiveTunnel"
+      }, {
+        "Target" : "GetActiveTunnels",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "c966fcd7-491c-4921-9081-15bb3c36387a",
+        "Name" : "GetActiveTunnels"
+      }, {
+        "Target" : "ResetPerformanceMetrics",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "162370a8-2d1a-42d5-a834-d0c095853fdb",
+        "Name" : "ResetPerformanceMetrics"
+      }, {
+        "Target" : "GetPerformanceMetrics",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "5921bb6a-c8b4-496e-88af-95dfefcf0a2a",
+        "Name" : "GetPerformanceMetrics"
+      } ],
+      "EntityName" : "TunnelSubsystem",
+      "Id" : "04463d50-92f7-494f-83c9-12fa567c05bd",
+      "DataName" : "Subsystems_TunnelSubsystem"
+    },
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.884+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

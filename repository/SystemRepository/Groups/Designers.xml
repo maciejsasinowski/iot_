@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Groups>
+        <Group aspect.isSystemObject="true" description="Built-in application designers role" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.193+02:00" name="Designers" projectName="" scimDisplayName="" scimExternalId="" scimId="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <Members>
+                <Members/>
+            </Members>
+        </Group>
+    </Groups>
+</Entities>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Subsystems>
+        <Subsystem aspect.isCreatable="false" aspect.isEditableSystemObject="true" autoStart="true" className="com.thingworx.system.subsystems.streamprocessing.ValueStreamProcessingSubsystem" dependsOn="" description="Handles Value Stream Storage and Retrieval" documentationContent="" enabled="true" friendlyName="Value Stream Processing" homeMashup="MonitoringSubsystemDefaultHomeMashup" lastModifiedDate="2017-09-30T23:45:38.815+02:00" name="ValueStreamProcessingSubsystem" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.815+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Subsystem>
+    </Subsystems>
+</Entities>

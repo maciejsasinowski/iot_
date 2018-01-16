@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StyleDefinitions>
+        <StyleDefinition aspect.isEditableSystemObject="true" aspect.isThemeObject="true" description="Yellow - Default chart series 15 style" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.710+02:00" name="DefaultChartStyle15" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"image":"","backgroundColor":"#d4c52a","textSize":"normal","lineStyle":"solid","displayString":"Series 15","fontEmphasisUnderline":false,"fontEmphasisItalic":false,"lineThickness":1,"lineColor":"#ffee33","foregroundColor":"#f3ff80","fontEmphasisBold":false,"secondaryBackgroundColor":"#ffee33"}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.710+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StyleDefinition>
+    </StyleDefinitions>
+</Entities>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <MediaEntities>
+        <MediaEntity aspect.isSystemObject="true" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:38.062+02:00" name="MonitoringLogsIcon" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="List of authorization server scopes" isMultiRow="true" name="AuthorizationServerScopesSettings" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition baseType="STRING" description="A single scope for the authorization server." name="scope" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+                <ConfigurationTable description="Content Source Connection information" isMultiRow="false" name="ContentSourceConnectionInformation" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="none" aspect.friendlyName="AuthenticationType" aspect.selectOptions="none:none|basic:basic|SSO:SSO" baseType="STRING" description="Authentication type" name="authenticationType" ordinal="4"/>
+                            <FieldDefinition aspect.friendlyName="AuthorizationServerID" baseType="STRING" description="Authorization Server ID" name="authorizationServerId" ordinal="7"/>
+                            <FieldDefinition aspect.friendlyName="Dynamic Content" baseType="BOOLEAN" description="Display dynamic content from external URL" name="dynamicContent" ordinal="0"/>
+                            <FieldDefinition aspect.friendlyName="Ignore SSL Errors" baseType="BOOLEAN" description="Ignore SSL errors" name="ignoreSSLErrors" ordinal="2"/>
+                            <FieldDefinition aspect.friendlyName="AuthPassword" baseType="PASSWORD" description="Password for basic authentication" name="password" ordinal="6"/>
+                            <FieldDefinition aspect.defaultValue="60.0" aspect.friendlyName="Timeout" baseType="NUMBER" description="Timeout" name="timeout" ordinal="3"/>
+                            <FieldDefinition aspect.friendlyName="URL" baseType="STRING" description="The URL to the content source" name="url" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="AuthUsername" baseType="STRING" description="Username for basic authentication" name="userId" ordinal="5"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <ignoreSSLErrors>false</ignoreSSLErrors>
+                            <dynamicContent>false</dynamicContent>
+                            <password/>
+                            <authorizationServerId/>
+                            <authenticationType><![CDATA[none]]></authenticationType>
+                            <userId/>
+                            <url/>
+                            <timeout>60.0</timeout>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <content><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAiJJREFUeNqMU0toE1EUPRkmaYY4pBRMCYKkFQJtSF1UiriwK3WjbkSx
+KhbiQuhCaDeFLgpi6aa7KoiLBkRBEXUhgtSFi6wsVGgaS2msTVM/MZR+YhOM7czEe19+b0ooXji8
+zz3nvvuZcTzohTCHAzVLaR2uVU/oPG0PV67WA4WFt21/FnernFKpvKp1GR4RunnT8mtR7Tp3xncy
+csfP54/Rycz36Zej8MKocD8RbouH7/fWAsyevRLpTiQSONI/BbfbBa/3kHDkcnkUi7v48fgWwuEw
+3r+IcoATIgPTqqcQHJjCzJOniMWmSeyFrutwOp3IFwr4ncvBd3oIwb6rePc8WtOoplkPwGVdu3Ed
+qZUVNLK29nbBkTW2DEzqjGVZOBoINAxgkq+kKJA1CkerwqIAp14HYRAxNjeHRDqNL9ksUpmMuGMw
+R9aohmV/4cOFBRjk6QmFbK8blbwdNG9ZoxqmvYT4yDBC98Yxv7xMk3BT94tiZdM0Dcf8fsga1TDs
+AYJ3x7BHmXRQwxr2gTiyRuFoVXAJo890ke4M9SBJPWB84x7QHYM5skbd21fCyKUN4Tje2dmwB8yR
+NUo6L2VAzocTE6Lbs/E4vq6t4fPSklgZfC9KqPBZq776CVxsBfyu8hgjg4MizfC+KVSnxJy/9Etl
+CG+y5Z9Jo41+uZkO9NlqHg8OMuZs7pB4Gz467ogABF+6gORNvQn/Y1slJFnDrfknwAA40SgApj32
+4QAAAABJRU5ErkJggg==]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.062+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </MediaEntity>
+    </MediaEntities>
+</Entities>

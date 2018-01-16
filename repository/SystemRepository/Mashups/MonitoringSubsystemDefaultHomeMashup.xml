@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.isSystemObject="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.930+02:00" name="MonitoringSubsystemDefaultHomeMashup" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions>
+                <FieldDefinition aspect.ordinal="1" baseType="STRING" description="" name="subsystemFriendlyName" ordinal="0"/>
+                <FieldDefinition aspect.ordinal="0" baseType="STRING" description="" name="subsystemName" ordinal="0"/>
+            </ParameterDefinitions>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ {
+          "Widgets" : [ {
+            "Widgets" : [ {
+              "Widgets" : [ ],
+              "Properties" : {
+                "Left" : 0,
+                "ResponsiveLayout" : true,
+                "MashupParameters" : [ {
+                  "Description" : "",
+                  "BaseType" : "STRING",
+                  "ParmDef" : {
+                    "name" : "subsystemName",
+                    "aspects" : {
+                      "ordinal" : "0"
+                    },
+                    "description" : "",
+                    "baseType" : "STRING",
+                    "ordinal" : 0
+                  },
+                  "ParameterName" : "subsystemName"
+                } ],
+                "Z-index" : 10,
+                "Name" : "MonitoringSubsystemGeneralPerformance",
+                "__TypeDisplayName" : "Contained Mashup",
+                "Type" : "mashupcontainer",
+                "Area" : "UI",
+                "Top" : 0,
+                "Visible" : true,
+                "DisplayName" : "ContainedMashup-8",
+                "Height" : 618,
+                "Id" : "ContainedMashup-8",
+                "Width" : 1024
+              }
+            } ],
+            "Properties" : {
+              "MinHeight" : 0,
+              "ResponsiveLayout" : true,
+              "BGImageRepeat" : "no-repeat",
+              "Z-index" : 10,
+              "ShowExpandCollapseTab" : false,
+              "MinWidth" : 0,
+              "__TypeDisplayName" : "Container",
+              "Type" : "container",
+              "Area" : "UI",
+              "Visible" : true,
+              "AnimateExpandCollapse" : true,
+              "DisplayName" : "Row 1",
+              "Style" : "DefaultContainerStyle",
+              "BGImageSize" : "auto",
+              "OnTop" : false,
+              "Id" : "container-6",
+              "Expanded" : true
+            }
+          } ],
+          "Properties" : {
+            "Left" : 560,
+            "IncludeSpacingInFixedAreas" : false,
+            "HeaderHeight" : 0,
+            "PctRow4" : 0,
+            "PctRow3" : 0,
+            "PctRow2" : 0,
+            "PctRow1" : 100,
+            "FooterHeight" : 0,
+            "PctRow8" : 0,
+            "PctRow7" : 0,
+            "PctRow6" : 0,
+            "PctRow5" : 0,
+            "Visible" : true,
+            "PctColumn5" : 1,
+            "RightSidebar" : false,
+            "DisplayName" : "Layout-4",
+            "LeftSidebar" : false,
+            "PctColumn6" : 1,
+            "PrintWidth" : 650,
+            "PctColumn3" : 1,
+            "PctColumn4" : 1,
+            "PctColumn1" : 50,
+            "PctColumn2" : 50,
+            "Rows" : 1,
+            "RightSidebarWidth" : 0,
+            "PctColumn7" : 1,
+            "ResponsiveLayout" : true,
+            "PctColumn8" : 1,
+            "Columns" : 0,
+            "Z-index" : 10,
+            "Spacing" : 2,
+            "Orientation" : "vertical",
+            "__TypeDisplayName" : "Layout",
+            "Type" : "layout",
+            "Area" : "UI",
+            "LeftSidebarWidth" : 0,
+            "Header" : false,
+            "Top" : 160,
+            "IsPrintLayout" : false,
+            "Footer" : false,
+            "Id" : "Layout-4"
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "ResponsiveLayout" : true,
+          "BGImageRepeat" : "no-repeat",
+          "Z-index" : 10,
+          "ShowExpandCollapseTab" : false,
+          "MinWidth" : 0,
+          "__TypeDisplayName" : "Container",
+          "Type" : "container",
+          "Area" : "UI",
+          "Visible" : true,
+          "AnimateExpandCollapse" : true,
+          "DisplayName" : "Row 1",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "OnTop" : false,
+          "Id" : "container-3",
+          "Expanded" : true
+        }
+      } ],
+      "Properties" : {
+        "Left" : 215,
+        "IncludeSpacingInFixedAreas" : false,
+        "HeaderHeight" : 0,
+        "PctRow4" : 0,
+        "PctRow3" : 0,
+        "PctRow2" : 100,
+        "PctRow1" : 100,
+        "FooterHeight" : 0,
+        "PctRow8" : 0,
+        "PctRow7" : 0,
+        "PctRow6" : 0,
+        "PctRow5" : 0,
+        "Visible" : true,
+        "PctColumn5" : 1,
+        "RightSidebar" : false,
+        "DisplayName" : "Layout-1",
+        "LeftSidebar" : false,
+        "PctColumn6" : 1,
+        "PrintWidth" : 650,
+        "PctColumn3" : 1,
+        "PctColumn4" : 1,
+        "PctColumn1" : 50,
+        "PctColumn2" : 50,
+        "Rows" : 1,
+        "RightSidebarWidth" : 0,
+        "PctColumn7" : 1,
+        "ResponsiveLayout" : true,
+        "PctColumn8" : 1,
+        "Columns" : 0,
+        "Z-index" : 10,
+        "Spacing" : 2,
+        "Orientation" : "vertical",
+        "__TypeDisplayName" : "Layout",
+        "Type" : "layout",
+        "Area" : "UI",
+        "LeftSidebarWidth" : 0,
+        "Header" : false,
+        "Top" : 180,
+        "IsPrintLayout" : false,
+        "Footer" : false,
+        "Id" : "Layout-1"
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "ResponsiveLayout" : true,
+      "BGImageRepeat" : "no-repeat",
+      "Z-index" : 10,
+      "id_index" : 23,
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "Type" : "mashup",
+      "Area" : "Mashup",
+      "supportsAutoResize" : true,
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : {
+        "image" : "",
+        "backgroundColor" : "",
+        "textSize" : "normal",
+        "lineStyle" : "solid",
+        "displayString" : "",
+        "fontEmphasisUnderline" : false,
+        "fontEmphasisItalic" : false,
+        "lineThickness" : 1,
+        "lineColor" : "",
+        "foregroundColor" : "",
+        "fontEmphasisBold" : false,
+        "secondaryBackgroundColor" : ""
+      },
+      "BGImageSize" : "auto",
+      "Height" : 618,
+      "Id" : "mashup-root",
+      "_currentParameterDefs" : [ {
+        "Description" : "",
+        "BaseType" : "STRING",
+        "ParameterName" : "subsystemName"
+      }, {
+        "Description" : "",
+        "BaseType" : "STRING",
+        "ParameterName" : "subsystemFriendlyName"
+      } ],
+      "Width" : 1024,
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "mashupType" : "mashup",
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetHomeMashup",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicSubsystems_FederationSubsystem",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "46dde09f-bed0-4930-bdce-7f7c10b83f02",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetHomeMashup",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicSubsystems_FederationSubsystem",
+    "EventTriggerEvent" : "subsystemNameChanged",
+    "Id" : "efde581d-985d-48eb-85f4-af37732c7229",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "ResetPerformanceMetrics",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicSubsystems_FederationSubsystem",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "b4fcb410-8ed8-48cc-ae98-877b49f17a4d",
+    "EventTriggerId" : "Button-12",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Data",
+    "EventHandlerService" : "Refresh",
+    "EventTriggerSection" : "DynamicSubsystems_FederationSubsystem",
+    "EventHandlerId" : "ContainedMashup-8",
+    "EventTriggerEvent" : "ServiceInvokeCompleted",
+    "Id" : "38990620-023a-4cfb-8f8e-02ca1f1d5116",
+    "EventTriggerId" : "ResetPerformanceMetrics",
+    "EventHandlerArea" : "UI"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "Refresh",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "ContainedMashup-8",
+    "EventTriggerEvent" : "RefreshRequested",
+    "Id" : "5c60058d-fb1d-41ce-84a7-e1a6462e6f40",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "UI"
+  } ],
+  "DataBindings" : [ {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "DynamicSubsystems_FederationSubsystem",
+    "SourceId" : "mashup-root",
+    "SourceSection" : "",
+    "Id" : "5f0ca096-83f3-4c75-8731-ac2b13d03321",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "value",
+      "TargetPropertyType" : "Entity",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "THINGNAME",
+      "SourceProperty" : "subsystemName"
+    } ],
+    "TargetId" : "EntityName"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "SourceSection" : "",
+    "Id" : "2f4a3905-5a94-4fe4-9cde-958283210dce",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "subsystemName",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "subsystemName"
+    } ],
+    "TargetId" : "ContainedMashup-8"
+  } ],
+  "Data" : {
+    "DynamicSubsystems_FederationSubsystem" : {
+      "EntityType" : "DynamicSubsystems",
+      "Services" : [ {
+        "Target" : "GetHomeMashup",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "5cca5021-c037-43cd-85fe-ced10106f6d6",
+        "Name" : "GetHomeMashup"
+      }, {
+        "Target" : "ResetPerformanceMetrics",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "b5baac8a-cba7-4334-988d-6c82235d1251",
+        "Name" : "ResetPerformanceMetrics"
+      } ],
+      "EntityName" : "FederationSubsystem",
+      "Id" : "656e1888-4911-4113-8ba1-d72884e38cc7",
+      "DataName" : "DynamicSubsystems_FederationSubsystem"
+    },
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.930+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

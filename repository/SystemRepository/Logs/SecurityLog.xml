@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Logs>
+        <Log aspect.isCreatable="false" aspect.isSystemObject="true" description="Security Log" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.250+02:00" logLevel="WARN" name="SecurityLog" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAFa0lEQVR42u2ZWUxUVxjHUSzTxPhg
+w0sTmvSBaDElZEIN0VBqphSkEimIqX0yNYJV2yq1rTygRjDVNkOqGJsQZBnWAYbZ98suMFQ2NzBQ
+VDYXVB58MKQY+fr/pndIQ0eqeFmaDMkvc+fc833f/3/uOWfuvfgRkd//GT+fAZ8BnwGfAZ8Bn4HX
+YefOnd54A8SDVBE+DvDWd8kNJCcne2MrSJ3FVm99l90U2rFjxwdgH3Pnzp0RxvOdzy3rNZCUlBQM
+9jE9PT2uiYkJYvjY0w42LImBxMTEKPAV2ApWezm/HqRyH0EQtI8fP6aRkRE3jx49oubmZocYz8i9
+xK8GseL5KMkNJCQk7J2FHKwFgSAG7GecTqfu4cOHz0dHR+nGjRtuhoeHCW3U2Njo8PQTYwLFHPLZ
++SU3sH379r1gP08J/vRGbW2taXx8/DkLvnbtGl29enUGrAV68OABtbW1Nb8ofmxszJNbegPx8fEp
+4AAETvGUOHv2bDZ/Zy5cuHCuv7//Ns7RrVu3qKurizo7O/8F+tDdu3ept7f3dk5OzjlPvFKpzGbT
+MDkltqVIbmDbtm0p4OD9+/cneaRYLMOjynhGvb29fU6uXLlCg4ODNDQ05IavDDMwMMD8yTW4luQG
+4uLivgQHIf5pR0cHT4UZWlpa5kVra+sMbA5X5inXAHskNxAbG7sbfI0pMsEGmpqaJMXlclF3d/cE
+1+BakhuIiYn5HHzT19d3jw3U19dLing173ENriW5gejo6M/At1igf/CCxF7/n1gsFtJqdVRZWUml
+pWWkUhVTQUGhSBEVFRVTSUkZVVRUks3mIKvV1s81uJbkBhQKRSw4hB8k/LD2zClao9FAcCldvJhP
+eXn57s/8/ALwt/CCAhUVFhbDQAkohbEyMhrNiKno4RrgE8kNbNmyJRIc0ul0Tt5tZgs3m83ukS4s
+LHpp0cXF5aACV0GNeDudP/+blWtwLckNREVFhYLD2L9VWAczwu12O1VXayBO9cqiS0srqaysClRj
++giUkXE8n2uADZIbiIyMDAJpu3btOo7bg+mGhgZcdhOKl89bdHl5Dea/lqqqDJh6wnRSUvJxrgHe
+ltzA5s2bZSANfIdd6AmPvkpVMm/RarUO6DHtDKTTWZknnFusIVuQ2+mIiIjd4IhOp7/Ou8briK6q
+MmLqmbHgLbiSAgah/Drn5hoL9jywceNGBfg+MzNLLQj1EKmet2iNxko1NTaMvAMLuJ6OHctSc26u
+sWAGwsPD3wU/bNq0Kd1isU/W1BjnJVqrtUO4EwgY/TrS62snOSfn5hoLZkAul68AB8CPeXkFnRaL
+0y34VUVDMBkMdRBfj9Fvotzckk7OKeZesaCPlGFhYZHgqELx8UmTyT6l19teWbTR2EAmUyN2nmYc
+N04pFNEnOSfnXvBn4tDQ0ABwGKSfPq10mM21EGd/adE84mZzM8Rfwt7fQmfO5Dg4l5gzYFEe6oOD
+g0NBBpOXV3LTbK6DuLqXFm21tuLepw07T/VNTx7OuahvJYKCguLBCSYt7aherxcmLZZGt+C5RNts
+LrRfmjxyJEPviedcS/JaJTAwMB5kMSEhG5SYDpcNhoYpb6Lt9nZum8rOzu0ICXlf6YnjHEv6XmjN
+mjXrQDr4icnMVLpYtNXaNs2iHY52Fj/tcFymU6d+dXn6iTHrlsWLLZlMFgA+BCfAz4zD8TtMuJ5h
+9J85nR3kaRf7fMQxi/piS/yTgbUgCKwHYSD8H0T4+/t/sWrVqtPgF0HowB1rJ/Ext/E57jMrRg7e
+A++At8CbXGipDLhZuXKlAoKzROFMFrd567ssDTAY7TiPARx/+qJ+i2bA9x8anwGfAZ8BnwFv/AUS
+w514kulNMgAAAABJRU5ErkJggg==]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.250+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Log>
+    </Logs>
+</Entities>

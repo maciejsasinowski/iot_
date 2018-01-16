@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Extension report data shape" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.342+02:00" name="ExtensionReportDataShape" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="INFOTABLE" description="Extension package's dependencies" name="extensionDependencies" ordinal="2"/>
+                <FieldDefinition baseType="STRING" description="Message from the extension import exception" name="extensionException" ordinal="3"/>
+                <FieldDefinition baseType="INFOTABLE" description="Extension package to describe details about the report" name="extensionPackage" ordinal="1"/>
+                <FieldDefinition baseType="INTEGER" description="Indicates a success or failure" name="extensionReportStatus" ordinal="5"/>
+                <FieldDefinition baseType="STRING" description="Generic message field" name="reportMessage" ordinal="4"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.342+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

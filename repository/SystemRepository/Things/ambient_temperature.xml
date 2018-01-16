@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Things>
+        <Thing description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2018-01-15T22:10:51.851+01:00" name="ambient_temperature" projectName="Smart Flowers" published="false" tags="smartflowers:smartflowers;flower:flower;smart:smart" thingTemplate="GenericThing" valueStream="ambient_temp_stream">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ThingShape>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="false" aspect.maximumValue="100" aspect.minimumValue="-100" aspect.units="°C" baseType="INTEGER" category="" description="Temperature" isLocalOnly="false" name="temp_value" ordinal="1"/>
+                </PropertyDefinitions>
+                <ServiceDefinitions>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="generate_temperature">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                </ServiceDefinitions>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations>
+                    <ServiceImplementation description="" handlerName="Script" name="generate_temperature">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[var temperature = Math.floor(Math.random() * 10) + 10;
+var params = {
+	proxyScheme: undefined /* STRING */,
+    headers: '{\"appKey\":c281eba7-a8e8-4dc1-b9ff-0f5a50184d56,\"Content-type\":application/json,\"Accept\":application/json,\"x-thingworx-session\":true}'/* JSON */,
+	ignoreSSLErrors: undefined /* BOOLEAN */,
+	useNTLM: undefined /* BOOLEAN */,
+	workstation: undefined /* STRING */,
+	useProxy: undefined /* BOOLEAN */,
+	withCookies: undefined /* BOOLEAN */,
+	proxyHost: undefined /* STRING */,
+    url: 'http://localhost/Thingworx/Things/ambient_temperature/Properties/temp_value' /* STRING */,
+	content: '{\"temp_value\" : ' + temperature + ' }' /* JSON */,
+	timeout: undefined /* NUMBER */,
+	proxyPort: undefined /* INTEGER */,
+	password: 'admin' /* STRING */,
+	domain: undefined /* STRING */,
+	username: 'Administrator' /* STRING */
+};
+
+// result: JSON
+var result = Resources["ContentLoaderFunctions"].PutJSON(params);
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                </ServiceImplementations>
+                <Subscriptions/>
+            </ThingShape>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations>
+                <AlertDefinitions name="temp_value"/>
+            </AlertConfigurations>
+            <ImplementedShapes/>
+            <ThingProperties>
+                <temp_value>
+                    <Value>12</Value>
+                    <Timestamp>2018-01-16T00:52:48.627+01:00</Timestamp>
+                    <Quality>GOOD</Quality>
+                </temp_value>
+            </ThingProperties>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, thingTemplate : updated, projectName : updated, tags : updated&#10;" timestamp="2018-01-04T23:07:36.639+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : temp_value : Added, id : Added&#10;" timestamp="2018-01-04T23:13:39.689+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="header : valueStream : updated&#10;" timestamp="2018-01-04T23:15:34.627+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : temp_value : Updated&#10;" timestamp="2018-01-13T17:30:19.891+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : temp_value : Updated, id : Updated&#10;" timestamp="2018-01-13T22:00:23.002+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T22:03:23.553+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T22:23:46.639+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T18:15:51.988+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : id : Updated, removed&#10;" timestamp="2018-01-15T21:05:37.379+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T21:06:30.228+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services : generate_temperature : Code Updated, Output Updated, Service Added&#10;" timestamp="2018-01-15T21:14:35.684+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services : generate_temperature : Code Updated, Output Updated&#10;" timestamp="2018-01-15T21:35:17.659+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services : generate_temperature : Code Updated&#10;" timestamp="2018-01-15T21:40:58.198+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services : generate_temperature : Code Updated&#10;" timestamp="2018-01-15T21:48:50.979+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services : generate_temperature : Code Updated&#10;" timestamp="2018-01-15T21:50:06.153+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services : generate_temperature : Code Updated&#10;" timestamp="2018-01-15T21:52:50.430+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T21:52:55.768+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services : generate_temperature : Code Updated&#10;" timestamp="2018-01-15T22:01:12.144+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services : generate_temperature : Code Updated&#10;" timestamp="2018-01-15T22:10:51.851+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Thing>
+    </Things>
+</Entities>

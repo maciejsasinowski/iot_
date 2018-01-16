@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Any data change event content" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.335+02:00" name="AnyDataChangeEvent" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Property name" name="name" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="VTQ" baseType="INFOTABLE" description="New value, time, quality object" name="newValue" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="VTQ" baseType="INFOTABLE" description="Previous value, time, quality object" name="oldValue" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.335+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

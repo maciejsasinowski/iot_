@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Subsystems>
+        <Subsystem aspect.isCreatable="false" aspect.isEditableSystemObject="true" autoStart="true" className="com.thingworx.system.subsystems.logging.LoggingSubsystem" dependsOn="" description="Logging Subsystem - handles the various Logs (Application, Script, Communications, etc.)" documentationContent="" enabled="true" friendlyName="Logging" homeMashup="MonitoringSubsystemDefaultHomeMashup" lastModifiedDate="2017-09-30T23:45:38.967+02:00" name="LoggingSubsystem" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Log Retention Settings" isMultiRow="false" name="LogRetentionSettings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Enable Stack Tracing" baseType="BOOLEAN" description="Whether or not to enable stack traces in error logs" name="enableStackTracing" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="7" aspect.friendlyName="Maximum Number Days For Archive" baseType="INTEGER" description="Maximum number of days to retain archive files on disk" name="maxFileHistory" ordinal="1"/>
+                            <FieldDefinition aspect.defaultValue="100000" aspect.friendlyName="Maximum File Size In KB" baseType="INTEGER" description="Maximum file size for each log file on disk." name="maxFileSizeInKB" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <maxFileSizeInKB>100000</maxFileSizeInKB>
+                            <enableStackTracing>false</enableStackTracing>
+                            <maxFileHistory>7</maxFileHistory>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.967+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Subsystem>
+    </Subsystems>
+</Entities>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Message Store list" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.635+02:00" name="MessageStoreList" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.thingCollection="Things" aspect.thingTemplate="RemoteThing" baseType="THINGNAME" description="Connected Thing name" name="ConnectedThing" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Unique message ID" name="ID" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Item Name" name="Name" ordinal="0"/>
+                <FieldDefinition baseType="DATETIME" description="Date and Time the item was addeded to the message store" name="Timestamp" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Item Type" name="Type" ordinal="0"/>
+                <FieldDefinition baseType="INFOTABLE" description="Item Value" name="Value" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.635+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

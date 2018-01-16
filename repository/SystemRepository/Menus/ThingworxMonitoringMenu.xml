@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Menus>
+        <Menu aspect.isSystemObject="true" description="" documentationContent="" homeMashup="" imageURL="" lastModifiedDate="2017-09-30T23:45:37.991+02:00" menuLabel="[[monitoring]]" name="ThingworxMonitoringMenu" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <MenuItems>
+                <MenuItem description="" imageURL="/Thingworx/MediaEntities/MonitoringLogsIcon" isDefault="true" linkDestination="LogViewer" linkTarget="Self" linkType="Mashup" title="[[logs]]">
+                    <GroupReferences>
+                        <Members/>
+                    </GroupReferences>
+                </MenuItem>
+                <MenuItem description="" imageURL="/Thingworx/MediaEntities/MonitoringStatusIcon" isDefault="false" linkDestination="SubsystemStatus" linkTarget="MonitoringStatus" linkType="Menu" title="[[systemStatus]]">
+                    <GroupReferences>
+                        <Members/>
+                    </GroupReferences>
+                </MenuItem>
+                <MenuItem description="" imageURL="/Thingworx/MediaEntities/MonitoringAlertsIcon" isDefault="false" linkDestination="MonitoringAlertSummary" linkTarget="Self" linkType="Mashup" title="[[alerts]]">
+                    <GroupReferences>
+                        <Members/>
+                    </GroupReferences>
+                </MenuItem>
+                <MenuItem description="" imageURL="/Thingworx/MediaEntities/ExtensionsIcon" isDefault="false" linkDestination="ExtensionManagerListing" linkTarget="Self" linkType="Mashup" title="[[extensions]]">
+                    <GroupReferences>
+                        <Members/>
+                    </GroupReferences>
+                </MenuItem>
+            </MenuItems>
+            <GroupReferences>
+                <Members/>
+            </GroupReferences>
+            <effectiveMenu>
+                <DataShape>
+                    <FieldDefinitions>
+                        <FieldDefinition baseType="STRING" description="Description for tooltip" name="description" ordinal="0"/>
+                        <FieldDefinition baseType="IMAGELINK" description="Optional image URL" name="imageURL" ordinal="0"/>
+                        <FieldDefinition aspect.defaultValue="false" baseType="BOOLEAN" description="Is a default menu item" name="isDefault" ordinal="0"/>
+                        <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Link destination" name="linkDestination" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Link target (Popup, Mashup, New)" name="linkTarget" ordinal="0"/>
+                        <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Link type (Mashup, Hyperlink, or Menu)" name="linkType" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Menu entry id" name="menuId" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Menu entry parent id" name="parentMenuId" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Menu entry title" name="title" ordinal="0"/>
+                    </FieldDefinitions>
+                </DataShape>
+                <Rows>
+                    <Row>
+                        <linkPriority>0.0</linkPriority>
+                        <parentMenuId/>
+                        <imageURL/>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu]]></menuId>
+                        <linkType><![CDATA[Menu]]></linkType>
+                        <title><![CDATA[[[monitoring]]]]></title>
+                    </Row>
+                    <Row>
+                        <linkDestination><![CDATA[LogViewer]]></linkDestination>
+                        <isDefault>true</isDefault>
+                        <parentMenuId><![CDATA[ThingworxMonitoringMenu]]></parentMenuId>
+                        <linkTarget><![CDATA[Self]]></linkTarget>
+                        <imageURL><![CDATA[/Thingworx/MediaEntities/MonitoringLogsIcon]]></imageURL>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu_0]]></menuId>
+                        <linkType><![CDATA[Mashup]]></linkType>
+                        <title><![CDATA[[[logs]]]]></title>
+                    </Row>
+                    <Row>
+                        <linkPriority>0.0</linkPriority>
+                        <parentMenuId><![CDATA[ThingworxMonitoringMenu]]></parentMenuId>
+                        <imageURL><![CDATA[MonitoringStatusIcon]]></imageURL>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus]]></menuId>
+                        <linkType><![CDATA[Menu]]></linkType>
+                        <title><![CDATA[[[status]]]]></title>
+                    </Row>
+                    <Row>
+                        <linkDestination><![CDATA[MonitoringConnectionServerStatus]]></linkDestination>
+                        <isDefault>false</isDefault>
+                        <parentMenuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus]]></parentMenuId>
+                        <linkTarget><![CDATA[Self]]></linkTarget>
+                        <imageURL><![CDATA[/Thingworx/MediaEntities/ConnectionServerStatus]]></imageURL>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus_0]]></menuId>
+                        <linkType><![CDATA[Mashup]]></linkType>
+                        <title><![CDATA[[[connectionServers]]]]></title>
+                    </Row>
+                    <Row>
+                        <linkDestination><![CDATA[MonitoringDeviceStatus]]></linkDestination>
+                        <isDefault>false</isDefault>
+                        <parentMenuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus]]></parentMenuId>
+                        <linkTarget><![CDATA[Self]]></linkTarget>
+                        <imageURL><![CDATA[/Thingworx/MediaEntities/DeviceStatusIcon]]></imageURL>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus_1]]></menuId>
+                        <linkType><![CDATA[Mashup]]></linkType>
+                        <title><![CDATA[[[remoteThings]]]]></title>
+                    </Row>
+                    <Row>
+                        <linkDestination><![CDATA[MonitoringConnectorStatus]]></linkDestination>
+                        <isDefault>false</isDefault>
+                        <parentMenuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus]]></parentMenuId>
+                        <linkTarget><![CDATA[Self]]></linkTarget>
+                        <imageURL><![CDATA[/Thingworx/MediaEntities/IntegrationConnectorsIcon]]></imageURL>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus_2]]></menuId>
+                        <linkType><![CDATA[Mashup]]></linkType>
+                        <title><![CDATA[[[integrationConnectors]]]]></title>
+                    </Row>
+                    <Row>
+                        <linkDestination><![CDATA[MonitoringSubsystemSelector]]></linkDestination>
+                        <isDefault>false</isDefault>
+                        <parentMenuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus]]></parentMenuId>
+                        <linkTarget><![CDATA[Self]]></linkTarget>
+                        <imageURL><![CDATA[/Thingworx/MediaEntities/SubsystemMonitoring]]></imageURL>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus_3]]></menuId>
+                        <linkType><![CDATA[Mashup]]></linkType>
+                        <title><![CDATA[[[subsystems]]]]></title>
+                    </Row>
+                    <Row>
+                        <linkDestination><![CDATA[MonitoringPlatformStats]]></linkDestination>
+                        <isDefault>false</isDefault>
+                        <parentMenuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus]]></parentMenuId>
+                        <linkTarget><![CDATA[Self]]></linkTarget>
+                        <imageURL><![CDATA[/Thingworx/MediaEntities/SystemIcon]]></imageURL>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus_4]]></menuId>
+                        <linkType><![CDATA[Mashup]]></linkType>
+                        <title><![CDATA[[[system]]]]></title>
+                    </Row>
+                    <Row>
+                        <linkDestination><![CDATA[MonitoringUserStatus]]></linkDestination>
+                        <isDefault>false</isDefault>
+                        <parentMenuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus]]></parentMenuId>
+                        <linkTarget><![CDATA[Self]]></linkTarget>
+                        <imageURL><![CDATA[/Thingworx/MediaEntities/MonitoringUserIcon]]></imageURL>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu.MonitoringStatus_5]]></menuId>
+                        <linkType><![CDATA[Mashup]]></linkType>
+                        <title><![CDATA[[[usersLoggedIn]]]]></title>
+                    </Row>
+                    <Row>
+                        <linkDestination><![CDATA[MonitoringAlertSummary]]></linkDestination>
+                        <isDefault>false</isDefault>
+                        <parentMenuId><![CDATA[ThingworxMonitoringMenu]]></parentMenuId>
+                        <linkTarget><![CDATA[Self]]></linkTarget>
+                        <imageURL><![CDATA[/Thingworx/MediaEntities/MonitoringAlertsIcon]]></imageURL>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu_1]]></menuId>
+                        <linkType><![CDATA[Mashup]]></linkType>
+                        <title><![CDATA[[[alerts]]]]></title>
+                    </Row>
+                    <Row>
+                        <linkDestination><![CDATA[ExtensionManagerListing]]></linkDestination>
+                        <isDefault>false</isDefault>
+                        <parentMenuId><![CDATA[ThingworxMonitoringMenu]]></parentMenuId>
+                        <linkTarget><![CDATA[Self]]></linkTarget>
+                        <imageURL><![CDATA[/Thingworx/MediaEntities/ExtensionsIcon]]></imageURL>
+                        <description/>
+                        <menuId><![CDATA[ThingworxMonitoringMenu_2]]></menuId>
+                        <linkType><![CDATA[Mashup]]></linkType>
+                        <title><![CDATA[[[extensions]]]]></title>
+                    </Row>
+                </Rows>
+            </effectiveMenu>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.991+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Menu>
+    </Menus>
+</Entities>

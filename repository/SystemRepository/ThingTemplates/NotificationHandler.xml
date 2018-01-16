@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="GenericThing" description="Template for a Thing that sends notifications when an event occurs" documentationContent="" effectiveThingPackage="NotificationHandlerThing" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.073+02:00" name="NotificationHandler" projectName="" tags="" thingPackage="NotificationHandlerThing" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABd0lEQVR42u2ZzQ3DIAyFOWWMnrtI
+xqiySKfIGtkmC1FxsIQsjH+g0DQ+WKTIhX6Y90LSEGMMV47wNwDbtsUrRRHg+Q6XiGVZ6gDHcXRr
+pbnSuUUA53nGfd/JSANI82BiKhfG4ubO81iA9IV1XcmAwSR5AEDlYgBJngNYANI1FVigXN4UgKEi
+rq0CXgkubwpAz8mmuBD4tzZKN50pIk5d2vanACQ3KVxavFVw/1AXSl2cw+Qrk1cgfc5XbIqIJRaJ
+S4sn0J6rugK0VIDSwFAXslag5k7DXah3BYa7kFUDt3ehLk9ks1yodkdXAaQu7qCWRy8XysfAW1Fd
+Ae1xgtOARJy4iiWRiwEs5a9pQAuAt+IwAEoDUhfqJmLLsbqmAa6l9nypX10Bid1ZnyGorVfTwtcA
+WlpuzzdpYBRAkwYerxC5ANFJcrWhue+QAPDWmrqGL0pytdf5jzK9XncAB3CAiwOkkFqXJNdqi/f9
+l9IBHMABHMABbgnwAdFuw3AZxvu9AAAAAElFTkSuQmCC]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Configurable options for notification handling" isHidden="true" isMultiRow="true" name="Handlers" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Configuration" baseType="DATASHAPENAME" description="The name of the data shape representing configuration data for the handler" name="configuration" ordinal="3"/>
+                            <FieldDefinition aspect.friendlyName="Handler ID" baseType="GUID" description="The identifier for the type of supported notification handler" name="handlerID" ordinal="0"/>
+                            <FieldDefinition aspect.friendlyName="Localized Name" baseType="STRING" description="The localized name for the type of notifications handler" name="localizedName" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="Service Name" baseType="STRING" description="The name of the service for sending notifications on the handler" name="serviceName" ordinal="2"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.073+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

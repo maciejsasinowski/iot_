@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="GenericThing" description="Stream" documentationContent="" effectiveThingPackage="StreamThing" homeMashup="StreamMashup" lastModifiedDate="2017-09-30T23:45:37.014+02:00" name="Stream" projectName="" tags="" thingPackage="StreamThing" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[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]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Data Thing Configuration" isMultiRow="false" name="DataThingSettings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition baseType="STRING" description="Persistence Provider Name" name="persistenceProvider" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <persistenceProvider/>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Configurable options to tune Stream performance" isMultiRow="false" name="PersistenceProviderCustomSettings" ordinal="2">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Persistence Provider Custom Settings Table" baseType="INFOTABLE" description="Persistence Provider Custom Config Table" name="customConfigTable" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <customConfigTable>
+                                <infoTable>
+                                    <DataShape>
+                                        <FieldDefinitions/>
+                                    </DataShape>
+                                    <Rows/>
+                                </infoTable>
+                            </customConfigTable>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Data Shape Configuration" isMultiRow="false" name="Settings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Accumulated Data Shape" baseType="JSON" description="Accumulated Data shape" name="accumulatedDataShape" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="Data Shape" baseType="DATASHAPENAME" description="Data shape" name="dataShape" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <accumulatedDataShape>
+                                <json><![CDATA[{}]]></json>
+                            </accumulatedDataShape>
+                            <dataShape/>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.014+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

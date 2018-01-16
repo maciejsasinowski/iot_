@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Data shape representing an Industrial Connectivity item (tag)" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.656+02:00" name="IndustrialItems" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="BASETYPENAME" description="BaseType" name="BaseType" ordinal="0"/>
+                <FieldDefinition baseType="DATASHAPENAME" description="DataShape" name="DataShape" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Description" name="Description" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Name" name="Name" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="ReadOnly" name="ReadOnly" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Source" name="Source" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="SourceType" name="SourceType" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.656+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

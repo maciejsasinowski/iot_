@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate baseThingTemplate="GenericThing" description="" documentationContent="" effectiveThingPackage="ConfiguredThing" homeMashup="" lastModifiedDate="2017-12-09T19:53:38.984+01:00" name="Customer" projectName="" tags="Applications:BusinessRuleEngine;Applications:DataModelGuide" thingPackage="" valueStream="">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations>
+                <AlertDefinitions name="DeliveredPackages"/>
+                <AlertDefinitions name="Id"/>
+                <AlertDefinitions name="Location"/>
+                <AlertDefinitions name="Name"/>
+                <AlertDefinitions name="Priority"/>
+            </AlertConfigurations>
+            <ThingShape>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.dataShape="PackageDataShape" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="INFOTABLE" category="" description="" isLocalOnly="false" name="DeliveredPackages" ordinal="5"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="Id" ordinal="1"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="Location" ordinal="3"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="Name" ordinal="2"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.defaultValue="5" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" aspect.maximumValue="5" aspect.minimumValue="1" baseType="INTEGER" category="" description="" isLocalOnly="false" name="Priority" ordinal="4"/>
+                </PropertyDefinitions>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions>
+                    <Subscription enabled="true" eventName="Alert" source="" sourceProperty="DeliveredPackages">
+                        <ServiceImplementation description="" handlerName="Script" name="Event.Alert:Property.DeliveredPackages">
+                            <ConfigurationTables>
+                                <ConfigurationTable description="" isMultiRow="false" name="Script" ordinal="0">
+                                    <DataShape>
+                                        <FieldDefinitions>
+                                            <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                        </FieldDefinitions>
+                                    </DataShape>
+                                    <Rows>
+                                        <Row>
+                                            <code/>
+                                        </Row>
+                                    </Rows>
+                                </ConfigurationTable>
+                            </ConfigurationTables>
+                        </ServiceImplementation>
+                    </Subscription>
+                </Subscriptions>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated, baseThingTemplate : updated&#10;documentation : updated&#10;properties : Id : Added, Name : Added, Location : Added, Priority : Added, DeliveredPackages : Added&#10;" timestamp="2017-03-22T02:37:54.858+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="subscriptions : DeliveredPackages.Alert : New subscription, Subscription Added&#10;" timestamp="2017-03-22T02:46:07.647+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-03-22T02:46:16.042+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-04-05T18:58:43.114+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2017-04-12T15:08:33.128+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-10-10T08:33:41.538+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-06T22:02:22.998+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-12-09T19:53:38.984+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

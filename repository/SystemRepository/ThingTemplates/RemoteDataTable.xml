@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="RemoteThing" description="Remote Data Table" documentationContent="" effectiveThingPackage="RemoteDataTable" homeMashup="DataTableEditor" lastModifiedDate="2017-09-30T23:45:37.041+02:00" name="RemoteDataTable" projectName="" tags="" thingPackage="RemoteDataTable" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAM5UlEQVR42sVaCVCU5xnGNmmSaZPp
+GDvtxGbaxJjMOJ3oJDWJRm3SVJOJhoiIGrwwEVBU1Bgv8OYWUDHcAiqGoAmgokbwAFEEAeU+FnQR
+5D6W5UYW2LfP+/37swsmKnjwzzzzr7scz/Mez/t+PxoZDfDy9fW9tG/fvlvu7u5KhpubWy9cXV2V
+Tk5OSmdnZ6Wjo6PS3XOPxtV9n8bRda/GyW2vxsFlj2aXsyfunpodju6aHU7umu0Ou/HaTePg6KSx
+t7dXbtlir7S3txPYtGkDsFG5ceN68Zrvmzdv5M8SQOVvwB8Gyt/Iy8tLWVRURJWVlVRVVdUL/nd/
++Pv7En+tIQoLGYWkUEgoKCik/PxCCggIpJs3y/E15XhPQk5OGWVmSrhxo4zS08soPj6b1q1bextU
+FupEDOzy9PQsbmxspIe5/EGq/6XVEvX0EHV3E2k0RJ2dRB0dRD7+QeLe3k7U2krU3EykUhHV1RHV
+1BACQlRdTRClphUrlpeAyjbgtYHyH+bh4VHc0NDwUAL8/AN/9X1ZRFeXJOLuXSJvCGhrI2ppkchz
+jGprJfJIMFVUSMjJqScbm2UswAF4fcACUOuPLEAWwVlgEZwFFmAYfRYgR18WwFnIyamlZcusBy8A
+jfrwAgIC7/u5LIKz4O0XLEpIzkJTE1F9vZQFLh0mLwmogwCrwQtwcXEZgICABwqQS8lQgJyF/gI4
+E48iYJgsQK1WPxYBhlnw9ru3iX9LgJXV0vsLCA3N/OPPPxe/d+yYYkl4eL5DeLgiJCxMEfvDD3kp
+oaHpmoiIQgoPL6AjR3Lo0KFMCgm5QYGBaXTgQCoFBSVTcHAyPkshZ5dw+uWXbEpMLIItVqCu2x+L
+AGtry3sFXLxYPzImpnZzbGzdlZiY+vazZ2vxy2sMoT1zplp7+nQVnTpVSdHR5XTiRBkdP15KkZG3
+6aefbtGPPxYSREJAJvn5pZKXVyK5up6nrVtP0Nq1P8A9QsjOLpxCQ+Pg+ZV9BPj4Bz9QAN+zs2v7
+ZiA+np65fLnN5dKl1vaEhFbCa0Ssg65evSvu/G9+Pz6+mS5ebKQLF9R07pyKYmLqiEVCFLGo6OgK
+OnmyHILuQFAJRUSwKCUdO3YL2SoiZBAZSic3twu0enUomZo60c6dYSDaLmUgIBjEO9DAHXhPQmNj
+B6nVElQqCYWFVWRp+bVewJUr7V6pqXcxAbsoJaWbkpM1lJTUKcjjs17ycXFNgvz58w0UG1tPcob6
+k4+KKhXkUYKC/NGjN3WZ4ZLLp8OHc1F2OSIjX3yxgxYv3ikGnjcyEBQUDJESAgODMZ2DMc0l+PlJ
+2L/fn77+2kIvAERrq6q6kT4t3brVTampGhF9mfylSy2CPEdfJs/Rl8lzOTF5Licmz9Fn8hx9mTxH
+n8mHhuaJLDg7x8JJDtCcOW5kYrJDuJBPAJeQBi6kQSYkNDVpkAUJajWD6M6dpv4C2lsUih5Ra01N
+WnyjFgOkh0pLu5CuTjRNB/aQNmSnBcKaUFJqZEQFQfUQVAdBNRBUjYxUQRSjEmVVCWHloi8OHsxC
+1K4K0vb2UaJ8li71o1mznGjKlLX05ZdbJBvtN8h4DvQfZHzPyqqlJUsW9ymhloKCbiouJlIqtSDd
+hSXrLtAB52jHotVGeXmtaJ4WyshogphGSktrhCA1BKmQHSbPzaxEreejgdNBOBG1fp527TojGnjj
+xp/I1vYwIudDZmauNGPGdvrkkw00efIaMja2lwaZwSrB5Dnahg0sT+Ls7BqysFikF4AmbczP1wtQ
+KLqgsgMkW9AHDSDIzVoJgiWoaakkGNyYXNdcz1wWvr4pwnU8POLJxeVcL/lNm36mb78NEyWzaJEX
+zZ7t0itg0qTVIgPyKmEY/f4CysslZGayAIMMJCS01A+VgA8/tKWZM7f2LnOGixwPe8PyYfJ8z8pi
+AQv1AtCk9Xl5XUMmwNh4i6h9FsCRl8nzDGDycvTv3JHu6ek1cK4FegFxcY0VOTmaIREwceIqzINt
+ovZZAJPn0uFzgCyAo15WJglgZGTU4OfM1ws4c6YiOi2tVZB/2gImTFgJR9ktat87IEiQl6PPDiRH
+nwWUlkq4caO2rwD4u7KsTAOl7ZgBKjjO3ScqgO1z6tRNQoiJiSOcaJWofd5Gmbx8CuMGNox+SYmE
+69eracGCrwwFNJTl5kpDoq1NK7r8/PkSDKRC+HgB/LwU3l6BQTVwAez7bJ+LF++nr77yoLlzd4vX
+PAeYPJfQRx+tFY3rExACARoBlUpCXZ0GQjRoZj1KSpr6CsB0VWZnd4oeKC3Vou568M0MLd7rwDQu
+w2og+bu3dzLt2ZNA7u5xYqdxcoqhHTtO0bZtJ7GkRQq/Z6xff5S++y5cRH7z5gjavj1avG9jE0zm
+5p59SmjixOVilWABhquDvD74+krw8ZHuXl5+NH/+PEMBql4B/XsgLa1JDK20NDXKqwE7kgpTuF5M
+X14heH3gtYGzwWuC4Ra6e/fF3izcrwemTl0vsu8deBCe34y6l1Be3ozSaUZQmxF1PfLyKvsKiI2t
+VWRldQ6JC7GAadPWi6blZY6HlqHvc81LvAjrN2FXI7p2rRrlOFcv4OzZmqyMjI4hEzB9up1oWhZg
+SJ6b9/ZtiTwTLyqSRCQn1/QVEBFR5JeY2DwkNvrBBytQDi7CcViAIXl2Hg4qk2fihYWSiKSkKpo3
+b45ewOnTlTF5eS34Ys1TFzBt2mbRA0ycDzTs81w2HHkmz4SZeEEBYamU7leuVEOAmV4AVuCM3Fw+
+CXXjixqQonpYafsTE2BsvFMImD9/j5gHEyeuFFFnAYbkOfJMXqGQyOflSffLl6thx6Z6AadOVaTc
+uNEuvlmt5rNAB9JUAsL5OIRkwmUKceIqHZQAtla2zgUL9oo5wLC09KeFC/fRp5/a6Wx0pSgXFiA3
+rFw2cuSZfG6uhIQEzsBsQwHl11iA3MQ3b3YhlRo4QpdAenod7LIAR7xU2rv3srBHPpw4OPwiSLLH
+s9dv2HCM1q37URwV16w5IgYYR55tlGcFf25tHShOYX3nwEpROizAkDyXjyH57Gx+IkE4IVbjTGGi
+FxAdXZ54/Xrbr7rQ1atqZKMBM0CNHUQt7vzepUsNKKtqMQf4/MvZ4CMjzwF//7Q+c4CzcD8XYgFc
+Nr6BIfdkgMtHzgKLYDEJCXUIwiy9AKwI8amprUNmo5MmrcLxNJs89+5HfReDYDECVIyBWUwXLiix
+1igxOJU4tvKdn3Sk9m3isLCcvXFxqiGx0ffft6Ep/1nW8431ig5Lq2UdZmamijlzTBWzZ5sUmJnN
+KjA1nSkwa9aXAiYmxgX82YwZMxJBfivwT6OoKOXxrKwmNPHTtdGPP/6OPv98K40bt6QZRKIAP8Ad
+2AVsvw/47wJ2gDnwV6PIyNunr19vxk7egxpT47De8EQFzJzpIOyTlzqeAxDQwn+5Av4HvKl7XPja
+A/APQZ7/xIQmjE5ObhZOwI9VSktbUGvFdPRoLkVFFeF15SMJ4C2UrdPU1FmcBdhCv/nGV0Sfe2Ds
+WAs1iHgAb8kPkAcAIwi4FZGU1NjbxKWl3eK5UG2tFocHFYjmglwyiMUJ6+TVmcmxlTJkorxCr1p1
+SETayipAgPd+vrO1ys+EWIBhE48du1ilK503ekkN5Dp6tCg8MbHxHhfKyGiFdbXCj9thaZ269/mp
+XQsOONXiCZycgZCQLIGDB7PFnTPCZwc+N7BAzsLy5UG/6kLjxlnUg4bboAUcPpyx89y5mge6EJ/I
+IiKUAvw0mv2fn33yY0O5jHx8rolhx0+kH3aZGzNmTh5oOAOjjAZzrV27/18REcWtTPhpu9C771pp
+hw8fHQYaG4BXjQZ5PbdlS+i3kZHF3deuNT4VAew+48cv044aNS0OVeMPDjOBPw9WANfdiKVLd9pj
+HWg+deoO1gdeG5ofu4B589xxiF9H77xj2f3KK+NPDBs2LAi/20pnnc8YPcL1e+CVt956d/6mTcFn
+Dh7M6QwPV9DJkyUgX/FIAnix4y2UiaNket5884uU558ffoj/6A8sAkZzFRg9hotFjADeHznyDdvZ
+s1cfcnCIysYhvYsP6hJSBFF+zUsb37//Pkk8qeDG5a2THWfFihCxQk+fvo0mT17d8/bb5sqRI987
+/txzLwbj53/PrQf8l4M2qP/v8IByekH3g8cD8156abj9mDETvKZNW3zE3NzutKWle+LKlT7ZtrYH
+btvaBlfa2PhXWlr6VFpY7CmbO3eX4rPP1qRMmGB+bvToKcdGjBgV/OyzLwTqSPMKYAFM1k3SPwG/
+M3pC1zBdWl8WC5OR0TjdqJ8HWAPrAHvd3uKks0GGo44ou4qNbl/5DPi3zib/ogvQEyP+W2Ke1UVs
+uO5/iPxdF8XXdcRkyHvMq7osckm+qCuTYYMaVA+4/g9mrVgfzkY6lgAAAABJRU5ErkJggg==]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Data Shape Configuration" isMultiRow="false" name="Settings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Data Shape" baseType="DATASHAPENAME" description="Data shape" name="dataShape" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <dataShape/>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.041+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

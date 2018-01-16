@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Organizations>
+        <Organization aspect.isEditableSystemObject="true" description="Default organization" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.231+02:00" loginButtonStyle="" loginPrompt="" loginResetPassword="false" loginStyle="" mobileMashup="" name="Everyone" projectName="" resetMailContent="&lt;p&gt;[[resetemail.requestmade]]&lt;/p&gt;&lt;p&gt;[[resetemail.instructions]]&lt;/p&gt;&lt;p&gt;[[resetemail.helpneeded]]&lt;/p&gt;" resetMailServer="" resetMailSubject="[[resetemail.subject]]" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <loginImage/>
+            <Connections>
+                <Connection from="" to="Everyone"/>
+            </Connections>
+            <OrganizationalUnits>
+                <OrganizationalUnit description="All users" name="Everyone">
+                    <Members>
+                        <Members>
+                            <Member name="Users" type="Group"/>
+                        </Members>
+                    </Members>
+                </OrganizationalUnit>
+            </OrganizationalUnits>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.231+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Organization>
+    </Organizations>
+</Entities>

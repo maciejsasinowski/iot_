@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Diagnostic digest for industrial properties" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.063+02:00" name="IndustrialDiagnosticDigest" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="" name="Address" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="" name="CurrentQuality" ordinal="0"/>
+                <FieldDefinition baseType="DATETIME" description="" name="CurrentTimestamp" ordinal="0"/>
+                <FieldDefinition baseType="VARIANT" description="" name="CurrentValue" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="" name="Datatype" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="" name="Description" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="" name="DriverFriendlyName" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="" name="DriverPersistedName" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="" name="Error" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="" name="Model" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="" name="Name" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="" name="ReadOnly" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="" name="Valid" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.063+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

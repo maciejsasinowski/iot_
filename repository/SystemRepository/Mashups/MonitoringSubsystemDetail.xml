@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="false" aspect.isSystemObject="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.935+02:00" name="MonitoringSubsystemDetail" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions>
+                <FieldDefinition aspect.dataShape="SubsystemStatus" aspect.isDataTableEntry="true" aspect.ordinal="0" baseType="INFOTABLE" description="" name="subsystemInfo" ordinal="0"/>
+            </ParameterDefinitions>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ {
+          "Widgets" : [ {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 152,
+              "CancelConfirmationButton" : "button2",
+              "ShowDataLoading" : true,
+              "Label" : "[[refresh]]",
+              "FocusStyle" : "DefaultButtonFocusStyle",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "IconAlignment" : "left",
+              "Visible" : true,
+              "DisplayName" : "Button-7",
+              "Style" : {
+                "image" : "LogRefreshIcon",
+                "backgroundColor" : "#349fd6",
+                "textSize" : "normal",
+                "lineStyle" : "solid",
+                "fontEmphasisItalic" : false,
+                "fontEmphasisUnderline" : false,
+                "displayString" : "",
+                "lineThickness" : 1,
+                "foregroundColor" : "#ffffff",
+                "lineColor" : "#01529a",
+                "fontEmphasisBold" : true,
+                "secondaryBackgroundColor" : "#124ab5"
+              },
+              "Height" : 26,
+              "DisabledStyle" : "DefaultButtonDisabledStyle",
+              "ConfirmationTitle" : "[[confirmAction]]",
+              "Disabled" : false,
+              "Width" : 84,
+              "ResponsiveLayout" : false,
+              "ConfirmationPrompt" : "[[doAction]]",
+              "Z-index" : 11,
+              "ConfirmationButton1Label" : "[[confirmationOptionYes]]",
+              "RoundedCorners" : true,
+              "__TypeDisplayName" : "Button",
+              "HoverStyle" : "DefaultButtonHoverStyle",
+              "Area" : "UI",
+              "Type" : "button",
+              "Top" : 3,
+              "DefaultConfirmationButton" : "button1",
+              "ContextId" : "",
+              "ConfirmationRequired" : false,
+              "Id" : "Button-7",
+              "ConfirmationButton2Label" : "[[confirmationOptionNo]]",
+              "ActiveStyle" : "DefaultButtonActiveStyle"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "TextIfNoValue" : "[[usersLoggedIn]]",
+              "Left" : 6,
+              "ShowDataLoading" : true,
+              "Label" : "",
+              "ValueDisplayLabelStyle" : "DefaultWidgetLabelStyle",
+              "TextIfNoValueOffset" : 0,
+              "Overflow" : "hidden",
+              "ToolTipField" : "",
+              "Alignment" : "left",
+              "TextIfNoValueStyle" : {
+                "image" : "",
+                "backgroundColor" : "",
+                "textSize" : "2xl",
+                "lineStyle" : "solid",
+                "fontEmphasisItalic" : false,
+                "fontEmphasisUnderline" : false,
+                "displayString" : "",
+                "lineThickness" : 1,
+                "foregroundColor" : "#333333",
+                "lineColor" : "",
+                "fontEmphasisBold" : false,
+                "secondaryBackgroundColor" : ""
+              },
+              "ImageScaling" : "width",
+              "Visible" : true,
+              "DisplayName" : "ValueDisplay-8",
+              "Height" : 22,
+              "VerticalAlignment" : "middle",
+              "Width" : 305,
+              "ValueDisplayStyle" : "DefaultValueDisplayStyle",
+              "__supportsLabel" : true,
+              "ResponsiveLayout" : false,
+              "BackgroundFill" : "content",
+              "Z-index" : 10,
+              "LabelAlignment" : "left",
+              "__TypeDisplayName" : "Value Display",
+              "Area" : "UI",
+              "Type" : "valuedisplay",
+              "Top" : 5,
+              "Id" : "ValueDisplay-8",
+              "TextWrap" : true
+            }
+          } ],
+          "Properties" : {
+            "Left" : 185,
+            "HideScrollbars" : false,
+            "ResponsiveLayout" : true,
+            "ShowDataLoading" : true,
+            "Z-index" : 10,
+            "VerticalAnchor" : "top",
+            "__TypeDisplayName" : "Panel",
+            "HorizontalAnchor" : "left",
+            "Area" : "UI",
+            "Type" : "panel",
+            "Top" : 15,
+            "Visible" : true,
+            "DisplayName" : "Panel-4",
+            "Style" : {
+              "image" : "",
+              "backgroundColor" : "",
+              "textSize" : "normal",
+              "lineStyle" : "solid",
+              "fontEmphasisItalic" : false,
+              "fontEmphasisUnderline" : false,
+              "displayString" : "",
+              "lineThickness" : 1,
+              "foregroundColor" : "",
+              "lineColor" : "",
+              "fontEmphasisBold" : false,
+              "secondaryBackgroundColor" : ""
+            },
+            "Height" : 200,
+            "Id" : "Panel-4",
+            "Width" : 300
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "Visible" : true,
+          "DisplayName" : "Header",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "MinWidth" : 0,
+          "TabOffset" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-2"
+        }
+      }, {
+        "Widgets" : [ {
+          "Widgets" : [ ],
+          "Properties" : {
+            "RowSelectedStyle" : "DefaultRowSelectedStyle",
+            "IsEditable" : false,
+            "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+            "Left" : 225,
+            "ShowDataLoading" : true,
+            "GridHeaderStyle" : "DefaultGridHeaderStyle",
+            "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+            "FocusStyle" : "DefaultFocusStyle",
+            "RowFormat_StateParameters" : [ ],
+            "TabSequence" : 0,
+            "CellTextWrapping" : false,
+            "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+            "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+            "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+            "Visible" : true,
+            "DisplayName" : "Grid-6",
+            "Height" : 200,
+            "Width" : 400,
+            "MultiSelect" : false,
+            "CurrentScrollTop" : 0,
+            "ResponsiveLayout" : true,
+            "ShowAllColumns" : false,
+            "Z-index" : 10,
+            "AlignHeader" : false,
+            "__TypeDisplayName" : "Grid",
+            "ScrollTop" : 0,
+            "RowHeight" : 30,
+            "ColumnFormat" : {
+              "formatInfo" : [ {
+                "ValidationMessage" : "",
+                "Align" : "left",
+                "AllowEdit" : false,
+                "Title" : "[[name]]",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "STRING",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "full"
+                },
+                "FieldName" : "name",
+                "Width" : "auto"
+              }, {
+                "ValidationMessage" : "",
+                "Align" : "left",
+                "AllowEdit" : false,
+                "Title" : "[[isConnected]]",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "BOOLEAN",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "checkbox"
+                },
+                "FieldName" : "isConnected",
+                "Width" : "auto"
+              }, {
+                "ValidationMessage" : "",
+                "Align" : "left",
+                "AllowEdit" : false,
+                "Title" : "[[connectionStatus]]",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "STRING",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "comparator" : "==",
+                      "stateName" : "Subsystem is running.",
+                      "state" : "SubsystemRunningStyle",
+                      "value" : "true"
+                    }, {
+                      "comparator" : "==",
+                      "stateName" : "Subsystem is not running.",
+                      "state" : "SubsystemNotRunningStyle",
+                      "value" : "false"
+                    }, {
+                      "stateName" : "",
+                      "state" : {
+                        "image" : "",
+                        "backgroundColor" : "",
+                        "textSize" : "normal",
+                        "lineStyle" : "solid",
+                        "fontEmphasisItalic" : false,
+                        "fontEmphasisUnderline" : false,
+                        "displayString" : "",
+                        "lineThickness" : 1,
+                        "foregroundColor" : "",
+                        "lineColor" : "",
+                        "fontEmphasisBold" : false,
+                        "secondaryBackgroundColor" : ""
+                      }
+                    } ],
+                    "StateDefinition" : "SubsystemRunningStatus",
+                    "StateDefinitionType" : "string",
+                    "FieldName" : "isConnected"
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "full"
+                },
+                "FieldName" : "connectionStatus",
+                "Width" : "auto"
+              }, {
+                "ValidationMessage" : "",
+                "Align" : "left",
+                "AllowEdit" : false,
+                "Title" : "[[lastConnection]]",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "DATETIME",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "yyyy-MM-dd HH:mm:ss"
+                },
+                "FieldName" : "lastConnection",
+                "Width" : "auto"
+              }, {
+                "ValidationMessage" : "",
+                "Align" : "left",
+                "AllowEdit" : false,
+                "Title" : "[[description]]",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "STRING",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "full"
+                },
+                "FieldName" : "description",
+                "Width" : "auto"
+              } ]
+            },
+            "Area" : "UI",
+            "Type" : "dhxgrid",
+            "Top" : 215,
+            "IsPrintLayout" : false,
+            "Id" : "Grid-6",
+            "RowHoverStyle" : "DefaultRowHoverStyle",
+            "AutoSelectFirstRow" : false,
+            "GridHeaderTextCase" : "none"
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "Visible" : true,
+          "DisplayName" : "Row 1",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "MinWidth" : 0,
+          "TabOffset" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-3"
+        }
+      } ],
+      "Properties" : {
+        "Left" : 385,
+        "IncludeSpacingInFixedAreas" : false,
+        "ShowDataLoading" : true,
+        "HeaderHeight" : 44,
+        "PctRow4" : 0,
+        "PctRow3" : 0,
+        "PctRow2" : 0,
+        "FooterHeight" : 0,
+        "PctRow1" : 100,
+        "PctRow8" : 0,
+        "PctRow7" : 0,
+        "PctRow6" : 0,
+        "PctRow5" : 0,
+        "LeftSidebar" : false,
+        "RightSidebar" : false,
+        "Visible" : true,
+        "DisplayName" : "Layout-1",
+        "PctColumn5" : 1,
+        "PctColumn6" : 1,
+        "PctColumn3" : 1,
+        "PrintWidth" : 650,
+        "PctColumn4" : 1,
+        "PctColumn1" : 50,
+        "PctColumn2" : 50,
+        "PrintMarginTopBottom" : 0.5,
+        "Rows" : 1,
+        "RightSidebarWidth" : 0,
+        "PrintMarginLeftRight" : 0.5,
+        "PctColumn7" : 1,
+        "ResponsiveLayout" : true,
+        "PctColumn8" : 1,
+        "Columns" : 0,
+        "Z-index" : 10,
+        "Spacing" : 2,
+        "Orientation" : "vertical",
+        "__TypeDisplayName" : "Layout",
+        "Area" : "UI",
+        "Type" : "layout",
+        "LeftSidebarWidth" : 0,
+        "Header" : true,
+        "Top" : 170,
+        "IsPrintLayout" : false,
+        "Footer" : false,
+        "Id" : "Layout-1"
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "BGImageRepeat" : "no-repeat",
+      "ShowDataLoading" : true,
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "id_index" : 8,
+      "supportsAutoResize" : true,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : {
+        "image" : "",
+        "backgroundColor" : "",
+        "textSize" : "normal",
+        "lineStyle" : "solid",
+        "fontEmphasisItalic" : false,
+        "fontEmphasisUnderline" : false,
+        "displayString" : "",
+        "lineThickness" : 1,
+        "foregroundColor" : "",
+        "lineColor" : "",
+        "fontEmphasisBold" : false,
+        "secondaryBackgroundColor" : ""
+      },
+      "BGImageSize" : "auto",
+      "Height" : 618,
+      "Width" : 1024,
+      "TitleBar" : false,
+      "Rows" : 0,
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "ResponsiveLayout" : true,
+      "Z-index" : 10,
+      "Title" : "",
+      "Columns" : 0,
+      "TitleBarText" : "Gadget Title Here",
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "EnableParameterEditing" : false,
+      "Master" : "ThingWorxMonitor",
+      "Area" : "Mashup",
+      "Type" : "mashup",
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "Id" : "mashup-root",
+      "MashupToEditGadget" : "DefaultMashupToEditGadget",
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetActiveUsers",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Resources_CurrentSessionInfo",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "e41fc518-b6ee-4531-9760-11ded803f473",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "GetActiveUsers",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Resources_CurrentSessionInfo",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "2d8d55bc-44df-40c4-87b1-a805277f3153",
+    "EventTriggerId" : "Button-7",
+    "EventHandlerArea" : "Data"
+  } ],
+  "mashupType" : "mashup",
+  "DataBindings" : [ {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetActiveUsers",
+    "Id" : "a37ed753-4efd-43de-80c5-038a980620ec",
+    "SourceSection" : "Resources_CurrentSessionInfo",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "Grid-6"
+  } ],
+  "Data" : {
+    "Resources_CurrentSessionInfo" : {
+      "EntityType" : "Resources",
+      "Services" : [ {
+        "Target" : "GetActiveUsers",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "f7189f57-590f-490f-97ca-7fa56c04908e",
+        "Name" : "GetActiveUsers"
+      } ],
+      "EntityName" : "CurrentSessionInfo",
+      "Id" : "2bd0e49c-8efd-4810-9a19-fe1fbf5c22b0",
+      "DataName" : "Resources_CurrentSessionInfo"
+    },
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.935+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

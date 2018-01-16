@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="SDKGateway" description="A gateway used for Industrial Connectivity Servers" documentationContent="" effectiveThingPackage="IndustrialGateway" homeMashup="" lastModifiedDate="2017-09-30T23:45:36.961+02:00" name="IndustrialGateway" projectName="" tags="" thingPackage="IndustrialGateway" valueStream="IndustrialGatewayDiagnosticStream">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABd0lEQVR42u2ZzQ3DIAyFOWWMnrtI
+xqiySKfIGtkmC1FxsIQsjH+g0DQ+WKTIhX6Y90LSEGMMV47wNwDbtsUrRRHg+Q6XiGVZ6gDHcXRr
+pbnSuUUA53nGfd/JSANI82BiKhfG4ubO81iA9IV1XcmAwSR5AEDlYgBJngNYANI1FVigXN4UgKEi
+rq0CXgkubwpAz8mmuBD4tzZKN50pIk5d2vanACQ3KVxavFVw/1AXSl2cw+Qrk1cgfc5XbIqIJRaJ
+S4sn0J6rugK0VIDSwFAXslag5k7DXah3BYa7kFUDt3ehLk9ks1yodkdXAaQu7qCWRy8XysfAW1Fd
+Ae1xgtOARJy4iiWRiwEs5a9pQAuAt+IwAEoDUhfqJmLLsbqmAa6l9nypX10Bid1ZnyGorVfTwtcA
+WlpuzzdpYBRAkwYerxC5ANFJcrWhue+QAPDWmrqGL0pytdf5jzK9XncAB3CAiwOkkFqXJNdqi/f9
+l9IBHMABHMABbgnwAdFuw3AZxvu9AAAAAElFTkSuQmCC]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <PropertyBindings/>
+            <RemotePropertyBindings>
+                <RemotePropertyBinding foldType="NONE" name="ActiveTagCount" pushThreshold="0.0" pushType="VALUE" sourceName="ActiveTagCount" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="ClientCount" pushThreshold="0.0" pushType="VALUE" sourceName="ClientCount" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="DateTime" pushThreshold="0.0" pushType="VALUE" sourceName="DateTime" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="DroppedUpdates" pushThreshold="0.0" pushType="VALUE" sourceName="DroppedUpdates" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="ExpiredFeatures" pushThreshold="0.0" pushType="ALWAYS" sourceName="ExpiredFeatures" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="FullProjectName" pushThreshold="0.0" pushType="VALUE" sourceName="FullProjectName" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="Hostname" pushThreshold="0.0" pushType="VALUE" sourceName="Hostname" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="IndustrialThingCount" pushThreshold="0.0" pushType="VALUE" sourceName="IndustrialThingCount" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="LicensedFeatures" pushThreshold="0.0" pushType="ALWAYS" sourceName="LicensedFeatures" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="OpcClientNames" pushThreshold="0.0" pushType="ALWAYS" sourceName="OpcClientNames" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="ProductName" pushThreshold="0.0" pushType="VALUE" sourceName="ProductName" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="ProductVersion" pushThreshold="0.0" pushType="VALUE" sourceName="ProductVersion" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="ProjectName" pushThreshold="0.0" pushType="VALUE" sourceName="ProjectName" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="ProjectTitle" pushThreshold="0.0" pushType="VALUE" sourceName="ProjectTitle" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="PropertyCount" pushThreshold="0.0" pushType="VALUE" sourceName="PropertyCount" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="TimeLimitedFeatures" pushThreshold="0.0" pushType="ALWAYS" sourceName="TimeLimitedFeatures" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="TotalTagCount" pushThreshold="0.0" pushType="VALUE" sourceName="TotalTagCount" timeout="0"/>
+                <RemotePropertyBinding foldType="NONE" name="UpdatesPerSecond" pushThreshold="0.0" pushType="VALUE" sourceName="UpdatesPerSecond" timeout="0"/>
+            </RemotePropertyBindings>
+            <RemoteServiceBindings>
+                <RemoteServiceBinding enableQueue="false" name="GetDiagnosticDigest" sourceName="" timeout="0"/>
+            </RemoteServiceBindings>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="INTEGER" category="" description="" isLocalOnly="false" name="ActiveTagCount" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="INTEGER" category="" description="" isLocalOnly="false" name="ClientCount" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="DATETIME" category="" description="" isLocalOnly="false" name="DateTime" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="INTEGER" category="" description="" isLocalOnly="false" name="DroppedUpdates" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.dataShape="GenericStringList" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="INFOTABLE" category="" description="" isLocalOnly="false" name="ExpiredFeatures" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="STRING" category="" description="" isLocalOnly="false" name="FullProjectName" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="STRING" category="" description="" isLocalOnly="false" name="Hostname" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="INTEGER" category="" description="" isLocalOnly="false" name="IndustrialThingCount" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.dataShape="GenericStringList" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="INFOTABLE" category="" description="" isLocalOnly="false" name="LicensedFeatures" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.dataShape="GenericStringList" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="INFOTABLE" category="" description="" isLocalOnly="false" name="OpcClientNames" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="STRING" category="" description="" isLocalOnly="false" name="ProductName" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="STRING" category="" description="" isLocalOnly="false" name="ProductVersion" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="STRING" category="" description="" isLocalOnly="false" name="ProjectName" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="STRING" category="" description="" isLocalOnly="false" name="ProjectTitle" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="INTEGER" category="" description="" isLocalOnly="false" name="PropertyCount" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.dataShape="GenericStringList" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="INFOTABLE" category="" description="" isLocalOnly="false" name="TimeLimitedFeatures" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="INTEGER" category="" description="" isLocalOnly="false" name="TotalTagCount" ordinal="0"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="NUMBER" category="" description="" isLocalOnly="false" name="UpdatesPerSecond" ordinal="0"/>
+                </PropertyDefinitions>
+                <ServiceDefinitions>
+                    <ServiceDefinition category="Queries" description="Get the diagnostics from an industrial tag" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetDiagnosticDigest">
+                        <ResultType aspect.dataShape="IndustrialDiagnosticDigest" baseType="INFOTABLE" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions>
+                            <FieldDefinition baseType="STRING" description="Full path address to an industrial tag" name="fullyQualifiedTagAddress" ordinal="0"/>
+                        </ParameterDefinitions>
+                    </ServiceDefinition>
+                </ServiceDefinitions>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:36.961+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

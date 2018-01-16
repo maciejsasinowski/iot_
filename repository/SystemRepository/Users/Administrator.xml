@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Users>
+        <User aspect.isEditableSystemObject="true" description="Administrator" documentationContent="" enabled="true" homeMashup="" lastModifiedDate="2017-12-09T20:23:34.131+01:00" locked="false" lockedTime="1970-01-01T01:00:00.000+01:00" mobileMashup="" name="Administrator" passwordHash="100000:5cd37f2eb0beb9c9a3d0844f549d52e53d7b2203206db420a1a991e3e9c50f91505f7b8a8f86b06ce13c3abfb7b838248602e088cba16f2be46927adb328fb5e:1d5815f545923c51ff83814da637bc410012a30b477a401892ef4ccfaf733c6dee9670fa6c3b74a32c6908c113812698c1690053b205026c94de596b37269625" passwordHashAlgorithm="PBKDF2WithHmacSHA512" passwordHashIterationCount="100000" passwordHashSaltSizeInBytes="64" passwordHashSizeInBytes="64" projectName="" scimExternalId="" scimId="" tags="">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Settings" isMultiRow="false" name="Settings" ordinal="2">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPrimaryKey="true" baseType="STRING" description="Primary language" name="language" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <language><![CDATA[en]]></language>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="UserExtensions" isMultiRow="true" name="UserExtensions" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition baseType="DATETIME" description="Last update time" name="lastUpdateTime" ordinal="3"/>
+                            <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Name" name="name" ordinal="1"/>
+                            <FieldDefinition baseType="STRING" description="Value" name="value" ordinal="2"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <name><![CDATA[altEmailAddresses]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[lastName]]></name>
+                            <value><![CDATA[Piszczatowski]]></value>
+                            <lastUpdateTime>2017-12-09T20:23:31.423+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[zipCode]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[smsAddress]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[city]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[homePhone]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[fullName]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[title]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[firstName]]></name>
+                            <value><![CDATA[Szymon]]></value>
+                            <lastUpdateTime>2017-12-09T20:17:28.077+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[emailAddress]]></name>
+                            <value><![CDATA[piszczatowskiszymon@gmail.com]]></value>
+                            <lastUpdateTime>2017-12-09T20:17:28.077+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[mobilePhone]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[mailingAddress]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[middleName]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[workPhone]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[state]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PersistentValues>
+                <PersistentValue name="IDE_CategoryUIState"><![CDATA[{"IDE_CategoryUIState":{"Visualization":{"collapsed":"false"},"Collaboration":{"collapsed":"true"},"Security":{"collapsed":"true"},"Modeling":{"collapsed":"false"},"Analytics":{"collapsed":"false"},"Data Storage":{"collapsed":"false"},"System":{"collapsed":"true"}}}]]></PersistentValue>
+                <PersistentValue name="IDE_History_MRU_Entities"><![CDATA[{"IDE_History_MRU_Entities":[{"entityDescription":"","entityType":"DataShapes","entityName":"Flowers"},{"entityDescription":"","entityType":"Things","entityName":"air_humidity"},{"entityDescription":"","entityType":"Mashups","entityName":"Dashboard"},{"entityDescription":"","entityType":"Things","entityName":"ambient_temperature"},{"entityDescription":"","entityType":"Mashups","entityName":"Statisctic"},{"entityDescription":"","entityType":"Things","entityName":"FlowerDataStream"},{"entityDescription":"","entityType":"Mashups","entityName":"Manager Flowers"},{"entityDescription":"","entityType":"Things","entityName":"ambient_temp_stream"},{"entityDescription":"Value Stream","entityType":"ThingTemplates","entityName":"ValueStream"},{"entityDescription":"For rest API","entityType":"ApplicationKeys","entityName":"Postman"},{"entityDescription":"Overall platform monitoring and configuration","entityType":"Subsystems","entityName":"PlatformSubsystem"},{"entityDescription":"","entityType":"Things","entityName":"FlowersData"},{"entityDescription":"SSO Authenticator","entityType":"Authenticators","entityName":"ThingworxSSOAuthenticator"},{"entityDescription":"Application to manage flowers","entityType":"Projects","entityName":"Smart Flowers"},{"entityDescription":"Administrator","entityType":"Users","entityName":"Administrator"},{"entityDescription":"Room temperature","entityType":"ThingTemplates","entityName":"Temperature"},{"entityDescription":"","entityType":"Mashups","entityName":"Pare flower"},{"entityDescription":"","entityType":"Things","entityName":"wind_stream"},{"entityDescription":"A room which flowers​ are in.","entityType":"ThingShapes","entityName":"Room"},{"entityDescription":"","entityType":"Things","entityName":"air_humidity_stream"},{"entityDescription":"","entityType":"ModelTags","entityName":"flower:flower"},{"entityDescription":"","entityType":"ModelTags","entityName":"smartflowers:smartflowers"},{"entityDescription":"","entityType":"ModelTags","entityName":"flowers:flowers"},{"entityDescription":"","entityType":"ModelTags","entityName":"smart:smart"},{"entityDescription":"","entityType":"ModelTags","entityName":"Applications:BusinessRuleEngine"},{"entityDescription":"","entityType":"ModelTags","entityName":"Applications:DataModelGuide"},{"entityDescription":"Generic thing","entityType":"ThingTemplates","entityName":"GenericThing"},{"entityDescription":"Data Table","entityType":"ThingTemplates","entityName":"DataTable"},{"entityDescription":"","entityType":"Things","entityName":"SpeedDataStream"},{"entityDescription":"","entityType":"Things","entityName":"insolation"},{"entityDescription":"","entityType":"Things","entityName":"wind"},{"entityDescription":"","entityType":"Things","entityName":"soil_moisture"},{"entityDescription":"","entityType":"Things","entityName":"irrigation"},{"entityDescription":"","entityType":"Things","entityName":"insolation_stream"},{"entityDescription":"","entityType":"Things","entityName":"irrigation_stream"},{"entityDescription":"","entityType":"Things","entityName":"soil_moisture_stream"},{"entityDescription":"","entityType":"Things","entityName":" soil_moisture_stream"},{"entityDescription":"","entityType":"Things","entityName":" soil_moisture"},{"entityDescription":"","entityType":"Things","entityName":"Truck2"},{"entityDescription":"","entityType":"ModelTags","entityName":"flowers"},{"entityDescription":"","entityType":"DataShapes","entityName":"TruckDataShape"},{"entityDescription":"","entityType":"Things","entityName":"TruckDataTable"},{"entityDescription":"default System file repository","entityType":"Things","entityName":"SystemRepository"},{"entityDescription":"","entityType":"ThingTemplates","entityName":"Machine"},{"entityDescription":"","entityType":"ModelTags","entityName":"smartflowers"},{"entityDescription":"Default Style for Button Widget - Theme: ThingWorx","entityType":"StyleDefinitions","entityName":"DefaultButtonStyle"},{"entityDescription":"","entityType":"ModelTags","entityName":"flower"},{"entityDescription":"","entityType":"ModelTags","entityName":"smart"}]}]]></PersistentValue>
+                <PersistentValue name="IDE_LicenseClicked"><![CDATA[{"IDE_LicenseClicked":true}]]></PersistentValue>
+                <PersistentValue name="User_MashupFavorites"><![CDATA[{"rows":[{"items":[]}]}]]></PersistentValue>
+                <PersistentValue name="User_IDE_Favorites"><![CDATA[{"rows":[]}]]></PersistentValue>
+                <PersistentValue name="preferenceLoadTabs"><![CDATA[{"preferenceLoadTabs":"no"}]]></PersistentValue>
+                <PersistentValue name="profileConfiguration"><![CDATA[{"profileConfiguration":{"collections":[],"topMenus":[]}}]]></PersistentValue>
+            </PersistentValues>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-12-09T20:17:28.077+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-12-09T20:23:31.423+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-12-09T20:23:34.131+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </User>
+    </Users>
+</Entities>

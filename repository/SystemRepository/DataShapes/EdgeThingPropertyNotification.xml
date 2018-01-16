@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Edge Thing properties with subscriptions list including push type and threshold" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.613+02:00" name="EdgeThingPropertyNotification" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Edge property name" name="edgeName" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Change threshold to generate event for numeric properties" name="pushThreshold" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="String representing push type for event notification to subscribers" name="pushType" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.613+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

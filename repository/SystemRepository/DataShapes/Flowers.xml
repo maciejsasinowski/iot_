@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape baseDataShape="" description="" documentationContent="" homeMashup="" lastModifiedDate="2018-01-14T18:58:01.900+01:00" name="Flowers" projectName="Smart Flowers" tags="smart:smart;flowers:flowers;flower:flower;smartflowers:smartflowers">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="DATETIME" description="" name="last_water" ordinal="7"/>
+                <FieldDefinition aspect.maximumValue="100.0" aspect.minimumValue="0.0" aspect.units="%" baseType="NUMBER" description="" name="Light" ordinal="4"/>
+                <FieldDefinition aspect.defaultValue="flower" aspect.isPrimaryKey="true" baseType="STRING" description="" name="Name" ordinal="2"/>
+                <FieldDefinition aspect.maximumValue="100.0" aspect.minimumValue="0.0" aspect.units="%" baseType="NUMBER" description="" name="soilMoisture" ordinal="3"/>
+                <FieldDefinition aspect.maximumValue="100" aspect.minimumValue="-100" aspect.units="C" baseType="INTEGER" description="" name="Temperature" ordinal="5"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, projectName : updated, tags : updated&#10;" timestamp="2017-11-06T23:36:31.150+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="fields : id : Added, Name : Added, Updated, soilMoisture : Added, Light : Added, Temperature : Added, Updated, if_water : Added, last_water : Added&#10;" timestamp="2017-11-06T23:44:50.081+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-06T23:44:52.081+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="fields : if_water : removed&#10;" timestamp="2018-01-13T16:28:28.574+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:47:41.321+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="fields : id : removed, Name : Updated&#10;" timestamp="2018-01-14T18:58:01.900+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

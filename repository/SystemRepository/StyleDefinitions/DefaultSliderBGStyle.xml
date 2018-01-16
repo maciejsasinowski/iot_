@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StyleDefinitions>
+        <StyleDefinition aspect.isEditableSystemObject="true" aspect.isThemeObject="true" description="Default Style for Slider Widget BG - Theme: ThingWorx" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.523+02:00" name="DefaultSliderBGStyle" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"image":"","backgroundColor":"#f5f2fa","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"#ffffff","fontEmphasisBold":false,"secondaryBackgroundColor":"#c5c3c8"}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.523+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StyleDefinition>
+    </StyleDefinitions>
+</Entities>

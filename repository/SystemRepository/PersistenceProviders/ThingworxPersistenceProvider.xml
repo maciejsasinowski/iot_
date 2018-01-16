@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <PersistenceProviders>
+        <PersistenceProvider aspect.enabled="true" aspect.isSystemObject="true" description="" documentationContent="" enabled="true" homeMashup="" isDefault="true" lastModifiedDate="2017-09-30T23:45:32.831+02:00" name="ThingworxPersistenceProvider" persistenceProviderPackage="H2PersistenceProviderPackage" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Connection information needed to connect to H2" isMultiRow="false" name="ConnectionInformation" ordinal="2">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="5" aspect.friendlyName="Connection Acquire Increment" baseType="INTEGER" description="The number of connections to add to the pool at once" name="acquireIncrement" ordinal="1"/>
+                            <FieldDefinition aspect.defaultValue="30" aspect.friendlyName="Acquire Retry Attempts" baseType="INTEGER" description="The number of times to retry acquiring a connection to the database" name="acquireRetryAttempts" ordinal="6"/>
+                            <FieldDefinition aspect.defaultValue="1000" aspect.friendlyName="Acquire Retry Delay" baseType="INTEGER" description="The number of milliseconds to wait until a retry to acquire a connection to the database" name="acquireRetryDelay" ordinal="7"/>
+                            <FieldDefinition aspect.defaultValue="2000" aspect.friendlyName="Checkout Retry Timeout" baseType="INTEGER" description="The number of milliseconds to wait for a connection when the pool has no connections left to provide" name="checkoutTimeout" ordinal="8"/>
+                            <FieldDefinition aspect.defaultValue="6" aspect.friendlyName="Connection Test Period" baseType="INTEGER" description="The number of seconds between periods where the connection pool retests all idle connections and discards any broken connections" name="idleConnectionTestPeriod" ordinal="9"/>
+                            <FieldDefinition aspect.defaultValue="10" aspect.friendlyName="Initial Connection Pool Size" baseType="INTEGER" description="The number of connections initially available in the connection pool" name="initialPoolSize" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="0" aspect.friendlyName="Max Connection Age" baseType="INTEGER" description="The maximum number of seconds a connection exists before being discarded" name="maxConnectionAge" ordinal="12"/>
+                            <FieldDefinition aspect.defaultValue="0" aspect.friendlyName="Max Idle Time" baseType="INTEGER" description="The maximum number of seconds a connection remains idle before being discarded from the pool" name="maxIdleTime" ordinal="11"/>
+                            <FieldDefinition aspect.defaultValue="0" aspect.friendlyName="Max Idle Time For Excess Connections" baseType="INTEGER" description="The amount of time before connections are culled down to minPoolSize" name="maxIdleTimeExcessConnections" ordinal="15"/>
+                            <FieldDefinition aspect.defaultValue="100" aspect.friendlyName="Max Connection Pool Size" baseType="INTEGER" description="The maximum number of connections to create in the connection pool" name="maxPoolSize" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="0" aspect.friendlyName="Max Cached Statements" baseType="INTEGER" description="The maximum number of statements the connection pool will cache" name="maxStatements" ordinal="4"/>
+                            <FieldDefinition aspect.defaultValue="50" aspect.friendlyName="Max Cached Statements Per Connection" baseType="INTEGER" description="The maximum number of statements the connection pool will cache per connection" name="maxStatementsPerConnection" ordinal="5"/>
+                            <FieldDefinition aspect.defaultValue="10" aspect.friendlyName="Min Connection Pool Size" baseType="INTEGER" description="The minimum allowed number of connections in the connection pool" name="minPoolSize" ordinal="3"/>
+                            <FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Flag to detect usage of MVStore storage" baseType="BOOLEAN" description="Flag to let H2 know whether to user MVStore storage or not. MVStore is default storage engine in 1.4.X versions of H2 database." name="mvStore" ordinal="17"/>
+                            <FieldDefinition aspect.defaultValue="6" aspect.friendlyName="Number of Helper Threads" baseType="INTEGER" description="The number of helper threads to spawn" name="numHelperThreads" ordinal="13"/>
+                            <FieldDefinition aspect.friendlyName="Password" baseType="PASSWORD" description="The password used to log into the database" name="password" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="10000" aspect.friendlyName="Table Lock Timeout" baseType="INTEGER" description="How long to wait for a table lock to release for rolling back a transaction" name="tableLockTimeout" ordinal="16"/>
+                            <FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Test Connection On Checkout" baseType="BOOLEAN" description="Whether or not to check if a connection is broken before distributing it from the connection pool" name="testConnectionOnCheckout" ordinal="10"/>
+                            <FieldDefinition aspect.defaultValue="0" aspect.friendlyName="Unreturned Connection Timeout" baseType="INTEGER" description="The amount of time to wait for a response from an unresponsive connection before discarding it" name="unreturnedConnectionTimeout" ordinal="14"/>
+                            <FieldDefinition aspect.defaultValue="twadmin" aspect.friendlyName="Username" baseType="STRING" description="The username used to log into the database" name="username" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <maxStatementsPerConnection>50</maxStatementsPerConnection>
+                            <maxConnectionAge>0</maxConnectionAge>
+                            <maxStatements>0</maxStatements>
+                            <checkoutTimeout>2000</checkoutTimeout>
+                            <maxIdleTime>0</maxIdleTime>
+                            <acquireRetryAttempts>30</acquireRetryAttempts>
+                            <maxIdleTimeExcessConnections>0</maxIdleTimeExcessConnections>
+                            <tableLockTimeout>10000</tableLockTimeout>
+                            <password/>
+                            <minPoolSize>10</minPoolSize>
+                            <testConnectionOnCheckout>false</testConnectionOnCheckout>
+                            <mvStore>false</mvStore>
+                            <acquireIncrement>5</acquireIncrement>
+                            <numHelperThreads>6</numHelperThreads>
+                            <acquireRetryDelay>1000</acquireRetryDelay>
+                            <idleConnectionTestPeriod>6</idleConnectionTestPeriod>
+                            <initialPoolSize>10</initialPoolSize>
+                            <maxPoolSize>100</maxPoolSize>
+                            <username><![CDATA[twadmin]]></username>
+                            <unreturnedConnectionTimeout>0</unreturnedConnectionTimeout>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="PersistentPropertyProcessorSettings settings for persistent property queueing" isMultiRow="false" name="PersistentPropertyProcessorSettings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Bypass persistence property queueing" baseType="BOOLEAN" description="Bypass queuing" name="bypassPersistentQueueing" ordinal="5"/>
+                            <FieldDefinition aspect.defaultValue="2500.0" aspect.friendlyName="Max no. of Value Stream Writes in Process Block" baseType="NUMBER" description="Maximum number of value stream writes to process in one block" name="maximumBlockSize" ordinal="4"/>
+                            <FieldDefinition aspect.defaultValue="20000.0" aspect.friendlyName="Max Queue Size" baseType="NUMBER" description="Maximum number of value stream entries to queue (will be rejected after that)" name="maximumQueueSize" ordinal="3"/>
+                            <FieldDefinition aspect.defaultValue="1000.0" aspect.friendlyName="Max Wait Time Before Flushing Value Stream Buffer (millisec)" baseType="NUMBER" description="Maximum wait time before flushing value stream buffer in milliseconds" name="maximumWaitTime" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="25.0" aspect.friendlyName="Buffer Status Scan Rate (millisec)" baseType="NUMBER" description="Rate at which to check the buffer status in milliseconds" name="scanRate" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="1000.0" aspect.friendlyName="Max no. of Items Before Flushing Value  Buffer" baseType="NUMBER" description="Maximum number of items to accumulate before flushing value stream buffer" name="sizeThreshold" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <scanRate>25.0</scanRate>
+                            <maximumQueueSize>20000.0</maximumQueueSize>
+                            <maximumWaitTime>1000.0</maximumWaitTime>
+                            <sizeThreshold>1000.0</sizeThreshold>
+                            <maximumBlockSize>2500.0</maximumBlockSize>
+                            <bypassPersistentQueueing>false</bypassPersistentQueueing>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Stream Processor Settings" isMultiRow="false" name="StreamProcessorSettings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="2500.0" aspect.friendlyName="Max no. of Stream Writes in Process Block" baseType="NUMBER" description="Maximum number of stream writes to process in one block" name="maximumBlockSize" ordinal="4"/>
+                            <FieldDefinition aspect.defaultValue="250000.0" aspect.friendlyName="Max Queue Size" baseType="NUMBER" description="Maximum number of stream entries to queue (will be rejected after that)" name="maximumQueueSize" ordinal="3"/>
+                            <FieldDefinition aspect.defaultValue="10000.0" aspect.friendlyName="Max Wait Time Before Flushing Stream Buffer (millisec)" baseType="NUMBER" description="Maximum wait time before flushing stream buffer in milliseconds" name="maximumWaitTime" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="5.0" aspect.friendlyName="Number of Processing Threads" baseType="NUMBER" description="Number of processing threads" name="numberOfProcessingThreads" ordinal="5"/>
+                            <FieldDefinition aspect.defaultValue="5.0" aspect.friendlyName="Buffer Status Scan Rate (millisec)" baseType="NUMBER" description="Rate at which to check the buffer status in milliseconds" name="scanRate" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="1000.0" aspect.friendlyName="Max no. of Items Before Flushing Stream Buffer" baseType="NUMBER" description="Maximum number of items to accumulate before flushing stream buffer" name="sizeThreshold" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <scanRate>5.0</scanRate>
+                            <maximumQueueSize>250000.0</maximumQueueSize>
+                            <maximumWaitTime>10000.0</maximumWaitTime>
+                            <sizeThreshold>1000.0</sizeThreshold>
+                            <numberOfProcessingThreads>5.0</numberOfProcessingThreads>
+                            <maximumBlockSize>2500.0</maximumBlockSize>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Value Stream Processor Settings" isMultiRow="false" name="ValueStreamProcessorSettings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="2500.0" aspect.friendlyName="Max no. of Value Stream Writes in Process Block" baseType="NUMBER" description="Maximum number of value stream writes to process in one block" name="maximumBlockSize" ordinal="4"/>
+                            <FieldDefinition aspect.defaultValue="500000.0" aspect.friendlyName="Max Queue Size" baseType="NUMBER" description="Maximum number of value stream entries to queue (will be rejected after that)" name="maximumQueueSize" ordinal="3"/>
+                            <FieldDefinition aspect.defaultValue="10000.0" aspect.friendlyName="Max Wait Time Before Flushing Value Stream Buffer (millisec)" baseType="NUMBER" description="Maximum wait time before flushing value stream buffer in milliseconds" name="maximumWaitTime" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="5.0" aspect.friendlyName="Number of Processing Threads" baseType="NUMBER" description="Number of processing threads" name="numberOfProcessingThreads" ordinal="5"/>
+                            <FieldDefinition aspect.defaultValue="5.0" aspect.friendlyName="Buffer Status Scan Rate (millisec)" baseType="NUMBER" description="Rate at which to check the buffer status in milliseconds" name="scanRate" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="1000.0" aspect.friendlyName="Max no. of Items Before Flushing Value  Buffer" baseType="NUMBER" description="Maximum number of items to accumulate before flushing value stream buffer" name="sizeThreshold" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <scanRate>5.0</scanRate>
+                            <maximumQueueSize>500000.0</maximumQueueSize>
+                            <maximumWaitTime>10000.0</maximumWaitTime>
+                            <sizeThreshold>1000.0</sizeThreshold>
+                            <numberOfProcessingThreads>5.0</numberOfProcessingThreads>
+                            <maximumBlockSize>2500.0</maximumBlockSize>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="default persistence provider" timestamp="2017-09-30T23:45:32.831+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </PersistenceProvider>
+    </PersistenceProviders>
+</Entities>

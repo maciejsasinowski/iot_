@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Dashboard listing" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.186+02:00" name="DashboardList" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Dashboard ID" name="id" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="Current user can edit this dashboard" name="isEditable" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="Current user is owner of this dashboard" name="isOwner" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Dashboard title" name="title" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.186+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

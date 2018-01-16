@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <MediaEntities>
+        <MediaEntity aspect.isSystemObject="true" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:38.235+02:00" name="IntegrationConnectorsIcon" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="List of authorization server scopes" isMultiRow="true" name="AuthorizationServerScopesSettings" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition baseType="STRING" description="A single scope for the authorization server." name="scope" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+                <ConfigurationTable description="Content Source Connection information" isMultiRow="false" name="ContentSourceConnectionInformation" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="none" aspect.friendlyName="AuthenticationType" aspect.selectOptions="none:none|basic:basic|SSO:SSO" baseType="STRING" description="Authentication type" name="authenticationType" ordinal="4"/>
+                            <FieldDefinition aspect.friendlyName="AuthorizationServerID" baseType="STRING" description="Authorization Server ID" name="authorizationServerId" ordinal="7"/>
+                            <FieldDefinition aspect.friendlyName="Dynamic Content" baseType="BOOLEAN" description="Display dynamic content from external URL" name="dynamicContent" ordinal="0"/>
+                            <FieldDefinition aspect.friendlyName="Ignore SSL Errors" baseType="BOOLEAN" description="Ignore SSL errors" name="ignoreSSLErrors" ordinal="2"/>
+                            <FieldDefinition aspect.friendlyName="AuthPassword" baseType="PASSWORD" description="Password for basic authentication" name="password" ordinal="6"/>
+                            <FieldDefinition aspect.defaultValue="60.0" aspect.friendlyName="Timeout" baseType="NUMBER" description="Timeout" name="timeout" ordinal="3"/>
+                            <FieldDefinition aspect.friendlyName="URL" baseType="STRING" description="The URL to the content source" name="url" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="AuthUsername" baseType="STRING" description="Username for basic authentication" name="userId" ordinal="5"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <ignoreSSLErrors>false</ignoreSSLErrors>
+                            <dynamicContent>false</dynamicContent>
+                            <password/>
+                            <authorizationServerId/>
+                            <authenticationType><![CDATA[none]]></authenticationType>
+                            <userId/>
+                            <url/>
+                            <timeout>60.0</timeout>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <content><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmklEQVR42mNgIBP4+fklAPF/ijQD
+8XxiFDcA8XuoBhBeT1AzULIAqnA+kkZkfJ6QrQE4NCJjAWwa+0Ga0fyJCztgM2A/VDKBCEMUsBmA
+7Gd8hqzHFdroCrEZch6X/3E5Fd2Q89g0OxAIMGRD1uOKuv/EGIIv7s/jSjRQvB6f5vlIipE19xOT
+1vuR0zYohKFhIkBsznpPVK7CAQBF4drcmXzkNAAAAABJRU5ErkJggg==]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.235+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </MediaEntity>
+    </MediaEntities>
+</Entities>

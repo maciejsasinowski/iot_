@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingPackages>
+        <ThingPackage aspect.isSystemObject="true" className="com.thingworx.things.connected.RemoteDatabase" description="A thing that represents a remote database" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:36.345+02:00" name="RemoteDatabase" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <HandlerDefinitions>
+                <HandlerDefinition className="com.thingworx.handlers.ReflectionServiceHandler" description="Reflection handler" isUserDefinable="false" name="Reflection"/>
+                <HandlerDefinition className="com.thingworx.dsl.DSLServiceHandler" description="Script handler" isUserDefinable="true" name="Script"/>
+                <HandlerDefinition className="com.thingworx.things.connected.RemoteCommandHandler" description="Connected SQL command handler" isUserDefinable="true" name="SQLCommand"/>
+                <HandlerDefinition className="com.thingworx.things.connected.RemoteQueryHandler" description="Connected SQL query handler" isUserDefinable="true" name="SQLQuery"/>
+            </HandlerDefinitions>
+            <ImplementedShapes>
+                <ImplementedShape name="Connectable" type="ThingShape"/>
+                <ImplementedShape name="Remotable" type="ThingShape"/>
+                <ImplementedShape name="RemoteMetadataBrowsing" type="ThingShape"/>
+            </ImplementedShapes>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:36.345+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingPackage>
+    </ThingPackages>
+</Entities>

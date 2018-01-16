@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ModelTags>
+        <ModelTagVocabulary description="" documentationContent="" homeMashup="" isDynamic="true" lastModifiedDate="2017-11-06T22:38:53.234+01:00" name="flower" projectName="" tags="">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <VocabularyTerm description="" name="flower"/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, isDynamic : updated&#10;documentation : updated&#10;" timestamp="2017-11-06T22:38:53.234+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </ModelTagVocabulary>
+    </ModelTags>
+</Entities>

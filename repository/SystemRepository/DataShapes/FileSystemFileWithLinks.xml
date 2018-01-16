@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="File information with Links" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.377+02:00" name="FileSystemFileWithLinks" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="HYPERLINK" description="Download link to save file on client" name="downloadLink" ordinal="0"/>
+                <FieldDefinition baseType="DATETIME" description="Date last modified" name="lastModifiedDate" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Directory name" name="name" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Full path" name="path" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="File size" name="size" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.377+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

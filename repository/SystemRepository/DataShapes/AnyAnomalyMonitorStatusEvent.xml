@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="AnomalyMonitor Status Event" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.452+02:00" name="AnyAnomalyMonitorStatusEvent" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Alert Name" name="alertName" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Alert type" name="alertType" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Any error or information message" name="message" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Alert source property" name="propertyName" ordinal="0"/>
+                <FieldDefinition baseType="DATETIME" description="Thingwatcher state timestamp" name="timestamp" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="state of the thingwatcher" name="watcherStatus" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.452+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

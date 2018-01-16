@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StateDefinitions>
+        <StateDefinition aspect.isEditableSystemObject="true" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.150+02:00" name="SubsystemRunningStatus" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"stateType":"string","stateDefinitions":[{"displayString":"Subsystem is running.","defaultStyleDefinition":"SubsystemRunningStyle","defaultValue":"true","name":"Subsystem is running.","description":""},{"displayString":"Subsystem is not running.","defaultStyleDefinition":"SubsystemNotRunningStyle","defaultValue":"false","name":"Subsystem is not running.","description":""},{"displayString":"","defaultStyleDefinition":"","name":"","description":""}]}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.150+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>

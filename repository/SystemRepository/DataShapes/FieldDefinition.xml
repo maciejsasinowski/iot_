@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Field definition" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.664+02:00" name="FieldDefinition" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="BASETYPENAME" description="Base data type" name="baseType" ordinal="0"/>
+                <FieldDefinition baseType="DATASHAPENAME" description="Associated data shape if an info table" name="dataShape" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Description" name="description" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="Flag to indicate if part of the primary key" name="isPrimaryKey" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Name" name="name" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.664+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

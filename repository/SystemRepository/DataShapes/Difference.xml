@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Object Differences" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.984+02:00" name="Difference" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="The description of the difference object" name="description" ordinal="4"/>
+                <FieldDefinition baseType="INFOTABLE" description="The actual difference" name="difference" ordinal="2"/>
+                <FieldDefinition baseType="STRING" description="The type of the objects compared in the difference" name="diffObjectType" ordinal="1"/>
+                <FieldDefinition baseType="STRING" description="The type of the difference (ADD, REMOVE, CHANGE)" name="diffType" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="The name of the difference object" name="name" ordinal="3"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.984+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingShapes>
+        <ThingShape aspect.isEditableSystemObject="true" aspect.isSystemObject="false" className="" description="User extension properties" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.931+02:00" name="UserExtensions" projectName="" tags="">
+            <PropertyDefinitions>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Alternate email addresses" isLocalOnly="false" name="altEmailAddresses" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="City" isLocalOnly="false" name="city" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="E-mail address" isLocalOnly="false" name="emailAddress" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="First name" isLocalOnly="false" name="firstName" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Full name" isLocalOnly="false" name="fullName" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Home phone" isLocalOnly="false" name="homePhone" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Last name" isLocalOnly="false" name="lastName" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Mailing address" isLocalOnly="false" name="mailingAddress" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Middle name" isLocalOnly="false" name="middleName" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Mobile phone" isLocalOnly="false" name="mobilePhone" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="SMS address" isLocalOnly="false" name="smsAddress" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="State" isLocalOnly="false" name="state" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Title" isLocalOnly="false" name="title" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Work phone" isLocalOnly="false" name="workPhone" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Zip code" isLocalOnly="false" name="zipCode" ordinal="0"/>
+            </PropertyDefinitions>
+            <ServiceDefinitions/>
+            <EventDefinitions/>
+            <ServiceMappings/>
+            <ServiceImplementations/>
+            <Subscriptions/>
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.931+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <InstanceRunTimePermissions/>
+        </ThingShape>
+    </ThingShapes>
+</Entities>

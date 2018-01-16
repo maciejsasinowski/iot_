@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="GenericThing" description="Source control repository" documentationContent="" effectiveThingPackage="SourceControlRepositoryThing" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.031+02:00" name="SourceControlRepository" projectName="" tags="" thingPackage="SourceControlRepositoryThing" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[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]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Settings" isMultiRow="false" name="settings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="/ThingworxSourceControl" baseType="STRING" description="Root path to source code folder e.g. D:/my/source/folder" name="rootPath" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <rootPath><![CDATA[/ThingworxSourceControl]]></rootPath>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.031+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

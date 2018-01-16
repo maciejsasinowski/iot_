@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StateDefinitions>
+        <StateDefinition aspect.isEditableSystemObject="true" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.185+02:00" name="FederationConnectionStatus" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"stateType":"string","stateDefinitions":[{"displayString":"Federation Server Connected","defaultStyleDefinition":"SubsystemRunningStyle","defaultValue":"true","name":"Federation Server Connected","description":""},{"displayString":"Federation Server Not Connected","defaultStyleDefinition":"SubsystemNotRunningStyle","defaultValue":"false","name":"Federation Server Not Connected","description":""},{"displayString":"","defaultStyleDefinition":"FederationUnknownStatus","name":"","description":""}]}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.185+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.isSystemObject="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.852+02:00" name="MonitoringSubsystemGeneralPerformance" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions>
+                <FieldDefinition aspect.ordinal="0" baseType="STRING" description="" name="subsystemName" ordinal="0"/>
+            </ParameterDefinitions>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ {
+          "Widgets" : [ ],
+          "Properties" : {
+            "RowSelectedStyle" : "DefaultRowSelectedStyle",
+            "IsEditable" : false,
+            "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+            "Left" : 395,
+            "ShowDataLoading" : true,
+            "GridHeaderStyle" : "DefaultGridHeaderStyle",
+            "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+            "FocusStyle" : "DefaultFocusStyle",
+            "RowFormat_StateParameters" : [ ],
+            "TabSequence" : 0,
+            "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+            "CellTextWrapping" : false,
+            "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+            "Visible" : true,
+            "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+            "DisplayName" : "Grid-2",
+            "Height" : 200,
+            "Width" : 400,
+            "MultiSelect" : false,
+            "CurrentScrollTop" : 0,
+            "ResponsiveLayout" : true,
+            "Z-index" : 10,
+            "ShowAllColumns" : false,
+            "AlignHeader" : false,
+            "__TypeDisplayName" : "Grid",
+            "ScrollTop" : 0,
+            "RowHeight" : 30,
+            "ColumnFormat" : {
+              "formatInfo" : [ {
+                "ValidationMessage" : "",
+                "Align" : "left",
+                "AllowEdit" : false,
+                "Title" : "[[description]]",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "STRING",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "full"
+                },
+                "FieldName" : "description",
+                "Width" : "auto"
+              }, {
+                "ValidationMessage" : "",
+                "Align" : "right",
+                "AllowEdit" : false,
+                "Title" : "[[value]]",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "NUMBER",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "000,000,000"
+                },
+                "FieldName" : "value",
+                "Width" : "auto"
+              }, {
+                "ValidationMessage" : "",
+                "Align" : "left",
+                "AllowEdit" : false,
+                "Title" : "[[name]]",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "STRING",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "full"
+                },
+                "FieldName" : "name",
+                "Width" : "auto"
+              } ]
+            },
+            "Type" : "dhxgrid",
+            "Area" : "UI",
+            "Top" : 330,
+            "IsPrintLayout" : false,
+            "Id" : "Grid-2",
+            "RowHoverStyle" : "DefaultRowHoverStyle",
+            "AutoSelectFirstRow" : false,
+            "GridHeaderTextCase" : "none"
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "Visible" : true,
+          "DisplayName" : "Row 1",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "OnTop" : false,
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "MinWidth" : 0,
+          "TabOffset" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Type" : "container",
+          "Area" : "UI",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-5"
+        }
+      } ],
+      "Properties" : {
+        "Left" : 200,
+        "IncludeSpacingInFixedAreas" : false,
+        "ShowDataLoading" : true,
+        "HeaderHeight" : 0,
+        "PctRow4" : 0,
+        "PctRow3" : 0,
+        "PctRow2" : 0,
+        "PctRow1" : 100,
+        "FooterHeight" : 0,
+        "PctRow8" : 0,
+        "PctRow7" : 0,
+        "PctRow6" : 0,
+        "PctRow5" : 0,
+        "Visible" : true,
+        "PctColumn5" : 1,
+        "RightSidebar" : false,
+        "DisplayName" : "Layout-3",
+        "LeftSidebar" : false,
+        "PctColumn6" : 1,
+        "PrintWidth" : 650,
+        "PctColumn3" : 1,
+        "PctColumn4" : 1,
+        "PctColumn1" : 50,
+        "PctColumn2" : 50,
+        "PrintMarginTopBottom" : 0.5,
+        "Rows" : 1,
+        "RightSidebarWidth" : 0,
+        "PrintMarginLeftRight" : 0.5,
+        "PctColumn7" : 1,
+        "ResponsiveLayout" : true,
+        "PctColumn8" : 1,
+        "Columns" : 0,
+        "Z-index" : 10,
+        "Spacing" : 2,
+        "Orientation" : "vertical",
+        "__TypeDisplayName" : "Layout",
+        "Type" : "layout",
+        "Area" : "UI",
+        "LeftSidebarWidth" : 0,
+        "Header" : false,
+        "Top" : 110,
+        "IsPrintLayout" : false,
+        "Footer" : false,
+        "Id" : "Layout-3"
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "BGImageRepeat" : "no-repeat",
+      "ShowDataLoading" : true,
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "id_index" : 8,
+      "supportsAutoResize" : true,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : {
+        "image" : "",
+        "backgroundColor" : "",
+        "textSize" : "normal",
+        "lineStyle" : "solid",
+        "fontEmphasisUnderline" : false,
+        "displayString" : "",
+        "fontEmphasisItalic" : false,
+        "lineThickness" : 1,
+        "lineColor" : "",
+        "foregroundColor" : "",
+        "fontEmphasisBold" : false,
+        "secondaryBackgroundColor" : ""
+      },
+      "BGImageSize" : "auto",
+      "Height" : 618,
+      "_currentParameterDefs" : [ {
+        "Description" : "",
+        "BaseType" : "STRING",
+        "ParameterName" : "subsystemName"
+      } ],
+      "Width" : 1024,
+      "TitleBar" : false,
+      "Rows" : 0,
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "ResponsiveLayout" : true,
+      "Z-index" : 10,
+      "Title" : "",
+      "Columns" : 0,
+      "TitleBarText" : "Gadget Title Here",
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "EnableParameterEditing" : false,
+      "Type" : "mashup",
+      "Area" : "Mashup",
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "Id" : "mashup-root",
+      "MashupToEditGadget" : "DefaultMashupToEditGadget",
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "mashupType" : "mashup",
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetPerformanceMetrics",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicSubsystems_FederationSubsystem",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "eaa24865-ddf5-4269-a3eb-e22230b5bf0d",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetPerformanceMetrics",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicSubsystems_FederationSubsystem",
+    "EventTriggerEvent" : "subsystemNameChanged",
+    "Id" : "335a5bc4-e6ab-4718-8f14-d0614dd7d5d4",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "ResetPerformanceMetrics",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicSubsystems_FederationSubsystem",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "20e9da5a-4841-4f09-8ab4-1f01991fca5f",
+    "EventTriggerId" : "Button-8",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Data",
+    "EventHandlerService" : "GetPerformanceMetrics",
+    "EventTriggerSection" : "DynamicSubsystems_FederationSubsystem",
+    "EventHandlerId" : "DynamicSubsystems_FederationSubsystem",
+    "EventTriggerEvent" : "ServiceInvokeCompleted",
+    "Id" : "12840b0d-1b2d-4825-a6b0-fe950c8231b8",
+    "EventTriggerId" : "ResetPerformanceMetrics",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetPerformanceMetrics",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicSubsystems_FederationSubsystem",
+    "EventTriggerEvent" : "RefreshRequested",
+    "Id" : "3adf85e4-de4a-4d67-8da8-37688a20d1b1",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  } ],
+  "DataBindings" : [ {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "DynamicSubsystems_FederationSubsystem",
+    "SourceId" : "mashup-root",
+    "SourceSection" : "",
+    "Id" : "1b04d418-c2e9-42ff-afbc-f7877352963c",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "value",
+      "TargetPropertyType" : "Entity",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "THINGNAME",
+      "SourceProperty" : "subsystemName"
+    } ],
+    "TargetId" : "EntityName"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetPerformanceMetrics",
+    "SourceSection" : "DynamicSubsystems_FederationSubsystem",
+    "Id" : "73a400b4-02ee-40a1-802c-34c4c809c93f",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "SourceDetails" : "AllData",
+    "TargetId" : "Grid-2"
+  } ],
+  "Data" : {
+    "DynamicSubsystems_FederationSubsystem" : {
+      "EntityType" : "DynamicSubsystems",
+      "Services" : [ {
+        "Target" : "GetPerformanceMetrics",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "d3f91e0d-6490-47da-b0e4-a40ca78ff2d7",
+        "Name" : "GetPerformanceMetrics"
+      }, {
+        "Target" : "ResetPerformanceMetrics",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "03447183-a922-469d-9331-632036b33086",
+        "Name" : "ResetPerformanceMetrics"
+      } ],
+      "EntityName" : "FederationSubsystem",
+      "Id" : "176e413d-aaf2-4d27-a391-98dfc4e03724",
+      "DataName" : "DynamicSubsystems_FederationSubsystem"
+    },
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.852+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

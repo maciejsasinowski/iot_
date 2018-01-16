@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingShapes>
+        <ThingShape aspect.isSystemObject="true" aspect.isSystemShape="true" className="" description="Connected device" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.923+02:00" name="Connectable" projectName="" tags="">
+            <PropertyDefinitions>
+                <PropertyDefinition aspect.defaultValue="false" aspect.isPersistent="false" aspect.isReadOnly="true" baseType="BOOLEAN" category="ConnectionStatus" description="Flag indicating if connected or not" isLocalOnly="true" name="isConnected" ordinal="0"/>
+                <PropertyDefinition aspect.defaultValue="1970-01-01T01:00:00.000+01:00" aspect.isPersistent="true" aspect.isReadOnly="true" baseType="DATETIME" category="ConnectionStatus" description="Last connection time" isLocalOnly="true" name="lastConnection" ordinal="0"/>
+            </PropertyDefinitions>
+            <ServiceDefinitions/>
+            <EventDefinitions/>
+            <ServiceMappings/>
+            <ServiceImplementations/>
+            <Subscriptions/>
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.923+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <InstanceRunTimePermissions/>
+        </ThingShape>
+    </ThingShapes>
+</Entities>

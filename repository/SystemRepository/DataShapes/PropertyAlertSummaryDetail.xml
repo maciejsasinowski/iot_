@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Property alert summary detail" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.502+02:00" name="PropertyAlertSummaryDetail" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="BOOLEAN" description="Alert acknowledge state" name="ack" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Alert acknowledged by" name="ackBy" ordinal="0"/>
+                <FieldDefinition baseType="DATETIME" description="Alert acknowledge timestamp" name="ackTimestamp" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Alert type" name="alertType" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Alert description" name="description" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Alert duration" name="duration" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Alert message" name="message" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Alert name" name="name" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Alert priority" name="priority" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="DATETIME" description="Alert timestamp" name="timestamp" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.502+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

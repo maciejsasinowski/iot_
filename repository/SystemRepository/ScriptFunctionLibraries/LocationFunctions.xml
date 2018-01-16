@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ScriptFunctionLibraries>
+        <ScriptFunctionLibrary aspect.isSystemObject="true" className="com.thingworx.dsl.functions.LocationFunctions" description="Location function library" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:38.677+02:00" name="LocationFunctions" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FunctionDefinitions>
+                <FunctionDefinition description="Check if a given point is within a geofence (polygon) boundary" name="containsLocation">
+                    <ResultType baseType="BOOLEAN" description="Indicator if within location" name="result" ordinal="0"/>
+                    <ParameterDefinitions>
+                        <FieldDefinition baseType="LOCATION" description="Location value to check" name="location" ordinal="0"/>
+                        <FieldDefinition baseType="INFOTABLE" description="InfoTable containing a list of location values for the geofence" name="geoFence" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Name of the location field in the geofence point list InfoTable" name="locationField" ordinal="0"/>
+                    </ParameterDefinitions>
+                </FunctionDefinition>
+                <FunctionDefinition description="Calculate a circular geofence around a given point" name="createCircularGeoFence">
+                    <ResultType aspect.dataShape="GeoFencePoint" baseType="INFOTABLE" description="Infotable containing locations" name="geofence" ordinal="0"/>
+                    <ParameterDefinitions>
+                        <FieldDefinition baseType="LOCATION" description="Center location value" name="location" ordinal="0"/>
+                        <FieldDefinition baseType="NUMBER" description="Radius of circle" name="radius" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Units (M = miles, K = km, N = nautical miles)" name="units" ordinal="0"/>
+                        <FieldDefinition baseType="INTEGER" description="Number of points" name="resolution" ordinal="0"/>
+                    </ParameterDefinitions>
+                </FunctionDefinition>
+                <FunctionDefinition description="Calculate the distance between two locations" name="distanceBetween">
+                    <ResultType baseType="NUMBER" description="Difference in specified units" name="difference" ordinal="0"/>
+                    <ParameterDefinitions>
+                        <FieldDefinition baseType="LOCATION" description="First location value" name="loc1" ordinal="0"/>
+                        <FieldDefinition baseType="LOCATION" description="Second location value" name="loc2" ordinal="0"/>
+                        <FieldDefinition aspect.defaultValue="M" aspect.friendlyName="Distance units" aspect.selectOptions="K:Kilometers|M:Miles|N:Nautical Miles" baseType="STRING" description="Units of distance (M, K, N)" name="units" ordinal="0"/>
+                    </ParameterDefinitions>
+                </FunctionDefinition>
+            </FunctionDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.677+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ScriptFunctionLibrary>
+    </ScriptFunctionLibraries>
+</Entities>

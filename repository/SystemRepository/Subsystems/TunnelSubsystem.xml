@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Subsystems>
+        <Subsystem aspect.isCreatable="false" aspect.isEditableSystemObject="true" autoStart="true" className="com.thingworx.system.subsystems.tunneling.TunnelSubsystem" dependsOn="" description="Handles tunneling between Edge Things, Connected Things and Federated Servers" documentationContent="" enabled="true" friendlyName="Tunneling" homeMashup="MonitoringTunnelSubsystem" lastModifiedDate="2017-09-30T23:45:38.861+02:00" name="TunnelSubsystem" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Tunnel settings" isMultiRow="false" name="TunnelSettings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="30" aspect.friendlyName="Idle tunnel timeout (sec)" baseType="INTEGER" description="Idle tunnel timeout" name="idleTimeout" ordinal="3"/>
+                            <FieldDefinition aspect.defaultValue="90" aspect.friendlyName="Startup tunnel timeout (sec)" baseType="INTEGER" description="Startup tunnel timeout" name="startupTimeout" ordinal="4"/>
+                            <FieldDefinition aspect.defaultValue="" aspect.friendlyName="Public host name used for tunnels" baseType="STRING" description="Public host name used for tunnels" name="tunnelHost" ordinal="1"/>
+                            <FieldDefinition aspect.defaultValue="443" aspect.friendlyName="Public port used for tunnels" baseType="INTEGER" description="Maximum file size to transfer in bytes" name="tunnelPort" ordinal="2"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <startupTimeout>90</startupTimeout>
+                            <tunnelPort>443</tunnelPort>
+                            <idleTimeout>30</idleTimeout>
+                            <tunnelHost/>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.861+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Subsystem>
+    </Subsystems>
+</Entities>

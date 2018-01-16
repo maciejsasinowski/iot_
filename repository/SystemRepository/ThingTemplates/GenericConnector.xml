@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="GenericThing" description="Template for a thing that connects to the back-end connected system" documentationContent="" effectiveThingPackage="GenericConnector" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.046+02:00" name="GenericConnector" projectName="" tags="" thingPackage="GenericConnector" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABbklEQVR42u2ZYQ2DMBBGkYAEJCAB
+BaQSKmES6gAJSEACEpCABCSwY+mShlEg8F3byyD5/tL3SHu9liwT9tR1rSmzTSMZ/hPR8JRRMvxE
+KR/4B14K/DIwxVA6Su/ErKGSgqdBK8qwAfRTUSgqNfjmBPhRosG3ScPTi3NnagzuQCD4mfXLb8zV
+yS5UFPySilNAAUF96TmmzfLlFXiq7KVACrjlsA0koZEC65eHkDBIgTGCRI9uB6bAEvCFXHoG4pIw
+IXdYDgkduj1AS+QxehuURBuzq7wrMUE2MdvP3/qCFyUUZ+3nltDcJZNTAlp1DLAcnpHQ6Jrfgzel
+PQn86YtBIKwEk8CRBLR56xjbZK9Eqov4rEQTovPkkChZbiEAG9nWQo16fXKrNfYcikQIaOedhVPh
+GlHwse/nr8x3lQr89+qwOrnBtbDTFMefETuPX/aw4/6s0FHAn39SD/w/wnsubOXAbwjIgl/d+Yzi
+4Ol5A5/jyvJ7JbvmAAAAAElFTkSuQmCC]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="List of authorization server scopes" isMultiRow="true" name="AuthorizationServerScopesSettings" ordinal="2">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Scope" baseType="STRING" description="A single scope for the authorization server." name="Scope" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+                <ConfigurationTable description="Generic Connector Connection Settings" isMultiRow="false" name="GenericConnectorConnectionSettings" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="None" aspect.friendlyName="AuthenticationType" aspect.selectOptions="None:None|Fixed:Fixed|SSO:SSO" baseType="STRING" description="Authentication type for the connection" name="AuthenticationType" ordinal="2"/>
+                            <FieldDefinition aspect.friendlyName="AuthorizationServerID" baseType="STRING" description="Connection Authorization Server ID" name="AuthorizationServerID" ordinal="3"/>
+                            <FieldDefinition aspect.defaultValue="60" aspect.friendlyName="RefreshIntervalInMinutes" baseType="LONG" description="Defines the interval for refreshing the endpoint cache. Value must be non-negative." name="RefreshIntervalInMinutes" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <AuthorizationServerID/>
+                            <RefreshIntervalInMinutes>60</RefreshIntervalInMinutes>
+                            <AuthenticationType><![CDATA[None]]></AuthenticationType>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.046+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

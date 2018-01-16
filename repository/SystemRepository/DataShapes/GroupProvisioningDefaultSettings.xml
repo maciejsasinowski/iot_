@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Group Provisioning Default Settings" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.347+02:00" name="GroupProvisioningDefaultSettings" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Group Provisioning Default Description" name="groupDefaultDescription" ordinal="0"/>
+                <FieldDefinition baseType="PROJECTNAME" description="Group Provisioning Default Project Name" name="groupDefaultProjectName" ordinal="1"/>
+                <FieldDefinition baseType="TAGS" description="Group Provisioning Default Tags" name="groupDefaultTags" ordinal="2"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.347+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

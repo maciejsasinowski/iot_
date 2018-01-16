@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Navigation menu definition" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.528+02:00" name="Menu" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Entity description" name="description" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="EntityList" baseType="INFOTABLE" description="Groups associated with this menu" name="groupReferences" ordinal="0"/>
+                <FieldDefinition baseType="IMAGELINK" description="Optional image URL" name="imageURL" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="Indicates if a system object or not" name="isSystemObject" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="MenuItem" baseType="INFOTABLE" description="Menu items" name="menuItems" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Entity name" name="name" ordinal="0"/>
+                <FieldDefinition aspect.tagType="ModelTags" baseType="TAGS" description="Tags" name="tags" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.528+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

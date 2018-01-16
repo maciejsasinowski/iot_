@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingShapes>
+        <ThingShape aspect.isSystemObject="true" aspect.isSystemShape="true" className="" description="Remote tunneling" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.927+02:00" name="Tunneling" projectName="" tags="">
+            <PropertyDefinitions/>
+            <ServiceDefinitions>
+                <ServiceDefinition category="Tunneling" description="Register a new tunnel endpoint at the edge" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="AddTunnel">
+                    <ResultType baseType="NOTHING" description="result" name="result" ordinal="0"/>
+                    <ParameterDefinitions>
+                        <FieldDefinition baseType="STRING" description="Location of the client app that will use this tunnel" name="appUri" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Description of the tunnel" name="description" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Host that the tunnel will connect to" name="host" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Name of the tunnel to add" name="name" ordinal="0"/>
+                        <FieldDefinition baseType="NUMBER" description="The number of connections required to initilaize the tunnel" name="numConnects" ordinal="0"/>
+                        <FieldDefinition baseType="NUMBER" description="Port that the tunnel will connect to" name="port" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Protocol used by the tunnel" name="proto" ordinal="0"/>
+                    </ParameterDefinitions>
+                </ServiceDefinition>
+                <ServiceDefinition category="Tunneling" description="Get information about a specific tunnel endpoint registered at the edge" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetTunnel">
+                    <ResultType aspect.dataShape="TunnelEndpoint" baseType="INFOTABLE" description="A tunnel endpoint" name="result" ordinal="0"/>
+                    <ParameterDefinitions>
+                        <FieldDefinition baseType="STRING" description="Name of the tunnel to query" name="name" ordinal="0"/>
+                    </ParameterDefinitions>
+                </ServiceDefinition>
+                <ServiceDefinition category="Tunneling" description="Get a list of Tunnel names registered at the edge" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetTunnelNames">
+                    <ResultType aspect.dataShape="EntityList" baseType="INFOTABLE" description="Tunnel names" name="result" ordinal="0"/>
+                    <ParameterDefinitions/>
+                </ServiceDefinition>
+                <ServiceDefinition category="Tunneling" description="Get a list of Tunnel Endpoints registered at the edge" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetTunnels">
+                    <ResultType aspect.dataShape="TunnelEndpoint" baseType="INFOTABLE" description="List of registered tunnel endpoints" name="result" ordinal="0"/>
+                    <ParameterDefinitions/>
+                </ServiceDefinition>
+                <ServiceDefinition category="Tunneling" description="Get the status and proxy URL for accessing tunneling" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetTunnelStatus">
+                    <ResultType aspect.dataShape="TunnelStatus" baseType="INFOTABLE" description="A tunnel url" name="result" ordinal="0"/>
+                    <ParameterDefinitions/>
+                </ServiceDefinition>
+                <ServiceDefinition category="Tunneling" description="Remove a tunnel endpoint from the edge" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="RemoveTunnel">
+                    <ResultType baseType="NOTHING" description="result" name="result" ordinal="0"/>
+                    <ParameterDefinitions>
+                        <FieldDefinition baseType="STRING" description="Name of the tunnel to remove" name="name" ordinal="0"/>
+                    </ParameterDefinitions>
+                </ServiceDefinition>
+            </ServiceDefinitions>
+            <EventDefinitions/>
+            <ServiceMappings/>
+            <ServiceImplementations/>
+            <Subscriptions/>
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.927+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <InstanceRunTimePermissions/>
+        </ThingShape>
+    </ThingShapes>
+</Entities>

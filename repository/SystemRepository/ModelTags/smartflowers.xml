@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ModelTags>
+        <ModelTagVocabulary description="" documentationContent="" homeMashup="" isDynamic="true" lastModifiedDate="2017-11-06T22:39:12.267+01:00" name="smartflowers" projectName="" tags="">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <VocabularyTerm description="" name="smartflowers"/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;documentation : updated&#10;" timestamp="2017-11-06T22:39:04.923+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="header : isDynamic : updated&#10;" timestamp="2017-11-06T22:39:12.267+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </ModelTagVocabulary>
+    </ModelTags>
+</Entities>

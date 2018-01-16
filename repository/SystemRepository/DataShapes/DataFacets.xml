@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Data facets" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.712+02:00" name="DataFacets" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="INTEGER" description="Count" name="count" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="MultilevelFacets" baseType="INFOTABLE" description="Data entity facets" name="dataEntityFacets" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="NamedFacets" baseType="INFOTABLE" description="Data shape facets" name="dataShapeFacets" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="MultilevelFacets" baseType="INFOTABLE" description="Data tag facets" name="dataTagFacets" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="NamedFacets" baseType="INFOTABLE" description="Data type facets" name="dataTypeFacets" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="MultilevelFacets" baseType="INFOTABLE" description="Model tag facets" name="modelTagFacets" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="MultilevelFacets" baseType="INFOTABLE" description="Source facets" name="sourceFacets" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="MultilevelFacets" baseType="INFOTABLE" description="Source tag facets" name="sourceTagFacets" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.712+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

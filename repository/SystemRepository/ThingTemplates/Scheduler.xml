@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="GenericThing" description="Scheduled event generator" documentationContent="" effectiveThingPackage="SchedulerThing" homeMashup="" lastModifiedDate="2017-09-30T23:45:36.959+02:00" name="Scheduler" projectName="" tags="" thingPackage="SchedulerThing" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[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
+mAAAAABJRU5ErkJggg==]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="General Settings" isMultiRow="false" name="Settings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="true" baseType="BOOLEAN" description="Automatically enable scheduler on startup" name="enabled" ordinal="0"/>
+                            <FieldDefinition baseType="USERNAME" description="User context in which to run event handlers" name="runAsUser" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="0 0/1 * * * ?" baseType="SCHEDULE" description="Execution Schedule (Cron String)" name="schedule" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <runAsUser/>
+                            <schedule><![CDATA[0 0/1 * * * ?]]></schedule>
+                            <enabled>true</enabled>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:36.959+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

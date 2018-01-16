@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <LocalizationTables>
+        <LocalizationTable aspect.isCreatable="false" aspect.isEditableSystemObject="true" description="Default localization table" documentationContent="" homeMashup="" languageCommon="English" languageNative="English" lastModifiedDate="2017-09-30T23:45:37.092+02:00" name="Default" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Localization tokens and usage" isMultiRow="true" name="LocalizationTokens" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Translation context" baseType="STRING" description="Translation context" name="context" ordinal="3"/>
+                            <FieldDefinition aspect.friendlyName="Token name" baseType="STRING" description="Token name" name="name" ordinal="0"/>
+                            <FieldDefinition aspect.friendlyName="Token usage" baseType="STRING" description="Token usage" name="usage" ordinal="2"/>
+                            <FieldDefinition aspect.friendlyName="Localized value" baseType="STRING" description="Localized value" name="value" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.092+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </LocalizationTable>
+    </LocalizationTables>
+</Entities>

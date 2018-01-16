@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Information about an active thread pool" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.339+02:00" name="ThreadPoolStats" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="INTEGER" description="Number of threads actively processing tasks" name="activeThreads" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Total number of tasks that completed execution" name="completedTaskCount" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Core number of threads in the pool" name="corePoolSize" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Number of threads currently in pool" name="curentPoolSize" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Most number of threads ever present in pool" name="largestPoolSize" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Max threads allowed in pool" name="maxPoolSize" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Number of queued tasks" name="queueSize" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Total number of tasks submited to pool" name="submitedTaskCount" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.338+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

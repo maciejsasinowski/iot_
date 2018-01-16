@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Basic Statistics on Platform by DataType" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.242+02:00" name="SystemStatisticsByDataType" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="NUMBER" description="Size of Event Queue" name="eventQueueSize" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Memory in use by Application Server" name="memoryInUse" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Number of named users in the ThingWorx Model" name="namedUserCount" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Size of Stream Queue" name="streamQueueSize" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Run hours since last restart" name="systemRunTime" ordinal="0"/>
+                <FieldDefinition baseType="DATETIME" description="Date Time that the system was started" name="systemStartTime" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="ThingWorx Software Schema Version" name="thingworxSchemaVersion" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="ThingWorx Software Version" name="thingworxSoftwareVersion" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Total Memory allocated to Application Server" name="totalMemoryAllocated" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Size of ValueStream Queue" name="valueStreamQueueSize" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.242+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

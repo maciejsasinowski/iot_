@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="DataShape used to dispaly license usage information along with time stamp" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.731+02:00" name="LicenseUsageDataShapeWithTimeStamp" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Feature Name" name="FeatureName" ordinal="4"/>
+                <FieldDefinition baseType="LONG" description="In Use Feature Count" name="InUseFeatureCount" ordinal="7"/>
+                <FieldDefinition baseType="STRING" description="License Model Type" name="LicenseModel" ordinal="3"/>
+                <FieldDefinition baseType="STRING" description="Product Name" name="ProductName" ordinal="2"/>
+                <FieldDefinition baseType="STRING" description="User Name" name="source" ordinal="6"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="DATETIME" description="Transaction time" name="timestamp" ordinal="1"/>
+                <FieldDefinition baseType="INTEGER" description="Transaction Type" name="TransactionType" ordinal="5"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.731+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Definition of an edge thing registered with a Microserver and its connection information" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.835+02:00" name="EdgeThingEndpoint" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.defaultValue="" baseType="STRING" description="Content type accepted by the endpoint" name="accept" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Host that the edge thing is running on" name="host" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="How long the edge thing will remain registered at the Microserver" name="keepalive" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Name of the edge thing registered with the Microserver" name="name" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Path to the edge thing's API" name="path" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Port that the edge thing is accessed at" name="port" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Protocol used to communicate with the edge thing" name="proto" ordinal="0"/>
+                <FieldDefinition aspect.defaultValue="" baseType="STRING" description="Username used for authentication" name="user" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.835+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

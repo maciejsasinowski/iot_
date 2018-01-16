@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Chat message" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.034+02:00" name="ChatMessage" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="HTML" description="Message content" name="content" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="USERNAME" description="From user" name="from" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="DATETIME" description="Timestamp" name="timestamp" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="USERNAME" description="To user" name="to" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.034+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.isSystemObject="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.952+02:00" name="MonitoringSystemPropertyDetail" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions>
+                <FieldDefinition aspect.ordinal="0" baseType="STRING" description="" name="logName" ordinal="0"/>
+            </ParameterDefinitions>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ ],
+        "Properties" : {
+          "TextIfNoValue" : "",
+          "ValueFormat" : {
+            "renderer" : "DEFAULT",
+            "formatInfo" : {
+              "StateFormats" : [ {
+                "comparator" : "==",
+                "stateName" : "Communication Log",
+                "state" : {
+                  "image" : "LogCommunicationIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "fontEmphasisUnderline" : false,
+                  "displayString" : "",
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "CommunicationLog"
+              }, {
+                "comparator" : "==",
+                "stateName" : "Application Log",
+                "state" : {
+                  "image" : "LogApplicationIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "fontEmphasisUnderline" : false,
+                  "displayString" : "",
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "ApplicationLog"
+              }, {
+                "comparator" : "==",
+                "stateName" : "Configuration Log",
+                "state" : {
+                  "image" : "LogConfigurationIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "fontEmphasisUnderline" : false,
+                  "displayString" : "",
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "ConfigurationLog"
+              }, {
+                "comparator" : "==",
+                "stateName" : "Script Log",
+                "state" : {
+                  "image" : "LogScriptIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "fontEmphasisUnderline" : false,
+                  "displayString" : "",
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "ScriptLog"
+              }, {
+                "comparator" : "==",
+                "stateName" : "Security Log",
+                "state" : {
+                  "image" : "LogSecurityIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "fontEmphasisUnderline" : false,
+                  "displayString" : "",
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "SecurityLog"
+              }, {
+                "stateName" : ""
+              } ],
+              "StateDefinition" : "LogType2",
+              "StateDefinitionType" : "string",
+              "FieldName" : "logName"
+            },
+            "FormatString" : ""
+          },
+          "Left" : 10,
+          "__supportsLabel" : true,
+          "ResponsiveLayout" : false,
+          "Label" : "",
+          "ValueDisplayLabelStyle" : "DefaultWidgetLabelStyle",
+          "Z-index" : 10,
+          "ValueFormat_StateParameters" : [ {
+            "DefaultValue" : "CommunicationLog",
+            "Description" : "Communication Log",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_Communication Log"
+          }, {
+            "DefaultValue" : "ApplicationLog",
+            "Description" : "Application Log",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_Application Log"
+          }, {
+            "DefaultValue" : "ConfigurationLog",
+            "Description" : "Configuration Log",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_Configuration Log"
+          }, {
+            "DefaultValue" : "ScriptLog",
+            "Description" : "Script Log",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_Script Log"
+          }, {
+            "DefaultValue" : "SecurityLog",
+            "Description" : "Security Log",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_Security Log"
+          } ],
+          "__TypeDisplayName" : "Value Display",
+          "Area" : "UI",
+          "Type" : "valuedisplay",
+          "Alignment" : "left",
+          "TextIfNoValueStyle" : "DefaultValueDisplayNoTextStyle",
+          "Top" : 7,
+          "Visible" : true,
+          "DisplayName" : "ValueDisplay-7",
+          "Height" : 20,
+          "Id" : "ValueDisplay-7",
+          "Width" : 180,
+          "TextWrap" : true,
+          "ValueDisplayStyle" : {
+            "image" : "",
+            "backgroundColor" : "",
+            "textSize" : "normal",
+            "lineStyle" : "solid",
+            "fontEmphasisItalic" : false,
+            "fontEmphasisUnderline" : false,
+            "displayString" : "",
+            "lineThickness" : 1,
+            "foregroundColor" : "#333333",
+            "lineColor" : "",
+            "fontEmphasisBold" : false,
+            "secondaryBackgroundColor" : ""
+          }
+        }
+      }, {
+        "Widgets" : [ ],
+        "Properties" : {
+          "Left" : 345,
+          "Description" : "New Setting",
+          "ListBackgroundStyle" : "DefaultListBackgroundStyle",
+          "Label" : "",
+          "WidthOfDropdownView" : 135,
+          "ListFormat" : {
+            "renderer" : "DEFAULT",
+            "formatInfo" : {
+              "StateFormats" : [ {
+                "comparator" : "==",
+                "stateName" : "TRACE",
+                "state" : {
+                  "image" : "LogLevelTraceIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "TRACE"
+              }, {
+                "comparator" : "==",
+                "stateName" : "DEBUG",
+                "state" : {
+                  "image" : "LogLevelDebugIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "DEBUG"
+              }, {
+                "comparator" : "==",
+                "stateName" : "Info",
+                "state" : {
+                  "image" : "LogLevelInfoIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "INFO"
+              }, {
+                "comparator" : "==",
+                "stateName" : "WARN",
+                "state" : {
+                  "image" : "LogLevelWarnIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "WARN"
+              }, {
+                "comparator" : "==",
+                "stateName" : "ERROR",
+                "state" : {
+                  "image" : "LogLevelErrorIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "ERROR"
+              }, {
+                "comparator" : "==",
+                "stateName" : "ALL",
+                "state" : {
+                  "image" : "LogLevelAllIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "ALL"
+              }, {
+                "stateName" : "",
+                "state" : {
+                  "image" : "",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                }
+              } ],
+              "StateDefinition" : "LogViewer",
+              "StateDefinitionType" : "string",
+              "FieldName" : "name"
+            },
+            "FormatString" : ""
+          },
+          "Alignment" : "left",
+          "DisplayField" : "name",
+          "Visible" : true,
+          "DisplayName" : "List-5",
+          "Height" : 24,
+          "ListItemSelectedStyle" : "DefaultListItemSelectedStyle",
+          "ListFormat_StateParameters" : [ {
+            "DefaultValue" : "TRACE",
+            "Description" : "TRACE",
+            "BaseType" : "STRING",
+            "ParameterName" : "ListFormat_TRACE"
+          }, {
+            "DefaultValue" : "DEBUG",
+            "Description" : "DEBUG",
+            "BaseType" : "STRING",
+            "ParameterName" : "ListFormat_DEBUG"
+          }, {
+            "DefaultValue" : "INFO",
+            "Description" : "Info",
+            "BaseType" : "STRING",
+            "ParameterName" : "ListFormat_Info"
+          }, {
+            "DefaultValue" : "WARN",
+            "Description" : "WARN",
+            "BaseType" : "STRING",
+            "ParameterName" : "ListFormat_WARN"
+          }, {
+            "DefaultValue" : "ERROR",
+            "Description" : "ERROR",
+            "BaseType" : "STRING",
+            "ParameterName" : "ListFormat_ERROR"
+          }, {
+            "DefaultValue" : "ALL",
+            "Description" : "ALL",
+            "BaseType" : "STRING",
+            "ParameterName" : "ListFormat_ALL"
+          } ],
+          "Width" : 135,
+          "ValueField" : "name",
+          "ListItemHoverStyle" : "DefaultListItemHoverStyle",
+          "ListLabelStyle" : "DefaultWidgetLabelStyle",
+          "MultiSelect" : false,
+          "__supportsLabel" : true,
+          "ResponsiveLayout" : false,
+          "Z-index" : 10,
+          "HeightOfDropdownView" : 160,
+          "View" : "dropdown",
+          "__TypeDisplayName" : "List",
+          "RowHeight" : 30,
+          "ListItemStyle" : "DefaultListItemStyle",
+          "NumberOfItemsInDropdownView" : 6,
+          "Area" : "UI",
+          "Type" : "dhxlist",
+          "Top" : 5,
+          "Id" : "List-5",
+          "ListItemAlternateStyle" : "DefaultListItemAlternateStyle",
+          "AutoSelectFirstRow" : false
+        }
+      }, {
+        "Widgets" : [ ],
+        "Properties" : {
+          "TextIfNoValue" : "",
+          "ValueFormat" : {
+            "renderer" : "STRING",
+            "formatInfo" : {
+              "StateFormats" : [ {
+                "comparator" : "==",
+                "stateName" : "TRACE",
+                "state" : {
+                  "image" : "LogLevelTraceIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "TRACE"
+              }, {
+                "comparator" : "==",
+                "stateName" : "DEBUG",
+                "state" : {
+                  "image" : "LogLevelDebugIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "DEBUG"
+              }, {
+                "comparator" : "==",
+                "stateName" : "Info",
+                "state" : {
+                  "image" : "LogLevelInfoIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "INFO"
+              }, {
+                "comparator" : "==",
+                "stateName" : "WARN",
+                "state" : {
+                  "image" : "LogLevelWarnIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "WARN"
+              }, {
+                "comparator" : "==",
+                "stateName" : "ERROR",
+                "state" : {
+                  "image" : "LogLevelErrorIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "ERROR"
+              }, {
+                "comparator" : "==",
+                "stateName" : "ALL",
+                "state" : {
+                  "image" : "LogLevelAllIcon",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                },
+                "value" : "ALL"
+              }, {
+                "stateName" : "",
+                "state" : {
+                  "image" : "",
+                  "backgroundColor" : "",
+                  "textSize" : "normal",
+                  "lineStyle" : "solid",
+                  "displayString" : "",
+                  "fontEmphasisUnderline" : false,
+                  "fontEmphasisItalic" : false,
+                  "lineThickness" : 1,
+                  "lineColor" : "",
+                  "foregroundColor" : "",
+                  "fontEmphasisBold" : false,
+                  "secondaryBackgroundColor" : ""
+                }
+              } ],
+              "StateDefinition" : "LogViewer",
+              "StateDefinitionType" : "string",
+              "FieldName" : "name"
+            },
+            "FormatString" : "full"
+          },
+          "Left" : 200,
+          "__supportsLabel" : true,
+          "ResponsiveLayout" : false,
+          "Label" : "",
+          "Z-index" : 10,
+          "ValueDisplayLabelStyle" : "DefaultWidgetLabelStyle",
+          "ValueFormat_StateParameters" : [ {
+            "DefaultValue" : "TRACE",
+            "Description" : "TRACE",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_TRACE"
+          }, {
+            "DefaultValue" : "DEBUG",
+            "Description" : "DEBUG",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_DEBUG"
+          }, {
+            "DefaultValue" : "INFO",
+            "Description" : "Info",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_Info"
+          }, {
+            "DefaultValue" : "WARN",
+            "Description" : "WARN",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_WARN"
+          }, {
+            "DefaultValue" : "ERROR",
+            "Description" : "ERROR",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_ERROR"
+          }, {
+            "DefaultValue" : "ALL",
+            "Description" : "ALL",
+            "BaseType" : "STRING",
+            "ParameterName" : "ValueFormat_ALL"
+          } ],
+          "__TypeDisplayName" : "Value Display",
+          "Area" : "UI",
+          "Type" : "valuedisplay",
+          "Alignment" : "left",
+          "Top" : 6,
+          "TextIfNoValueStyle" : "DefaultValueDisplayNoTextStyle",
+          "Visible" : true,
+          "DisplayName" : "Current Setting",
+          "Height" : 22,
+          "Id" : "ValueDisplay-3",
+          "Width" : 140,
+          "TextWrap" : true,
+          "ValueDisplayStyle" : "DefaultValueDisplayStyle",
+          "ShowBorder" : false
+        }
+      } ],
+      "Properties" : {
+        "Left" : 320,
+        "ResponsiveLayout" : true,
+        "Z-index" : 10,
+        "VerticalAnchor" : "top",
+        "__TypeDisplayName" : "Panel",
+        "HorizontalAnchor" : "left",
+        "Area" : "UI",
+        "Type" : "panel",
+        "Top" : 190,
+        "Visible" : true,
+        "DisplayName" : "Panel-1",
+        "Style" : {
+          "image" : "",
+          "backgroundColor" : "",
+          "textSize" : "normal",
+          "lineStyle" : "solid",
+          "fontEmphasisItalic" : false,
+          "fontEmphasisUnderline" : false,
+          "displayString" : "",
+          "lineThickness" : 1,
+          "foregroundColor" : "",
+          "lineColor" : "",
+          "fontEmphasisBold" : false,
+          "secondaryBackgroundColor" : ""
+        },
+        "Height" : 200,
+        "Id" : "Panel-1",
+        "Width" : 300
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "ResponsiveLayout" : true,
+      "BGImageRepeat" : "no-repeat",
+      "Z-index" : 10,
+      "id_index" : 9,
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "Area" : "Mashup",
+      "Type" : "mashup",
+      "supportsAutoResize" : true,
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : {
+        "image" : "",
+        "backgroundColor" : "#ffffff",
+        "textSize" : "normal",
+        "lineStyle" : "solid",
+        "fontEmphasisItalic" : false,
+        "fontEmphasisUnderline" : false,
+        "displayString" : "",
+        "lineThickness" : 1,
+        "foregroundColor" : "",
+        "lineColor" : "",
+        "fontEmphasisBold" : false,
+        "secondaryBackgroundColor" : ""
+      },
+      "BGImageSize" : "auto",
+      "Height" : 618,
+      "Id" : "mashup-root",
+      "_currentParameterDefs" : [ {
+        "Description" : "",
+        "BaseType" : "STRING",
+        "ParameterName" : "logName"
+      } ],
+      "Width" : 1024,
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetLogLevels",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicLogs_ApplicationLog",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "cd82f109-5592-4703-934e-72d6bc16f4a6",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetLogLevel",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicLogs_ApplicationLog",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "2ba1c936-4338-4038-a577-3c8d9cd8e1bc",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Data",
+    "EventHandlerService" : "SetLogLevel",
+    "EventTriggerSection" : "DynamicLogs_ApplicationLog",
+    "EventHandlerId" : "DynamicLogs_ApplicationLog",
+    "EventTriggerEvent" : "SelectedRowsChanged",
+    "Id" : "d0113b0a-8781-4514-92eb-15f153d1ce08",
+    "EventTriggerId" : "GetLogLevel",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Data",
+    "EventHandlerService" : "SetLogLevel",
+    "EventTriggerSection" : "DynamicLogs_ApplicationLog",
+    "EventHandlerId" : "DynamicLogs_ApplicationLog",
+    "EventTriggerEvent" : "SelectedRowsChanged",
+    "Id" : "394796f9-9d20-4f46-bcbb-d732780af234",
+    "EventTriggerId" : "GetLogLevels",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Data",
+    "EventHandlerService" : "GetLogLevel",
+    "EventTriggerSection" : "DynamicLogs_ApplicationLog",
+    "EventHandlerId" : "DynamicLogs_ApplicationLog",
+    "EventTriggerEvent" : "SelectedRowsChanged",
+    "Id" : "77ff3bf3-c181-4aa4-a807-98020d06a09d",
+    "EventTriggerId" : "GetLogLevels",
+    "EventHandlerArea" : "Data"
+  } ],
+  "mashupType" : "mashup",
+  "DataBindings" : [ {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetLogLevel",
+    "Id" : "aa35c240-a21c-4a65-b2e2-28da997458ac",
+    "SourceSection" : "DynamicLogs_ApplicationLog",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "ANYSCALAR",
+      "SourceProperty" : "name"
+    } ],
+    "TargetId" : "ValueDisplay-3"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetLogLevels",
+    "Id" : "d2148da7-c5bf-4c4a-8691-fa5db5ea0378",
+    "SourceSection" : "DynamicLogs_ApplicationLog",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "List-5"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "DynamicLogs_ApplicationLog",
+    "SourceId" : "GetLogLevels",
+    "Id" : "b79365d6-9765-4df5-8ee5-b7ec2b9e15ce",
+    "SourceSection" : "DynamicLogs_ApplicationLog",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "level",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "name"
+    } ],
+    "TargetId" : "SetLogLevel"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "DynamicLogs_ApplicationLog",
+    "SourceId" : "mashup-root",
+    "Id" : "80b7db7e-a1fa-4513-9770-2ccd2ac93751",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "value",
+      "TargetPropertyType" : "Entity",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "THINGNAME",
+      "SourceProperty" : "logName"
+    } ],
+    "TargetId" : "EntityName"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "ee79c860-b2c4-4287-8ffa-95181813d879",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "Data",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "ANYSCALAR",
+      "SourceProperty" : "logName"
+    } ],
+    "TargetId" : "ValueDisplay-7"
+  } ],
+  "Data" : {
+    "DynamicLogs_ApplicationLog" : {
+      "EntityType" : "DynamicLogs",
+      "Services" : [ {
+        "Target" : "GetLogLevels",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "e3ef6446-9dbc-4f77-9af1-8d5c4aa6d4f5",
+        "Name" : "GetLogLevels"
+      }, {
+        "Target" : "GetLogLevel",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "7d543619-4f64-46ca-bde0-f94e65a9296c",
+        "Name" : "GetLogLevel"
+      }, {
+        "Target" : "SetLogLevel",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "5ef6a2c6-9d27-4cf5-8b92-ed3748943ef0",
+        "Name" : "SetLogLevel"
+      } ],
+      "EntityName" : "ApplicationLog",
+      "Id" : "52c55bd6-8386-4a2b-80ae-336d8a062889",
+      "DataName" : "DynamicLogs_ApplicationLog"
+    },
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.952+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

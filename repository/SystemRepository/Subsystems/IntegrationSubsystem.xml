@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Subsystems>
+        <Subsystem aspect.isCreatable="false" aspect.isEditableSystemObject="true" autoStart="true" className="com.thingworx.system.subsystems.integration.IntegrationSubsystem" dependsOn="" description="Integration Subsystem - handles transport of integrations to backend systems" documentationContent="" enabled="true" friendlyName="Integration Subsystem" homeMashup="MonitoringIntegrationSubsystem" lastModifiedDate="2017-09-30T23:45:38.868+02:00" name="IntegrationSubsystem" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Message Store Settings" isHidden="true" isMultiRow="true" name="APIMappingStore" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition baseType="JSON" description="The API/endpoint for which this mapping was created" name="ApiName" ordinal="2"/>
+                            <FieldDefinition baseType="STRING" description="The API/endpoint for which this mapping was created" name="ConnectorName" ordinal="3"/>
+                            <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Mapping Id" name="MappingId" ordinal="1"/>
+                            <FieldDefinition baseType="JSON" description="The Mapping JSON" name="MappingJSON" ordinal="4"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.868+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Subsystem>
+    </Subsystems>
+</Entities>

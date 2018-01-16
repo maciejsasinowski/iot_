@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Persistence Information" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.191+02:00" name="AllPersistenceInformation" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.friendlyName="Description" baseType="STRING" description="Description of the information property" name="description" ordinal="4"/>
+                <FieldDefinition aspect.friendlyName="Name" aspect.isPrimaryKey="true" baseType="STRING" description="Name of the information property" name="name" ordinal="2"/>
+                <FieldDefinition aspect.friendlyName="PersistenceProvider" aspect.isPrimaryKey="true" baseType="STRING" description="Name of the persistence provider" name="persistenceProvider" ordinal="0"/>
+                <FieldDefinition aspect.friendlyName="PersistenceProviderPackage" aspect.isPrimaryKey="true" baseType="STRING" description="Name of the persistence provider package" name="persistenceProviderPackage" ordinal="1"/>
+                <FieldDefinition aspect.friendlyName="Value" baseType="STRING" description="Value of the information property" name="value" ordinal="3"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.191+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

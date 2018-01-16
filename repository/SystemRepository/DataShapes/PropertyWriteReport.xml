@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Data shape for representing property write report" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.780+02:00" name="PropertyWriteReport" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="DATETIME" description="last modified" name="lastModified" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="month" name="month" ordinal="0"/>
+                <FieldDefinition baseType="LONG" description="property write count" name="propertyWriteCount" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="ThingPropertyWriteCounts" baseType="INFOTABLE" description="PropertyWrite count for each thing" name="thingPropertyWriteCounts" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="year" name="year" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.780+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

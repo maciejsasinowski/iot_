@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Things>
+        <Thing aspect.isEditableSystemObject="true" description="Scheduler-based Thing that backs up the ThingWorx database on a regular basis" documentationContent="" effectiveThingPackage="SchedulerThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-09-30T23:45:39.018+02:00" name="ScheduledSystemBackup" projectName="" published="false" tags="" thingTemplate="Scheduler" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="General Settings" isMultiRow="false" name="Settings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="true" baseType="BOOLEAN" description="Automatically enable scheduler on startup" name="enabled" ordinal="0"/>
+                            <FieldDefinition baseType="USERNAME" description="User context in which to run event handlers" name="runAsUser" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="0 0/1 * * * ?" baseType="SCHEDULE" description="Execution Schedule (Cron String)" name="schedule" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <runAsUser><![CDATA[Administrator]]></runAsUser>
+                            <schedule><![CDATA[0 0 2 1/1 * ? *]]></schedule>
+                            <enabled>true</enabled>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions>
+                    <Subscription enabled="true" eventName="ScheduledEvent" source="" sourceProperty="">
+                        <ServiceImplementation description="" handlerName="Script" name="Event.ScheduledEvent">
+                            <ConfigurationTables>
+                                <ConfigurationTable description="" isMultiRow="false" name="Script" ordinal="0">
+                                    <DataShape>
+                                        <FieldDefinitions>
+                                            <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                        </FieldDefinitions>
+                                    </DataShape>
+                                    <Rows>
+                                        <Row>
+                                            <code><![CDATA[logger.info("*** Scheduled System Backup - STARTING...");
+
+var params = {mode : 'FULL'};
+Resources['DataManagementServices'].Backup(params);
+
+logger.info("*** Scheduled System Backup - COMPLETE");
+ ]]></code>
+                                        </Row>
+                                    </Rows>
+                                </ConfigurationTable>
+                            </ConfigurationTables>
+                        </ServiceImplementation>
+                    </Subscription>
+                </Subscriptions>
+            </ThingShape>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ImplementedShapes/>
+            <ThingProperties/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:39.018+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Thing>
+    </Things>
+</Entities>

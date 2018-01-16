@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2018-01-16T00:52:43.234+01:00" name="Dashboard" projectName="Smart Flowers" rows="0.0" tags="smart:smart;flowers:flowers;flower:flower;smartflowers:smartflowers">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions/>
+            <Things>
+                <Thing>ambient_temperature</Thing>
+                <Thing>FlowerDataStream</Thing>
+                <Thing>air_humidity</Thing>
+            </Things>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ {
+          "Widgets" : [ ],
+          "Properties" : {
+            "Left" : 0,
+            "ListBackgroundStyle" : "DefaultListBackgroundStyle",
+            "ShowDataLoading" : true,
+            "Label" : "",
+            "WidthOfDropdownView" : 110,
+            "Alignment" : "left",
+            "DropdownStyle" : "DefaultDropdownStyle",
+            "DisplayField" : "Name",
+            "Visible" : true,
+            "DisplayName" : "dhxlist-16",
+            "Height" : 170,
+            "ListItemSelectedStyle" : "DefaultListItemSelectedStyle",
+            "Width" : 110,
+            "DropdownButtonStyle" : "DefaultDropdownButtonStyle",
+            "ValueField" : "id",
+            "ClearIfNoSelection" : false,
+            "ListItemHoverStyle" : "DefaultListItemHoverStyle",
+            "ListLabelStyle" : "DefaultWidgetLabelStyle",
+            "MultiSelect" : false,
+            "__supportsLabel" : true,
+            "ResponsiveLayout" : true,
+            "LabelAlignment" : "left",
+            "Z-index" : 10,
+            "HeightOfDropdownView" : 170,
+            "View" : "list",
+            "__TypeDisplayName" : "List",
+            "RowHeight" : 28,
+            "ListItemStyle" : "DefaultListItemStyle",
+            "NumberOfItemsInDropdownView" : 6,
+            "Area" : "UI",
+            "Type" : "dhxlist",
+            "Top" : 0,
+            "DropdownSelectedStyle" : "DefaultDropdownSelectedStyle",
+            "Id" : "dhxlist-16",
+            "ListItemAlternateStyle" : "DefaultListItemAlternateStyle",
+            "AutoSelectFirstRow" : true
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Visible" : true,
+          "DisplayName" : "Left Sidebar",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "TabOffset" : 0,
+          "MinWidth" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-2"
+        }
+      }, {
+        "Widgets" : [ {
+          "Widgets" : [ {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 20.953125,
+              "CancelConfirmationButton" : "button2",
+              "ShowDataLoading" : true,
+              "Label" : "Podlej kwiatek",
+              "FocusStyle" : "DefaultButtonFocusStyle",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "IconAlignment" : "left",
+              "Visible" : true,
+              "DisplayName" : "button-14",
+              "Style" : "DefaultButtonStyle",
+              "Height" : 30,
+              "DisabledStyle" : "DefaultButtonDisabledStyle",
+              "ConfirmationTitle" : "Confirm Action",
+              "Disabled" : false,
+              "Width" : 136,
+              "ResponsiveLayout" : false,
+              "ConfirmationPrompt" : "Do Action?",
+              "Z-index" : 10,
+              "ConfirmationButton1Label" : "Yes",
+              "RoundedCorners" : true,
+              "__TypeDisplayName" : "Button",
+              "HoverStyle" : "DefaultButtonHoverStyle",
+              "Area" : "UI",
+              "Type" : "button",
+              "Top" : 145.953125,
+              "DefaultConfirmationButton" : "button1",
+              "ContextId" : "",
+              "ConfirmationRequired" : false,
+              "Id" : "button-14",
+              "ConfirmationButton2Label" : "No",
+              "ActiveStyle" : "DefaultButtonActiveStyle"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 582.9513854980469,
+              "__supportsLabel" : true,
+              "Digits" : 5,
+              "ShowDataLoading" : true,
+              "ResponsiveLayout" : false,
+              "Label" : "",
+              "LabelAlignment" : "left",
+              "Z-index" : 10,
+              "Decimals" : 0,
+              "ZeroFill" : false,
+              "__TypeDisplayName" : "LED Display",
+              "LEDSize" : "normal",
+              "ToolTipField" : "",
+              "Area" : "UI",
+              "Type" : "leddisplay",
+              "LEDFormatter_StateParameters" : [ ],
+              "Top" : 62.951385498046875,
+              "LEDLabelStyle" : "DefaultWidgetLabelStyle",
+              "Visible" : true,
+              "DisplayName" : "leddisplay-15",
+              "Height" : 56,
+              "Id" : "leddisplay-15",
+              "Width" : 154,
+              "LEDStyle" : "DefaultLEDStyle"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "RowSelectedStyle" : "DefaultRowSelectedStyle",
+              "IsEditable" : false,
+              "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+              "Left" : 15,
+              "ShowDataLoading" : true,
+              "GridHeaderStyle" : "DefaultGridHeaderStyle",
+              "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+              "FocusStyle" : "DefaultFocusStyle",
+              "TabSequence" : 0,
+              "RowFormat_StateParameters" : [ ],
+              "CellTextWrapping" : false,
+              "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+              "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+              "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+              "Visible" : true,
+              "DisplayName" : "dhxgrid-19",
+              "Height" : 65,
+              "Width" : 495,
+              "MultiSelect" : false,
+              "CurrentScrollTop" : 10,
+              "ResponsiveLayout" : false,
+              "ShowAllColumns" : false,
+              "Z-index" : 10,
+              "AlignHeader" : false,
+              "__TypeDisplayName" : "Grid",
+              "ScrollTop" : 1,
+              "RowHeight" : 30,
+              "ColumnFormat" : {
+                "formatInfo" : [ {
+                  "ValidationMessage" : "",
+                  "Align" : "right",
+                  "AllowEdit" : false,
+                  "Title" : "soilMoisture",
+                  "ValidationExpression" : "",
+                  "FormatOptions" : {
+                    "renderer" : "NUMBER",
+                    "formatInfo" : {
+                      "StateFormats" : [ {
+                        "stateName" : "fixed",
+                        "state" : ""
+                      } ],
+                      "StateDefinition" : "",
+                      "StateDefinitionType" : "fixed",
+                      "FieldName" : ""
+                    },
+                    "formatText" : "View",
+                    "FormatString" : "0.00"
+                  },
+                  "FieldName" : "soilMoisture",
+                  "Width" : "auto"
+                }, {
+                  "ValidationMessage" : "",
+                  "Align" : "right",
+                  "AllowEdit" : false,
+                  "Title" : "Light",
+                  "ValidationExpression" : "",
+                  "FormatOptions" : {
+                    "renderer" : "NUMBER",
+                    "formatInfo" : {
+                      "StateFormats" : [ {
+                        "stateName" : "fixed",
+                        "state" : ""
+                      } ],
+                      "StateDefinition" : "",
+                      "StateDefinitionType" : "fixed",
+                      "FieldName" : ""
+                    },
+                    "formatText" : "View",
+                    "FormatString" : "0.00"
+                  },
+                  "FieldName" : "Light",
+                  "Width" : "auto"
+                }, {
+                  "ValidationMessage" : "",
+                  "Align" : "left",
+                  "AllowEdit" : false,
+                  "Title" : "Temperature",
+                  "ValidationExpression" : "",
+                  "FormatOptions" : {
+                    "renderer" : "DEFAULT",
+                    "formatInfo" : {
+                      "StateFormats" : [ {
+                        "stateName" : "fixed",
+                        "state" : ""
+                      } ],
+                      "StateDefinition" : "",
+                      "StateDefinitionType" : "fixed",
+                      "FieldName" : ""
+                    },
+                    "formatText" : "View",
+                    "FormatString" : ""
+                  },
+                  "FieldName" : "Temperature",
+                  "Width" : "auto"
+                }, {
+                  "ValidationMessage" : "",
+                  "Align" : "left",
+                  "AllowEdit" : true,
+                  "Title" : "last_water",
+                  "ValidationExpression" : "",
+                  "FormatOptions" : {
+                    "renderer" : "DATETIME",
+                    "formatInfo" : {
+                      "StateFormats" : [ {
+                        "stateName" : "fixed",
+                        "state" : ""
+                      } ],
+                      "StateDefinition" : "",
+                      "StateDefinitionType" : "fixed",
+                      "FieldName" : ""
+                    },
+                    "formatText" : "View",
+                    "FormatString" : "[[dateTimeFormat_Default]]"
+                  },
+                  "FieldName" : "last_water",
+                  "Width" : "auto"
+                } ]
+              },
+              "Area" : "UI",
+              "Type" : "dhxgrid",
+              "Top" : 70,
+              "IsPrintLayout" : false,
+              "Id" : "dhxgrid-19",
+              "RowHoverStyle" : "DefaultRowHoverStyle",
+              "AutoSelectFirstRow" : false,
+              "GridHeaderTextCase" : "capitalize"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "AutoRefreshTabSequence" : 0,
+              "Left" : 310,
+              "ShowDataLoading" : true,
+              "Label" : "Refresh Now",
+              "FocusStyle" : "DefaultButtonFocusStyle",
+              "ShowControls" : true,
+              "RefreshToggleStyleOff" : "DefaultAutoRefreshToggleOffStyle",
+              "IconAlignment" : "left",
+              "RefreshInterval" : 30,
+              "Visible" : true,
+              "DisplayName" : "autorefresh-22",
+              "Style" : "DefaultButtonStyle",
+              "Height" : 28,
+              "Width" : 180,
+              "RefreshToggleStyle" : "DefaultAutoRefreshToggleStyle",
+              "ResponsiveLayout" : false,
+              "RefreshNowTabSequence" : 0,
+              "RefreshToggleSliderStyle" : "DefaultAutoRefreshToggleSliderStyle",
+              "Z-index" : 10,
+              "RefreshToggleLabelOff" : "Off",
+              "__TypeDisplayName" : "Auto Refresh",
+              "RefreshToggleLabel" : "On",
+              "HoverStyle" : "DefaultButtonHoverStyle",
+              "Area" : "UI",
+              "Type" : "autorefresh",
+              "Top" : 245,
+              "Id" : "autorefresh-22",
+              "ActiveStyle" : "DefaultButtonActiveStyle",
+              "AutoRefresh" : true
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 583.9583435058594,
+              "__supportsLabel" : true,
+              "Digits" : 5,
+              "ShowDataLoading" : true,
+              "ResponsiveLayout" : false,
+              "Label" : "",
+              "LabelAlignment" : "left",
+              "Z-index" : 10,
+              "Decimals" : 2,
+              "ZeroFill" : false,
+              "__TypeDisplayName" : "LED Display",
+              "LEDSize" : "normal",
+              "ToolTipField" : "",
+              "Area" : "UI",
+              "Type" : "leddisplay",
+              "Top" : 158.9409942626953,
+              "LEDLabelStyle" : "DefaultWidgetLabelStyle",
+              "Visible" : true,
+              "DisplayName" : "leddisplay-23",
+              "Height" : 56,
+              "Id" : "leddisplay-23",
+              "Width" : 154,
+              "LEDStyle" : "DefaultLEDStyle"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 587,
+              "ShowDataLoading" : true,
+              "ResponsiveLayout" : false,
+              "Z-index" : 10,
+              "Text" : "Temperatura w pokoju",
+              "__TypeDisplayName" : "Label",
+              "ToolTipField" : "",
+              "Area" : "UI",
+              "Type" : "label",
+              "Alignment" : "left",
+              "Top" : 42,
+              "Visible" : true,
+              "DisplayName" : "label-24",
+              "Style" : "DefaultLabelStyle",
+              "Height" : 22,
+              "Id" : "label-24",
+              "Width" : 141
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 586,
+              "ShowDataLoading" : true,
+              "ResponsiveLayout" : false,
+              "Z-index" : 10,
+              "Text" : "Wilgotno&#347;&#263; powietrza",
+              "__TypeDisplayName" : "Label",
+              "ToolTipField" : "",
+              "Area" : "UI",
+              "Type" : "label",
+              "Alignment" : "left",
+              "Top" : 126,
+              "Visible" : true,
+              "DisplayName" : "label-25",
+              "Style" : "DefaultLabelStyle",
+              "Height" : 22,
+              "Id" : "label-25",
+              "Width" : 116
+            }
+          } ],
+          "Properties" : {
+            "Left" : 275,
+            "HideScrollbars" : false,
+            "ResponsiveLayout" : true,
+            "ShowDataLoading" : true,
+            "Z-index" : 10,
+            "VerticalAnchor" : "top",
+            "__TypeDisplayName" : "Panel",
+            "HorizontalAnchor" : "left",
+            "Area" : "UI",
+            "Type" : "panel",
+            "Top" : 75,
+            "Visible" : true,
+            "DisplayName" : "panel-5",
+            "Style" : "DefaultPanelStyle",
+            "Height" : 200,
+            "Id" : "panel-5",
+            "Width" : 300
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Visible" : true,
+          "DisplayName" : "Column 1",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "TabOffset" : 0,
+          "MinWidth" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-3"
+        }
+      } ],
+      "Properties" : {
+        "Left" : 285,
+        "IncludeSpacingInFixedAreas" : false,
+        "ShowDataLoading" : true,
+        "HeaderHeight" : 0,
+        "PctRow4" : 0,
+        "PctRow3" : 0,
+        "PctRow2" : 50,
+        "FooterHeight" : 0,
+        "PctRow1" : 50,
+        "PctRow8" : 0,
+        "PctRow7" : 0,
+        "PctRow6" : 0,
+        "PctRow5" : 0,
+        "LeftSidebar" : true,
+        "RightSidebar" : false,
+        "PctColumn5" : 1,
+        "Visible" : true,
+        "DisplayName" : "layout-1",
+        "PctColumn6" : 1,
+        "PctColumn3" : 1,
+        "PrintWidth" : 650,
+        "PctColumn4" : 1,
+        "PctColumn1" : 100,
+        "PctColumn2" : 100,
+        "PrintMarginTopBottom" : 0.5,
+        "Rows" : 0,
+        "RightSidebarWidth" : 0,
+        "PrintMarginLeftRight" : 0.5,
+        "PctColumn7" : 1,
+        "PctColumn8" : 1,
+        "ResponsiveLayout" : true,
+        "Columns" : 1,
+        "Z-index" : 10,
+        "Spacing" : 2,
+        "Orientation" : "horizontal",
+        "__TypeDisplayName" : "Layout",
+        "Area" : "UI",
+        "Type" : "layout",
+        "LeftSidebarWidth" : 100,
+        "Header" : false,
+        "Top" : 135,
+        "IsPrintLayout" : false,
+        "Footer" : false,
+        "Id" : "layout-1"
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "BGImageRepeat" : "no-repeat",
+      "ShowDataLoading" : true,
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "id_index" : 25,
+      "supportsAutoResize" : true,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : "DefaultMashupStyle",
+      "BGImageSize" : "auto",
+      "Height" : 618,
+      "Width" : 1024,
+      "TitleBar" : false,
+      "Rows" : 0,
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "ResponsiveLayout" : true,
+      "Title" : "",
+      "Columns" : 0,
+      "Z-index" : 10,
+      "TitleBarText" : "Gadget Title Here",
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "EnableParameterEditing" : false,
+      "Area" : "Mashup",
+      "Type" : "mashup",
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "MashupToEditGadget" : "DefaultMashupToEditGadget",
+      "Id" : "mashup-root",
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetStreamEntriesWithData",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_FlowerDataStream",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "6f28e3c1-5160-475a-9575-c16b660ebd1a",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "current_date",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_FlowerDataStream",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "ab124aba-e5e9-4526-ac6b-c094e057f17e",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "UpdateStreamEntry",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_FlowerDataStream",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "f8511dc8-4ede-4750-9b03-6fd55a63f8dc",
+    "EventTriggerId" : "button-14",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "current_date",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_FlowerDataStream",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "fd6273f9-fd02-4883-95a5-50d44db3c6c1",
+    "EventTriggerId" : "button-14",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "GetStreamEntriesWithData",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_FlowerDataStream",
+    "EventTriggerEvent" : "Refresh",
+    "Id" : "8d2a4f16-0ad9-4a04-8369-0ccf130bc9d4",
+    "EventTriggerId" : "autorefresh-22",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "generate_temperature",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_ambient_temperature",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "644173a6-586c-4e88-bd4f-1e44c3e45913",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetPropertyValues",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_ambient_temperature",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "d93b9db3-a481-4ffe-9cb0-f1ad35cde38f",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetPropertyValues",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_air_humidity",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "db682717-83fe-490f-8858-1365940bfdbe",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "generatehumidity",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_air_humidity",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "246fdc1b-1bc7-4085-84e8-8381dd6f6ce0",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  } ],
+  "mashupType" : "mashup",
+  "DataBindings" : [ {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "GetStreamEntriesWithData",
+    "Id" : "50d0cae0-83c3-4a8e-b652-5eed5e704142",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "UpdateStreamEntry"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "GetStreamEntriesWithData",
+    "Id" : "1eb2e1a2-e47a-4719-be27-2508c4c7a62f",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values.soilMoisture",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "NUMBER",
+      "TargetPropertyBaseType" : "NUMBER",
+      "SourceProperty" : "soilMoisture"
+    } ],
+    "TargetId" : "UpdateStreamEntry"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "GetStreamEntriesWithData",
+    "Id" : "dc9e21b5-d068-484a-b27f-9abbef66b2cc",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values.Light",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "NUMBER",
+      "TargetPropertyBaseType" : "NUMBER",
+      "SourceProperty" : "Light"
+    } ],
+    "TargetId" : "UpdateStreamEntry"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "GetStreamEntriesWithData",
+    "Id" : "49e54511-1c3d-486f-b7e9-5f047f4b6e91",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values.Temperature",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "INTEGER",
+      "TargetPropertyBaseType" : "INTEGER",
+      "SourceProperty" : "Temperature"
+    } ],
+    "TargetId" : "UpdateStreamEntry"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "GetStreamEntriesWithData",
+    "Id" : "08d28d19-b877-488b-9d7f-4485a68bd4a4",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values.Name",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "Name"
+    } ],
+    "TargetId" : "UpdateStreamEntry"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "GetStreamEntriesWithData",
+    "Id" : "0c831e1d-4864-47a8-8db3-783e9e7ee14b",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "streamEntryId",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "id"
+    } ],
+    "TargetId" : "UpdateStreamEntry"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "current_date",
+    "Id" : "41aa54b2-cf3c-4744-843e-a307c2fccf60",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values.last_water",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "DATETIME",
+      "TargetPropertyBaseType" : "DATETIME",
+      "SourceProperty" : "result"
+    } ],
+    "TargetId" : "UpdateStreamEntry"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetStreamEntriesWithData",
+    "Id" : "361c2801-97cb-4229-8d88-96171f55f04a",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "dhxlist-16"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetStreamEntriesWithData",
+    "Id" : "0b78d69f-ec7c-4269-a773-acc652d62aed",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "dhxgrid-19"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetPropertyValues",
+    "Id" : "9d1a566f-bb2c-449e-95cb-3ca16efb53f4",
+    "SourceSection" : "Things_ambient_temperature",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INTEGER",
+      "TargetPropertyBaseType" : "NUMBER",
+      "SourceProperty" : "temp_value"
+    } ],
+    "TargetId" : "leddisplay-15"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetPropertyValues",
+    "Id" : "7e897ce4-81bf-4e04-8c16-92c995002ec7",
+    "SourceSection" : "Things_air_humidity",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "NUMBER",
+      "SourceProperty" : "value_humidity"
+    } ],
+    "TargetId" : "leddisplay-23"
+  } ],
+  "Data" : {
+    "Things_ambient_temperature" : {
+      "EntityType" : "Things",
+      "Services" : [ {
+        "Target" : "generate_temperature",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "6f68e9c0-1f65-4e60-b936-d1df22f5a3d4",
+        "Name" : "generate_temperature"
+      }, {
+        "Target" : "GetPropertyValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "345ff93b-82af-4798-8cf2-7f8936a674cb",
+        "Name" : "GetPropertyValues"
+      } ],
+      "EntityName" : "ambient_temperature",
+      "Id" : "b3a2174b-a557-4ed6-ab4c-ad0e25abd7df",
+      "DataName" : "Things_ambient_temperature"
+    },
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Things_FlowerDataStream" : {
+      "EntityType" : "Things",
+      "Services" : [ {
+        "Target" : "GetStreamEntriesWithData",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "35ee4ac3-00eb-44cf-be01-e8556fdf1388",
+        "Name" : "GetStreamEntriesWithData"
+      }, {
+        "Target" : "UpdateStreamEntry",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "e6bf5bce-7ca2-404e-be7c-99dda4e2ad6d",
+        "Name" : "UpdateStreamEntry"
+      }, {
+        "Target" : "current_date",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "3e33f6a2-de76-4165-a3ae-d3037bae805b",
+        "Name" : "current_date"
+      } ],
+      "EntityName" : "FlowerDataStream",
+      "Id" : "40e13f86-37a1-4a19-87fe-cf16a460fa06",
+      "DataName" : "Things_FlowerDataStream"
+    },
+    "Things_air_humidity" : {
+      "EntityType" : "Things",
+      "Services" : [ {
+        "Target" : "GetPropertyValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "ece86800-1224-406f-bda7-f7599d2d2b75",
+        "Name" : "GetPropertyValues"
+      }, {
+        "Target" : "generatehumidity",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "ac89a242-38e7-49de-b38b-53ecd5b0746b",
+        "Name" : "generatehumidity"
+      } ],
+      "EntityName" : "air_humidity",
+      "Id" : "689bb20d-1f71-4bda-8fbf-36efe366a8b9",
+      "DataName" : "Things_air_humidity"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, projectName : updated, tags : updated&#10;documentation : updated&#10;" timestamp="2017-11-06T23:35:23.743+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-06T23:55:09.963+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-06T23:56:34.204+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:37:49.184+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:37:52.784+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:37:53.626+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:37:54.251+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:37:54.806+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:37:54.981+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:39:19.969+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:39:21.059+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:39:24.589+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:51:20.782+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:51:21.644+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:51:21.841+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:51:25.533+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:51:26.294+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:51:26.461+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:51:27.014+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:51:27.634+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:54:46.973+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:54:47.615+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:54:47.804+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:54:47.999+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:54:48.739+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:17.917+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:18.095+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:18.281+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:18.464+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:18.644+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:18.817+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:18.976+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:19.132+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:19.293+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:19.469+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:19.640+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:19.807+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:19.980+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:20.149+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:20.353+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:20.873+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:21.057+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:21.239+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:21.428+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:21.607+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:21.783+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:56:21.954+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:57:19.193+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T15:57:42.128+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:00:26.509+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:00:29.992+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:00:30.670+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:00:31.247+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:00:31.431+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:00:31.624+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:00:31.782+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:00:47.448+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:01:23.891+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:01:25.598+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:48:12.475+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:48:49.225+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:49:17.174+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:50:59.221+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:51:01.023+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:51:24.574+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:51:56.927+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:52:08.087+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:56:50.214+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T16:56:50.979+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:01:46.164+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:02:45.449+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:03:49.234+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:07:43.219+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:10:09.454+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:12:14.555+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:12:36.215+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:12:49.636+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:12:50.221+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:12:50.682+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:12:50.852+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:12:51.046+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:12:51.587+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:12:52.050+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:12:52.223+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:14:17.926+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-07T17:14:20.087+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T16:49:57.356+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T17:12:58.887+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T17:18:40.548+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:30:41.155+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:32:45.135+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:44:21.472+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:44:23.360+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:44:24.134+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:44:24.763+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:44:24.967+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:45:30.475+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:45:31.340+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:47:19.592+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:49:06.464+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T21:51:39.647+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T22:05:22.776+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T22:09:24.483+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T22:14:27.457+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T22:16:03.182+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T22:16:58.715+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-13T22:24:02.590+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T00:48:11.053+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T00:57:57.921+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T00:57:58.549+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T00:58:16.633+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T00:58:28.182+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T00:59:05.792+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T01:07:29.657+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T15:34:45.086+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T15:51:18.686+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:17:02.947+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:25:38.941+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:26:23.093+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:26:35.700+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:26:57.474+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:51:59.164+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:54:51.899+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:56:11.840+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:57:10.067+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:57:11.823+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:58:42.973+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:58:45.997+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:59:13.067+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:59:13.912+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:00:32.449+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:00:33.530+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:06:12.387+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:11:11.316+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:11:14.462+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:37:24.359+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:37:24.927+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:51:29.051+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:52:24.941+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:52:26.297+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:53:04.030+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:55:50.551+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:05:55.343+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:05:56.664+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:06:39.581+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:06:40.139+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:06:49.980+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:06:51.769+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:07:47.800+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:08:56.729+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:08:57.641+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:10:36.912+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:10:45.426+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:13:15.092+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:13:23.956+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:13:48.098+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:14:01.718+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:14:51.527+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:16:12.392+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:16:16.351+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:34:17.177+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:02:05.099+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:02:05.752+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:05:16.408+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:05:17.404+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:06:17.410+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:06:23.228+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:06:23.728+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:16:56.662+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:16:57.837+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:17:50.762+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T19:17:51.482+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:42:52.787+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:42:53.443+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:43:20.296+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:43:21.170+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:44:01.322+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:44:09.276+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:44:44.942+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:44:45.624+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:45:48.515+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:45:49.504+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:46:16.984+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:46:17.677+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:47:30.431+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:47:36.178+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:47:37.181+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:48:12.839+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:48:16.730+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:50:43.879+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:50:45.452+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:51:58.629+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:52:22.826+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:52:23.611+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:52:58.388+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:53:00.220+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:53:23.203+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:55:36.832+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:55:37.343+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:55:56.746+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:56:49.615+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:56:04.611+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:56:06.571+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T19:33:46.919+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T19:35:17.854+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T19:35:18.477+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T19:44:22.791+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T19:46:57.852+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T19:49:32.500+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T19:53:20.088+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T19:53:46.757+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T19:59:42.662+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T20:03:48.626+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T20:05:08.021+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T21:15:55.076+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T21:18:22.698+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T21:33:35.298+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T21:33:59.818+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T21:34:01.787+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T21:34:16.581+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T21:41:04.778+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T22:01:17.620+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T22:03:05.934+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T22:11:01.937+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T22:39:25.041+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-16T00:03:07.004+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-16T00:03:11.927+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-16T00:03:12.946+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-16T00:03:57.933+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-16T00:04:14.402+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-16T00:04:29.292+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-16T00:50:27.580+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-16T00:50:28.719+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-16T00:52:43.234+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

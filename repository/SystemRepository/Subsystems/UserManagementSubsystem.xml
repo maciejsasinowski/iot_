@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Subsystems>
+        <Subsystem aspect.isCreatable="false" aspect.isEditableSystemObject="true" autoStart="true" className="com.thingworx.system.subsystems.users.UserManagementSubsystem" dependsOn="" description="User Management" documentationContent="" enabled="true" friendlyName="User Management" homeMashup="MonitoringUserManagementSubsystem" lastModifiedDate="2017-09-30T23:45:38.848+02:00" name="UserManagementSubsystem" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="ApplicationKey Settings" isMultiRow="false" name="ApplicationKeySettings" ordinal="3">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="3153600000" aspect.friendlyName="Application Key Lifetime (sec)" baseType="LONG" description="Number of seconds until an application key expires from its creation time" name="lifeTime" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <lifeTime>3153600000</lifeTime>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Password Hash Settings" isMultiRow="false" name="HashSettings" ordinal="2">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="PBKDF2WithHmacSHA512" aspect.friendlyName="Hashing algorithm" aspect.selectOptions="PBKDF2WithHmacSHA1:PBKDF2WithHmacSHA1|PBKDF2WithHmacSHA512:PBKDF2WithHmacSHA512" baseType="STRING" description="The hashing algorithm to use when generating hashes" name="hashAlgorithm" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="64" aspect.friendlyName="Hash size in bytes" aspect.selectOptions="24:24|48:48|64:64" baseType="INTEGER" description="The size of the hash in bytes" name="hashHashSizeInBytes" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="100000" aspect.friendlyName="Hashing iterations" baseType="INTEGER" description="The number of iterations to do when hashing, this is for slowness factor" name="hashIterationCount" ordinal="3"/>
+                            <FieldDefinition aspect.defaultValue="64" aspect.friendlyName="Salt size in bytes" aspect.selectOptions="24:24|48:48|64:64" baseType="INTEGER" description="The salt size to use when generating hashes" name="hashSaltSizeInBytes" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <hashSaltSizeInBytes>64</hashSaltSizeInBytes>
+                            <hashIterationCount>100000</hashIterationCount>
+                            <hashHashSizeInBytes>64</hashHashSizeInBytes>
+                            <hashAlgorithm><![CDATA[PBKDF2WithHmacSHA512]]></hashAlgorithm>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Login Lockout Settings" isMultiRow="false" name="LoginLockoutSettings" ordinal="4">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="5" aspect.friendlyName="Maximum Login Attempts" baseType="INTEGER" description="Number of times the user can attempt to log in before their accout is locked" name="loginAttemptsMax" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="5" aspect.friendlyName="Minutes to Attempt Login" baseType="INTEGER" description="Number of minutes the user has to make their maximum login attempts" name="loginAttemptsResetMinutes" ordinal="1"/>
+                            <FieldDefinition aspect.defaultValue="15" aspect.friendlyName="Minutes Locked Out" baseType="INTEGER" description="Number of minutes user is locked out (0 = no limit)" name="loginLockedMinutes" ordinal="2"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <loginAttemptsResetMinutes>5</loginAttemptsResetMinutes>
+                            <loginLockedMinutes>15</loginLockedMinutes>
+                            <loginAttemptsMax>5</loginAttemptsMax>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Session Management Settings" isMultiRow="false" name="SessionTimeout" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="30.0" aspect.friendlyName="Idle Session Timeout (min)" baseType="NUMBER" description="Number of minutes to keep a session alive with no activity" name="timeout" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Allow users to call services on their own User entity regardless of permissions" baseType="BOOLEAN" description="Allow users to call services on their own User entity regardless of permissions" name="userServiceSelfBypass" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <userServiceSelfBypass>true</userServiceSelfBypass>
+                            <timeout>30.0</timeout>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="User session shape settings" isMultiRow="true" name="UserSessionShapes" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="ThingShape Name" baseType="THINGSHAPENAME" description="Thing shape name" name="name" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <name><![CDATA[GlobalSessionProperties]]></name>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.847+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Subsystem>
+    </Subsystems>
+</Entities>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <MediaEntities>
+        <MediaEntity aspect.isSystemObject="true" description="Unknown status" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:38.071+02:00" name="StatusUnknown" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="List of authorization server scopes" isMultiRow="true" name="AuthorizationServerScopesSettings" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition baseType="STRING" description="A single scope for the authorization server." name="scope" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+                <ConfigurationTable description="Content Source Connection information" isMultiRow="false" name="ContentSourceConnectionInformation" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="none" aspect.friendlyName="AuthenticationType" aspect.selectOptions="none:none|basic:basic|SSO:SSO" baseType="STRING" description="Authentication type" name="authenticationType" ordinal="4"/>
+                            <FieldDefinition aspect.friendlyName="AuthorizationServerID" baseType="STRING" description="Authorization Server ID" name="authorizationServerId" ordinal="7"/>
+                            <FieldDefinition aspect.friendlyName="Dynamic Content" baseType="BOOLEAN" description="Display dynamic content from external URL" name="dynamicContent" ordinal="0"/>
+                            <FieldDefinition aspect.friendlyName="Ignore SSL Errors" baseType="BOOLEAN" description="Ignore SSL errors" name="ignoreSSLErrors" ordinal="2"/>
+                            <FieldDefinition aspect.friendlyName="AuthPassword" baseType="PASSWORD" description="Password for basic authentication" name="password" ordinal="6"/>
+                            <FieldDefinition aspect.defaultValue="60.0" aspect.friendlyName="Timeout" baseType="NUMBER" description="Timeout" name="timeout" ordinal="3"/>
+                            <FieldDefinition aspect.friendlyName="URL" baseType="STRING" description="The URL to the content source" name="url" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="AuthUsername" baseType="STRING" description="Username for basic authentication" name="userId" ordinal="5"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <ignoreSSLErrors>false</ignoreSSLErrors>
+                            <dynamicContent>false</dynamicContent>
+                            <password/>
+                            <authorizationServerId/>
+                            <authenticationType><![CDATA[none]]></authenticationType>
+                            <userId/>
+                            <url/>
+                            <timeout>60.0</timeout>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <content><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAACxZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDQuMi4yLWMwNjMgNTMu
+MzUyNjI0LCAyMDA4LzA3LzMwLTE4OjEyOjE4ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRm
+PSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRl
+c2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29t
+L3hhcC8xLjAvIgogICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEv
+IgogICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAv
+IgogICB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzQgV2luZG93cyIKICAgeG1w
+OkNyZWF0ZURhdGU9IjIwMTEtMDUtMDRUMTA6MTI6NDktMDQ6MDAiCiAgIHhtcDpNb2RpZnlEYXRl
+PSIyMDExLTA1LTA0VDEwOjEyOjQ5LTA0OjAwIgogICB4bXA6TWV0YWRhdGFEYXRlPSIyMDExLTA1
+LTA0VDEwOjEyOjQ5LTA0OjAwIgogICBkYzpmb3JtYXQ9ImFwcGxpY2F0aW9uL3ZuZC5hZG9iZS5w
+aG90b3Nob3AiCiAgIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiCiAgIHBob3Rvc2hvcDpJQ0NQcm9m
+aWxlPSJzUkdCIElFQzYxOTY2LTIuMSIvPgogPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgIAo8P3hwYWNrZXQg
+ZW5kPSJ3Ij8+K5lXNgAAAjVJREFUeNpi/P//PwMlgImBQoDPACEgNgNiFbwmgLyAhpOB+MyHTx/+
+X7558f+jZw+B3P8fgLgdiDnR1TOihcHkm/du5DROqWG4fucq0HSIIA8XL0NqRCZDpE/Mjn///k3j
+4ODYDNOAbEDLzsPbq6t6Sxn+/f0L1fsfbggDIwODrYk9w4SaqQwrVqzkj4mJ+YTsBa2Xb178t48y
+/2/gq/F/4oKe/8igaVLtf31vdTBeuG7e/zdv3vQBtTIjB2Lm/DWzGT5+/gjmzFszh8HAR4MBqIHh
+GtArtblNDLzcvGC5uatnMHDzcBUWFxcLIhtgc/76WayBzMfDx/Dpy0eg4Z8YQL79+Okjw637Nxm8
+vLxMQfphBvB8+/4NRaOMhCzD8onrgAbwMzRNqkOR+/LtC4gSAXkDZsBNBWlFFEWaKtoMWkA8b9Us
+hl2Ht4PCEByQIKwoo8Rw4MCBB8ixELX94JaloBiABz44cMGhDI8FRkZGBkNtY4aukglXxcTEPIGi
+z2AuWOZq7bHbysgW7oLEkFSGi1tvMLjZeoB0gjWzs3Mw1OU2M5w+fXo1UMlXIP4HTwd///71BwbW
+hpr+CoZjZw8DHfEfngxALhcWFAFrFmAXWmtgYABy6lMg/oWSEr9//x4IpHKPnT/ieBRoyPW7Vxkk
+RCUYNJW0GSJ8oxluXLu5wNzcvA3kdCD+BvYscrqGAtYbN27EP3/+fMXHjx+vPXny5OCpU6dm+vj4
+gPwnDcRcyJkQIMAAjHcmJ1j++ZkAAAAASUVORK5CYII=]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.071+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </MediaEntity>
+    </MediaEntities>
+</Entities>

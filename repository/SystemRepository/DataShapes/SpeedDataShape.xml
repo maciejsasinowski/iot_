@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape baseDataShape="" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-12-09T19:53:38.928+01:00" name="SpeedDataShape" projectName="" tags="Applications:DataModelGuide;Applications:BusinessRuleEngine">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="BOOLEAN" description="" name="Checked" ordinal="4"/>
+                <FieldDefinition aspect.defaultValue="0" aspect.minimumValue="0" baseType="INTEGER" description="" name="CurrentSpeed" ordinal="2"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="" name="DriverId" ordinal="6"/>
+                <FieldDefinition aspect.defaultValue="55" aspect.maximumValue="70" aspect.minimumValue="0" baseType="INTEGER" description="" name="SpeedLimit" ordinal="1"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="DATETIME" description="" name="Time" ordinal="5"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="" name="TruckId" ordinal="3"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated&#10;fields : SpeedLimit : Added, CurrentSpeed : Added&#10;" timestamp="2017-04-12T15:44:55.816+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="fields : TruckId : Added&#10;" timestamp="2017-04-12T15:45:12.833+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="fields : Checked : Added&#10;" timestamp="2017-04-12T15:57:23.697+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="fields : Time : Added, TruckId : Updated, SpeedLimit : Updated&#10;" timestamp="2017-04-12T16:03:39.654+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="fields : DriverId : Added&#10;" timestamp="2017-04-12T16:35:27.303+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-10-10T08:33:41.517+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-06T22:02:22.933+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-12-09T19:53:38.928+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

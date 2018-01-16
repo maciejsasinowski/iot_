@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Logs>
+        <Log aspect.isCreatable="false" aspect.isSystemObject="true" description="Script Log" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.258+02:00" logLevel="WARN" name="ScriptLog" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEr0lEQVR42u2Za2ibVRjH303wg6B+
+qShSUiHtlIHFMRjIKO6L/TCHHwpiQZlfxgsOZBQ2GWywMdR5RXRsK2y01W0f3Nrai3Zpu663bb1u
+ljZJk6azld7vaW272W19/P9fe0qaJrOX04jwBn7kcnLePL+c5/xzSg0RMf7PGLaALWAL2AK2gC2g
+m3eOHUsB5nr5TwTSjh5NAaYuYirw9uHDKcBs9vmKZZ03XoPXipnA7oMHU4DZ0N5e/BAvkHtzc6uG
+83gNXovETODNAwdMco+Fg+GpqVWj5qprgbiYCbyxf79JpvDk95GRNcG5lW538cK14jZsE0dKmbcO
+HbpACpub5ceKCjlbVGRxprBQfrh2zbonHFN4+vuXMI6Lv75vn0k2LEajpUxqRsYFUtDUJDnl5YsF
+ny4okOyyMgs+5lgo7r6+RSiwfe9ek2yIgM6U+a2zU7JLS8WDwhUUeDU93STaBXSmzO1AQLJcLgsv
+WkcxgbGX09JMol1AZ8p8d+WKhauxUWpaWy18AwMSxNhLe/aYRLuArpSpdrvl28uXpQyb/QYe17a1
+WXQMDVkCL6ammkS7gEoH9ml4eqwUzs0sLrZox3PiRe+Tu8PDMonxuF27TKJdQKUDiwhNjtXAuWeR
+TMQ/OCh+tA1bxweR7tFR+RPjz+7caRLtAiodrBVAMb/cvClFtbVSWFMjrT098nNVleRXVi5JlXA4
+9wyi9KtLl6TR55MA2gahYNEzPi7TGH9qxw6TaBdQ6cCkYGL8euvWokRbb++iRGiqhMO5p/Pz5cuL
+F6XZ77fapgn3nRDpDwZlBuNPbttmEu0CKh240axlx4e2ow28eMz2UBI+1RYR4NxTeXlyKjdXhpBK
+4cxifHNyskm0C6h0YBFMDD++vUgSHIsG536P+CRj09PLuM8P2rrVJNoFVDowKbj0roYGuVpfb0mE
+thP3REF19eKeyLt+3UKlzMnsbIvg7Owy/uIHbdnyIdEuoNKBScHEoADhSpTU1f2rhEqZr7GBT5w7
+J0Po+RG0Db/5iZkZmaTA/LwYiYkfEe0CKh2YFEyMAArqwI8TidROfE84nPtZVpZ8kZMjf2BO/9iY
+DE9OyjgkKDD36JEYTmcG0S6g0oFJwcToxIc/ToLvCYdzPz1/Xj6HRC/mDEJqFAJBrMD9Bw+UwMdE
+u4BKByYFE6McR4EyHJ1LcZ6J1E7RUiYTxwjyEMUq5vE6yXW5KlD8EbBbu4BKByYF+5YC4RJqJSgR
+LWWUgCpa8VNJSRUKP24kJLxrGEY8iAPP6BNYSAcmRaQEWQmcuykp6SrZ7HR+sgyH4z0UnbQxAgvp
+0IEN6sMPlh+ZH+AhDL+wXeh7bsoerEAf9sbAxETUlNmUmFhGnnA6Ty7B4fgABSdviACW9nkmw4nM
+TBfbpuLOHalqaZFanOPrPB5pwrmGf2G5u7osubvYxFFTJj7+GwvD2B4B/QIo/AWVDKrvlcANnOPr
+vV7rXNMCAU93t3RgZbogoCtldAgwFY4wIbjZQtNjpawnZXQIHGdChKfGaglJmXS0RgJ4biUtsm6B
+iGmxVhyO91H0KzEVwO3pZYmxFv5JmddiLmD/h8YWsAVsAVvgcfwNVhl+tUzElXYAAAAASUVORK5CYII=]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.258+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Log>
+    </Logs>
+</Entities>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StyleDefinitions>
+        <StyleDefinition aspect.isEditableSystemObject="true" aspect.isThemeObject="true" description="Default range chart selection style" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.314+02:00" name="DefaultRangeSelectionStyle" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"image":"","backgroundColor":"#ffbe00","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":2,"lineColor":"#ffbe00","foregroundColor":"#ffffff","fontEmphasisBold":false,"secondaryBackgroundColor":"#ffdf81"}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.314+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StyleDefinition>
+    </StyleDefinitions>
+</Entities>

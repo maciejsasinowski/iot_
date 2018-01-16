@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="policy rules used by a ConnectionMonitor to monitor an IConnectable" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.833+02:00" name="ConnectionPolicy" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="data used by an IConnectable to determine if connection is alive" name="heartbeat" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="ENUM (ondemand|event|poll)" name="lossDetection" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="policy name" name="name" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="set to TRUE to enable reconnect" name="reconnect" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="the number of reconnect attempts before issueing an ERROR; ignored if reconnect is FALSE" name="reconnectAttempts" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="the number of seconds between reconnect attempts; ignored if reconnect is FALSE" name="reconnectInterval" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.833+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

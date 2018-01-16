@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Dashboard definition" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.507+02:00" name="DashboardChange" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Dashboard Item ID" name="dashboardItemID" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Sequence in the target group" name="sequence" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Source Dashboard Group ID" name="sourceGroupID" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Target Dashboard Group ID" name="targetGroupID" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.507+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

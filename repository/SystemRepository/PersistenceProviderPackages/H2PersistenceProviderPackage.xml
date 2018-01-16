@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <PersistenceProviderPackages>
+        <PersistenceProviderPackage aspect.isSystemObject="true" className="com.thingworx.persistence.h2.H2PersistenceProviderPackage" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:32.825+02:00" name="H2PersistenceProviderPackage" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="default persistence provider package." timestamp="2017-09-30T23:45:32.815+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </PersistenceProviderPackage>
+    </PersistenceProviderPackages>
+</Entities>

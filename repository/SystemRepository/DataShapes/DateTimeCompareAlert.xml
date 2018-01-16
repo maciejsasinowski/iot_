@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="DateTime compare alert" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.067+02:00" name="DateTimeCompareAlert" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.friendlyName="Limit" aspect.isRequired="true" baseType="DATETIME" description="Limit to compare" name="limit" ordinal="0"/>
+                <FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Include Limit?" aspect.isRequired="false" baseType="BOOLEAN" description="Limit includes value" name="limitInclusive" ordinal="1"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.067+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

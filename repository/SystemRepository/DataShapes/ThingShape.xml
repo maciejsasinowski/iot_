@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Thing shape definition" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.756+02:00" name="ThingShape" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="INFOTABLE" description="Contained Thing Shapes" name="containedThingShapes" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Description" name="description" ordinal="0"/>
+                <FieldDefinition baseType="INFOTABLE" description="Event definitions" name="eventDefinitions" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Name" name="name" ordinal="0"/>
+                <FieldDefinition baseType="INFOTABLE" description="Property definitions" name="propertyDefinitions" ordinal="0"/>
+                <FieldDefinition baseType="INFOTABLE" description="Service definitions" name="serviceDefinitions" ordinal="0"/>
+                <FieldDefinition baseType="INFOTABLE" description="Service implementations" name="serviceImplementations" ordinal="0"/>
+                <FieldDefinition aspect.tagType="ModelTags" baseType="TAGS" description="Tags" name="tags" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.756+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

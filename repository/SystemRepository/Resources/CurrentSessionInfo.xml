@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Resources>
+        <Resource aspect.isCreatable="false" aspect.isSystemObject="true" className="com.thingworx.resources.sessioninfo.SessionInfo" description="User session info" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:38.656+02:00" name="CurrentSessionInfo" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions>
+                <Permissions resourceName="*">
+                    <PropertyRead/>
+                    <PropertyWrite/>
+                    <ServiceInvoke>
+                        <Principal isPermitted="true" name="Administrators" type="Group"/>
+                        <Principal isPermitted="true" name="Developers" type="Group"/>
+                        <Principal isPermitted="true" name="Users" type="Group"/>
+                    </ServiceInvoke>
+                    <EventInvoke/>
+                    <EventSubscribe/>
+                </Permissions>
+            </RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.656+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Resource>
+    </Resources>
+</Entities>

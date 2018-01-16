@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Entity usage" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.350+02:00" name="EntityUsageReport" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="DATETIME" description="Date generated" name="dateGenerated" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Total things disabled" name="disabledThings" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Total things enabled" name="enabledThings" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="EntityUsage" baseType="INFOTABLE" description="Entities usage" name="entities" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="Include system objects" name="includeSystemUsers" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Local hardware address" name="localHardwareAddress" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Local host name" name="localHostName" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="System templates only" name="systemTemplatesOnly" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Thingworx version" name="thingworxVersion" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Total things" name="totalThings" ordinal="0"/>
+                <FieldDefinition aspect.dataShape="EntityUsage" baseType="INFOTABLE" description="User entities usage" name="userEntities" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="User name" name="userName" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.350+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

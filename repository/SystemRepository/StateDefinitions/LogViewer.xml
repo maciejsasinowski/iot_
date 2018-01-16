@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StateDefinitions>
+        <StateDefinition aspect.isEditableSystemObject="true" description="States for color coding log entries" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.170+02:00" name="LogViewer" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"stateType":"string","stateDefinitions":[{"displayString":"TRACE","defaultStyleDefinition":{"image":"LogLevelTraceIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"TRACE","name":"TRACE","description":""},{"displayString":"DEBUG","defaultStyleDefinition":{"image":"LogLevelDebugIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"DEBUG","name":"DEBUG","description":""},{"displayString":"Info","defaultStyleDefinition":{"image":"LogLevelInfoIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"INFO","name":"Info","description":""},{"displayString":"WARN","defaultStyleDefinition":{"image":"LogLevelWarnIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"WARN","name":"WARN","description":""},{"displayString":"ERROR","defaultStyleDefinition":{"image":"LogLevelErrorIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"ERROR","name":"ERROR","description":""},{"displayString":"ALL","defaultStyleDefinition":{"image":"LogLevelAllIcon","backgroundColor":"","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"ALL","name":"ALL","description":""},{"displayString":"","defaultStyleDefinition":{"image":"","backgroundColor":"","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"name":"","description":""}]}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.170+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>

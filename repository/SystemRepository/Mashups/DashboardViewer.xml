@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.isSystemObject="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.964+02:00" name="DashboardViewer" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions>
+                <FieldDefinition aspect.ordinal="0" baseType="STRING" description="" name="DashboardID" ordinal="0"/>
+            </ParameterDefinitions>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ {
+          "Widgets" : [ ],
+          "Properties" : {
+            "DashboardMenuStyle" : "DefaultDashboardMenuStyle",
+            "DashboardTitleStyle" : "DefaultDashboardTitleStyle",
+            "Left" : 340,
+            "EnableMaxWidth" : false,
+            "ResponsiveLayout" : true,
+            "Z-index" : 10,
+            "DashboardGroupTitleStyle" : "DefaultDashboardGroupTitleStyle",
+            "DashboardStyle" : "DefaultDashboardStyle",
+            "__TypeDisplayName" : "Dashboard",
+            "DashboardGroupExpandCollapseStyle" : "DefaultDashboardGroupExpandCollapseStyle",
+            "DashboardConfigButtonStyle" : "DefaultDashboardConfigButtonStyle",
+            "MashupToAddGadgets" : "",
+            "Type" : "dashboard",
+            "Area" : "UI",
+            "Top" : 120,
+            "MaxWidth" : 1060,
+            "DashboardGroupStyle" : "DefaultDashboardGroupStyle",
+            "Visible" : true,
+            "DisplayName" : "Dashboard-10",
+            "Style" : "DefaultCheckboxStyle",
+            "Height" : 400,
+            "Id" : "Dashboard-10",
+            "Disabled" : false,
+            "Width" : 1060
+          }
+        } ],
+        "Properties" : {
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "BGImageRepeat" : "no-repeat",
+          "Z-index" : 10,
+          "ShowExpandCollapseTab" : false,
+          "MinWidth" : 0,
+          "TabOffset" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Type" : "container",
+          "Area" : "UI",
+          "Visible" : true,
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "AnimateExpandCollapse" : true,
+          "DisplayName" : "Row 1",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "TabHeight" : 36,
+          "Id" : "container-4",
+          "Overlay" : false,
+          "Expanded" : true
+        }
+      } ],
+      "Properties" : {
+        "Left" : 180,
+        "IncludeSpacingInFixedAreas" : false,
+        "HeaderHeight" : 0,
+        "PctRow4" : 0,
+        "PctRow3" : 0,
+        "PctRow2" : 0,
+        "PctRow1" : 100,
+        "FooterHeight" : 0,
+        "PctRow8" : 0,
+        "PctRow7" : 0,
+        "PctRow6" : 0,
+        "PctRow5" : 0,
+        "Visible" : true,
+        "PctColumn5" : 1,
+        "RightSidebar" : false,
+        "DisplayName" : "Layout-2",
+        "LeftSidebar" : false,
+        "PctColumn6" : 1,
+        "PrintWidth" : 650,
+        "PctColumn3" : 1,
+        "PctColumn4" : 1,
+        "PctColumn1" : 50,
+        "PctColumn2" : 50,
+        "Rows" : 1,
+        "RightSidebarWidth" : 0,
+        "PctColumn7" : 1,
+        "ResponsiveLayout" : true,
+        "PctColumn8" : 1,
+        "Columns" : 0,
+        "Z-index" : 10,
+        "Spacing" : 2,
+        "Orientation" : "vertical",
+        "__TypeDisplayName" : "Layout",
+        "Type" : "layout",
+        "Area" : "UI",
+        "LeftSidebarWidth" : 0,
+        "Header" : false,
+        "Top" : 120,
+        "IsPrintLayout" : false,
+        "Footer" : false,
+        "Id" : "Layout-2"
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "BGImageRepeat" : "no-repeat",
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "id_index" : 10,
+      "supportsAutoResize" : true,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : "DefaultMashupStyle",
+      "BGImageSize" : "auto",
+      "Height" : 618,
+      "_currentParameterDefs" : [ {
+        "Description" : "",
+        "BaseType" : "STRING",
+        "ParameterName" : "DashboardID"
+      } ],
+      "Width" : 1024,
+      "TitleBar" : false,
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "ResponsiveLayout" : true,
+      "Z-index" : 10,
+      "TitleBarText" : "Gadget Title Here",
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "Type" : "mashup",
+      "Area" : "Mashup",
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "Id" : "mashup-root",
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "mashupType" : "mashup",
+  "Events" : [ ],
+  "DataBindings" : [ {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "SourceSection" : "",
+    "Id" : "d725a9a6-1142-4c7d-b0b9-252f212d074d",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "Dashboard",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "DASHBOARDNAME",
+      "SourceProperty" : "DashboardID"
+    } ],
+    "TargetId" : "Dashboard-10"
+  } ],
+  "Data" : {
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.964+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

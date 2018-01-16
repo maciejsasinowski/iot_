@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Long anomaly alert" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.675+02:00" name="LongAnomalyAlert" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.defaultValue="5000" aspect.friendlyName="Anomaly Detection Rate" aspect.isRequired="true" aspect.minimumValue="0" baseType="LONG" description="Rate of Anomaly Detection (ms)" name="anomalyDetectionRate" ordinal="4"/>
+                <FieldDefinition aspect.defaultValue="true" aspect.definable="false" aspect.friendlyName="Calibrate with Device Data" baseType="BOOLEAN" description="Calibrate using device data" name="calibrateWithDeviceData" ordinal="0"/>
+                <FieldDefinition aspect.defaultValue="95.4" aspect.friendlyName="Certainty" aspect.isRequired="true" aspect.maxInclude="false" aspect.maximumValue="100.0" aspect.minInclude="false" aspect.minimumValue="50.0" baseType="NUMBER" description="Certainty Percentage" name="certainty" ordinal="6"/>
+                <FieldDefinition aspect.definable="false" aspect.friendlyName="Inbound Sampling Rate" aspect.minimumValue="0" baseType="INTEGER" description="Rate of Inbound Sampling (ms)" name="inboundSamplingRate" ordinal="3"/>
+                <FieldDefinition aspect.definable="false" aspect.friendlyName="Model Identifier" baseType="STRING" description="Unique Identifier for the PMML Model" name="modelID" ordinal="1"/>
+                <FieldDefinition aspect.definable="false" aspect.friendlyName="Secondary Properties" baseType="STRING" description="Secondary Properties" name="secondaryProperties" ordinal="7"/>
+                <FieldDefinition aspect.defaultValue="true" aspect.definable="false" aspect.friendlyName="Self Train" baseType="BOOLEAN" description="Self Train" name="selfTrain" ordinal="0"/>
+                <FieldDefinition aspect.defaultValue="60000" aspect.friendlyName="Training Time" aspect.isRequired="true" aspect.minimumValue="0" baseType="INTEGER" description="Time Allowed for Training (ms)" name="trainingTime" ordinal="5"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.675+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

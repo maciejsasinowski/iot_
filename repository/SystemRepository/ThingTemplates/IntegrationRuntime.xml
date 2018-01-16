@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="SDKGateway" description="Template for a thing that represents the Integration Runtime" documentationContent="" effectiveThingPackage="SDKGateway" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.075+02:00" name="IntegrationRuntime" projectName="" tags="" thingPackage="" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABd0lEQVR42u2ZzQ3DIAyFOWWMnrtI
+xqiySKfIGtkmC1FxsIQsjH+g0DQ+WKTIhX6Y90LSEGMMV47wNwDbtsUrRRHg+Q6XiGVZ6gDHcXRr
+pbnSuUUA53nGfd/JSANI82BiKhfG4ubO81iA9IV1XcmAwSR5AEDlYgBJngNYANI1FVigXN4UgKEi
+rq0CXgkubwpAz8mmuBD4tzZKN50pIk5d2vanACQ3KVxavFVw/1AXSl2cw+Qrk1cgfc5XbIqIJRaJ
+S4sn0J6rugK0VIDSwFAXslag5k7DXah3BYa7kFUDt3ehLk9ks1yodkdXAaQu7qCWRy8XysfAW1Fd
+Ae1xgtOARJy4iiWRiwEs5a9pQAuAt+IwAEoDUhfqJmLLsbqmAa6l9nypX10Bid1ZnyGorVfTwtcA
+WlpuzzdpYBRAkwYerxC5ANFJcrWhue+QAPDWmrqGL0pytdf5jzK9XncAB3CAiwOkkFqXJNdqi/f9
+l9IBHMABHMABbgnwAdFuw3AZxvu9AAAAAElFTkSuQmCC]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings>
+                <RemoteServiceBinding enableQueue="false" name="Invoke" sourceName="" timeout="0"/>
+                <RemoteServiceBinding enableQueue="true" name="ReceiveRouteLifecycleEvent" sourceName="" timeout="30000"/>
+                <RemoteServiceBinding enableQueue="false" name="RegisterRoute" sourceName="" timeout="0"/>
+            </RemoteServiceBindings>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.defaultValue="false" aspect.isPersistent="false" baseType="BOOLEAN" category="" description="Property to Identify Runtimes that are ready to process requests" isLocalOnly="false" name="AvailableForRequests" ordinal="0"/>
+                </PropertyDefinitions>
+                <ServiceDefinitions>
+                    <ServiceDefinition category="" description="" isAllowOverride="false" isLocalOnly="true" isOpen="false" isPrivate="false" name="Invoke">
+                        <ResultType baseType="INFOTABLE" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions>
+                            <FieldDefinition baseType="STRING" description="" name="endpointUri" ordinal="0"/>
+                            <FieldDefinition baseType="INFOTABLE" description="" name="headerParams" ordinal="2"/>
+                            <FieldDefinition baseType="INFOTABLE" description="" name="paramsTable" ordinal="1"/>
+                            <FieldDefinition baseType="BASETYPENAME" description="" name="resultType" ordinal="3"/>
+                        </ParameterDefinitions>
+                    </ServiceDefinition>
+                    <ServiceDefinition category="" description="" isAllowOverride="false" isLocalOnly="true" isOpen="false" isPrivate="false" name="ReceiveRouteLifecycleEvent">
+                        <ResultType baseType="NOTHING" description="" name="" ordinal="0"/>
+                        <ParameterDefinitions>
+                            <FieldDefinition baseType="INFOTABLE" description="" name="eventPayload" ordinal="0"/>
+                        </ParameterDefinitions>
+                    </ServiceDefinition>
+                    <ServiceDefinition category="" description="" isAllowOverride="false" isLocalOnly="true" isOpen="false" isPrivate="false" name="RegisterRoute">
+                        <ResultType baseType="NOTHING" description="" name="" ordinal="0"/>
+                        <ParameterDefinitions>
+                            <FieldDefinition baseType="STRING" description="" name="routeXml" ordinal="0"/>
+                        </ParameterDefinitions>
+                    </ServiceDefinition>
+                </ServiceDefinitions>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.075+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

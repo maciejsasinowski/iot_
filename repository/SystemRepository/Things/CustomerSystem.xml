@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Things>
+        <Thing description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-12-09T19:53:39.259+01:00" name="CustomerSystem" projectName="" published="false" tags="Applications:BusinessRuleEngine;Applications:DataModelGuide" thingTemplate="GenericThing" valueStream="">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="CheckPackagesDelivered">
+                        <ResultType baseType="BOOLEAN" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions>
+                            <FieldDefinition aspect.isRequired="true" baseType="STRING" description="" name="CustomerId" ordinal="1"/>
+                        </ParameterDefinitions>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="FindPackage">
+                        <ResultType baseType="THINGNAME" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions>
+                            <FieldDefinition aspect.isRequired="true" baseType="STRING" description="" name="PackageId" ordinal="1"/>
+                        </ParameterDefinitions>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetAllCustomers">
+                        <ResultType aspect.dataShape="CustomerDataShape" baseType="INFOTABLE" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetCustomerPackages">
+                        <ResultType aspect.dataShape="PackageDataShape" baseType="INFOTABLE" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions>
+                            <FieldDefinition aspect.isRequired="true" baseType="STRING" description="" name="CustomerId" ordinal="1"/>
+                        </ParameterDefinitions>
+                    </ServiceDefinition>
+                </ServiceDefinitions>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations>
+                    <ServiceImplementation description="" handlerName="Script" name="CheckPackagesDelivered">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	CustomerId: CustomerId /* STRING */
+};
+
+// packages: INFOTABLE dataShape: "PackageDataShape"
+var packages = me.GetCustomerPackages(params);
+
+var tableLength = packages.rows.length;
+var result = true;
+var package;
+
+for (var x = 0; x < tableLength; x++) {
+	var row = packages.rows[x];
+	package = row.Package;
+    
+    if(package.Status != 'Delivered'){
+        result = false;
+        break;
+    }
+}
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="FindPackage">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[var values = Things["PackageDataTable"].CreateValues();
+values.PackageId = PackageId; //STRING [Primary Key]
+
+var params = {
+	maxItems: undefined /* NUMBER */,
+	values: values /* INFOTABLE*/,
+	query: undefined /* QUERY */,
+	source: undefined /* STRING */,
+	tags: undefined /* TAGS */
+};
+
+// packages: INFOTABLE
+var packages = Things["PackageDataTable"].QueryDataTableEntries(params);
+var result;
+
+if(packages.rows.length > 0){
+    result = packages.rows[0];
+}
+else{
+ 	result = null;   
+}
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="GetAllCustomers">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	maxItems: undefined /* NUMBER */
+};
+
+// result: INFOTABLE
+var result = Things["CustomerDataTable"].GetDataTableEntries(params);
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="GetCustomerPackages">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var values = Things["PackageDataTable"].CreateValues();
+
+values.CustomerId = CustomerId; //STRING [Primary Key]
+
+var params = {
+	maxItems: undefined /* NUMBER */,
+	values: values /* INFOTABLE*/,
+	query: undefined /* QUERY */,
+	source: undefined /* STRING */,
+	tags: undefined /* TAGS */
+};
+
+// result: INFOTABLE
+var result = Things["PackageDataTable"].QueryDataTableEntries(params);
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                </ServiceImplementations>
+                <Subscriptions/>
+            </ThingShape>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ImplementedShapes/>
+            <ThingProperties/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-10-10T08:33:41.650+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-06T22:02:23.226+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-12-09T19:53:39.257+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Thing>
+    </Things>
+</Entities>

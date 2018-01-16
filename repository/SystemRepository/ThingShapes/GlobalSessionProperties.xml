@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingShapes>
+        <ThingShape aspect.isEditableSystemObject="true" aspect.isSystemObject="false" className="" description="Default shape for session properties" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.896+02:00" name="GlobalSessionProperties" projectName="" tags="">
+            <PropertyDefinitions/>
+            <ServiceDefinitions/>
+            <EventDefinitions/>
+            <ServiceMappings/>
+            <ServiceImplementations/>
+            <Subscriptions/>
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.896+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <InstanceRunTimePermissions/>
+        </ThingShape>
+    </ThingShapes>
+</Entities>

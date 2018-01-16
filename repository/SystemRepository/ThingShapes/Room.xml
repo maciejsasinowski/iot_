@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingShapes>
+        <ThingShape className="" description="A room which flowers​ are in." documentationContent="" homeMashup="" lastModifiedDate="2018-01-13T21:33:04.141+01:00" name="Room" projectName="Smart Flowers" tags="smart:smart;flowers:flowers;smartflowers:smartflowers;flower:flower">
+            <PropertyDefinitions>
+                <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" aspect.minimumValue="0" baseType="INTEGER" category="" description="" isLocalOnly="false" name="room_id" ordinal="2"/>
+                <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" aspect.maximumValue="100" aspect.minimumValue="-100" aspect.units="°C" baseType="INTEGER" category="" description="Room temperature" isLocalOnly="false" name="room_temperature" ordinal="1"/>
+            </PropertyDefinitions>
+            <ServiceDefinitions/>
+            <EventDefinitions/>
+            <ServiceMappings/>
+            <ServiceImplementations/>
+            <Subscriptions/>
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, documentationContent : updated, tags : updated, description : updated, projectName : updated&#10;" timestamp="2018-01-13T17:22:37.509+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : room_temperature : Added&#10;" timestamp="2018-01-13T17:34:46.024+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : room_id : Added&#10;" timestamp="2018-01-13T21:31:58.165+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : room_temperature : Updated&#10;" timestamp="2018-01-13T21:33:04.141+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+            <PropertyBindings>
+                <PropertyBinding name="room_temperature" sourceName="temp_value" sourceThingName="ambient_temperature"/>
+            </PropertyBindings>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations>
+                <AlertDefinitions name="room_id"/>
+                <AlertDefinitions name="room_temperature"/>
+            </AlertConfigurations>
+            <InstanceRunTimePermissions/>
+        </ThingShape>
+    </ThingShapes>
+</Entities>

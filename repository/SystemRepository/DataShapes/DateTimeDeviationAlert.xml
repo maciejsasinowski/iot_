@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="DateTime deviation alert" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.299+02:00" name="DateTimeDeviationAlert" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.friendlyName="Limit" aspect.isRequired="true" baseType="NUMBER" description="Limit to deviation from reference value" name="limit" ordinal="2"/>
+                <FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Include Limit?" aspect.isRequired="false" baseType="BOOLEAN" description="Limit includes value" name="limitInclusive" ordinal="3"/>
+                <FieldDefinition aspect.defaultValue="S" aspect.friendlyName="Time units" aspect.isRequired="true" aspect.selectOptions="S:Seconds|M:Minutes|H:Hours|D:Days|N:Months|Y:Years" baseType="STRING" description="Units of time (S, M, H, D, N, Y)" name="units" ordinal="1"/>
+                <FieldDefinition aspect.friendlyName="Value" aspect.isRequired="true" baseType="DATETIME" description="Reference value" name="value" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.299+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.isSystemObject="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.848+02:00" name="DefaultMashupToEditGadget" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions>
+                <FieldDefinition aspect.ordinal="2" baseType="STRING" description="" name="dashboardId" ordinal="0"/>
+                <FieldDefinition aspect.ordinal="1" baseType="STRING" description="" name="groupId" ordinal="0"/>
+                <FieldDefinition aspect.ordinal="0" baseType="STRING" description="" name="itemId" ordinal="0"/>
+            </ParameterDefinitions>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ ],
+      "Properties" : {
+        "RowSelectedStyle" : "DefaultRowSelectedStyle",
+        "IsEditable" : true,
+        "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+        "Left" : 15,
+        "ShowDataLoading" : true,
+        "GridHeaderStyle" : "DefaultGridHeaderStyle",
+        "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+        "FocusStyle" : "DefaultFocusStyle",
+        "TabSequence" : 0,
+        "RowFormat_StateParameters" : [ ],
+        "CellTextWrapping" : false,
+        "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+        "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+        "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+        "Visible" : true,
+        "DisplayName" : "Grid-5",
+        "Height" : 240,
+        "Width" : 515,
+        "MultiSelect" : false,
+        "CurrentScrollTop" : 0,
+        "ResponsiveLayout" : false,
+        "ShowAllColumns" : false,
+        "Z-index" : 10,
+        "AlignHeader" : false,
+        "__TypeDisplayName" : "Grid",
+        "ScrollTop" : 0,
+        "RowHeight" : 30,
+        "ColumnFormat" : {
+          "formatInfo" : [ {
+            "ValidationMessage" : "",
+            "Align" : "left",
+            "AllowEdit" : false,
+            "Title" : "[[name]]",
+            "ValidationExpression" : "",
+            "FormatOptions" : {
+              "renderer" : "STRING",
+              "formatInfo" : {
+                "StateFormats" : [ {
+                  "stateName" : "fixed",
+                  "state" : ""
+                } ],
+                "StateDefinition" : "",
+                "StateDefinitionType" : "fixed",
+                "FieldName" : ""
+              },
+              "formatText" : "View",
+              "FormatString" : "full"
+            },
+            "FieldName" : "name",
+            "Width" : "250"
+          }, {
+            "ValidationMessage" : "",
+            "Align" : "left",
+            "AllowEdit" : true,
+            "Title" : "[[value]]",
+            "ValidationExpression" : "",
+            "FormatOptions" : {
+              "renderer" : "STRING",
+              "formatInfo" : {
+                "StateFormats" : [ {
+                  "stateName" : "fixed",
+                  "state" : ""
+                } ],
+                "StateDefinition" : "",
+                "StateDefinitionType" : "fixed",
+                "FieldName" : ""
+              },
+              "formatText" : "View",
+              "FormatString" : "full"
+            },
+            "FieldName" : "value",
+            "Width" : "250"
+          } ]
+        },
+        "Area" : "UI",
+        "Type" : "dhxgrid",
+        "Top" : 70,
+        "IsPrintLayout" : false,
+        "Id" : "Grid-5",
+        "RowHoverStyle" : "DefaultRowHoverStyle",
+        "AutoSelectFirstRow" : false,
+        "GridHeaderTextCase" : "none"
+      }
+    }, {
+      "Widgets" : [ ],
+      "Properties" : {
+        "Left" : 455,
+        "CancelConfirmationButton" : "button2",
+        "ShowDataLoading" : true,
+        "Label" : "[[save]]",
+        "FocusStyle" : "DefaultButtonFocusStyle",
+        "TabSequence" : 0,
+        "ToolTipField" : "",
+        "IconAlignment" : "left",
+        "Visible" : true,
+        "DisplayName" : "Button-8",
+        "Style" : "DefaultButtonStyle",
+        "Height" : 28,
+        "DisabledStyle" : "DefaultButtonDisabledStyle",
+        "ConfirmationTitle" : "[[updateGadgetParameters]]",
+        "Disabled" : false,
+        "Width" : 75,
+        "ResponsiveLayout" : false,
+        "ConfirmationPrompt" : "[[updateGadgetParametersMessage]]",
+        "Z-index" : 10,
+        "ConfirmationButton1Label" : "[[confirmationOptionYes]]",
+        "RoundedCorners" : false,
+        "__TypeDisplayName" : "Button",
+        "HoverStyle" : "DefaultButtonHoverStyle",
+        "Area" : "UI",
+        "Type" : "button",
+        "Top" : 327,
+        "DefaultConfirmationButton" : "button1",
+        "ContextId" : "",
+        "ConfirmationRequired" : true,
+        "Id" : "Button-8",
+        "ConfirmationButton2Label" : "[[confirmationOptionNo]]",
+        "ActiveStyle" : "DefaultButtonActiveStyle"
+      }
+    }, {
+      "Widgets" : [ ],
+      "Properties" : {
+        "Left" : 20,
+        "Description" : "",
+        "ShowDataLoading" : true,
+        "ResponsiveLayout" : false,
+        "Z-index" : 10,
+        "__TypeDisplayName" : "Label",
+        "ToolTipField" : "",
+        "Area" : "UI",
+        "Type" : "label",
+        "Alignment" : "center",
+        "Top" : 25,
+        "Visible" : true,
+        "DisplayName" : "Label-12",
+        "Style" : {
+          "image" : "",
+          "backgroundColor" : "",
+          "textSize" : "24px",
+          "lineStyle" : "solid",
+          "fontEmphasisItalic" : false,
+          "fontEmphasisUnderline" : false,
+          "displayString" : "",
+          "lineThickness" : 1,
+          "foregroundColor" : "#282828",
+          "lineColor" : "",
+          "fontEmphasisBold" : true,
+          "secondaryBackgroundColor" : ""
+        },
+        "Height" : 27,
+        "Id" : "Label-12",
+        "Width" : 510
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "BGImageRepeat" : "no-repeat",
+      "ShowDataLoading" : true,
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "id_index" : 12,
+      "supportsAutoResize" : true,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : "DefaultMashupStyle",
+      "BGImageSize" : "auto",
+      "Height" : 370,
+      "_currentParameterDefs" : [ {
+        "Description" : "",
+        "BaseType" : "STRING",
+        "ParameterName" : "itemId"
+      }, {
+        "Description" : "",
+        "BaseType" : "STRING",
+        "ParameterName" : "groupId"
+      }, {
+        "Description" : "",
+        "BaseType" : "STRING",
+        "ParameterName" : "dashboardId"
+      } ],
+      "Width" : 545,
+      "TitleBar" : false,
+      "Rows" : 0,
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "ResponsiveLayout" : false,
+      "Title" : "",
+      "Columns" : 0,
+      "Z-index" : 10,
+      "TitleBarText" : "Gadget Title Here",
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "EnableParameterEditing" : false,
+      "Area" : "Mashup",
+      "Type" : "mashup",
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "Id" : "mashup-root",
+      "MashupToEditGadget" : "",
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetDashboardItem",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Resources_DashboardFunctions",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "2dc104c7-7c4f-4c94-8e0b-d164e8c4c3dc",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetDashboardItemParameters",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Resources_DashboardFunctions",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "52b3ab60-62ae-4a1c-883d-65a082ee5e1f",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "EditDashboardItemParameters",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Resources_DashboardFunctions",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "181cdb80-ebec-47a8-85ac-3e1fc4178505",
+    "EventTriggerId" : "Button-8",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Data",
+    "EventHandlerService" : "CloseIfPopup",
+    "EventTriggerSection" : "Resources_DashboardFunctions",
+    "EventHandlerId" : "mashup-root",
+    "EventTriggerEvent" : "ServiceInvokeCompleted",
+    "Id" : "fcccd527-8f77-4385-8469-fc01237be1fe",
+    "EventTriggerId" : "EditDashboardItemParameters",
+    "EventHandlerArea" : "Mashup"
+  } ],
+  "mashupType" : "mashup",
+  "DataBindings" : [ {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetDashboardItem",
+    "Id" : "38bf87ad-f768-4e0c-82e8-b13c87ee9301",
+    "SourceSection" : "Resources_DashboardFunctions",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "Text",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "title"
+    } ],
+    "TargetId" : "Label-12"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "64d6c61c-6986-4117-b08e-e5b9f532e674",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "groupID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "groupId"
+    } ],
+    "TargetId" : "GetDashboardItem"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "83f25dc4-e4c1-4c3f-9c29-4ae35b99ac12",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "dashboardID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "dashboardId"
+    } ],
+    "TargetId" : "GetDashboardItem"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "a35a4e41-36dd-446f-8051-1dbc9437f9a9",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "itemID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "itemId"
+    } ],
+    "TargetId" : "GetDashboardItem"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "7aa6b69a-270f-4b10-8dca-fb3cf4ab55d5",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "groupID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "groupId"
+    } ],
+    "TargetId" : "GetDashboardItemConfig"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "119440eb-b324-434c-b254-48484ba5f7ec",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "itemID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "itemId"
+    } ],
+    "TargetId" : "GetDashboardItemConfig"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "3c2eec17-35a5-4373-a2eb-266c6890c8f7",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "dashboardID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "dashboardId"
+    } ],
+    "TargetId" : "GetDashboardItemConfig"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "069573ac-3ebe-48aa-9355-69f3368c5e7b",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "itemID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "itemId"
+    } ],
+    "TargetId" : "EditDashboardItemConfig"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "4d609c66-9fef-4826-845d-17f884ad9a2c",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "groupID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "groupId"
+    } ],
+    "TargetId" : "EditDashboardItemConfig"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "4af5f754-59aa-4795-997f-d19f6ed5a448",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "dashboardID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "dashboardId"
+    } ],
+    "TargetId" : "EditDashboardItemConfig"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetDashboardItemParameters",
+    "Id" : "00f10cc7-894c-4fa3-b1b6-7b18b5c15480",
+    "SourceSection" : "Resources_DashboardFunctions",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "Grid-5"
+  }, {
+    "SourceArea" : "UI",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "Grid-5",
+    "Id" : "1bc3b12c-070d-4fe8-ad65-b396238df938",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "parameters",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : "EditedTable"
+    } ],
+    "TargetId" : "EditDashboardItemParameters"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "99b035d7-5bb9-422e-bb05-60a3503fb957",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "itemID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "itemId"
+    } ],
+    "TargetId" : "EditDashboardItemParameters"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "f3550528-0581-4265-822e-5fc353431493",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "groupID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "groupId"
+    } ],
+    "TargetId" : "EditDashboardItemParameters"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "0b0c928c-22dc-46d5-85e0-b73ebb830e96",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "dashboardID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "dashboardId"
+    } ],
+    "TargetId" : "EditDashboardItemParameters"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "e31bb443-4d42-457c-97ff-294ced2ced27",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "itemID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "itemId"
+    } ],
+    "TargetId" : "GetDashboardItemParameters"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "9d761908-5bb0-4095-8f4b-cbd8cf4f2812",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "groupID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "groupId"
+    } ],
+    "TargetId" : "GetDashboardItemParameters"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "Resources_DashboardFunctions",
+    "SourceId" : "mashup-root",
+    "Id" : "2c61f6f9-e957-4862-afbe-eb5372898c66",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "dashboardID",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "dashboardId"
+    } ],
+    "TargetId" : "GetDashboardItemParameters"
+  } ],
+  "Data" : {
+    "Resources_DashboardFunctions" : {
+      "EntityType" : "Resources",
+      "Services" : [ {
+        "Target" : "GetDashboardItem",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "501c6f64-47ae-4e95-a4df-ef587cfb1bbd",
+        "Name" : "GetDashboardItem"
+      }, {
+        "Target" : "GetDashboardItemParameters",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "24e959ad-502d-4825-ade0-6503eb9a61d7",
+        "Name" : "GetDashboardItemParameters"
+      }, {
+        "Target" : "EditDashboardItemParameters",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "3648dfb9-380f-4408-985b-104701680f3c",
+        "Properties" : {
+          "CustomSuccessMessage" : "Parameters Updated Successfuly",
+          "ShowSuccessMessage" : true,
+          "ShowErrorMessage" : true
+        },
+        "Name" : "EditDashboardItemParameters"
+      } ],
+      "EntityName" : "DashboardFunctions",
+      "Id" : "a416098a-cf2e-494e-a38d-d5b26a264134",
+      "DataName" : "Resources_DashboardFunctions"
+    },
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.848+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Things>
+        <Thing description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2018-01-16T00:52:10.203+01:00" name="air_humidity" projectName="Smart Flowers" published="false" tags="flower:flower;smartflowers:smartflowers;smart:smart;flowers:flowers" thingTemplate="GenericThing" valueStream="air_humidity_stream">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ThingShape>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="value_humidity" ordinal="1"/>
+                </PropertyDefinitions>
+                <ServiceDefinitions>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="generatehumidity">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                </ServiceDefinitions>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations>
+                    <ServiceImplementation description="" handlerName="Script" name="generatehumidity">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[var temperature = Math.floor(Math.random() * 10) + 10;
+var params = {
+	proxyScheme: undefined /* STRING */,
+    headers: '{\"appKey\":c281eba7-a8e8-4dc1-b9ff-0f5a50184d56,\"Content-type\":application/json,\"Accept\":application/json,\"x-thingworx-session\":true}'/* JSON */,
+	ignoreSSLErrors: undefined /* BOOLEAN */,
+	useNTLM: undefined /* BOOLEAN */,
+	workstation: undefined /* STRING */,
+	useProxy: undefined /* BOOLEAN */,
+	withCookies: undefined /* BOOLEAN */,
+	proxyHost: undefined /* STRING */,
+    url: 'http://localhost/Thingworx/Things/air_humidity/Properties/value_humidity' /* STRING */,
+	content: '{\"value_humidity\" : ' + temperature + ' }' /* JSON */,
+	timeout: undefined /* NUMBER */,
+	proxyPort: undefined /* INTEGER */,
+	password: 'admin' /* STRING */,
+	domain: undefined /* STRING */,
+	username: 'Administrator' /* STRING */
+};
+
+// result: JSON
+var result = Resources["ContentLoaderFunctions"].PutJSON(params);]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                </ServiceImplementations>
+                <Subscriptions/>
+            </ThingShape>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations>
+                <AlertDefinitions name="value_humidity"/>
+            </AlertConfigurations>
+            <ImplementedShapes/>
+            <ThingProperties>
+                <value_humidity>
+                    <Value><![CDATA[18]]></Value>
+                    <Timestamp>2018-01-16T00:52:48.636+01:00</Timestamp>
+                    <Quality>GOOD</Quality>
+                </value_humidity>
+            </ThingProperties>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, projectName : updated, tags : updated, thingTemplate : updated&#10;" timestamp="2018-01-04T23:18:20.567+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : value_humidity : Added, id : Added&#10;" timestamp="2018-01-04T23:19:09.006+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="header : valueStream : updated&#10;" timestamp="2018-01-04T23:20:32.768+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-04T23:20:35.210+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : id : removed&#10;" timestamp="2018-01-16T00:44:32.449+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services :  : Code Updated, generatehumidity : Service Added&#10;" timestamp="2018-01-16T00:46:13.879+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services : generatehumidity : Code Updated&#10;" timestamp="2018-01-16T00:52:10.169+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Thing>
+    </Things>
+</Entities>

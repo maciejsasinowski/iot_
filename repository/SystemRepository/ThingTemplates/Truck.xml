@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate baseThingTemplate="GenericThing" description="" documentationContent="" effectiveThingPackage="ConfiguredThing" homeMashup="" lastModifiedDate="2017-12-09T19:53:39.024+01:00" name="Truck" projectName="" tags="Applications:BusinessRuleEngine;Applications:DataModelGuide" thingPackage="" valueStream="">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations>
+                <AlertDefinitions name="CityLocation"/>
+                <AlertDefinitions name="Driver"/>
+                <AlertDefinitions name="Id"/>
+                <AlertDefinitions name="LastDriver"/>
+                <AlertDefinitions name="LocationTime"/>
+                <AlertDefinitions name="Packages"/>
+                <AlertDefinitions name="Speed"/>
+                <AlertDefinitions name="StateLocation"/>
+                <AlertDefinitions name="Status"/>
+            </AlertConfigurations>
+            <ThingShape>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="CityLocation" ordinal="8"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" aspect.thingTemplate="Driver" baseType="THINGNAME" category="" description="" isLocalOnly="false" name="Driver" ordinal="7"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="Id" ordinal="1"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="LastDriver" ordinal="2"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.defaultValue="0.0" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" aspect.minimumValue="0.0" baseType="NUMBER" category="" description="" isLocalOnly="false" name="LocationTime" ordinal="5"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.dataShape="PackageDataShape" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="INFOTABLE" category="" description="" isLocalOnly="false" name="Packages" ordinal="8"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.defaultValue="0" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" aspect.minimumValue="0" baseType="INTEGER" category="" description="" isLocalOnly="false" name="Speed" ordinal="4"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="StateLocation" ordinal="9"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="Status" ordinal="6"/>
+                </PropertyDefinitions>
+                <ServiceDefinitions/>
+                <EventDefinitions>
+                    <EventDefinition category="" dataShape="PackageDataShape" description="" name="AllPackagesDelivered"/>
+                    <EventDefinition category="" dataShape="PropertyAlertSummary" description="" name="DriverChanged"/>
+                    <EventDefinition category="" dataShape="DeliveryDataShape" description="" name="PackageDelivered"/>
+                    <EventDefinition category="" dataShape="PropertyAlertSummary" description="" name="StateLocationChange"/>
+                </EventDefinitions>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated, baseThingTemplate : updated&#10;documentation : updated&#10;properties : Id : Added, LastDriver : Added, Location : Added, Speed : Added, LocationTime : Added, Status : Added, Driver : Added, Packages : Added&#10;" timestamp="2017-03-22T02:33:41.949+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-03-22T02:42:46.786+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-03-22T04:57:49.075+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-03-22T04:57:51.047+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-04-05T18:58:43.116+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : Location : removed, CityLocation : Added, StateLocation : Added&#10;" timestamp="2017-04-05T19:23:07.081+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="events : StateChanges : removed&#10;" timestamp="2017-04-05T19:31:18.667+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-04-05T19:32:00.765+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-04-05T20:09:24.929+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2017-04-12T15:05:10.546+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-04-12T15:45:19.714+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="events : SpeedLimitExceeded : removed&#10;" timestamp="2017-04-12T15:53:59.504+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : WriteUps : Added&#10;" timestamp="2017-04-12T16:07:22.461+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : WriteUps : Updated&#10;" timestamp="2017-04-12T16:26:18.652+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : WriteUps : Updated&#10;" timestamp="2017-04-12T16:27:25.723+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : WriteUps : removed&#10;" timestamp="2017-04-12T16:34:19.470+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-10-10T08:33:41.548+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-06T22:02:23.018+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-12-09T19:53:39.024+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

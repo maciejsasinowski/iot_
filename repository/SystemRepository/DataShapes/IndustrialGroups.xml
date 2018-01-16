@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Data shape representing an Industrial Connectivity group" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.788+02:00" name="IndustrialGroups" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="FullPath" name="FullPath" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="Whether the group has any subgroups at all" name="HasAnySubGroups" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="Whether the group has any non-internal subgroups" name="HasNonSystemSubGroups" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="Whether the group is an internal group" name="IsSystemGroup" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Name" name="Name" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Parent" name="Parent" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.788+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

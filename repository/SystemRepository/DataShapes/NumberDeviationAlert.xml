@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Number deviation alert" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.904+02:00" name="NumberDeviationAlert" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.friendlyName="Limit" aspect.isRequired="true" baseType="NUMBER" description="Limit to deviation from reference value" name="limit" ordinal="1"/>
+                <FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Include Limit?" aspect.isRequired="false" baseType="BOOLEAN" description="Limit includes value" name="limitInclusive" ordinal="2"/>
+                <FieldDefinition aspect.friendlyName="Value" aspect.isRequired="true" baseType="NUMBER" description="Reference value" name="value" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.904+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Subsystem status" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.126+02:00" name="SubsystemStatus" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="BOOLEAN" description="Auto start" name="autoStart" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Entity description" name="description" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="Enabled" name="enabled" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Entity Friendly Name" name="friendlyName" ordinal="0"/>
+                <FieldDefinition baseType="BOOLEAN" description="Run status" name="isRunning" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Entity name" name="name" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="State" name="state" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.125+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

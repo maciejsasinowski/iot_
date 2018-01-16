@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Subsystems>
+        <Subsystem aspect.isCreatable="false" aspect.isEditableSystemObject="true" autoStart="true" className="com.thingworx.system.subsystems.eventprocessing.EventProcessingSubsystem" dependsOn="" description="Handles Event Processing throughout the platform" documentationContent="" enabled="true" friendlyName="Event Processing" homeMashup="MonitoringSubsystemDefaultHomeMashup" lastModifiedDate="2017-09-30T23:45:38.885+02:00" name="EventProcessingSubsystem" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Event Queue Processing Settings" isMultiRow="false" name="EventQueueProcessorSettings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="200000.0" aspect.friendlyName="Max Queue Entries Before Adding New Working Thread" baseType="NUMBER" description="Maximum number of event entries to queue before adding an additional worker thread to the pool" name="maximumQueueSize" ordinal="2"/>
+                            <FieldDefinition aspect.defaultValue="500.0" aspect.friendlyName="Max threads allocated to event processing pool" baseType="NUMBER" description="Maximum number of threads allocated to the event processing thread pool" name="maximumThreadPoolSize" ordinal="1"/>
+                            <FieldDefinition aspect.defaultValue="16.0" aspect.friendlyName="Min threads allocated to event processing pool" baseType="NUMBER" description="Minimum number of threads allocated to the event processing thread pool" name="minimumThreadPoolSize" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <maximumQueueSize>200000.0</maximumQueueSize>
+                            <minimumThreadPoolSize>16.0</minimumThreadPoolSize>
+                            <maximumThreadPoolSize>500.0</maximumThreadPoolSize>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.885+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Subsystem>
+    </Subsystems>
+</Entities>

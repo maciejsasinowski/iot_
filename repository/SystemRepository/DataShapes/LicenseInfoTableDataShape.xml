@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="DataShape used to populate license information at runtime" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.727+02:00" name="LicenseInfoTableDataShape" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Available feature count" name="AvailableFeatureCount" ordinal="4"/>
+                <FieldDefinition baseType="INTEGER" description="Number of days remaining to expire" name="DaysRemaining" ordinal="8"/>
+                <FieldDefinition baseType="STRING" description="Expiry date of license feature" name="ExpirationDate" ordinal="7"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="License feature name" name="FeatureName" ordinal="2"/>
+                <FieldDefinition baseType="INTEGER" description="In use feature count" name="InUseFeatureCount" ordinal="5"/>
+                <FieldDefinition baseType="STRING" description="Is enforced" name="IsEnforced" ordinal="9"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Product name" name="ProductName" ordinal="1"/>
+                <FieldDefinition baseType="STRING" description="Total features in license file" name="TotalFeatureCount" ordinal="3"/>
+                <FieldDefinition baseType="STRING" description="version of license feature" name="Version" ordinal="6"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.727+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

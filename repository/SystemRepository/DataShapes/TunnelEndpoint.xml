@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Definition of an edge thing registered with a Microserver and its connection information" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.952+02:00" name="TunnelEndpoint" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Location of the client application that will use the tunnel" name="appUri" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Description of the tunnel" name="description" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Host that the tunnel will connect to" name="host" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Name of the tunnel registered with the edge thing" name="name" ordinal="0"/>
+                <FieldDefinition aspect.defaultValue="1.0" baseType="NUMBER" description="The number of connections required to initilaize the tunnel" name="numConnects" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Port that the tunnel will connect to" name="port" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Protocol used by the tunnel" name="proto" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.952+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

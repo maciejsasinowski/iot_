@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="" description="Generic thing" documentationContent="" effectiveThingPackage="ConfiguredThing" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.068+02:00" name="GenericThing" projectName="" tags="" thingPackage="ConfiguredThing" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAHRUlEQVR42tVaXWxTVRw/yToYSxjP
+kIVlL2wPIxCWpY+Mtz0oRhmJGhUSNXYNZEt0g1BMSMheDEji2tIJKAPX6KYJQkkYKFjMAEWZYGAN
+qVEUGKDZ2rT7oF339/zOubfclvvVreNjyz/r7j3/r3P+36eMivgzMzNDkVSEVoysoIo7FeS44xCA
+zzVDNRS5GxFrivnDiq1AcDxI7AYjdozD1wrg81ZGwbPBZ1+BbbFtxH7kAgc4dCsQkAp0fNbxbCuQ
+mclQ039NxE7oKPAho6YdTZTJZJ6cAtgtwMPMQ/mZjHcP7xKZBFWPVBMLaoRXFfiIUfXmakpMJExP
+QXDR8rQ4MWZGCDvaP9FPDfcbaGByQPxvRBDPo+kolf9ZTuyQzgl4GZVvLKfo3agpDfAAL/DsH++X
+PE02jpkJ70v4qPR2KbFLjMr+KqO2sTaKZWK6O4P/QxMhYtfzdl+rxOuMQj+FdHEBoA0e4AWe4A0Z
+zJRgRrvgTXjJcdtB7KTCvIfDb4xW3ltJF6Yu5JyGeuyd8U5iF/N2X6uAi1Hnl5055qjyA826e3WC
+h+CF9Zw3ZMgqoXNyugr0jffJnQ9phAkocIrRglsLyBPzUDKTFOunMlMUngqLY8d7QwW2M3Lud4q1
+wAEuaIAWaGZxtTxPypOATLYUSM2kpCCXdARRiR/lcI1R/f16sTur7q0idos/u8rhCxMFuB+wn5lY
+CxzgggZoCZoBA56HueJfOSk1nbJ3AqcnT0s77DERBn/PcPiDQ5jDEQMB8pUPKGvDCu6ZPJr5OPsY
+LWxeSAO/Dtg3IdgbnEnYY8CEOOCgxXsz/AM26G9m1Lq/VeQPWwqoSiAiCKc6ZbKrZkL7OexSwG+h
+jBEd7jN179VRLBkzDL3MLIkhMgjnOmrBWCscP3L2PodmRss3LReAz+LZPpuK4N1eHixeXkCD1wdN
+k5mpAjAlRAjhZN0mTg3o5PAuo5KXSmht+1rqPdtL8WRcQO+5XmrsaBTvsEasDZg47X4ObzLa8fkO
+y2xsWUogzIlI8Z1OdvXLY2avMlqyYQm5PnHRlegVSk+ns4xVwDO8a+lqEWuBI3ADOnTbGa3ZsoaS
+k8nZlxLaAg1JTUSMg4/H9aVvLCXvcS+NJkazjqbHVH2ONVjrO+6jyp7KXB/DXx+HV5igCd5zK+ZI
+JqnV91fLsJef1PguQhCjCGFlnv6En9iwTvJq5XnCvYqmUlOFn4BaFqhMkDVFkjqSt/ud0mywm7Op
+8YEzNj1GS+5wc+rPU+BjDi8wCl8LZ0sIo2qYae0Ui1ESR1NRUZihthFZ+arO7nNnhD3Ppb4HP/eo
+m9jlPPrdkr4z7BQyQBbIBNlyFOLAhlPDog1EJ4VmBPW8KIlRVV6UtU9OeaCESkSUoejQnDos4A49
+HKKSWyUy6+cnuVOKDFwWyATZmv5too5YBwWTQYpMRIihARc9LNpAFG9oRg7phEktcR7TG9sbs9Fm
+1grw3/RMmtY9WEfsex0+Wt6HFNlCiqzcJ2s9tcQwMRBNd0DnGPUSjF8mqeC54jTo2UHATU1p0W1S
+f6ly8gxf0cxlx9hDTA7slgocsWpTFcXH40VTIJ6JU9VI1aONtCPHbt4rrHc83wqUri/VMSGrktj3
+FE0ooGNCtUO1YmYjYKecHrAuHYRAnhN3FM+JGx805jqxHu8uRbadiqyvMVrxNg9AGPdhYoahE+Y2
+GH0s2rhINODoYUW94n0KYXSPwtslhwGQCbJBRsgKmYf/Hs5LZDwpYW6D0UfoUkg04OhhH0s0SiJz
+d7nnL5G9xahha4OQAbJAJsimrbdEIrMsJSZNSonmuZUSo9Ojcy8l5lrM+U/4LYdPRnOneSnmCi2n
+K49UiukCdjO7WzrKqCeLNSjiIPyykWXzXE5bNTTKnAi7CFNoGW0RTonI8lhDw5/hnXvMLc1mWMH9
+VIfuB0VoaFTGtltK2DF3RkQUhEXEdiQoAD6j3hHR5jJ7ZPPz2VLOuqlHOERM54kJ2VVk2JvKs54n
+1NQXNFYxm/kcU+CAxYCsmGOVggdbPpOy2+q5z95gqy3QVthwF/N5w9FiQGOn7TJiIOyJ2G1nV7uV
+ta0KbrtCy8gfeNYvay6zP1pMZVLk/MaZO4TKF2KvdLL6LfUi3CFmI/GwdyzMZY/MsFgLHOAi2oCW
+oGnEzyWzciptc7jbd75PlqoeHVPYLp3Lc9iTDXNIOOHfw+T8wWk5XocgWKsmKdBAtAHNnDmRCh5Z
+NkOmgoa73m+95HjR8UiJfdIe61x1NHhjMGeUooa6gi44NLigBZpwWPDInj7nDRnUpFbQcFcowRHF
+SbikHcKZ1IgwL1dMnDZ4YJwOnuBtJrz1bJTvDI4Oxw4nMhtgWV7ydcmS2PKSj/MY+GVA8ARvq6GZ
+vWvWtPWVZ9GuWQvg+WQvunc+hYvuWX/V4LxONHkevmqQbdDDys3MbgV2yR72ufiyB8Z9NZ4aqthQ
+IeY2gMUbFosGPPJP8b9u8z/yv2B/e6xK5gAAAABJRU5ErkJggg==]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.068+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

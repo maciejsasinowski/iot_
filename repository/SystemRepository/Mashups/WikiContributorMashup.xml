@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isSystemObject="true" aspect.mashupType="thingshape" aspect.thingTemplate="clob2: 'Wiki'" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.899+02:00" name="WikiContributorMashup" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions>
+                <FieldDefinition aspect.ordinal="0" baseType="THINGNAME" description="The thing to display" name="Entity" ordinal="0"/>
+                <FieldDefinition aspect.ordinal="0" baseType="STRING" description="Contibutor Name" name="Source" ordinal="0"/>
+            </ParameterDefinitions>
+            <Things/>
+            <ThingShapes>
+                <ThingShape>Wiki</ThingShape>
+            </ThingShapes>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ ],
+      "Properties" : {
+        "RowSelectedStyle" : "DefaultRowSelectedStyle",
+        "IsEditable" : false,
+        "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+        "Left" : 0,
+        "ShowDataLoading" : true,
+        "GridHeaderStyle" : "DefaultGridHeaderStyle",
+        "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+        "FocusStyle" : "DefaultFocusStyle",
+        "RowFormat_StateParameters" : [ ],
+        "TabSequence" : 0,
+        "CellTextWrapping" : false,
+        "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+        "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+        "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+        "Visible" : true,
+        "Height" : 600,
+        "Width" : 225,
+        "MultiSelect" : false,
+        "CurrentScrollTop" : 0,
+        "ResponsiveLayout" : false,
+        "ShowAllColumns" : false,
+        "Z-index" : 10,
+        "AlignHeader" : false,
+        "__TypeDisplayName" : "Grid",
+        "RowHeight" : 30,
+        "ScrollTop" : 0,
+        "ColumnFormat" : {
+          "formatInfo" : [ {
+            "ValidationMessage" : "",
+            "Align" : "left",
+            "AllowEdit" : false,
+            "Title" : "[[title]]",
+            "ValidationExpression" : "",
+            "FormatOptions" : {
+              "renderer" : "STRING",
+              "formatInfo" : {
+                "StateFormats" : [ {
+                  "stateName" : "fixed",
+                  "state" : ""
+                } ],
+                "StateDefinition" : "",
+                "StateDefinitionType" : "fixed",
+                "FieldName" : ""
+              },
+              "formatText" : "View",
+              "FormatString" : "full"
+            },
+            "FieldName" : "title",
+            "Width" : "auto"
+          }, {
+            "ValidationMessage" : "",
+            "Align" : "left",
+            "AllowEdit" : false,
+            "Title" : "[[timestamp]]",
+            "ValidationExpression" : "",
+            "FormatOptions" : {
+              "renderer" : "DATETIME",
+              "formatInfo" : {
+                "StateFormats" : [ {
+                  "stateName" : "fixed",
+                  "state" : ""
+                } ],
+                "StateDefinition" : "",
+                "StateDefinitionType" : "fixed",
+                "FieldName" : ""
+              },
+              "formatText" : "View",
+              "FormatString" : "yyyy-MM-dd HH:mm:ss"
+            },
+            "FieldName" : "timestamp",
+            "Width" : "auto"
+          } ]
+        },
+        "Area" : "UI",
+        "Type" : "dhxgrid",
+        "Top" : 0,
+        "IsPrintLayout" : false,
+        "Id" : "Grid-1",
+        "RowHoverStyle" : "DefaultRowHoverStyle",
+        "AutoSelectFirstRow" : false,
+        "GridHeaderTextCase" : "none"
+      }
+    }, {
+      "Widgets" : [ ],
+      "Properties" : {
+        "Left" : 225,
+        "PageTitleCharacterLimit" : -1,
+        "ShowDataLoading" : true,
+        "ShowWikiTOC" : false,
+        "MaximumItems" : 5000,
+        "WikiHeaderStyle" : "DefaultWikiHeaderStyle",
+        "WikiToolbarStyle" : "DefaultWikiToolbarStyle",
+        "WikiStyle" : "DefaultWikiStyle",
+        "ShowWikiTimestamp" : false,
+        "WikiContentStyle" : "DefaultWikiContentStyle",
+        "Visible" : true,
+        "Height" : 600,
+        "Width" : 675,
+        "WikiButtonStyle" : "DefaultWikiButtonStyle",
+        "ResponsiveLayout" : false,
+        "Z-index" : 10,
+        "__TypeDisplayName" : "Wiki",
+        "WikiSidebarWidth" : 200,
+        "WikiNavigationStyle" : "DefaultWikiNavigationStyle",
+        "Area" : "UI",
+        "Type" : "wiki",
+        "Top" : 0,
+        "WikiNavigationSelectedStyle" : "DefaultWikiNavigationSelectedStyle",
+        "ExpandAllWikiTOC" : false,
+        "Wiki" : "",
+        "Id" : "Wiki-2",
+        "WikiSearchStyle" : "DefaultWikiSearchStyle"
+      }
+    }, {
+      "Widgets" : [ ],
+      "Properties" : {
+        "SourceURL" : "/Thingworx/MediaEntities/VerticalShadowLeft",
+        "Left" : 215,
+        "BorderStyle" : "DefaultImageBorderStyle",
+        "ShowDataLoading" : true,
+        "ResponsiveLayout" : false,
+        "Z-index" : 12,
+        "__TypeDisplayName" : "Image",
+        "ToolTipField" : "",
+        "Area" : "UI",
+        "Type" : "image",
+        "Top" : 0,
+        "AlternateText" : "",
+        "Visible" : true,
+        "Scaling" : "width",
+        "Height" : 600,
+        "PreventCaching" : false,
+        "Id" : "Image-3",
+        "Width" : 10
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "ThingShape" : "Wiki",
+      "ResponsiveLayout" : false,
+      "ShowDataLoading" : true,
+      "Z-index" : 10,
+      "id_index" : 3,
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "ThingShape Mashup",
+      "Area" : "Mashup",
+      "Type" : "thingshapemashup",
+      "Top" : 0,
+      "Visible" : true,
+      "Style" : "DefaultMashupStyle",
+      "Height" : 600,
+      "Id" : "mashup-root",
+      "_currentParameterDefs" : [ {
+        "Description" : "Contibutor Name",
+        "BaseType" : "STRING",
+        "ParameterName" : "Source"
+      } ],
+      "Width" : 900
+    }
+  },
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "QueryWikiPages",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicThingShapes_Wiki",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "861327211494334",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "QueryWikiPages",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicThingShapes_Wiki",
+    "EventTriggerEvent" : "EntityChanged",
+    "Id" : "851327211499950",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "QueryWikiPages",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "DynamicThingShapes_Wiki",
+    "EventTriggerEvent" : "SourceChanged",
+    "Id" : "161327211547664",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  } ],
+  "mashupType" : "thingshape",
+  "DataBindings" : [ {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "DynamicThingShapes_Wiki",
+    "SourceId" : "mashup-root",
+    "Id" : "811327211409680",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "value",
+      "TargetPropertyType" : "Entity",
+      "SourcePropertyBaseType" : "THINGNAME",
+      "TargetPropertyBaseType" : "THINGNAME",
+      "SourceProperty" : "Entity"
+    } ],
+    "TargetId" : "EntityName"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "QueryWikiPages",
+    "Id" : "191327211445931",
+    "SourceSection" : "DynamicThingShapes_Wiki",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "Grid-1"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "Data",
+    "TargetSection" : "DynamicThingShapes_Wiki",
+    "SourceId" : "mashup-root",
+    "Id" : "431327211541548",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "source",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "Source"
+    } ],
+    "TargetId" : "QueryWikiPages"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "21327211618280",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "Wiki",
+      "SourcePropertyBaseType" : "THINGNAME",
+      "TargetPropertyBaseType" : "THINGNAME",
+      "SourceProperty" : "Entity"
+    } ],
+    "TargetId" : "Wiki-2"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "QueryWikiPages",
+    "Id" : "11327211669849",
+    "SourceSection" : "DynamicThingShapes_Wiki",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Data",
+      "TargetProperty" : "WikiEntryIdToShow",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "id"
+    } ],
+    "TargetId" : "Wiki-2"
+  } ],
+  "Data" : {
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "DynamicThingShapes_Wiki" : {
+      "EntityType" : "DynamicThingShapes",
+      "Services" : [ {
+        "Target" : "QueryWikiPages",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "541327211400530",
+        "Name" : "QueryWikiPages"
+      } ],
+      "EntityName" : "Wiki",
+      "Id" : "901327211400493",
+      "DataName" : "DynamicThingShapes_Wiki"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.899+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

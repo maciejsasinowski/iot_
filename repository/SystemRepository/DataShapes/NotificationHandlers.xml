@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="DataShape used for returning a list of notification handlers" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.683+02:00" name="NotificationHandlers" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="DATASHAPENAME" description="The name of the data shape representing configuration data for the handler" name="configuration" ordinal="3"/>
+                <FieldDefinition baseType="GUID" description="The identifier for the type of supported notification handler" name="handlerID" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="The localized name for the type of notifications handler" name="localizedName" ordinal="1"/>
+                <FieldDefinition baseType="STRING" description="The name of the service for sending notifications on the handler" name="serviceName" ordinal="2"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.683+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

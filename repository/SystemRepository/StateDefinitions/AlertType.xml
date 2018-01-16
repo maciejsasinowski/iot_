@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StateDefinitions>
+        <StateDefinition aspect.isEditableSystemObject="true" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.166+02:00" name="AlertType" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"stateType":"string","stateDefinitions":[{"displayString":"","defaultStyleDefinition":{"image":"EqualTo","backgroundColor":"","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"EqualTo","name":"","description":""},{"displayString":"","defaultStyleDefinition":{"image":"NotEqualTo","backgroundColor":"","textSize":"normal","lineStyle":"solid","fontEmphasisUnderline":false,"displayString":"","fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"defaultValue":"NotEqualTo","name":"","description":""},{"displayString":"","defaultStyleDefinition":{"image":"","backgroundColor":"","textSize":"normal","lineStyle":"solid","displayString":"","fontEmphasisUnderline":false,"fontEmphasisItalic":false,"lineThickness":1,"lineColor":"","foregroundColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""},"name":"","description":""}]}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.166+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>

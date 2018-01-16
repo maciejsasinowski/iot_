@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Collaboration Comment" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.806+02:00" name="Comment" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Content for the entry" name="content" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Containing entry id" name="entryId" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Entry id" name="id" ordinal="0"/>
+                <FieldDefinition baseType="LOCATION" description="Location of the entry" name="location" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Parent entry id" name="parentId" ordinal="0"/>
+                <FieldDefinition baseType="NUMBER" description="Average rating" name="ratingAverage" ordinal="0"/>
+                <FieldDefinition baseType="INTEGER" description="Number of ratings" name="ratingCount" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Source of the entry" name="source" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Source type" name="sourceType" ordinal="0"/>
+                <FieldDefinition aspect.tagType="DataTags" baseType="TAGS" description="List of tags" name="tags" ordinal="0"/>
+                <FieldDefinition baseType="DATETIME" description="Time of entry" name="timestamp" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Title for the entry" name="title" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Entry type" name="type" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.806+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

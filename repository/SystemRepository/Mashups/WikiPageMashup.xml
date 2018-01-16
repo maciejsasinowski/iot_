@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isSystemObject="true" aspect.mashupType="thingshape" aspect.thingTemplate="clob1: 'Wiki'" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.871+02:00" name="WikiPageMashup" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions>
+                <FieldDefinition aspect.ordinal="0" baseType="THINGNAME" description="The thing to display" name="Entity" ordinal="0"/>
+                <FieldDefinition aspect.ordinal="0" baseType="STRING" description="The ID of the wiki page to show" name="WikiPageID" ordinal="0"/>
+            </ParameterDefinitions>
+            <Things/>
+            <ThingShapes>
+                <ThingShape>Wiki</ThingShape>
+            </ThingShapes>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ ],
+      "Properties" : {
+        "Area" : "UI",
+        "Type" : "wiki",
+        "Left" : 0,
+        "Top" : 0,
+        "ExpandAllWikiTOC" : false,
+        "ShowWikiTOC" : false,
+        "Wiki" : "",
+        "Z-index" : 10,
+        "Height" : 450,
+        "Id" : "Wiki-1",
+        "Width" : 700,
+        "__TypeDisplayName" : "Wiki"
+      }
+    } ],
+    "Properties" : {
+      "Area" : "Mashup",
+      "Type" : "thingshapemashup",
+      "Left" : 0,
+      "Top" : 0,
+      "ThingShape" : "Wiki",
+      "Z-index" : 10,
+      "Height" : 450,
+      "Id" : "mashup-root",
+      "_currentParameterDefs" : [ {
+        "Description" : "The ID of the wiki page to show",
+        "BaseType" : "STRING",
+        "ParameterName" : "WikiPageID"
+      } ],
+      "id_index" : 1,
+      "Width" : 700,
+      "__TypeDisplayName" : "ThingShape Mashup"
+    }
+  },
+  "Events" : [ ],
+  "mashupType" : "thingshape",
+  "DataBindings" : [ {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "631327204249308",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "Wiki",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "THINGNAME",
+      "TargetPropertyBaseType" : "THINGNAME",
+      "SourceProperty" : "Entity"
+    } ],
+    "TargetId" : "Wiki-1"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "621327204316645",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "WikiEntryIdToShow",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "WikiPageID"
+    } ],
+    "TargetId" : "Wiki-1"
+  } ],
+  "Data" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.871+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

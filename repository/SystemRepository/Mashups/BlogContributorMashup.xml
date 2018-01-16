@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isSystemObject="true" aspect.mashupType="thingshape" aspect.thingTemplate="clob7: 'Blog'" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.931+02:00" name="BlogContributorMashup" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions>
+                <FieldDefinition aspect.ordinal="0" baseType="THINGNAME" description="The thing to display" name="Entity" ordinal="0"/>
+                <FieldDefinition aspect.ordinal="0" baseType="STRING" description="Source to restrict blog entries for" name="Source" ordinal="0"/>
+            </ParameterDefinitions>
+            <Things/>
+            <ThingShapes>
+                <ThingShape>Blog</ThingShape>
+            </ThingShapes>
+            <ThingTemplates/>
+            <mashupContent><![CDATA[{
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ ],
+      "Properties" : {
+        "HeightOfFullView" : 600,
+        "Left" : 0,
+        "ShowExpandInSummary" : true,
+        "SearchExpression" : "",
+        "SortOrder" : "Newest",
+        "Z-index" : 10,
+        "Source" : "",
+        "__TypeDisplayName" : "Blog",
+        "WidthOfFullView" : 900,
+        "Area" : "UI",
+        "Type" : "blog",
+        "WordsInPosts" : 100,
+        "StartDateTime" : "",
+        "Top" : 0,
+        "EndDateTime" : "",
+        "Height" : 600,
+        "ShowSearchInSummary" : true,
+        "Id" : "Blog-1",
+        "ExpandAll" : false,
+        "Blog" : "",
+        "Width" : 900
+      }
+    } ],
+    "Properties" : {
+      "Area" : "Mashup",
+      "Type" : "thingshapemashup",
+      "Left" : 0,
+      "Top" : 0,
+      "ThingShape" : "Blog",
+      "Z-index" : 10,
+      "Height" : 600,
+      "Id" : "mashup-root",
+      "_currentParameterDefs" : [ {
+        "Description" : "Source to restrict blog entries for",
+        "BaseType" : "STRING",
+        "ParameterName" : "Source"
+      } ],
+      "id_index" : 1,
+      "Width" : 900,
+      "__TypeDisplayName" : "ThingShape Mashup"
+    }
+  },
+  "Events" : [ ],
+  "mashupType" : "thingshape",
+  "DataBindings" : [ {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "1001327210942435",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "Blog",
+      "SourcePropertyBaseType" : "THINGNAME",
+      "TargetPropertyBaseType" : "THINGNAME",
+      "SourceProperty" : "Entity"
+    } ],
+    "TargetId" : "Blog-1"
+  }, {
+    "SourceArea" : "Mashup",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "mashup-root",
+    "Id" : "711327210948675",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "Source",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "Source"
+    } ],
+    "TargetId" : "Blog-1"
+  } ],
+  "Data" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.931+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

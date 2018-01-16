@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Things>
+        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-12-09T19:53:39.174+01:00" name="DeliverySystem" projectName="" published="false" tags="Applications:DataModelGuide;Applications:BusinessRuleEngine" thingTemplate="GenericThing" valueStream="">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions>
+                    <ServiceDefinition aspect.isAsync="false" category="Decision Rules" description="Customers with more than one package cannot have all deliveries in the same day." isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="CR001">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="Decision Rules" description="A customer with no deliveries for the day is made a priority the next day." isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="CR002">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="CreateDriverOrder">
+                        <ResultType aspect.dataShape="DriverDataShape" baseType="INFOTABLE" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetAllDrivers">
+                        <ResultType aspect.dataShape="DriverDataShape" baseType="INFOTABLE" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetAllPackages">
+                        <ResultType baseType="INFOTABLE" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetAllTrucks">
+                        <ResultType aspect.dataShape="TruckDataShape" baseType="INFOTABLE" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="HR001">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="HR003">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="LimitCustomerDeliveries">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions>
+                            <FieldDefinition aspect.dataShape="PackageDataShape" aspect.isRequired="true" baseType="INFOTABLE" description="" name="Packages" ordinal="2"/>
+                        </ParameterDefinitions>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="ReduceCustomerPriority">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions>
+                            <FieldDefinition aspect.isRequired="true" baseType="STRING" description="" name="CustomerId" ordinal="1"/>
+                        </ParameterDefinitions>
+                    </ServiceDefinition>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="WriteUpDriver">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                </ServiceDefinitions>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations>
+                    <ServiceImplementation description="" handlerName="Script" name="CR001">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	maxItems: undefined /* NUMBER */
+};
+
+// result: INFOTABLE
+var customers = Things["CustomerDataTable"].GetDataTableEntries(params);
+var tableLength = customers.rows.length;
+
+for (var x = 0; x < tableLength; x++) {
+	var row = customers.rows[x];
+	var values = Things["PackageDataTable"].CreateValues();
+    values.CustomerId = row.CustomerId;
+
+    var query_params = {
+        maxItems: undefined /* NUMBER */,
+        values: values /* INFOTABLE*/,
+        query: undefined /* QUERY */,
+        source: undefined /* STRING */,
+        tags: undefined /* TAGS */
+    };
+
+    // customerPackages: INFOTABLE
+	var customerPackages = Things["PackageDataTable"].QueryDataTableEntries(query_params);
+	var packagesLen = customerPackages.rows.length;
+    
+    if(packagesLen > 1){
+        var deliveries = {
+            Packages: customerPackages
+        };
+
+        me.LimitCustomerDeliveries(deliveries);
+    }
+}
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="CR002">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	maxItems: undefined /* NUMBER */
+};
+
+// INFOTABLE
+var customers = Things["CustomerDataTable"].GetDataTableEntries(params);
+var packages = Things["PackageDataTable"].GetDataTableEntries(params);
+
+var custId;
+var customer;
+var tableLength = customers.rows.length;
+
+for (var x = 0; x < tableLength; x++) {
+	var row = customers.rows[x];
+	custId = row.CustomerId;
+    customer = row.Customer;
+
+    var query = {
+      "filters": {
+        "fieldName": "CustomerId",
+        "type": "EQ",
+        "value": custId
+      }
+	};
+
+    var params = {
+        t: packages /* INFOTABLE */,
+        query: query /* QUERY */
+    };
+
+    // customerPackages: INFOTABLE
+    var customerPackages = Resources["InfoTableFunctions"].Query(params);
+    var packagesLen = customerPackages.rows.length;
+    
+    if(packagesLen == 0){
+        var custPriority = customer.Priority;
+        
+        if(custPriority >= 2){
+            customer.Priority = custPriority - 1;
+        }
+    }
+    else{
+        var custPriority = customer.Priority;
+        
+        if(custPriority < 5){
+            customer.Priority = custPriority + 1;
+        }
+    }
+
+    var params = {
+        sourceType: undefined /* STRING */,
+        values: row /* INFOTABLE*/,
+        location: undefined /* LOCATION */,
+        source: undefined /* STRING */,
+        tags: undefined /* TAGS */
+    };
+
+    // no return
+    Things["CustomerDataTable"].UpdateDataTableEntry(params);
+}
+
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="CreateDriverOrder">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[var params = {
+	maxItems: undefined /* NUMBER */
+};
+
+// All trucks in DataBase: INFOTABLE
+var allTrucks = Things["TruckDataTable"].GetDataTableEntries(params);
+
+// All drivers in DataBase: INFOTABLE
+var allDrivers = Things["DriverDataTable"].GetDataTableEntries(params);
+var currentDrivers = [];
+var priorityDrivers = [];
+
+params = {
+	infoTableName : "InfoTable",
+	dataShapeName : "DriverDataShape"
+};
+
+// CreateInfoTableFromDataShape(infoTableName:STRING("InfoTable"), dataShapeName:STRING):INFOTABLE(DriverDataShape)
+var result = Resources["InfoTableFunctions"].CreateInfoTableFromDataShape(params);
+var tableLength = allTrucks.rows.length;
+
+for (var x = 0; x < tableLength; x++) {
+	var row = allTrucks.rows[x];
+	currentDrivers.push(row.Truck.Driver);
+}
+
+tableLength = allDrivers.rows.length;
+
+for (var x = 0; x < tableLength; x++) {
+	var row = allDrivers.rows[x];
+
+    if(!currentDrivers.includes( row.Driver )){
+		priorityDrivers.push(row.Driver);
+    }
+}
+
+tableLength = priorityDrivers.length;
+
+for (var x = 0; x < tableLength; x++) {
+    var newEntry = new Object();
+    newEntry.DriverId = priorityDrivers[x].DriverId; // STRING - isPrimaryKey = true
+    newEntry.Driver = priorityDrivers[x]; // THINGNAME
+
+    result.AddRow(newEntry);
+}
+
+tableLength = currentDrivers.length;
+
+for (var x = 0; x < tableLength; x++) {
+    var newEntry = new Object();
+    newEntry.DriverId = currentDrivers[x].DriverId; // STRING - isPrimaryKey = true
+    newEntry.Driver = currentDrivers[x]; // THINGNAME
+
+    result.AddRow(newEntry);
+}
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="GetAllDrivers">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	maxItems: undefined /* NUMBER */
+};
+
+// result: INFOTABLE
+var result = Things["DriverDataTable"].GetDataTableEntries(params);
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="GetAllPackages">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	maxItems: undefined /* NUMBER */
+};
+
+// result: INFOTABLE
+var result = Things["PackageDataTable"].GetDataTableEntries(params);
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="GetAllTrucks">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	maxItems: undefined /* NUMBER */
+};
+
+// result: INFOTABLE
+var result = Things["TruckDataTable"].GetDataTableEntries(params);
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="HR001">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	maxItems: undefined /* NUMBER */
+};
+
+// trucks: INFOTABLE
+var drivers = Things["DriverDataTable"].GetDataTableEntries(params);
+var driver;
+var tableLength = drivers.rows.length;
+
+for (var x = 0; x < tableLength; x++) {
+	var row = drivers.rows[x];
+	driver = row.Driver;
+    
+    if(driver.WriteUps > 2){
+        var values = Things["DriverDataTable"].CreateValues();
+        values.DriverId = driver.DriverId; //STRING [Primary Key]
+
+        params = {
+            values: values /* INFOTABLE*/
+        };
+
+        // no return
+        Things["DriverDataTable"].DeleteDataTableEntry(params);
+
+        params = {
+            name: driver /* THINGNAME */
+        };
+
+        // no return
+        Resources["EntityServices"].DeleteThing(params);
+    }
+}
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="HR003">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	maxItems: undefined /* NUMBER */
+};
+
+// drivers: INFOTABLE
+var drivers = Things["DriverDataTable"].GetDataTableEntries(params);
+
+var tableLength = drivers.rows.length;
+
+for (var x = 0; x < tableLength; x++) {
+	var row = drivers.rows[x];
+	
+    if(row.Driver.HoursWorked > 8){
+        row.Driver.Status = "Done For Day - Max Hours";
+    }
+}
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="LimitCustomerDeliveries">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[var tableLength = Packages.rows.length;
+
+for (var x = 1; x < tableLength; x++) {
+	var row = Packages.rows[x];
+	
+    row.Package.Status = 'Delivery Tomorrow';
+}
+
+var params = {
+	sourceType: undefined /* STRING */,
+	values: Packages /* INFOTABLE*/,
+	location: undefined /* LOCATION */,
+	source: undefined /* STRING */,
+	tags: undefined /* TAGS */
+};
+
+// no return
+Things["PackageDataTable"].UpdateDataTableEntries(params);
+
+
+
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="ReduceCustomerPriority">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code/>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                    <ServiceImplementation description="" handlerName="Script" name="WriteUpDriver">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	oldestFirst: false /* BOOLEAN */,
+	maxItems: undefined /* NUMBER */
+};
+
+// speeders: INFOTABLE
+var speeders = Things["SpeedDataStream"].GetStreamEntriesWithData(params);
+
+params = {
+	infoTableName : "InfoTable",
+	dataShapeName : "SpeedDataShape"
+};
+
+// CreateInfoTableFromDataShape(infoTableName:STRING("InfoTable"), dataShapeName:STRING):INFOTABLE(SpeedDataShape)
+var latestSpeeders = Resources["InfoTableFunctions"].CreateInfoTableFromDataShape(params);
+
+
+var tableLength = speeders.rows.length;
+
+for (var x = 0; x < tableLength; x++) {
+	var row = speeders.rows[x];
+
+    if(!row.Checked){
+    	latestSpeeders.AddRow(row);
+	}
+}
+
+tableLength = latestSpeeders.rows.length;
+
+for (var x = 0; x < tableLength; x++) {
+	var row = latestSpeeders.rows[x];
+	row.Checked = true;
+
+    var values = Things["DriverDataTable"].CreateValues();
+    values.DriverId = row.DriverId; //STRING [Primary Key]
+
+    params = {
+        values: values /* INFOTABLE*/
+    };
+
+    // driver: Driver
+    var driver = Things["DriverDataTable"].GetDataTableEntry(params).Driver;
+	driver.WriteUps = driver.WriteUps + 1;
+	
+	params = {
+        infoTableName : "InfoTable",
+        dataShapeName : "NamedVTQ"
+    };
+
+    // CreateInfoTableFromDataShape(infoTableName:STRING("InfoTable"), dataShapeName:STRING):INFOTABLE(NamedVTQ)
+    var properties = Resources["InfoTableFunctions"].CreateInfoTableFromDataShape(params);
+
+    // NamedVTQ entry object
+    var entry = new Object();
+    entry.name = "WriteUps"; // STRING - isPrimaryKey = true
+    entry.value = driver.WriteUps;
+    properties.AddRow(entry);
+
+    var params = {
+        values: properties /* INFOTABLE */
+    };
+
+    // no return
+    driver.UpdatePropertyValues(params);
+}
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                </ServiceImplementations>
+                <Subscriptions/>
+            </ThingShape>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ImplementedShapes/>
+            <ThingProperties/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-10-10T08:33:41.597+02:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-06T22:02:23.144+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-12-09T19:53:39.172+01:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Thing>
+    </Things>
+</Entities>

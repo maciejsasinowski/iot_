@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Authenticators>
+        <Authenticator aspect.isEditableSystemObject="true" className="com.thingworx.security.authentication.ThingworxMobileAuthorizationAuthenticator" description="Mobile App Builder Authenticator that validates against the Thingworx User/Passwords" documentationContent="" enabled="false" homeMashup="" lastModifiedDate="2017-09-30T23:45:38.370+02:00" name="ThingworxMobileAuthorizationAuthenticator" priority="350" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Authenticator Configuration" isMultiRow="false" name="AuthenticatorConfiguration" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Return generated tokens to client" baseType="BOOLEAN" description="Return generated tokens" name="generateTokens" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="2592000" aspect.friendlyName="Token Lifetime (sec)" baseType="LONG" description="Token Lifetime in seconds, default 30 days" name="tokenLifeTime" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <tokenLifeTime>2592000</tokenLifeTime>
+                            <generateTokens>true</generateTokens>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:38.370+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Authenticator>
+    </Authenticators>
+</Entities>

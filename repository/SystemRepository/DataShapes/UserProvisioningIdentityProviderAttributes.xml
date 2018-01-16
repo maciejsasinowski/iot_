@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Identity provider attributes used for user default" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:35.639+02:00" name="UserProvisioningIdentityProviderAttributes" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="STRING" description="Identity Provider Attribute containing the user's description" name="userIdentityProviderDescription" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Identity Provider Attribute containing the user's groups" name="userIdentityProviderGroups" ordinal="4"/>
+                <FieldDefinition baseType="STRING" description="Identity Provider Attribute containing the user's home mashup" name="userIdentityProviderHomeMashup" ordinal="1"/>
+                <FieldDefinition baseType="STRING" description="Identity Provider Attribute containing the user's mobile mashup" name="userIdentityProviderMobileMashup" ordinal="2"/>
+                <FieldDefinition baseType="STRING" description="Identity Provider Attribute containing the user's tags" name="userIdentityProviderTags" ordinal="3"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:35.639+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>

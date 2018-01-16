@@ -1,0 +1,3865 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <LocalizationTables>
+        <LocalizationTable aspect.isCreatable="false" aspect.isSystemObject="true" description="System localization table" documentationContent="" homeMashup="" languageCommon="System" languageNative="System" lastModifiedDate="2017-09-30T23:45:37.121+02:00" name="System" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Localization tokens and usage" isMultiRow="true" name="LocalizationTokens" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Translation context" baseType="STRING" description="Translation context" name="context" ordinal="3"/>
+                            <FieldDefinition aspect.friendlyName="Token name" baseType="STRING" description="Token name" name="name" ordinal="0"/>
+                            <FieldDefinition aspect.friendlyName="Token usage" baseType="STRING" description="Token usage" name="usage" ordinal="2"/>
+                            <FieldDefinition aspect.friendlyName="Localized value" baseType="STRING" description="Localized value" name="value" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blog]]></name>
+                            <context/>
+                            <value><![CDATA[Blog]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[wiki]]></name>
+                            <context/>
+                            <value><![CDATA[Wiki]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[date]]></name>
+                            <context/>
+                            <value><![CDATA[Date]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[time]]></name>
+                            <context/>
+                            <value><![CDATA[Time]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[shortDateFormat]]></name>
+                            <context/>
+                            <value><![CDATA[mm/DD/yyyy]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[addNewPost]]></name>
+                            <context/>
+                            <value><![CDATA[Add New Post]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[sortBy]]></name>
+                            <context/>
+                            <value><![CDATA[Sort by:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[view]]></name>
+                            <context/>
+                            <value><![CDATA[View:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[markSticky]]></name>
+                            <context/>
+                            <value><![CDATA[Mark Sticky]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[removeSticky]]></name>
+                            <context/>
+                            <value><![CDATA[Remove Sticky]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[leaveAComment]]></name>
+                            <context/>
+                            <value><![CDATA[Leave a Comment]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[reply]]></name>
+                            <context/>
+                            <value><![CDATA[Reply]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[by]]></name>
+                            <context/>
+                            <value><![CDATA[by]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[collapseEntry]]></name>
+                            <context/>
+                            <value><![CDATA[Collapse Entry]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[expandEntry]]></name>
+                            <context/>
+                            <value><![CDATA[Expand Entry]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[rateNow]]></name>
+                            <context/>
+                            <value><![CDATA[Rate Now!]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[rateThisArticle]]></name>
+                            <context/>
+                            <value><![CDATA[Rate this article:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[deletePost]]></name>
+                            <context/>
+                            <value><![CDATA[Delete Post]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[editPost]]></name>
+                            <context/>
+                            <value><![CDATA[Edit Post]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[postTitle]]></name>
+                            <context/>
+                            <value><![CDATA[Post Title]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[postContent]]></name>
+                            <context/>
+                            <value><![CDATA[Post Content]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[post]]></name>
+                            <context/>
+                            <value><![CDATA[Post]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[oneCommentEntry]]></name>
+                            <context/>
+                            <value><![CDATA[There is 1 comment for this entry.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tagsLabel]]></name>
+                            <context/>
+                            <value><![CDATA[Tags:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tagsValue]]></name>
+                            <context/>
+                            <value><![CDATA[Tags]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[select]]></name>
+                            <context/>
+                            <value><![CDATA[Select]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[cancel]]></name>
+                            <context/>
+                            <value><![CDATA[Cancel]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[viewAdditionalComments]]></name>
+                            <context/>
+                            <value><![CDATA[View Additional Comments]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[thereAre]]></name>
+                            <context/>
+                            <value><![CDATA[There are ]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[mostRecentPost]]></name>
+                            <context/>
+                            <value><![CDATA[Most Recent Post]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[lastUpdatedPost]]></name>
+                            <context/>
+                            <value><![CDATA[Last Updated Post]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[mostCommentedPost]]></name>
+                            <context/>
+                            <value><![CDATA[Most Commented Post]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[highestRatedPost]]></name>
+                            <context/>
+                            <value><![CDATA[Highest Rated Post]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[mostRecent]]></name>
+                            <context/>
+                            <value><![CDATA[Most Recent]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[lastUpdated]]></name>
+                            <context/>
+                            <value><![CDATA[Last Updated]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[mostCommented]]></name>
+                            <context/>
+                            <value><![CDATA[Most Commented]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[highestRated]]></name>
+                            <context/>
+                            <value><![CDATA[Highest Rated]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[viewAsList]]></name>
+                            <context/>
+                            <value><![CDATA[View As List]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[showAllPosts]]></name>
+                            <context/>
+                            <value><![CDATA[Show All Posts]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[clearAll]]></name>
+                            <context/>
+                            <value><![CDATA[Clear All]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[search]]></name>
+                            <context/>
+                            <value><![CDATA[Search]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[searchPrompt]]></name>
+                            <context/>
+                            <value><![CDATA[Search...]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[searchThings]]></name>
+                            <context/>
+                            <value><![CDATA[Search Things]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[searchThingShapes]]></name>
+                            <context/>
+                            <value><![CDATA[Search Thing Shapes]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[searchThingTemplates]]></name>
+                            <context/>
+                            <value><![CDATA[Search Thing Templates]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[searchUsers]]></name>
+                            <context/>
+                            <value><![CDATA[Search Users]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[searchResultsFor]]></name>
+                            <context/>
+                            <value><![CDATA[Search results for: ]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[viewAsExpanded]]></name>
+                            <context/>
+                            <value><![CDATA[View As Expanded]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[nCommentsForThisEntry]]></name>
+                            <context/>
+                            <value><![CDATA[ comments for this entry.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[oneStarRating]]></name>
+                            <context/>
+                            <value><![CDATA[Rate this 1 star out of 5]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[twoStarRating]]></name>
+                            <context/>
+                            <value><![CDATA[Rate this 2 star out of 5]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[threeStarRating]]></name>
+                            <context/>
+                            <value><![CDATA[Rate this 3 star out of 5]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[fourStarRating]]></name>
+                            <context/>
+                            <value><![CDATA[Rate this 4 star out of 5]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[fiveStarRating]]></name>
+                            <context/>
+                            <value><![CDATA[Rate this 5 star out of 5]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[fiveStarRating]]></name>
+                            <context/>
+                            <value><![CDATA[Rate this 5 star out of 5]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[searchEntites]]></name>
+                            <context/>
+                            <value><![CDATA[Search entities]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[noEntitiesMatch]]></name>
+                            <context/>
+                            <value><![CDATA[No Entities match your search]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[orSelectPlusToCreateANewOne]]></name>
+                            <context/>
+                            <value><![CDATA[or select '+' to create a new one]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[chooseTags]]></name>
+                            <context/>
+                            <value><![CDATA[Choose Tag(s)]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[noTagsSpecified]]></name>
+                            <context/>
+                            <value><![CDATA[No tags specified]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tagPicker]]></name>
+                            <context/>
+                            <value><![CDATA[Tag Picker]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[done]]></name>
+                            <context/>
+                            <value><![CDATA[Done]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[add]]></name>
+                            <context/>
+                            <value><![CDATA[Add]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[remove]]></name>
+                            <context/>
+                            <value><![CDATA[Remove]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[termsFromVocabulary]]></name>
+                            <context/>
+                            <value><![CDATA[Terms from Vocabulary:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[newTerm]]></name>
+                            <context/>
+                            <value><![CDATA[New Term:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[addTerm]]></name>
+                            <context/>
+                            <value><![CDATA[Add Term]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[newTermValue]]></name>
+                            <context/>
+                            <value><![CDATA[New Term]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[chooseVocabulary]]></name>
+                            <context/>
+                            <value><![CDATA[Choose a Vocabulary:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[termIsRequired]]></name>
+                            <context/>
+                            <value><![CDATA[Must enter a term]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[vocabularyIsRequired]]></name>
+                            <context/>
+                            <value><![CDATA[Must enter a vocabulary]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[selectedTags]]></name>
+                            <context/>
+                            <value><![CDATA[Selected Tags]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[deleteConfirmation]]></name>
+                            <context/>
+                            <value><![CDATA[Delete Confirmation]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[decimal]]></name>
+                            <context/>
+                            <value><![CDATA[.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[thousands]]></name>
+                            <context/>
+                            <value><![CDATA[,]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogDeleteConfirmation]]></name>
+                            <context/>
+                            <value><![CDATA[Are you sure you want to delete this blog entry?]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[contentRatingThankYou]]></name>
+                            <context/>
+                            <value><![CDATA[Thank you for rating this content]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogSearchResultsTooLarge]]></name>
+                            <context/>
+                            <value><![CDATA[More Blog Entries available ... filter using search or tags]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[1Tag]]></name>
+                            <context/>
+                            <value><![CDATA[1 tag]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tags]]></name>
+                            <context/>
+                            <value><![CDATA[tags]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogBlankTitleValidation]]></name>
+                            <context/>
+                            <value><![CDATA[you must enter a title for the blog entry]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogBlankContentValidation]]></name>
+                            <context/>
+                            <value><![CDATA[you must enter body content for the blog entry]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[noResultFound]]></name>
+                            <context/>
+                            <value><![CDATA[No result found]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[addNewPage]]></name>
+                            <context/>
+                            <value><![CDATA[Add New Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[backToBrowse]]></name>
+                            <context/>
+                            <value><![CDATA[Back to Browse]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[edit]]></name>
+                            <context/>
+                            <value><![CDATA[Edit]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[revisionHistory]]></name>
+                            <context/>
+                            <value><![CDATA[Revision History]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[addNewSiblingPage]]></name>
+                            <context/>
+                            <value><![CDATA[Add New Sibling Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[addNewChildPage]]></name>
+                            <context/>
+                            <value><![CDATA[Add New Child Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[delete]]></name>
+                            <context/>
+                            <value><![CDATA[Delete]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[save]]></name>
+                            <context/>
+                            <value><![CDATA[Save]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[next]]></name>
+                            <context/>
+                            <value><![CDATA[Next]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[back]]></name>
+                            <context/>
+                            <value><![CDATA[Back]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[configuration]]></name>
+                            <context/>
+                            <value><![CDATA[Configuration]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[configure]]></name>
+                            <context/>
+                            <value><![CDATA[Configure]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[saveGadgetTitle]]></name>
+                            <context/>
+                            <value><![CDATA[Save Gadget Configuration]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[saveGadgetMessage]]></name>
+                            <context/>
+                            <value><![CDATA[Are you sure you want to save changes to this gadget's configuration?]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[titleLabel]]></name>
+                            <context/>
+                            <value><![CDATA[Title:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[newPage]]></name>
+                            <context/>
+                            <value><![CDATA[New Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[newSiblingPage]]></name>
+                            <context/>
+                            <value><![CDATA[New Sibling Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[newChildPage]]></name>
+                            <context/>
+                            <value><![CDATA[New Child Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[wikiPageDeleteConfirmation]]></name>
+                            <context/>
+                            <value><![CDATA[Are you sure you want to delete this page? Deleting this page will delete its child pages as well.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[addFilter]]></name>
+                            <context/>
+                            <value><![CDATA[Add Filter]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[no]]></name>
+                            <context/>
+                            <value><![CDATA[No]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[none]]></name>
+                            <context/>
+                            <value><![CDATA[None]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[of]]></name>
+                            <context/>
+                            <value><![CDATA[of]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[activeFilters]]></name>
+                            <context/>
+                            <value><![CDATA[Active Filter(s)]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[activeFiltersAdvanced]]></name>
+                            <context/>
+                            <value><![CDATA[Field(s) Filtered]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[activeFiltersJoin]]></name>
+                            <context/>
+                            <value><![CDATA[, joined by: ]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[activeFiltersAnd]]></name>
+                            <context/>
+                            <value><![CDATA[And]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[activeFiltersOr]]></name>
+                            <context/>
+                            <value><![CDATA[Or]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[noAdditionalFiltersAvailable]]></name>
+                            <context/>
+                            <value><![CDATA[No additional filters are available]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[clear]]></name>
+                            <context/>
+                            <value><![CDATA[Clear]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[equalTo]]></name>
+                            <context/>
+                            <value><![CDATA[Equal To]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[notEqualTo]]></name>
+                            <context/>
+                            <value><![CDATA[Not Equal To]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[greaterThan]]></name>
+                            <context/>
+                            <value><![CDATA[Greater Than]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[greaterThanOrEqualTo]]></name>
+                            <context/>
+                            <value><![CDATA[Greater Than or Equal To]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[lessThan]]></name>
+                            <context/>
+                            <value><![CDATA[Less Than]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[lessThanOrEqualTo]]></name>
+                            <context/>
+                            <value><![CDATA[Less Than or Equal To]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[between]]></name>
+                            <context/>
+                            <value><![CDATA[Between]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[notBetween]]></name>
+                            <context/>
+                            <value><![CDATA[Not Between]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[startsWith]]></name>
+                            <context/>
+                            <value><![CDATA[Starts With]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[contains]]></name>
+                            <context/>
+                            <value><![CDATA[Contains]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[endsWith]]></name>
+                            <context/>
+                            <value><![CDATA[Ends With]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isExactly]]></name>
+                            <context/>
+                            <value><![CDATA[Is Exactly]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[filterHasNotBeenSpecifiedYet]]></name>
+                            <context/>
+                            <value><![CDATA[filter has not been specified yet]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[is]]></name>
+                            <context/>
+                            <value><![CDATA[is]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[thereAreNoChoices]]></name>
+                            <context/>
+                            <value><![CDATA[There are no choices]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[withinTheLast]]></name>
+                            <context/>
+                            <value><![CDATA[Within the last]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[seconds]]></name>
+                            <context/>
+                            <value><![CDATA[seconds]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[minutes]]></name>
+                            <context/>
+                            <value><![CDATA[minutes]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[hours]]></name>
+                            <context/>
+                            <value><![CDATA[hours]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[days]]></name>
+                            <context/>
+                            <value><![CDATA[days]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[months]]></name>
+                            <context/>
+                            <value><![CDATA[months]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[weeks]]></name>
+                            <context/>
+                            <value><![CDATA[weeks]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[years]]></name>
+                            <context/>
+                            <value><![CDATA[years]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isBetween]]></name>
+                            <context/>
+                            <value><![CDATA[is between]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isNotBetween]]></name>
+                            <context/>
+                            <value><![CDATA[is not between]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[andUpperCase]]></name>
+                            <context/>
+                            <value><![CDATA[AND]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[mustEnterTwoDatesToSearchBetween]]></name>
+                            <context/>
+                            <value><![CDATA[Must enter two dates to search between]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isNotAValidNumber]]></name>
+                            <context/>
+                            <value><![CDATA[is not a valid number]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[map]]></name>
+                            <context/>
+                            <value><![CDATA[Map]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[longitude]]></name>
+                            <context/>
+                            <value><![CDATA[Longitude]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[latitude]]></name>
+                            <context/>
+                            <value><![CDATA[Latitude]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[miles]]></name>
+                            <context/>
+                            <value><![CDATA[miles]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[kilometers]]></name>
+                            <context/>
+                            <value><![CDATA[kilometers]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[n]]></name>
+                            <context/>
+                            <value><![CDATA[nautical miles]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[within]]></name>
+                            <context/>
+                            <value><![CDATA[Within]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[notWithin]]></name>
+                            <context/>
+                            <value><![CDATA[Not Within]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[ofLocation]]></name>
+                            <context/>
+                            <value><![CDATA[of location]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[chooseALocation]]></name>
+                            <context/>
+                            <value><![CDATA[Choose a Location]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[proximity]]></name>
+                            <context/>
+                            <value><![CDATA[Proximity]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[invalidLatitude]]></name>
+                            <context/>
+                            <value><![CDATA[is not a valid latitude value]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[invalidLongitude]]></name>
+                            <context/>
+                            <value><![CDATA[is not a valid longitude value]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[latitudeRangeError]]></name>
+                            <context/>
+                            <value><![CDATA[Latitude must be between -90 and 90]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[longitudeRangeError]]></name>
+                            <context/>
+                            <value><![CDATA[Longitude must be between -180 and 180]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[invalidDistance]]></name>
+                            <context/>
+                            <value><![CDATA[Distance is not a valid number]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[negativeDistanceError]]></name>
+                            <context/>
+                            <value><![CDATA[Distance cannot be negative]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[statusMessage]]></name>
+                            <context/>
+                            <value><![CDATA[Status Message]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dismiss]]></name>
+                            <context/>
+                            <value><![CDATA[Dismiss]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dismissAll]]></name>
+                            <context/>
+                            <value><![CDATA[Dismiss All]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[accept]]></name>
+                            <context/>
+                            <value><![CDATA[Accept]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[ignore]]></name>
+                            <context/>
+                            <value><![CDATA[Ignore]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[unreadMessages]]></name>
+                            <context/>
+                            <value><![CDATA[Unread Message(s)]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[close]]></name>
+                            <context/>
+                            <value><![CDATA[Close]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isTaggedWith]]></name>
+                            <context/>
+                            <value><![CDATA[is tagged with]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isNotTaggedWith]]></name>
+                            <context/>
+                            <value><![CDATA[is not tagged with]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isAnything]]></name>
+                            <context/>
+                            <value><![CDATA[is anything]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[selectDate]]></name>
+                            <context/>
+                            <value><![CDATA[Select Date]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[selectDateTime]]></name>
+                            <context/>
+                            <value><![CDATA[Select Date/Time]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[refreshNow]]></name>
+                            <context/>
+                            <value><![CDATA[Refresh Now]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[toggleAutomaticRefresh]]></name>
+                            <context/>
+                            <value><![CDATA[Toggle Automatic Refresh]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[mustBeBoundToData]]></name>
+                            <context/>
+                            <value><![CDATA[Must Be Bound To Data]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[fileRepository]]></name>
+                            <context/>
+                            <value><![CDATA[File Repository]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[pathOnRepository]]></name>
+                            <context/>
+                            <value><![CDATA[Path on Repository]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[upload]]></name>
+                            <context/>
+                            <value><![CDATA[Upload]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[clickToStartTracking]]></name>
+                            <context/>
+                            <value><![CDATA[Click to start tracking.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[geotaggerFailureReloadMashup]]></name>
+                            <context/>
+                            <value><![CDATA[Geotagger has failed. Reload your mashup to reset.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[clickToStopTracking]]></name>
+                            <context/>
+                            <value><![CDATA[Click to stop tracking.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[timeout]]></name>
+                            <context/>
+                            <value><![CDATA[Timeout]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[positionUnavailable]]></name>
+                            <context/>
+                            <value><![CDATA[Position unavailable]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[permissionDenied]]></name>
+                            <context/>
+                            <value><![CDATA[Permission denied]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[unknownError]]></name>
+                            <context/>
+                            <value><![CDATA[Unknown error]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[geotaggerFailureRestart]]></name>
+                            <context/>
+                            <value><![CDATA[Geotagger has failed. Click to restart.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[incompleteRemoteAccessConfigNoThing]]></name>
+                            <context/>
+                            <value><![CDATA[Remote access configuration is incomplete. Please configure a remote thing with which to connect.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[incompleteRemoteAccessConfigNoTunnel]]></name>
+                            <context/>
+                            <value><![CDATA[Remote access configuration is incomplete. Please configure a tunnel with which to connect.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[incompleteRemoteAccessConfigNoThingNoTunnel]]></name>
+                            <context/>
+                            <value><![CDATA[Remote access is not configured at this time. Please configure a remote thing and tunnel with which to connect.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[xmppNotRunning]]></name>
+                            <context/>
+                            <value><![CDATA[The Always On Subsystem is not running at this time. The Always On Subsystem is required for remote access.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tunnelSubsystemNotRunning]]></name>
+                            <context/>
+                            <value><![CDATA[The Tunnel Subsystem is not running at this time. The Tunnel Subsystem is required for remote access.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[remoteAccessToRemoteThingAvailable]]></name>
+                            <context/>
+                            <value><![CDATA[Remote access is available to remote thing:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[remoteAccessToRemoteThingNotEnabled]]></name>
+                            <context/>
+                            <value><![CDATA[Remote access is not enabled for remote thing:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[failedRemoteThingRemoteAccessConfiguration]]></name>
+                            <context/>
+                            <value><![CDATA[Failed to complete configuration of remote access for remote thing:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tagCloud]]></name>
+                            <context/>
+                            <value><![CDATA[Tag Cloud]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[on]]></name>
+                            <context/>
+                            <value><![CDATA[On]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[off]]></name>
+                            <context/>
+                            <value><![CDATA[Off]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[update]]></name>
+                            <context/>
+                            <value><![CDATA[Update]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[updateData]]></name>
+                            <context/>
+                            <value><![CDATA[Update Data]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[automaticUpdate]]></name>
+                            <context/>
+                            <value><![CDATA[Automatic Update]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[scrollBackFull]]></name>
+                            <context/>
+                            <value><![CDATA[Scroll back full]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[scrollBackPartial]]></name>
+                            <context/>
+                            <value><![CDATA[Scroll back partial]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[startingDateClicktoSelect]]></name>
+                            <context/>
+                            <value><![CDATA[Starting Date (click to select)]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[endingDateClicktoSelect]]></name>
+                            <context/>
+                            <value><![CDATA[Ending Date (click to select)]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[scrollForwardFull]]></name>
+                            <context/>
+                            <value><![CDATA[Scroll forward full]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[scrollForwardPartial]]></name>
+                            <context/>
+                            <value><![CDATA[Scroll forward partial]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[setEndTimeToCurrentTime]]></name>
+                            <context/>
+                            <value><![CDATA[Set Ending Time to Current Time]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[startAndEndTimeLockedWarning]]></name>
+                            <context/>
+                            <value><![CDATA[You have start and end time locked - please unlock one or the other]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[endTimeNotBeforeStartTimeWarning]]></name>
+                            <context/>
+                            <value><![CDATA[Cannot set end time to be before the start time]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[autoRefreshEnabledPressButtonToDisable]]></name>
+                            <context/>
+                            <value><![CDATA[Auto-refresh is enabled, press this button to disable auto-refresh]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[autoRefreshDisabledPressButtonToEnable]]></name>
+                            <context/>
+                            <value><![CDATA[Auto-refresh is disabled, press this button to enable auto-refresh]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[lowValue]]></name>
+                            <context/>
+                            <value><![CDATA[Low Value]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[lowerRange]]></name>
+                            <context/>
+                            <value><![CDATA[Lower Range]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[upperRange]]></name>
+                            <context/>
+                            <value><![CDATA[Upper Range]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[midpoint]]></name>
+                            <context/>
+                            <value><![CDATA[Midpoint]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[highValue]]></name>
+                            <context/>
+                            <value><![CDATA[High Value]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[lowRangeGTHighRangeChartError]]></name>
+                            <context/>
+                            <value><![CDATA[Row low range value is greater than the high range value. The chart cannot accurately render data.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[confirmationOptionYes]]></name>
+                            <context/>
+                            <value><![CDATA[Yes]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[confirmationOptionNo]]></name>
+                            <context/>
+                            <value><![CDATA[No]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tunnelStatusFailure]]></name>
+                            <context/>
+                            <value><![CDATA[Failed to get tunnel status for Thing. Tunneling is disabled.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tunnelStartFail]]></name>
+                            <context/>
+                            <value><![CDATA[Failed to start tunneling service. Tunneling is disabled.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardEdit]]></name>
+                            <context/>
+                            <value><![CDATA[Edit Dashboard]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardShare]]></name>
+                            <context/>
+                            <value><![CDATA[Manage Sharing]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardLoadingMessage]]></name>
+                            <context/>
+                            <value><![CDATA[Loading...]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardSwitch]]></name>
+                            <context/>
+                            <value><![CDATA[Switch Dashboard]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardAddNewGroup]]></name>
+                            <context/>
+                            <value><![CDATA[Add New Group]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardAdd]]></name>
+                            <context/>
+                            <value><![CDATA[Add Dashboard]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardDelete]]></name>
+                            <context/>
+                            <value><![CDATA[Delete Dashboard]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardTitle]]></name>
+                            <context/>
+                            <value><![CDATA[Dashboard Title:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardConfirmDelete]]></name>
+                            <context/>
+                            <value><![CDATA[Are you sure you want to delete this entire dashboard]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardMessageNoAvailable]]></name>
+                            <context/>
+                            <value><![CDATA[No dashboards available]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardMessageNoAvailableButCreate]]></name>
+                            <context/>
+                            <value><![CDATA[No dashboards available - use "Add Dashboard" to create a dashboard for yourself]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardAddGadget]]></name>
+                            <context/>
+                            <value><![CDATA[Add Gadget]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardEditGroup]]></name>
+                            <context/>
+                            <value><![CDATA[Edit Group]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardDeleteGroup]]></name>
+                            <context/>
+                            <value><![CDATA[Delete Group]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardAddGroup]]></name>
+                            <context/>
+                            <value><![CDATA[Add Group]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardGroupTitle]]></name>
+                            <context/>
+                            <value><![CDATA[Group Title:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardCreateGroup]]></name>
+                            <context/>
+                            <value><![CDATA[Create Group]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardCreate]]></name>
+                            <context/>
+                            <value><![CDATA[Create Dashboard]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardInitialGroup]]></name>
+                            <context/>
+                            <value><![CDATA[Initial Group Name:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardEditGadget]]></name>
+                            <context/>
+                            <value><![CDATA[Edit Gadget]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardEditParams]]></name>
+                            <context/>
+                            <value><![CDATA[Edit Parameters]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[updateGadgetParameters]]></name>
+                            <context/>
+                            <value><![CDATA[Update Gadget Parameters]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[updateGadgetParametersMessage]]></name>
+                            <context/>
+                            <value><![CDATA[Update gadget with these new parameter values?]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardGadgetTitle]]></name>
+                            <context/>
+                            <value><![CDATA[Gadget Title:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardDeleteGadget]]></name>
+                            <context/>
+                            <value><![CDATA[Delete Gadget]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardDeleteGadgetMessage]]></name>
+                            <context/>
+                            <value><![CDATA[Are you sure you want to delete this gadget]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardDeleteGroupMessage]]></name>
+                            <context/>
+                            <value><![CDATA[Are you sure you want to delete this group]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardShareManage]]></name>
+                            <context/>
+                            <value><![CDATA[Manage Sharing of Dashboards]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardShareOrganizations]]></name>
+                            <context/>
+                            <value><![CDATA[Organizations:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardShareOrganizationUnits]]></name>
+                            <context/>
+                            <value><![CDATA[Organization Units:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardShareMessage]]></name>
+                            <context/>
+                            <value><![CDATA[Share This Dashboard With:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardMessageErrorRetrieving]]></name>
+                            <context/>
+                            <value><![CDATA[Error retrieving dashboard. Contact your administrator]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardShareDeleteTooltip]]></name>
+                            <context/>
+                            <value><![CDATA[Remove the dashboard sharing permission]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardUntitled]]></name>
+                            <context/>
+                            <value><![CDATA[Untitled]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardAddToDashboard]]></name>
+                            <context/>
+                            <value><![CDATA[Add to Dashboard]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardDashboardLabel]]></name>
+                            <context/>
+                            <value><![CDATA[Dashboard:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardGroupLabel]]></name>
+                            <context/>
+                            <value><![CDATA[Group:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardNewDashboard]]></name>
+                            <context/>
+                            <value><![CDATA[New Dashboard]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardNewGroup]]></name>
+                            <context/>
+                            <value><![CDATA[New Group]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardTitleRequired]]></name>
+                            <context/>
+                            <value><![CDATA[Must enter a dashboard title]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardGroupTitleRequired]]></name>
+                            <context/>
+                            <value><![CDATA[Must enter a group title]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardGadgetTitleRequired]]></name>
+                            <context/>
+                            <value><![CDATA[Must enter a title for the gadget]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardGadgetFailedToAdd]]></name>
+                            <context/>
+                            <value><![CDATA[Could not add to dashboard. Contact your Administrator.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dashboardGadgetFailedWaitOnDashboards]]></name>
+                            <context/>
+                            <value><![CDATA[The dashboards must be loaded before adding a new gadget...]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dateTimeFormat_Default]]></name>
+                            <context/>
+                            <value><![CDATA[yyyy-MM-dd HH:mm:ss.SSS]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dateTimeFormat_TimeOnly]]></name>
+                            <context/>
+                            <value><![CDATA[LT]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dateTimeFormat_ShortDate]]></name>
+                            <context/>
+                            <value><![CDATA[l]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dateTimeFormat_MediumDate]]></name>
+                            <context/>
+                            <value><![CDATA[ll]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dateTimeFormat_LongDate]]></name>
+                            <context/>
+                            <value><![CDATA[LL]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dateTimeFormat_LongDateTime]]></name>
+                            <context/>
+                            <value><![CDATA[LLL]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dateTimeFormat_FullDateTime]]></name>
+                            <context/>
+                            <value><![CDATA[LLLL]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[numberFormat_Default]]></name>
+                            <context/>
+                            <value><![CDATA[0.00]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[csvFieldDelimiter]]></name>
+                            <context/>
+                            <value><![CDATA[,]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[csvDecimalDelimiter]]></name>
+                            <context/>
+                            <value><![CDATA[.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[connect]]></name>
+                            <context/>
+                            <value><![CDATA[Connect]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[disconnect]]></name>
+                            <context/>
+                            <value><![CDATA[Disconnect]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[ctrlAltDel]]></name>
+                            <context/>
+                            <value><![CDATA[Ctrl-Alt-Del]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[datepickerDayNamesMin]]></name>
+                            <context/>
+                            <value><![CDATA[Su,Mo,Tu,We,Th,Fr,Sa]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[datepickerMonthNames]]></name>
+                            <context/>
+                            <value><![CDATA[January,February,March,April,May,June,July,August,September,October,November,December]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[datepickerMonthShortNames]]></name>
+                            <context/>
+                            <value><![CDATA[Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[datepickerCloseText]]></name>
+                            <context/>
+                            <value><![CDATA[Done]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[datepickerCurrentText]]></name>
+                            <context/>
+                            <value><![CDATA[Today]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[datepickerFirstDay]]></name>
+                            <context/>
+                            <value><![CDATA[0]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[datepickerNextText]]></name>
+                            <context/>
+                            <value><![CDATA[Next]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[datepickerPrevText]]></name>
+                            <context/>
+                            <value><![CDATA[Prev]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[datepickerTimeText]]></name>
+                            <context/>
+                            <value><![CDATA[Time (24-hour)]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[collaborationAdded]]></name>
+                            <context/>
+                            <value><![CDATA[Added]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[collaborationEdited]]></name>
+                            <context/>
+                            <value><![CDATA[Edited]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[comments]]></name>
+                            <context/>
+                            <value><![CDATA[Comments]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[onLowercase]]></name>
+                            <context/>
+                            <value><![CDATA[on]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesLabelRecent]]></name>
+                            <context/>
+                            <value><![CDATA[Most Recently Used]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesLabelTabs]]></name>
+                            <context/>
+                            <value><![CDATA[Restore Tabs on Startup]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesLabelLanguages]]></name>
+                            <context/>
+                            <value><![CDATA[Language Preferences Editor]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesButtonClearRecent]]></name>
+                            <context/>
+                            <value><![CDATA[Clear Recent]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesButtonEdit]]></name>
+                            <context/>
+                            <value><![CDATA[Edit]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesOptionAsk]]></name>
+                            <context/>
+                            <value><![CDATA[Prompt Each Time]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesOptionAlways]]></name>
+                            <context/>
+                            <value><![CDATA[Always Restore Tabs]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesOptionNever]]></name>
+                            <context/>
+                            <value><![CDATA[Never Restore Tabs]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesHeaderLabel]]></name>
+                            <context/>
+                            <value><![CDATA[Preferences]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesAddHelp]]></name>
+                            <context/>
+                            <value><![CDATA[Available Languages]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesAddHelpSub]]></name>
+                            <context/>
+                            <value><![CDATA[Click and drag to Selected Languages.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesOrderHelp]]></name>
+                            <context/>
+                            <value><![CDATA[Selected Languages]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[preferencesOrderHelpSub]]></name>
+                            <context/>
+                            <value><![CDATA[Click and drag to order this list by language preference.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[searchResults]]></name>
+                            <context/>
+                            <value><![CDATA[Search Results]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[showSystemObjects]]></name>
+                            <context/>
+                            <value><![CDATA[Show System Objects]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[searchDescriptions]]></name>
+                            <context/>
+                            <value><![CDATA[Search Descriptions]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[sticky]]></name>
+                            <context/>
+                            <value><![CDATA[Sticky?]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[advanced]]></name>
+                            <context/>
+                            <value><![CDATA[Advanced]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[clear]]></name>
+                            <context/>
+                            <value><![CDATA[Clear]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[all]]></name>
+                            <context/>
+                            <value><![CDATA[All]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[recent]]></name>
+                            <context/>
+                            <value><![CDATA[Recent]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[types]]></name>
+                            <context/>
+                            <value><![CDATA[Types]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[actions]]></name>
+                            <context/>
+                            <value><![CDATA[Actions:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[favorites]]></name>
+                            <context/>
+                            <value><![CDATA[Favorites]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[entities]]></name>
+                            <context/>
+                            <value><![CDATA[Entities]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[categories]]></name>
+                            <context/>
+                            <value><![CDATA[Categories]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[vocabularies]]></name>
+                            <context/>
+                            <value><![CDATA[Vocabularies]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[resetemail.subject]]></name>
+                            <context/>
+                            <value><![CDATA[[[:user:]] Account Password Change]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[resetemail.requestmade]]></name>
+                            <context/>
+                            <value><![CDATA[A request to reset the password for [[:user:]] in [[:organization:]] has been made.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[resetemail.instructions]]></name>
+                            <context/>
+                            <value><![CDATA[To reset your password now, go to the <a href="[[:url:]]">Reset Password page</a>, enter a new password, confirm your new password, and save.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[resetemail.helpneeded]]></name>
+                            <context/>
+                            <value><![CDATA[If you cannot access the Reset Password page or if the password reset request was not initiated by you, contact your ThingWorx site administrator. Please do not reply to this automated email.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[remoteThings]]></name>
+                            <context/>
+                            <value><![CDATA[Remote Things]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[integrationConnectors]]></name>
+                            <context/>
+                            <value><![CDATA[Integration Connectors]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[refreshNow]]></name>
+                            <context/>
+                            <value><![CDATA[Refresh Now]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[unbound]]></name>
+                            <context/>
+                            <value><![CDATA[Unbound]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[filter]]></name>
+                            <context/>
+                            <value><![CDATA[Filter]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[confirmAction]]></name>
+                            <context/>
+                            <value><![CDATA[Confirm Action]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[name]]></name>
+                            <context/>
+                            <value><![CDATA[Name]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[identifier]]></name>
+                            <context/>
+                            <value><![CDATA[Identifier]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[confirmationOptionNo]]></name>
+                            <context/>
+                            <value><![CDATA[No]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[confirmationOptionYes]]></name>
+                            <context/>
+                            <value><![CDATA[Yes]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[on]]></name>
+                            <context/>
+                            <value><![CDATA[On]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[off]]></name>
+                            <context/>
+                            <value><![CDATA[Off]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[all]]></name>
+                            <context/>
+                            <value><![CDATA[All]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[doAction]]></name>
+                            <context/>
+                            <value><![CDATA[Do Action?]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[update]]></name>
+                            <context/>
+                            <value><![CDATA[Update]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[squeal]]></name>
+                            <context/>
+                            <value><![CDATA[SQUEAL]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[homeMashup]]></name>
+                            <context/>
+                            <value><![CDATA[Home Mashup]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[description]]></name>
+                            <context/>
+                            <value><![CDATA[Description]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tagsValue]]></name>
+                            <context/>
+                            <value><![CDATA[Tags]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[lastConnected]]></name>
+                            <context/>
+                            <value><![CDATA[Last Connected]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dateTime]]></name>
+                            <context/>
+                            <value><![CDATA[Date/Time]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[noHomeMashupMessage]]></name>
+                            <context/>
+                            <value><![CDATA[Selected Thing does not have a Home Mashup defined]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[connectionServers]]></name>
+                            <context/>
+                            <value><![CDATA[Connection Servers]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[autoRefresh]]></name>
+                            <context/>
+                            <value><![CDATA[Auto Refresh]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[general]]></name>
+                            <context/>
+                            <value><![CDATA[General]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[performanceMetrics]]></name>
+                            <context/>
+                            <value><![CDATA[Performance Metrics]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[connectedThings]]></name>
+                            <context/>
+                            <value><![CDATA[Connected Things]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[applicationLog]]></name>
+                            <context/>
+                            <value><![CDATA[Application Log]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[communicationLog]]></name>
+                            <context/>
+                            <value><![CDATA[Communication Log]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[logSettings]]></name>
+                            <context/>
+                            <value><![CDATA[Log Settings]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[state]]></name>
+                            <context/>
+                            <value><![CDATA[State]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[enabled]]></name>
+                            <context/>
+                            <value><![CDATA[Enabled]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[running]]></name>
+                            <context/>
+                            <value><![CDATA[Running]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[autoStart]]></name>
+                            <context/>
+                            <value><![CDATA[Auto Start]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[log]]></name>
+                            <context/>
+                            <value><![CDATA[Log]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[currentSetting]]></name>
+                            <context/>
+                            <value><![CDATA[Current Setting]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[newSetting]]></name>
+                            <context/>
+                            <value><![CDATA[New Setting]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[servers]]></name>
+                            <context/>
+                            <value><![CDATA[Servers]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[publishingToYourServer]]></name>
+                            <context/>
+                            <value><![CDATA[Publishing to your server]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[subscribed]]></name>
+                            <context/>
+                            <value><![CDATA[Subscribed]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[unsubscribed]]></name>
+                            <context/>
+                            <value><![CDATA[Unsubscribed]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[publishedAndSubscribed]]></name>
+                            <context/>
+                            <value><![CDATA[Things published to your server and are subscribed]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[publishedNotSubscribed]]></name>
+                            <context/>
+                            <value><![CDATA[Things published to your server but are not subscribed]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[allThings]]></name>
+                            <context/>
+                            <value><![CDATA[All Things]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[publishingToTheseServers]]></name>
+                            <context/>
+                            <value><![CDATA[Your server is publishing to these servers]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[thingsYourServerIsPublishing]]></name>
+                            <context/>
+                            <value><![CDATA[Things your server is publishing]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[thingsYourServerIsPublishingAndSubscribed]]></name>
+                            <context/>
+                            <value><![CDATA[Things your server is publishing and are subscribed]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[activeTransfers]]></name>
+                            <context/>
+                            <value><![CDATA[Active Transfers]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[enterId]]></name>
+                            <context/>
+                            <value><![CDATA[Enter ID]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[transfersById]]></name>
+                            <context/>
+                            <value><![CDATA[Transfers by ID]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[acknowledge]]></name>
+                            <context/>
+                            <value><![CDATA[Acknowledge]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[acknowledgeAlertsOnProperty]]></name>
+                            <context/>
+                            <value><![CDATA[Acknowledge Alerts on Property]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[acknowledgeAlertsOnSource]]></name>
+                            <context/>
+                            <value><![CDATA[Acknowledge Alerts on Source]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[acknowledged]]></name>
+                            <context/>
+                            <value><![CDATA[Acknowledged]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[alertHistory]]></name>
+                            <context/>
+                            <value><![CDATA[Alert History]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[alerts]]></name>
+                            <context/>
+                            <value><![CDATA[Alerts]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[alertSummary]]></name>
+                            <context/>
+                            <value><![CDATA[Alert Summary]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[autoRefresh]]></name>
+                            <context/>
+                            <value><![CDATA[Auto Refresh]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[confirmAction]]></name>
+                            <context/>
+                            <value><![CDATA[Confirm Action]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[doAction]]></name>
+                            <context/>
+                            <value><![CDATA[Do Action?]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[homeMashup]]></name>
+                            <context/>
+                            <value><![CDATA[Home Mashup]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[selectedThingDoesNotHaveAHomeMashupDefined]]></name>
+                            <context/>
+                            <value><![CDATA[Selected Thing does not have a Home Mashup defined]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[unacknowleged]]></name>
+                            <context/>
+                            <value><![CDATA[Unacknowleged]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[eventQueueSize]]></name>
+                            <context/>
+                            <value><![CDATA[Event Queue Size]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[memoryInUse]]></name>
+                            <context/>
+                            <value><![CDATA[Memory in Use]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[messages]]></name>
+                            <context/>
+                            <value><![CDATA[Messages]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[messagesByThing]]></name>
+                            <context/>
+                            <value><![CDATA[Messages by Thing]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[refresh]]></name>
+                            <context/>
+                            <value><![CDATA[Refresh]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[schemaVersion]]></name>
+                            <context/>
+                            <value><![CDATA[Schema Version]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[set]]></name>
+                            <context/>
+                            <value><![CDATA[Set]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[softwareVersion]]></name>
+                            <context/>
+                            <value><![CDATA[Software Version]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[streamQueueSize]]></name>
+                            <context/>
+                            <value><![CDATA[Stream Queue Size]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[system]]></name>
+                            <context/>
+                            <value><![CDATA[System]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[systemRunTime]]></name>
+                            <context/>
+                            <value><![CDATA[System Run Time]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[systemStartTime]]></name>
+                            <context/>
+                            <value><![CDATA[System Start Time]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[totalMemoryAllocated]]></name>
+                            <context/>
+                            <value><![CDATA[Total Memory Allocated]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[userCount]]></name>
+                            <context/>
+                            <value><![CDATA[User Count]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[allTunnels]]></name>
+                            <context/>
+                            <value><![CDATA[All Tunnels]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[resetPerformanceMetrics]]></name>
+                            <context/>
+                            <value><![CDATA[Reset Performance Metrics]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[restart]]></name>
+                            <context/>
+                            <value><![CDATA[Restart]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[start]]></name>
+                            <context/>
+                            <value><![CDATA[Start]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[stop]]></name>
+                            <context/>
+                            <value><![CDATA[Stop]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[subsystems]]></name>
+                            <context/>
+                            <value><![CDATA[Subsystems]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tunnelByID]]></name>
+                            <context/>
+                            <value><![CDATA[Tunnel by ID]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[usersLoggedIn]]></name>
+                            <context/>
+                            <value><![CDATA[Users Logged In]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[addUpdate]]></name>
+                            <context/>
+                            <value><![CDATA[Add/Update]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dataTableEntries]]></name>
+                            <context/>
+                            <value><![CDATA[Data Table Entries]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[deleteThisEntry]]></name>
+                            <context/>
+                            <value><![CDATA[Delete this entry?]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[entriesEditor]]></name>
+                            <context/>
+                            <value><![CDATA[Entries Editor]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[chart]]></name>
+                            <context/>
+                            <value><![CDATA[Chart]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[confirmDeleteSelectedExtension]]></name>
+                            <context/>
+                            <value><![CDATA[Are you sure you want to delete the selected Extension Package?]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[deleteExtension]]></name>
+                            <context/>
+                            <value><![CDATA[Delete Extension]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[DeleteExtensionPackage.success]]></name>
+                            <context/>
+                            <value><![CDATA[Extension Package successfully deleted]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[DeleteExtensionPackage.error]]></name>
+                            <context/>
+                            <value><![CDATA[Extension Package deletion failed: [server-message]]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[service.succeeded]]></name>
+                            <context/>
+                            <value><![CDATA[Succeeded]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[service.error]]></name>
+                            <context/>
+                            <value><![CDATA[Error invoking service: [server-message]]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[service.exception]]></name>
+                            <context/>
+                            <value><![CDATA[Exception in invoking service]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[Restart.success]]></name>
+                            <context/>
+                            <value><![CDATA[Subsystem successfully restarted.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[Restart.error]]></name>
+                            <context/>
+                            <value><![CDATA[Subsystem was unable to be restarted.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[Start.success]]></name>
+                            <context/>
+                            <value><![CDATA[Subsystem successfully started.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[Start.error]]></name>
+                            <context/>
+                            <value><![CDATA[Subsystem was unable to be started.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[Stop.success]]></name>
+                            <context/>
+                            <value><![CDATA[Subsystem successfully stopped.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[Stop.error]]></name>
+                            <context/>
+                            <value><![CDATA[Subsystem was unable to be stopped.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[ResetPerformanceMetrics.success]]></name>
+                            <context/>
+                            <value><![CDATA[Performance Metrics successfully reset.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[ResetPerformanceMetrics.error]]></name>
+                            <context/>
+                            <value><![CDATA[Performance Metrics was unable to be reset.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[AcknowledgeAllAlerts.success]]></name>
+                            <context/>
+                            <value><![CDATA[Successfully acknowledged alerts on source.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[AcknowledgeAllAlerts.error]]></name>
+                            <context/>
+                            <value><![CDATA[Failed to acknowledge alerts on source.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[AcknowledgeAlertFromSummary.success]]></name>
+                            <context/>
+                            <value><![CDATA[Successfully acknowledged alerts on property.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[AcknowledgeAlertFromSummary.error]]></name>
+                            <context/>
+                            <value><![CDATA[Failed to acknowledge alerts on property.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[EditDashboardItemParameters.success]]></name>
+                            <context/>
+                            <value><![CDATA[Parameters Updated Successfuly]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[entitiesUsage]]></name>
+                            <context/>
+                            <value><![CDATA[Entities Usage]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[entityUsageSummary]]></name>
+                            <context/>
+                            <value><![CDATA[Entity Usage Summary]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[installedExtensionPackages]]></name>
+                            <context/>
+                            <value><![CDATA[Installed Extension Packages]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[levels]]></name>
+                            <context/>
+                            <value><![CDATA[Levels]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[logMessage]]></name>
+                            <context/>
+                            <value><![CDATA[Log Message]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[maxRows]]></name>
+                            <context/>
+                            <value><![CDATA[Max Rows]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[packageDetails]]></name>
+                            <context/>
+                            <value><![CDATA[Package Details]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[rawData]]></name>
+                            <context/>
+                            <value><![CDATA[Raw Data]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[settings]]></name>
+                            <context/>
+                            <value><![CDATA[Settings]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[source]]></name>
+                            <context/>
+                            <value><![CDATA[Source:]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[to]]></name>
+                            <context/>
+                            <value><![CDATA[to]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[user]]></name>
+                            <context/>
+                            <value><![CDATA[User]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[userEntitiesUsage]]></name>
+                            <context/>
+                            <value><![CDATA[User Entities Usage]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[viewer]]></name>
+                            <context/>
+                            <value><![CDATA[Viewer]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[ack]]></name>
+                            <context/>
+                            <value><![CDATA[Acknowledged]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[ackBy]]></name>
+                            <context/>
+                            <value><![CDATA[Acknowledged By]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[ackTimestamp]]></name>
+                            <context/>
+                            <value><![CDATA[Acknowledged Timestamp]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[alertType]]></name>
+                            <context/>
+                            <value><![CDATA[Alert Type]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blockCount]]></name>
+                            <context/>
+                            <value><![CDATA[Block Count]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blockSize]]></name>
+                            <context/>
+                            <value><![CDATA[Block Size]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[bytesTransferred]]></name>
+                            <context/>
+                            <value><![CDATA[Bytes Transferred]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[code]]></name>
+                            <context/>
+                            <value><![CDATA[Code]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[connectedThing]]></name>
+                            <context/>
+                            <value><![CDATA[Connected Thing]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[connectionStatus]]></name>
+                            <context/>
+                            <value><![CDATA[Connection Status]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[content]]></name>
+                            <context/>
+                            <value><![CDATA[Content]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[duration]]></name>
+                            <context/>
+                            <value><![CDATA[Duration]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[endTime]]></name>
+                            <context/>
+                            <value><![CDATA[End Time]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[eventName]]></name>
+                            <context/>
+                            <value><![CDATA[Event Name]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[host]]></name>
+                            <context/>
+                            <value><![CDATA[Host]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[id]]></name>
+                            <context/>
+                            <value><![CDATA[Id]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[instance]]></name>
+                            <context/>
+                            <value><![CDATA[Instance]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isAsync]]></name>
+                            <context/>
+                            <value><![CDATA[Is Async]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isComplete]]></name>
+                            <context/>
+                            <value><![CDATA[Is Complete]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isConnected]]></name>
+                            <context/>
+                            <value><![CDATA[Is Connected]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isIdentifier]]></name>
+                            <context/>
+                            <value><![CDATA[Is Identifier]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[isRestartEnabled]]></name>
+                            <context/>
+                            <value><![CDATA[Is Restart Enabled]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[key]]></name>
+                            <context/>
+                            <value><![CDATA[Key]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[lastConnection]]></name>
+                            <context/>
+                            <value><![CDATA[Last Connection]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[level]]></name>
+                            <context/>
+                            <value><![CDATA[Level]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[location]]></name>
+                            <context/>
+                            <value><![CDATA[Location]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[maxSize]]></name>
+                            <context/>
+                            <value><![CDATA[Max Size]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[message]]></name>
+                            <context/>
+                            <value><![CDATA[Message]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[numConnects]]></name>
+                            <context/>
+                            <value><![CDATA[Num Connects]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[origin]]></name>
+                            <context/>
+                            <value><![CDATA[Origin]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[port]]></name>
+                            <context/>
+                            <value><![CDATA[Port]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[priority]]></name>
+                            <context/>
+                            <value><![CDATA[Priority]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[property]]></name>
+                            <context/>
+                            <value><![CDATA[Property]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[proto]]></name>
+                            <context/>
+                            <value><![CDATA[Protocol]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[readTimeout]]></name>
+                            <context/>
+                            <value><![CDATA[Read Timeout]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[session]]></name>
+                            <context/>
+                            <value><![CDATA[Session]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[size]]></name>
+                            <context/>
+                            <value><![CDATA[size]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[sizeValue]]></name>
+                            <context/>
+                            <value><![CDATA[Size]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[sourceChecksum]]></name>
+                            <context/>
+                            <value><![CDATA[Source Checksum]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[sourceFile]]></name>
+                            <context/>
+                            <value><![CDATA[Source File]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[sourcePath]]></name>
+                            <context/>
+                            <value><![CDATA[Source Path]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[sourceRepository]]></name>
+                            <context/>
+                            <value><![CDATA[Source Repository]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[sourceType]]></name>
+                            <context/>
+                            <value><![CDATA[Source Type]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[sourceValue]]></name>
+                            <context/>
+                            <value><![CDATA[Source]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[startPosition]]></name>
+                            <context/>
+                            <value><![CDATA[Start Position]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[startTime]]></name>
+                            <context/>
+                            <value><![CDATA[Start Time]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[targetChecksum]]></name>
+                            <context/>
+                            <value><![CDATA[Target Checksum]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[targetFile]]></name>
+                            <context/>
+                            <value><![CDATA[Target File]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[targetPath]]></name>
+                            <context/>
+                            <value><![CDATA[Target Path]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[targetRepository]]></name>
+                            <context/>
+                            <value><![CDATA[Target Repository]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[targetThing]]></name>
+                            <context/>
+                            <value><![CDATA[Target Thing]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[thingTemplate]]></name>
+                            <context/>
+                            <value><![CDATA[Thing Template]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[thingShape]]></name>
+                            <context/>
+                            <value><![CDATA[Thing Shape]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[thread]]></name>
+                            <context/>
+                            <value><![CDATA[Thread]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[timestamp]]></name>
+                            <context/>
+                            <value><![CDATA[Timestamp]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[transferId]]></name>
+                            <context/>
+                            <value><![CDATA[Transfer Id]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tunnelId]]></name>
+                            <context/>
+                            <value><![CDATA[Tunnel Id]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[tunnelName]]></name>
+                            <context/>
+                            <value><![CDATA[Tunnel Name]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[type]]></name>
+                            <context/>
+                            <value><![CDATA[Type]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[unknown]]></name>
+                            <context/>
+                            <value><![CDATA[Unknown]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[value]]></name>
+                            <context/>
+                            <value><![CDATA[Value]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[buildNumber]]></name>
+                            <context/>
+                            <value><![CDATA[Build Number]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[count]]></name>
+                            <context/>
+                            <value><![CDATA[Count]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[dateGenerated]]></name>
+                            <context/>
+                            <value><![CDATA[Date Generated]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[disabledEntities]]></name>
+                            <context/>
+                            <value><![CDATA[Disabled Entities]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[disabledThings]]></name>
+                            <context/>
+                            <value><![CDATA[Disabled Things]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[enabledEntities]]></name>
+                            <context/>
+                            <value><![CDATA[Enabled Entities]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[enabledThings]]></name>
+                            <context/>
+                            <value><![CDATA[Enabled Things]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[entityName]]></name>
+                            <context/>
+                            <value><![CDATA[Entity Name]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[entryId]]></name>
+                            <context/>
+                            <value><![CDATA[Entry Id]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[includeSystemUsers]]></name>
+                            <context/>
+                            <value><![CDATA[Include System Users]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[localHardwareAddress]]></name>
+                            <context/>
+                            <value><![CDATA[Local Hardware Address]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[localHostName]]></name>
+                            <context/>
+                            <value><![CDATA[Local Host Name]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[minTwxVersion]]></name>
+                            <context/>
+                            <value><![CDATA[Minimum Rqd. ThingWorx Version]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[packageVersion]]></name>
+                            <context/>
+                            <value><![CDATA[Package Version]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[parentId]]></name>
+                            <context/>
+                            <value><![CDATA[Parent Id]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[parentName]]></name>
+                            <context/>
+                            <value><![CDATA[Parent Name]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[parentType]]></name>
+                            <context/>
+                            <value><![CDATA[Parent Type]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[ratingAverage]]></name>
+                            <context/>
+                            <value><![CDATA[Rating Average]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[ratingCount]]></name>
+                            <context/>
+                            <value><![CDATA[Rating Count]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[systemTemplatesOnly]]></name>
+                            <context/>
+                            <value><![CDATA[System Templates Only]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[title]]></name>
+                            <context/>
+                            <value><![CDATA[Title]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[totalEntities]]></name>
+                            <context/>
+                            <value><![CDATA[Total Entities]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[totalThings]]></name>
+                            <context/>
+                            <value><![CDATA[Total Things]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[twxVersion]]></name>
+                            <context/>
+                            <value><![CDATA[ThingWorx Version]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[userEntities]]></name>
+                            <context/>
+                            <value><![CDATA[User Entities]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[userName]]></name>
+                            <context/>
+                            <value><![CDATA[User Name]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[vendor]]></name>
+                            <context/>
+                            <value><![CDATA[Vendor]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[format]]></name>
+                            <context/>
+                            <value><![CDATA[Format]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[image]]></name>
+                            <context/>
+                            <value><![CDATA[Image]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[file]]></name>
+                            <context/>
+                            <value><![CDATA[File]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[link]]></name>
+                            <context/>
+                            <value><![CDATA[Link]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[bold]]></name>
+                            <context/>
+                            <value><![CDATA[Bold]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[italic]]></name>
+                            <context/>
+                            <value><![CDATA[Italic]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[deleted]]></name>
+                            <context/>
+                            <value><![CDATA[Strikethrough]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[underline]]></name>
+                            <context/>
+                            <value><![CDATA[Underline]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[bold_abbr]]></name>
+                            <context/>
+                            <value><![CDATA[B]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[italic_abbr]]></name>
+                            <context/>
+                            <value><![CDATA[I]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[deleted_abbr]]></name>
+                            <context/>
+                            <value><![CDATA[S]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[underline_abbr]]></name>
+                            <context/>
+                            <value><![CDATA[U]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[lists]]></name>
+                            <context/>
+                            <value><![CDATA[Lists]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[link_insert]]></name>
+                            <context/>
+                            <value><![CDATA[Insert link]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[link_edit]]></name>
+                            <context/>
+                            <value><![CDATA[Edit link]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[link_in_new_tab]]></name>
+                            <context/>
+                            <value><![CDATA[Open link in new tab]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[unlink]]></name>
+                            <context/>
+                            <value><![CDATA[Unlink]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[cancel]]></name>
+                            <context/>
+                            <value><![CDATA[Cancel]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[close]]></name>
+                            <context/>
+                            <value><![CDATA[Close]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[insert]]></name>
+                            <context/>
+                            <value><![CDATA[Insert]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[save]]></name>
+                            <context/>
+                            <value><![CDATA[Save]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[delete]]></name>
+                            <context/>
+                            <value><![CDATA[Delete]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[text]]></name>
+                            <context/>
+                            <value><![CDATA[Text]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[edit]]></name>
+                            <context/>
+                            <value><![CDATA[Edit]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[title]]></name>
+                            <context/>
+                            <value><![CDATA[Title]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[paragraph]]></name>
+                            <context/>
+                            <value><![CDATA[Normal text]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[quote]]></name>
+                            <context/>
+                            <value><![CDATA[Quote]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[code]]></name>
+                            <context/>
+                            <value><![CDATA[Code]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[heading1]]></name>
+                            <context/>
+                            <value><![CDATA[Header 1]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[heading2]]></name>
+                            <context/>
+                            <value><![CDATA[Header 2]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[heading3]]></name>
+                            <context/>
+                            <value><![CDATA[Header 3]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[heading4]]></name>
+                            <context/>
+                            <value><![CDATA[Header 4]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[heading5]]></name>
+                            <context/>
+                            <value><![CDATA[Header 5]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[heading6]]></name>
+                            <context/>
+                            <value><![CDATA[Header 6]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[filename]]></name>
+                            <context/>
+                            <value><![CDATA[Name]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[optional]]></name>
+                            <context/>
+                            <value><![CDATA[optional]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[unorderedlist]]></name>
+                            <context/>
+                            <value><![CDATA[Unordered List]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[orderedlist]]></name>
+                            <context/>
+                            <value><![CDATA[Ordered List]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[outdent]]></name>
+                            <context/>
+                            <value><![CDATA[Outdent]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[indent]]></name>
+                            <context/>
+                            <value><![CDATA[Indent]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[horizontalrule]]></name>
+                            <context/>
+                            <value><![CDATA[Line]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[upload_label]]></name>
+                            <context/>
+                            <value><![CDATA[Drop file here or ]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[accessibility_help_label]]></name>
+                            <context/>
+                            <value><![CDATA[Rich text editor]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[caption]]></name>
+                            <context/>
+                            <value><![CDATA[Caption]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[bulletslist]]></name>
+                            <context/>
+                            <value><![CDATA[Bullets]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[numberslist]]></name>
+                            <context/>
+                            <value><![CDATA[Numbers]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[align]]></name>
+                            <context/>
+                            <value><![CDATA[Align]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[align_left]]></name>
+                            <context/>
+                            <value><![CDATA[Align Left]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[align_center]]></name>
+                            <context/>
+                            <value><![CDATA[Align Center]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[align_right]]></name>
+                            <context/>
+                            <value><![CDATA[Align Right]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[align_justify]]></name>
+                            <context/>
+                            <value><![CDATA[Align Justify]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[backcolor]]></name>
+                            <context/>
+                            <value><![CDATA[Background Color]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[fontcolor]]></name>
+                            <context/>
+                            <value><![CDATA[Font Color]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[colors]]></name>
+                            <context/>
+                            <value><![CDATA[Colors]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[insert_image]]></name>
+                            <context/>
+                            <value><![CDATA[Insert Image]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[image_web_link]]></name>
+                            <context/>
+                            <value><![CDATA[Image Web Link]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[insert_file]]></name>
+                            <context/>
+                            <value><![CDATA[Insert File]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[showHideLog]]></name>
+                            <context/>
+                            <value><![CDATA[Show/Hide Log]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[showHideDebugInfo]]></name>
+                            <context/>
+                            <value><![CDATA[Show/Hide Debug Info]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[reload]]></name>
+                            <context/>
+                            <value><![CDATA[Reload]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[showTokens]]></name>
+                            <context/>
+                            <value><![CDATA[Show [[Tokens]]]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[refreshLanguages]]></name>
+                            <context/>
+                            <value><![CDATA[Refresh Languages]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[fullscreen]]></name>
+                            <context/>
+                            <value><![CDATA[FullScreen]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[iPadLandscape]]></name>
+                            <context/>
+                            <value><![CDATA[iPad Landscape]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[iPadPortrait]]></name>
+                            <context/>
+                            <value><![CDATA[iPad Portrait]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[logs]]></name>
+                            <context/>
+                            <value><![CDATA[Logs]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[status]]></name>
+                            <context/>
+                            <value><![CDATA[Status]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[extensions]]></name>
+                            <context/>
+                            <value><![CDATA[Extensions]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[connectionServers]]></name>
+                            <context/>
+                            <value><![CDATA[Connection Servers]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[remoteThings]]></name>
+                            <context/>
+                            <value><![CDATA[Remote Things]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[system]]></name>
+                            <context/>
+                            <value><![CDATA[System]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[usersLoggedIn]]></name>
+                            <context/>
+                            <value><![CDATA[Users Logged In]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[addGadgetToDashboard]]></name>
+                            <context/>
+                            <value><![CDATA[Add Gadget(s) to Dashboard]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[monitoring]]></name>
+                            <context/>
+                            <value><![CDATA[Monitoring]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogOperators]]></name>
+                            <context/>
+                            <value><![CDATA[Operators]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogAndDetails]]></name>
+                            <context/>
+                            <value><![CDATA[Inclusive of both terms]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogOrDetails]]></name>
+                            <context/>
+                            <value><![CDATA[Will return results with either term]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogPlusDetails]]></name>
+                            <context/>
+                            <value><![CDATA[Requires that the term after the "+" symbol exists in result]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogMinusDetails]]></name>
+                            <context/>
+                            <value><![CDATA[The "-" or prohibit operator excludes documents that contain the term after the "-" symbol.]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogNotDetails]]></name>
+                            <context/>
+                            <value><![CDATA[The NOT operator excludes documents that contain the term after NOT]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogOperatorsDetail1]]></name>
+                            <context/>
+                            <value><![CDATA[Modifiers: ? for a single letter replacement, * as a multiple character wildcard]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[blogOperatorsDetail2]]></name>
+                            <context/>
+                            <value><![CDATA[Use \\ to escape special characters]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[connectorThings]]></name>
+                            <context/>
+                            <value><![CDATA[Connector Things]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[notificationHandlers.email]]></name>
+                            <context/>
+                            <value><![CDATA[Email]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[notificationHandlers.SMS]]></name>
+                            <context/>
+                            <value><![CDATA[SMS]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[fileSizeError]]></name>
+                            <context/>
+                            <value><![CDATA[is larger than the maximum allowed,]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[fileTypeError]]></name>
+                            <context/>
+                            <value><![CDATA[is not of the allowed types,]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[availableForRequests]]></name>
+                            <context/>
+                            <value><![CDATA[Available For Requests]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[splitGrid]]></name>
+                            <context/>
+                            <value><![CDATA[Split]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[unSplitGrid]]></name>
+                            <context/>
+                            <value><![CDATA[Unsplit]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[reset]]></name>
+                            <context/>
+                            <value><![CDATA[Reset]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[results]]></name>
+                            <context/>
+                            <value><![CDATA[Results]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[records]]></name>
+                            <context/>
+                            <value><![CDATA[Rows]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[page]]></name>
+                            <context/>
+                            <value><![CDATA[Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[perpage]]></name>
+                            <context/>
+                            <value><![CDATA[rows per page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[toFirstPage]]></name>
+                            <context/>
+                            <value><![CDATA[To first Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[prevPage]]></name>
+                            <context/>
+                            <value><![CDATA[Previous Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[foundRecords]]></name>
+                            <context/>
+                            <value><![CDATA[Found records]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[nextPage]]></name>
+                            <context/>
+                            <value><![CDATA[Next Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[toLastPage]]></name>
+                            <context/>
+                            <value><![CDATA[To last Page]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[spacedOf]]></name>
+                            <context/>
+                            <value><![CDATA[ of ]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[notFound]]></name>
+                            <context/>
+                            <value><![CDATA[No Records Found]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[maxRowsWarning1]]></name>
+                            <context/>
+                            <value><![CDATA[The maximum grid cache size of ]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[maxRowsWarning2]]></name>
+                            <context/>
+                            <value><![CDATA[ rows has been reached. ]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[maxRowsWarning3]]></name>
+                            <context/>
+                            <value><![CDATA[Please refresh your browser or close some nodes to free up memory. ]]></value>
+                        </Row>
+                        <Row>
+                            <usage/>
+                            <name><![CDATA[freeMemoryWarning]]></name>
+                            <context/>
+                            <value><![CDATA[Please wait while we clear the row cache to free up memory, this may take a minute...]]></value>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.121+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </LocalizationTable>
+    </LocalizationTables>
+</Entities>

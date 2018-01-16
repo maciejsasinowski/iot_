@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Users>
+        <User aspect.isSystemObject="true" description="SuperUser" documentationContent="" enabled="true" homeMashup="" lastModifiedDate="2017-09-30T23:45:32.744+02:00" locked="false" lockedTime="1970-01-01T01:00:00.000+01:00" mobileMashup="" name="SuperUser" passwordHash="" passwordHashAlgorithm="" passwordHashIterationCount="0" passwordHashSaltSizeInBytes="0" passwordHashSizeInBytes="0" projectName="" scimExternalId="" scimId="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Settings" isMultiRow="false" name="Settings" ordinal="2">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPrimaryKey="true" baseType="STRING" description="Primary language" name="language" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <language><![CDATA[en]]></language>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="UserExtensions" isMultiRow="true" name="UserExtensions" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition baseType="DATETIME" description="Last update time" name="lastUpdateTime" ordinal="3"/>
+                            <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Name" name="name" ordinal="1"/>
+                            <FieldDefinition baseType="STRING" description="Value" name="value" ordinal="2"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <name><![CDATA[altEmailAddresses]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[lastName]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[zipCode]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[smsAddress]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[city]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[homePhone]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[fullName]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[title]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[firstName]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[emailAddress]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[mobilePhone]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[mailingAddress]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[middleName]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[workPhone]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                        <Row>
+                            <name><![CDATA[state]]></name>
+                            <value/>
+                            <lastUpdateTime>1970-01-01T01:00:00.000+01:00</lastUpdateTime>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PersistentValues/>
+            <ConfigurationChanges/>
+        </User>
+    </Users>
+</Entities>

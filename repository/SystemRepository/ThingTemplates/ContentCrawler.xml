@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ThingTemplates>
+        <ThingTemplate aspect.isSystemObject="true" baseThingTemplate="GenericThing" description="External content crawler" documentationContent="" effectiveThingPackage="ContentCrawlerThing" homeMashup="ContentCrawlerMashup" lastModifiedDate="2017-09-30T23:45:37.044+02:00" name="ContentCrawler" projectName="" tags="" thingPackage="ContentCrawlerThing" valueStream="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar><![CDATA[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
+8u+Q/wYi6tU4EmadqQAAAABJRU5ErkJggg==]]></avatar>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="Data Thing Configuration" isMultiRow="false" name="DataThingSettings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition baseType="STRING" description="Persistence Provider Name" name="persistenceProvider" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <persistenceProvider/>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Field to Field Mappings" isMultiRow="true" name="FieldMappings" ordinal="2">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Destination Field Name" baseType="STRING" description="Destination field name" name="destinationFieldName" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="Source Field Name" baseType="STRING" description="Source field name" name="sourceFieldName" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+                <ConfigurationTable description="Index Settings" isMultiRow="true" name="Indexes" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Index Field Names" baseType="STRING" description="Index fields" name="fieldNames" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="Index Name" baseType="STRING" description="Index name" name="name" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+                <ConfigurationTable description="Configurable options to tune Data Table performance" isMultiRow="false" name="PersistenceProviderCustomSettings" ordinal="2">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Persistence Provider Custom Settings Table" baseType="INFOTABLE" description="Persistence Provider Custom Config Table" name="customConfigTable" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <customConfigTable>
+                                <infoTable>
+                                    <DataShape>
+                                        <FieldDefinitions/>
+                                    </DataShape>
+                                    <Rows/>
+                                </infoTable>
+                            </customConfigTable>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Data Shape Configuration" isMultiRow="false" name="Settings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Accumulated Data Shape" baseType="JSON" description="Accumulated Data shape" name="accumulatedDataShape" ordinal="1"/>
+                            <FieldDefinition aspect.friendlyName="Data Shape" baseType="DATASHAPENAME" description="Data shape" name="dataShape" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <accumulatedDataShape>
+                                <json><![CDATA[{}]]></json>
+                            </accumulatedDataShape>
+                            <dataShape/>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Source Data Settings" isMultiRow="false" name="SourceData" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Content Service Name" baseType="STRING" description="Service name to load external content" name="contentServiceName" ordinal="2"/>
+                            <FieldDefinition aspect.friendlyName="Source Thing Name" baseType="THINGNAME" description="Source thing" name="sourceThingName" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <contentServiceName/>
+                            <sourceThingName/>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Field to Tag Mappings" isMultiRow="true" name="TagMappings" ordinal="1">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.friendlyName="Source Field Name" baseType="STRING" description="Source field name" name="sourceFieldName" ordinal="0"/>
+                            <FieldDefinition aspect.friendlyName="Vocabulary Name" baseType="STRING" description="Vocabulary name" name="vocabularyName" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows/>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <ImplementedShapes/>
+            <SharedConfigurationTables/>
+            <InstanceDesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </InstanceDesignTimePermissions>
+            <InstanceRunTimePermissions/>
+            <InstanceVisibilityPermissions>
+                <Visibility/>
+            </InstanceVisibilityPermissions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.044+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </ThingTemplate>
+    </ThingTemplates>
+</Entities>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Mashups>
+        <Mashup aspect.isResponsive="true" aspect.isSystemObject="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:37.878+02:00" name="MonitoringIntegrationSubsystem" projectName="" rows="0.0" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ParameterDefinitions/>
+            <Things/>
+            <ThingShapes/>
+            <ThingTemplates>
+                <ThingTemplate>IntegrationRuntime</ThingTemplate>
+            </ThingTemplates>
+            <mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ ],
+      "Properties" : {
+        "RowSelectedStyle" : "DefaultRowSelectedStyle",
+        "IsEditable" : false,
+        "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+        "Left" : 0,
+        "ShowDataLoading" : true,
+        "GridHeaderStyle" : "DefaultGridHeaderStyle",
+        "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+        "FocusStyle" : "DefaultFocusStyle",
+        "TabSequence" : 0,
+        "RowFormat_StateParameters" : [ ],
+        "CellTextWrapping" : false,
+        "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+        "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+        "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+        "Visible" : true,
+        "DisplayName" : "dhxgrid-1",
+        "Height" : 200,
+        "Width" : 400,
+        "MultiSelect" : false,
+        "CurrentScrollTop" : 0,
+        "ResponsiveLayout" : true,
+        "ShowAllColumns" : false,
+        "Z-index" : 10,
+        "AlignHeader" : false,
+        "__TypeDisplayName" : "Grid",
+        "ScrollTop" : 0,
+        "RowHeight" : 30,
+        "ColumnFormat" : {
+          "formatInfo" : [ {
+            "ValidationMessage" : "",
+            "Align" : "center",
+            "AllowEdit" : false,
+            "Title" : "[[name]]",
+            "ValidationExpression" : "",
+            "FormatOptions" : {
+              "renderer" : "STRING",
+              "formatInfo" : {
+                "StateFormats" : [ {
+                  "stateName" : "fixed",
+                  "state" : ""
+                } ],
+                "StateDefinition" : "",
+                "StateDefinitionType" : "fixed",
+                "FieldName" : ""
+              },
+              "formatText" : "View",
+              "FormatString" : "full"
+            },
+            "FieldName" : "name",
+            "Width" : "auto"
+          }, {
+            "ValidationMessage" : "",
+            "Align" : "center",
+            "AllowEdit" : false,
+            "Title" : "[[availableForRequests]]",
+            "ValidationExpression" : "",
+            "FormatOptions" : {
+              "renderer" : "BOOLEAN",
+              "formatInfo" : {
+                "StateFormats" : [ {
+                  "stateName" : "fixed",
+                  "state" : ""
+                } ],
+                "StateDefinition" : "",
+                "StateDefinitionType" : "fixed",
+                "FieldName" : ""
+              },
+              "formatText" : "View",
+              "FormatString" : "checkbox"
+            },
+            "FieldName" : "AvailableForRequests",
+            "Width" : "auto"
+          }, {
+            "ValidationMessage" : "",
+            "Align" : "center",
+            "AllowEdit" : false,
+            "Title" : "[[lastConnection]]",
+            "ValidationExpression" : "",
+            "FormatOptions" : {
+              "renderer" : "DATETIME",
+              "formatInfo" : {
+                "StateFormats" : [ {
+                  "stateName" : "fixed",
+                  "state" : ""
+                } ],
+                "StateDefinition" : "",
+                "StateDefinitionType" : "fixed",
+                "FieldName" : ""
+              },
+              "formatText" : "View",
+              "FormatString" : "[[dateTimeFormat_Default]]"
+            },
+            "FieldName" : "lastConnection",
+            "Width" : "auto"
+          } ]
+        },
+        "Area" : "UI",
+        "Type" : "dhxgrid",
+        "Top" : 0,
+        "IsPrintLayout" : false,
+        "Id" : "dhxgrid-1",
+        "RowHoverStyle" : "DefaultRowHoverStyle",
+        "AutoSelectFirstRow" : false,
+        "GridHeaderTextCase" : "capitalize"
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "BGImageRepeat" : "no-repeat",
+      "ShowDataLoading" : true,
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "id_index" : 1,
+      "supportsAutoResize" : true,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : "DefaultMashupStyle",
+      "BGImageSize" : "auto",
+      "Height" : 618,
+      "Width" : 1024,
+      "TitleBar" : false,
+      "Rows" : 0,
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "ResponsiveLayout" : true,
+      "Title" : "",
+      "Columns" : 0,
+      "Z-index" : 10,
+      "TitleBarText" : "Gadget Title Here",
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "EnableParameterEditing" : false,
+      "Area" : "Mashup",
+      "Type" : "mashup",
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "MashupToEditGadget" : "DefaultMashupToEditGadget",
+      "Id" : "mashup-root",
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetImplementingThingsWithData",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "ThingTemplates_IntegrationRuntime",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "f15a6dcd-4537-4e9b-bf7e-e308ff9033fb",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "GetImplementingThingsWithData",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "ThingTemplates_IntegrationRuntime",
+    "EventTriggerEvent" : "RefreshRequested",
+    "Id" : "a5113df5-c82c-4451-b733-467aa87c1c7e",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  } ],
+  "mashupType" : "mashup",
+  "DataBindings" : [ {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "GetImplementingThingsWithData",
+    "Id" : "2634cd8e-7ce5-4037-80b7-1d5f46f610cb",
+    "SourceSection" : "ThingTemplates_IntegrationRuntime",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "dhxgrid-1"
+  } ],
+  "Data" : {
+    "ThingTemplates_IntegrationRuntime" : {
+      "EntityType" : "ThingTemplates",
+      "Services" : [ {
+        "Target" : "GetImplementingThingsWithData",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "37cacd1d-cefa-410f-b820-5f9bdddbafaa",
+        "Name" : "GetImplementingThingsWithData"
+      } ],
+      "EntityName" : "IntegrationRuntime",
+      "Id" : "60b0b92c-fb15-4cee-b89b-bfae4bd01b7d",
+      "DataName" : "ThingTemplates_IntegrationRuntime"
+    },
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:37.878+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </Mashup>
+    </Mashups>
+</Entities>

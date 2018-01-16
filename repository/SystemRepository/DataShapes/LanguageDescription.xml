@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <DataShapes>
+        <DataShape aspect.isSystemObject="true" baseDataShape="" description="Localization table properties" documentationContent="" homeMashup="" lastModifiedDate="2017-09-30T23:45:34.481+02:00" name="LanguageDescription" projectName="" tags="">
+            <Owner name="SuperUser" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <FieldDefinitions>
+                <FieldDefinition baseType="IMAGELINK" description="Icon for language" name="avatar" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Description" name="description" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Name of language in site language" name="languageCommon" ordinal="0"/>
+                <FieldDefinition baseType="STRING" description="Name of language in that language" name="languageNative" ordinal="0"/>
+                <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Localization table name" name="name" ordinal="0"/>
+            </FieldDefinitions>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-09-30T23:45:34.481+02:00" user="SuperUser"/>
+            </ConfigurationChanges>
+        </DataShape>
+    </DataShapes>
+</Entities>
