@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="b11" majorVersion="8" minorVersion="0" modelPersistenceProviderPackage="H2PersistenceProviderPackage" revision="0" schemaVersion="1000"><Mashups><Mashup aspect.isResponsive="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2018-01-23T00:49:05.534+01:00" name="Manager Flowers" projectName="Smart Flowers" rows="0.0" tags="smart:smart;flowers:flowers;flower:flower;smartflowers:smartflowers"><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><ParameterDefinitions/><Things><Thing>FlowerDataStream</Thing></Things><ThingShapes/><ThingTemplates/><mashupContent><![CDATA[{
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Widgets" : [ {
+      "Widgets" : [ {
+        "Widgets" : [ {
+          "Widgets" : [ ],
+          "Properties" : {
+            "SubMenuHeight" : 25,
+            "MenuBackgroundStyle" : "DefaultMenuBackgroundStyle",
+            "Left" : 35,
+            "AllButTopRememberLastChoice" : true,
+            "MenuSelectedStyle" : "DefaultMenuSelectedStyle",
+            "ShowDataLoading" : true,
+            "MenuItemDisplay" : "iconleftoftext",
+            "Alignment" : "left",
+            "Visible" : true,
+            "DisplayName" : "menu-4",
+            "Height" : 30,
+            "EvenlySpacedMenuItems" : false,
+            "Width" : 250,
+            "DrivePageMashupOrBindToMashup" : "pagemashup",
+            "MenuLevelSelectedStyle" : "DefaultMenuLevelSelectedStyle",
+            "ResponsiveLayout" : true,
+            "Z-index" : 10,
+            "IconMaxWidth" : 22,
+            "View" : "horiz",
+            "MenuLevelStyle" : "DefaultMenuLevelStyle",
+            "MenuLevelHoverStyle" : "DefaultMenuLevelHoverStyle",
+            "__TypeDisplayName" : "Menu",
+            "Area" : "UI",
+            "Type" : "menu",
+            "MenuHoverStyle" : "DefaultMenuHoverStyle",
+            "ConfiguredOrDataDriven" : "configured",
+            "Top" : 100,
+            "SubmenuWidthMatchParent" : false,
+            "Levels" : "all",
+            "MenuStyle" : "DefaultMenuStyle",
+            "Id" : "menu-4"
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Visible" : true,
+          "DisplayName" : "Left Sidebar",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "TabOffset" : 0,
+          "MinWidth" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-2"
+        }
+      }, {
+        "Widgets" : [ {
+          "Widgets" : [ ],
+          "Properties" : {
+            "RowSelectedStyle" : "DefaultRowSelectedStyle",
+            "IsEditable" : false,
+            "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+            "Left" : 210,
+            "ShowDataLoading" : true,
+            "GridHeaderStyle" : "DefaultGridHeaderStyle",
+            "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+            "FocusStyle" : "DefaultFocusStyle",
+            "TabSequence" : 0,
+            "RowFormat_StateParameters" : [ ],
+            "CellTextWrapping" : false,
+            "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+            "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+            "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+            "Visible" : true,
+            "DisplayName" : "dhxgrid-9",
+            "Height" : 200,
+            "Width" : 400,
+            "MultiSelect" : false,
+            "CurrentScrollTop" : 0,
+            "ResponsiveLayout" : true,
+            "ShowAllColumns" : false,
+            "Z-index" : 10,
+            "AlignHeader" : false,
+            "__TypeDisplayName" : "Grid",
+            "ScrollTop" : 0,
+            "RowHeight" : 30,
+            "ColumnFormat" : {
+              "formatInfo" : [ {
+                "ValidationMessage" : "",
+                "Align" : "left",
+                "AllowEdit" : true,
+                "Title" : "Name",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "STRING",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "full"
+                },
+                "FieldName" : "Name",
+                "Width" : "auto"
+              }, {
+                "ValidationMessage" : "",
+                "Align" : "right",
+                "AllowEdit" : true,
+                "Title" : "soilMoisture",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "NUMBER",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "0.00"
+                },
+                "FieldName" : "soilMoisture",
+                "Width" : "auto"
+              }, {
+                "ValidationMessage" : "",
+                "Align" : "right",
+                "AllowEdit" : true,
+                "Title" : "Light",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "NUMBER",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "0.00"
+                },
+                "FieldName" : "Light",
+                "Width" : "auto"
+              }, {
+                "ValidationMessage" : "",
+                "Align" : "left",
+                "AllowEdit" : true,
+                "Title" : "Temperature",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "DEFAULT",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : ""
+                },
+                "FieldName" : "Temperature",
+                "Width" : "auto"
+              }, {
+                "ValidationMessage" : "",
+                "Align" : "left",
+                "AllowEdit" : false,
+                "Title" : "last_water",
+                "ValidationExpression" : "",
+                "FormatOptions" : {
+                  "renderer" : "DATETIME",
+                  "formatInfo" : {
+                    "StateFormats" : [ {
+                      "stateName" : "fixed",
+                      "state" : ""
+                    } ],
+                    "StateDefinition" : "",
+                    "StateDefinitionType" : "fixed",
+                    "FieldName" : ""
+                  },
+                  "formatText" : "View",
+                  "FormatString" : "[[dateTimeFormat_Default]]"
+                },
+                "FieldName" : "last_water",
+                "Width" : "auto"
+              } ]
+            },
+            "Area" : "UI",
+            "Type" : "dhxgrid",
+            "Top" : 115,
+            "IsPrintLayout" : false,
+            "Id" : "dhxgrid-9",
+            "RowHoverStyle" : "DefaultRowHoverStyle",
+            "AutoSelectFirstRow" : false,
+            "GridHeaderTextCase" : "capitalize"
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Visible" : true,
+          "DisplayName" : "Column",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "TabOffset" : 0,
+          "MinWidth" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-8"
+        }
+      }, {
+        "Widgets" : [ {
+          "Widgets" : [ {
+            "Widgets" : [ ],
+            "Properties" : {
+              "RowSelectedStyle" : "DefaultRowSelectedStyle",
+              "IsEditable" : true,
+              "GridInvalidFieldStyle" : "DefaultGridInvalidFieldStyle",
+              "Left" : 0,
+              "ShowDataLoading" : true,
+              "GridHeaderStyle" : "DefaultGridHeaderStyle",
+              "RowAlternateBackgroundStyle" : "DefaultRowAlternateBackgroundStyle",
+              "FocusStyle" : "DefaultFocusStyle",
+              "TabSequence" : 0,
+              "RowFormat_StateParameters" : [ ],
+              "CellTextWrapping" : false,
+              "GridBackgroundStyle" : "DefaultGridBackgroundStyle",
+              "RowBackgroundStyle" : "DefaultRowBackgroundStyle",
+              "GridEditableFieldStyle" : "DefaultGridEditableFieldStyle",
+              "Visible" : true,
+              "DisplayName" : "dhxgrid-16",
+              "Height" : 75,
+              "Width" : 400,
+              "MultiSelect" : false,
+              "CurrentScrollTop" : 0,
+              "ResponsiveLayout" : false,
+              "ShowAllColumns" : false,
+              "Z-index" : 10,
+              "AlignHeader" : false,
+              "__TypeDisplayName" : "Grid",
+              "ScrollTop" : 0,
+              "RowHeight" : 30,
+              "ColumnFormat" : {
+                "formatInfo" : [ {
+                  "ValidationMessage" : "",
+                  "Align" : "left",
+                  "AllowEdit" : true,
+                  "Title" : "Name",
+                  "ValidationExpression" : "",
+                  "FormatOptions" : {
+                    "renderer" : "STRING",
+                    "formatInfo" : {
+                      "StateFormats" : [ {
+                        "stateName" : "fixed",
+                        "state" : ""
+                      } ],
+                      "StateDefinition" : "",
+                      "StateDefinitionType" : "fixed",
+                      "FieldName" : ""
+                    },
+                    "formatText" : "View",
+                    "FormatString" : "full"
+                  },
+                  "FieldName" : "Name",
+                  "Width" : "auto"
+                }, {
+                  "ValidationMessage" : "",
+                  "Align" : "right",
+                  "AllowEdit" : true,
+                  "Title" : "soilMoisture",
+                  "ValidationExpression" : "",
+                  "FormatOptions" : {
+                    "renderer" : "NUMBER",
+                    "formatInfo" : {
+                      "StateFormats" : [ {
+                        "stateName" : "fixed",
+                        "state" : ""
+                      } ],
+                      "StateDefinition" : "",
+                      "StateDefinitionType" : "fixed",
+                      "FieldName" : ""
+                    },
+                    "formatText" : "View",
+                    "FormatString" : "0.00"
+                  },
+                  "FieldName" : "soilMoisture",
+                  "Width" : "auto"
+                }, {
+                  "ValidationMessage" : "",
+                  "Align" : "right",
+                  "AllowEdit" : true,
+                  "Title" : "Light",
+                  "ValidationExpression" : "",
+                  "FormatOptions" : {
+                    "renderer" : "NUMBER",
+                    "formatInfo" : {
+                      "StateFormats" : [ {
+                        "stateName" : "fixed",
+                        "state" : ""
+                      } ],
+                      "StateDefinition" : "",
+                      "StateDefinitionType" : "fixed",
+                      "FieldName" : ""
+                    },
+                    "formatText" : "View",
+                    "FormatString" : "0.00"
+                  },
+                  "FieldName" : "Light",
+                  "Width" : "auto"
+                }, {
+                  "ValidationMessage" : "",
+                  "Align" : "left",
+                  "AllowEdit" : true,
+                  "Title" : "Temperature",
+                  "ValidationExpression" : "",
+                  "FormatOptions" : {
+                    "renderer" : "DEFAULT",
+                    "formatInfo" : {
+                      "StateFormats" : [ {
+                        "stateName" : "fixed",
+                        "state" : ""
+                      } ],
+                      "StateDefinition" : "",
+                      "StateDefinitionType" : "fixed",
+                      "FieldName" : ""
+                    },
+                    "formatText" : "View",
+                    "FormatString" : ""
+                  },
+                  "FieldName" : "Temperature",
+                  "Width" : "auto"
+                }, {
+                  "ValidationMessage" : "",
+                  "Align" : "left",
+                  "AllowEdit" : false,
+                  "Title" : "last_water",
+                  "ValidationExpression" : "",
+                  "FormatOptions" : {
+                    "renderer" : "DATETIME",
+                    "formatInfo" : {
+                      "StateFormats" : [ {
+                        "stateName" : "fixed",
+                        "state" : ""
+                      } ],
+                      "StateDefinition" : "",
+                      "StateDefinitionType" : "fixed",
+                      "FieldName" : ""
+                    },
+                    "formatText" : "View",
+                    "FormatString" : "[[dateTimeFormat_Default]]"
+                  },
+                  "FieldName" : "last_water",
+                  "Width" : "auto"
+                } ]
+              },
+              "Area" : "UI",
+              "Type" : "dhxgrid",
+              "Top" : 0,
+              "IsPrintLayout" : false,
+              "Id" : "dhxgrid-16",
+              "RowHoverStyle" : "DefaultRowHoverStyle",
+              "AutoSelectFirstRow" : false,
+              "GridHeaderTextCase" : "capitalize"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 320,
+              "CancelConfirmationButton" : "button2",
+              "ShowDataLoading" : true,
+              "Label" : "Dodaj",
+              "FocusStyle" : "DefaultButtonFocusStyle",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "IconAlignment" : "left",
+              "Visible" : true,
+              "DisplayName" : "button-17",
+              "Style" : "DefaultButtonStyle",
+              "Height" : 30,
+              "DisabledStyle" : "DefaultButtonDisabledStyle",
+              "ConfirmationTitle" : "Confirm Action",
+              "Disabled" : false,
+              "Width" : 75,
+              "ResponsiveLayout" : false,
+              "ConfirmationPrompt" : "Do Action?",
+              "Z-index" : 10,
+              "ConfirmationButton1Label" : "Yes",
+              "RoundedCorners" : true,
+              "__TypeDisplayName" : "Button",
+              "HoverStyle" : "DefaultButtonHoverStyle",
+              "Area" : "UI",
+              "Type" : "button",
+              "Top" : 205,
+              "DefaultConfirmationButton" : "button1",
+              "ContextId" : "",
+              "ConfirmationRequired" : false,
+              "Id" : "button-17",
+              "ConfirmationButton2Label" : "No",
+              "ActiveStyle" : "DefaultButtonActiveStyle"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 5,
+              "CancelConfirmationButton" : "button2",
+              "ShowDataLoading" : true,
+              "Label" : "Edytuj",
+              "FocusStyle" : "DefaultButtonFocusStyle",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "IconAlignment" : "left",
+              "Visible" : true,
+              "DisplayName" : "button-18",
+              "Style" : "DefaultButtonStyle",
+              "Height" : 30,
+              "DisabledStyle" : "DefaultButtonDisabledStyle",
+              "ConfirmationTitle" : "Confirm Action",
+              "Disabled" : false,
+              "Width" : 75,
+              "ResponsiveLayout" : false,
+              "ConfirmationPrompt" : "Do Action?",
+              "Z-index" : 10,
+              "ConfirmationButton1Label" : "Yes",
+              "RoundedCorners" : true,
+              "__TypeDisplayName" : "Button",
+              "HoverStyle" : "DefaultButtonHoverStyle",
+              "Area" : "UI",
+              "Type" : "button",
+              "Top" : 80,
+              "DefaultConfirmationButton" : "button1",
+              "ContextId" : "",
+              "ConfirmationRequired" : false,
+              "Id" : "button-18",
+              "ConfirmationButton2Label" : "No",
+              "ActiveStyle" : "DefaultButtonActiveStyle"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 5,
+              "CancelConfirmationButton" : "button2",
+              "ShowDataLoading" : true,
+              "Label" : "Usu?",
+              "FocusStyle" : "DefaultButtonFocusStyle",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "IconAlignment" : "left",
+              "Visible" : true,
+              "DisplayName" : "button-19",
+              "Style" : "DefaultButtonStyle",
+              "Height" : 30,
+              "DisabledStyle" : "DefaultButtonDisabledStyle",
+              "ConfirmationTitle" : "Confirm Action",
+              "Disabled" : false,
+              "Width" : 75,
+              "ResponsiveLayout" : false,
+              "ConfirmationPrompt" : "Do Action?",
+              "Z-index" : 10,
+              "ConfirmationButton1Label" : "Yes",
+              "RoundedCorners" : true,
+              "__TypeDisplayName" : "Button",
+              "HoverStyle" : "DefaultButtonHoverStyle",
+              "Area" : "UI",
+              "Type" : "button",
+              "Top" : 115,
+              "DefaultConfirmationButton" : "button1",
+              "ContextId" : "",
+              "ConfirmationRequired" : false,
+              "Id" : "button-19",
+              "ConfirmationButton2Label" : "No",
+              "ActiveStyle" : "DefaultButtonActiveStyle"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 195,
+              "TextboxLabelStyle" : "DefaultWidgetLabelStyle",
+              "ShowDataLoading" : true,
+              "Label" : "",
+              "PlaceholderText" : "",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "TextAlign" : "left",
+              "Visible" : true,
+              "DisplayName" : "textbox-20",
+              "Style" : "DefaultTextBoxStyle",
+              "Height" : 24,
+              "Width" : 200,
+              "ReadOnly" : false,
+              "__supportsLabel" : true,
+              "InnerShadow" : true,
+              "ResponsiveLayout" : false,
+              "LabelAlignment" : "left",
+              "Z-index" : 10,
+              "Text" : "",
+              "__TypeDisplayName" : "TextBox",
+              "Area" : "UI",
+              "Type" : "textbox",
+              "DefaultTextboxFocusStyle" : "DefaultFocusStyle",
+              "MaskInputCharacters" : false,
+              "Top" : 80,
+              "CursorPosition" : 0,
+              "Id" : "textbox-20"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 195,
+              "TextboxLabelStyle" : "DefaultWidgetLabelStyle",
+              "ShowDataLoading" : true,
+              "Label" : "",
+              "PlaceholderText" : "",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "TextAlign" : "left",
+              "Visible" : true,
+              "DisplayName" : "textbox-21",
+              "Style" : "DefaultTextBoxStyle",
+              "Height" : 24,
+              "Width" : 200,
+              "ReadOnly" : false,
+              "__supportsLabel" : true,
+              "InnerShadow" : true,
+              "ResponsiveLayout" : false,
+              "LabelAlignment" : "left",
+              "Z-index" : 10,
+              "Text" : "",
+              "__TypeDisplayName" : "TextBox",
+              "Area" : "UI",
+              "Type" : "textbox",
+              "DefaultTextboxFocusStyle" : "DefaultFocusStyle",
+              "MaskInputCharacters" : false,
+              "Top" : 110,
+              "CursorPosition" : 0,
+              "Id" : "textbox-21"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 195,
+              "TextboxLabelStyle" : "DefaultWidgetLabelStyle",
+              "ShowDataLoading" : true,
+              "Label" : "",
+              "PlaceholderText" : "",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "TextAlign" : "left",
+              "Visible" : true,
+              "DisplayName" : "textbox-22",
+              "Style" : "DefaultTextBoxStyle",
+              "Height" : 24,
+              "Width" : 200,
+              "ReadOnly" : false,
+              "__supportsLabel" : true,
+              "InnerShadow" : true,
+              "ResponsiveLayout" : false,
+              "LabelAlignment" : "left",
+              "Z-index" : 10,
+              "Text" : "",
+              "__TypeDisplayName" : "TextBox",
+              "Area" : "UI",
+              "Type" : "textbox",
+              "DefaultTextboxFocusStyle" : "DefaultFocusStyle",
+              "MaskInputCharacters" : false,
+              "Top" : 140,
+              "CursorPosition" : 0,
+              "Id" : "textbox-22"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 195,
+              "TextboxLabelStyle" : "DefaultWidgetLabelStyle",
+              "ShowDataLoading" : true,
+              "Label" : "",
+              "PlaceholderText" : "",
+              "TabSequence" : 0,
+              "ToolTipField" : "",
+              "TextAlign" : "left",
+              "Visible" : true,
+              "DisplayName" : "textbox-23",
+              "Style" : "DefaultTextBoxStyle",
+              "Height" : 24,
+              "Width" : 200,
+              "ReadOnly" : false,
+              "__supportsLabel" : true,
+              "InnerShadow" : true,
+              "ResponsiveLayout" : false,
+              "LabelAlignment" : "left",
+              "Z-index" : 10,
+              "Text" : "",
+              "__TypeDisplayName" : "TextBox",
+              "Area" : "UI",
+              "Type" : "textbox",
+              "DefaultTextboxFocusStyle" : "DefaultFocusStyle",
+              "MaskInputCharacters" : false,
+              "Top" : 170,
+              "CursorPosition" : 0,
+              "Id" : "textbox-23"
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 105,
+              "ShowDataLoading" : true,
+              "ResponsiveLayout" : false,
+              "Z-index" : 10,
+              "Text" : "Name",
+              "__TypeDisplayName" : "Label",
+              "ToolTipField" : "",
+              "Area" : "UI",
+              "Type" : "label",
+              "Alignment" : "left",
+              "Top" : 80,
+              "Visible" : true,
+              "DisplayName" : "",
+              "Style" : "DefaultLabelStyle",
+              "Height" : 22,
+              "Id" : "label-24",
+              "Width" : 75
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 105,
+              "ShowDataLoading" : true,
+              "ResponsiveLayout" : false,
+              "Z-index" : 10,
+              "Text" : "Soil Moisture",
+              "__TypeDisplayName" : "Label",
+              "ToolTipField" : "",
+              "Area" : "UI",
+              "Type" : "label",
+              "Alignment" : "left",
+              "Top" : 110,
+              "Visible" : true,
+              "DisplayName" : "label-25",
+              "Style" : "DefaultLabelStyle",
+              "Height" : 22,
+              "Id" : "label-25",
+              "Width" : 75
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 105,
+              "ShowDataLoading" : true,
+              "ResponsiveLayout" : false,
+              "Z-index" : 10,
+              "Text" : "Light",
+              "__TypeDisplayName" : "Label",
+              "ToolTipField" : "",
+              "Area" : "UI",
+              "Type" : "label",
+              "Alignment" : "left",
+              "Top" : 140,
+              "Visible" : true,
+              "DisplayName" : "label-26",
+              "Style" : "DefaultLabelStyle",
+              "Height" : 22,
+              "Id" : "label-26",
+              "Width" : 75
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "Left" : 105,
+              "ShowDataLoading" : true,
+              "ResponsiveLayout" : false,
+              "Z-index" : 10,
+              "Text" : "Temperature",
+              "__TypeDisplayName" : "Label",
+              "ToolTipField" : "",
+              "Area" : "UI",
+              "Type" : "label",
+              "Alignment" : "left",
+              "Top" : 170,
+              "Visible" : true,
+              "DisplayName" : "label-27",
+              "Style" : "DefaultLabelStyle",
+              "Height" : 22,
+              "Id" : "label-27",
+              "Width" : 75
+            }
+          }, {
+            "Widgets" : [ ],
+            "Properties" : {
+              "AutoRefreshTabSequence" : 0,
+              "Left" : 205,
+              "ShowDataLoading" : true,
+              "Label" : "Refresh Now",
+              "FocusStyle" : "DefaultButtonFocusStyle",
+              "ShowControls" : true,
+              "RefreshToggleStyleOff" : "DefaultAutoRefreshToggleOffStyle",
+              "IconAlignment" : "left",
+              "RefreshInterval" : 30,
+              "Visible" : true,
+              "DisplayName" : "autorefresh-28",
+              "Style" : "DefaultButtonStyle",
+              "Height" : 28,
+              "Width" : 180,
+              "RefreshToggleStyle" : "DefaultAutoRefreshToggleStyle",
+              "ResponsiveLayout" : false,
+              "RefreshNowTabSequence" : 0,
+              "RefreshToggleSliderStyle" : "DefaultAutoRefreshToggleSliderStyle",
+              "Z-index" : 10,
+              "RefreshToggleLabelOff" : "Off",
+              "__TypeDisplayName" : "Auto Refresh",
+              "RefreshToggleLabel" : "On",
+              "HoverStyle" : "DefaultButtonHoverStyle",
+              "Area" : "UI",
+              "Type" : "autorefresh",
+              "Top" : 385,
+              "Id" : "autorefresh-28",
+              "ActiveStyle" : "DefaultButtonActiveStyle",
+              "AutoRefresh" : true
+            }
+          } ],
+          "Properties" : {
+            "Left" : 145,
+            "HideScrollbars" : false,
+            "ResponsiveLayout" : true,
+            "ShowDataLoading" : true,
+            "Z-index" : 10,
+            "VerticalAnchor" : "top",
+            "__TypeDisplayName" : "Panel",
+            "HorizontalAnchor" : "left",
+            "Area" : "UI",
+            "Type" : "panel",
+            "Top" : 95,
+            "Visible" : true,
+            "DisplayName" : "panel-10",
+            "Style" : "DefaultPanelStyle",
+            "Height" : 200,
+            "Id" : "panel-10",
+            "Width" : 300
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Visible" : true,
+          "DisplayName" : "Column 1",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "TabOffset" : 0,
+          "MinWidth" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-3"
+        }
+      } ],
+      "Properties" : {
+        "Left" : 415,
+        "IncludeSpacingInFixedAreas" : false,
+        "ShowDataLoading" : true,
+        "HeaderHeight" : 0,
+        "PctRow4" : 0,
+        "PctRow3" : 0,
+        "PctRow2" : 50,
+        "FooterHeight" : 0,
+        "PctRow1" : 50,
+        "PctRow8" : 0,
+        "PctRow7" : 0,
+        "PctRow6" : 0,
+        "PctRow5" : 0,
+        "LeftSidebar" : true,
+        "RightSidebar" : false,
+        "PctColumn5" : 1,
+        "Visible" : true,
+        "DisplayName" : "layout-1",
+        "PctColumn6" : 1,
+        "PctColumn3" : 1,
+        "PrintWidth" : 650,
+        "PctColumn4" : 1,
+        "PctColumn1" : 50,
+        "PctColumn2" : 50,
+        "PrintMarginTopBottom" : 0.5,
+        "Rows" : 0,
+        "RightSidebarWidth" : 0,
+        "PrintMarginLeftRight" : 0.5,
+        "PctColumn7" : 1,
+        "PctColumn8" : 1,
+        "ResponsiveLayout" : true,
+        "Columns" : 2,
+        "Z-index" : 10,
+        "Spacing" : 2,
+        "Orientation" : "horizontal",
+        "__TypeDisplayName" : "Layout",
+        "Area" : "UI",
+        "Type" : "layout",
+        "LeftSidebarWidth" : 100,
+        "Header" : false,
+        "Top" : 185,
+        "IsPrintLayout" : false,
+        "Footer" : false,
+        "Id" : "layout-1"
+      }
+    } ],
+    "Properties" : {
+      "MinHeight" : 0,
+      "Left" : 0,
+      "BGImageRepeat" : "no-repeat",
+      "ShowDataLoading" : true,
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "id_index" : 28,
+      "supportsAutoResize" : true,
+      "Visible" : true,
+      "DisplayName" : "Mashup",
+      "Style" : "DefaultMashupStyle",
+      "BGImageSize" : "auto",
+      "Height" : 618,
+      "Width" : 1024,
+      "TitleBar" : false,
+      "Rows" : 0,
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "ResponsiveLayout" : true,
+      "Title" : "",
+      "Columns" : 0,
+      "Z-index" : 10,
+      "TitleBarText" : "Gadget Title Here",
+      "MinWidth" : 0,
+      "__TypeDisplayName" : "Mashup",
+      "EnableParameterEditing" : false,
+      "Area" : "Mashup",
+      "Type" : "mashup",
+      "Top" : 0,
+      "IsPrintLayout" : false,
+      "MashupToEditGadget" : "DefaultMashupToEditGadget",
+      "Id" : "mashup-root",
+      "IgnoreWarningsInViewMashup" : false
+    }
+  },
+  "Events" : [ {
+    "EventTriggerArea" : "Mashup",
+    "EventHandlerService" : "QueryStreamEntriesWithData",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_FlowerDataStream",
+    "EventTriggerEvent" : "Loaded",
+    "Id" : "34bbdc4c-f7d1-4cdf-b515-17c00a9285e9",
+    "EventTriggerId" : "mashup-root",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "UpdateStreamEntry",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_FlowerDataStream",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "5398c928-b9dc-4eb0-8bf4-59ffef4f0108",
+    "EventTriggerId" : "button-18",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "DeleteStreamEntry",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_FlowerDataStream",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "e9c66e66-2157-43da-9c73-f044aa9c99ef",
+    "EventTriggerId" : "button-19",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "AddStreamEntry",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_FlowerDataStream",
+    "EventTriggerEvent" : "Clicked",
+    "Id" : "e0f5acbd-7c22-4b79-8c94-6c018e357a84",
+    "EventTriggerId" : "button-17",
+    "EventHandlerArea" : "Data"
+  }, {
+    "EventTriggerArea" : "UI",
+    "EventHandlerService" : "QueryStreamEntriesWithData",
+    "EventTriggerSection" : "",
+    "EventHandlerId" : "Things_FlowerDataStream",
+    "EventTriggerEvent" : "Refresh",
+    "Id" : "8a561a8c-c975-4c26-a571-c0645e2355e9",
+    "EventTriggerId" : "autorefresh-28",
+    "EventHandlerArea" : "Data"
+  } ],
+  "mashupType" : "mashup",
+  "DataBindings" : [ {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "QueryStreamEntriesWithData",
+    "Id" : "b29237f3-df09-4bbf-81ed-abc77f84f748",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "AllData",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "dhxgrid-9"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "UI",
+    "TargetSection" : "",
+    "SourceId" : "QueryStreamEntriesWithData",
+    "Id" : "f4c7ef70-1f82-4f7e-bde4-54f37746b3ec",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyType" : "property",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : ""
+    } ],
+    "TargetId" : "dhxgrid-16"
+  }, {
+    "SourceArea" : "UI",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "dhxgrid-16",
+    "Id" : "01bcb232-fa19-4ace-a747-bf5d52ff4a81",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "SourceProperty" : "EditedTable"
+    } ],
+    "TargetId" : "UpdateStreamEntry"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "QueryStreamEntriesWithData",
+    "Id" : "d2377624-dfc3-4643-a8b7-7b05152de1fd",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "streamEntryId",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "id"
+    } ],
+    "TargetId" : "UpdateStreamEntry"
+  }, {
+    "SourceArea" : "Data",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "QueryStreamEntriesWithData",
+    "Id" : "a3fdbb9b-22cd-405b-986e-54c90baa2dbf",
+    "SourceSection" : "Things_FlowerDataStream",
+    "SourceDetails" : "SelectedRows",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "streamEntryId",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "id"
+    } ],
+    "TargetId" : "DeleteStreamEntry"
+  }, {
+    "SourceArea" : "UI",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "textbox-20",
+    "Id" : "d321182e-3ada-406d-876a-f7d39a82056a",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values.Name",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "STRING",
+      "SourceProperty" : "Text"
+    } ],
+    "TargetId" : "AddStreamEntry"
+  }, {
+    "SourceArea" : "UI",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "textbox-21",
+    "Id" : "5e48887c-be02-4431-b57e-fc3f6dbcf1cc",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values.soilMoisture",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "NUMBER",
+      "SourceProperty" : "Text"
+    } ],
+    "TargetId" : "AddStreamEntry"
+  }, {
+    "SourceArea" : "UI",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "textbox-22",
+    "Id" : "33e24237-1619-4e44-af20-487e61af0bca",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values.Light",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "NUMBER",
+      "SourceProperty" : "Text"
+    } ],
+    "TargetId" : "AddStreamEntry"
+  }, {
+    "SourceArea" : "UI",
+    "TargetArea" : "Data",
+    "TargetSection" : "Things_FlowerDataStream",
+    "SourceId" : "textbox-23",
+    "Id" : "1665ab90-d4ce-4472-9c1d-2777de1d1fb6",
+    "SourceSection" : "",
+    "PropertyMaps" : [ {
+      "TargetProperty" : "values.Temperature",
+      "TargetPropertyType" : "Parameter",
+      "SourcePropertyBaseType" : "STRING",
+      "TargetPropertyBaseType" : "INTEGER",
+      "SourceProperty" : "Text"
+    } ],
+    "TargetId" : "AddStreamEntry"
+  } ],
+  "Data" : {
+    "UserExtensions" : {
+      "EntityType" : "UserExtensions",
+      "Services" : [ {
+        "Target" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties"
+      } ],
+      "EntityName" : "",
+      "Id" : "UserExtensions",
+      "DataName" : "UserExtensions"
+    },
+    "Things_FlowerDataStream" : {
+      "EntityType" : "Things",
+      "Services" : [ {
+        "Target" : "QueryStreamEntriesWithData",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "40128604-119b-4c47-a190-d706c62d6797",
+        "Name" : "QueryStreamEntriesWithData"
+      }, {
+        "Target" : "UpdateStreamEntry",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "13e8c7ff-8154-4262-a2eb-2c9d8c316177",
+        "Name" : "UpdateStreamEntry"
+      }, {
+        "Target" : "DeleteStreamEntry",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "5c7320ee-5768-42dc-aa9b-85f1cc7eb37b",
+        "Name" : "DeleteStreamEntry"
+      }, {
+        "Target" : "AddStreamEntry",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "512af229-2f9b-4de6-9a6f-8f2b12c48afe",
+        "Name" : "AddStreamEntry"
+      } ],
+      "EntityName" : "FlowerDataStream",
+      "Id" : "04124e66-4235-441c-9db0-6334109a1802",
+      "DataName" : "Things_FlowerDataStream"
+    },
+    "Session" : {
+      "EntityType" : "Session",
+      "Services" : [ {
+        "Target" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues"
+      } ],
+      "EntityName" : "",
+      "Id" : "session",
+      "DataName" : "Session"
+    }
+  },
+  "DesignTimePermissions" : { }
+}]]></mashupContent><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, projectName : updated, tags : updated&#10;documentation : updated&#10;" timestamp="2017-11-07T00:11:21.274+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T13:39:13.545+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T15:34:43.441+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:53:33.045+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:53:51.299+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:53:52.020+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:53:52.629+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:53:53.550+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:53:53.698+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T16:54:00.012+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T17:35:18.881+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T18:04:56.066+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:58:06.162+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-14T23:59:43.265+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T00:00:06.221+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T00:00:09.302+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T00:08:56.362+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T00:19:36.059+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T00:19:36.574+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:12:38.166+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:12:44.392+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:13:24.590+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:13:25.070+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:14:55.193+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:14:56.608+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:18:39.720+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:49:09.386+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:49:15.909+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:49:16.925+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:51:33.562+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:51:38.911+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:52:46.655+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:52:48.309+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:53:47.302+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:53:51.666+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T17:55:18.871+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T23:35:01.646+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-15T23:37:06.808+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-23T00:41:59.398+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-23T00:49:05.534+01:00" user="Administrator"/></ConfigurationChanges></Mashup></Mashups></Entities>
